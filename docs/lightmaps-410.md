@@ -49,7 +49,7 @@ through the plain unlit `Vertex` pass. That is literally "flat".
 | --- | --- | --- |
 | Re-bind the baked textures **and the per-renderer data** at load time | `tools/install_lightmap_binder.py --apply` + `client/Assets/Scripts/Recovery/BSLegacyLightmaps.cs` | 57 scenes got one small `BS Legacy Lightmaps` object. It assigns `LightmapSettings.lightmaps` (NonDirectional) from the original texture list **and restores `lightmapIndex` + `lightmapScaleOffset` on all 3 810 baked renderers** — Unity treats a scene without a LightingData asset as "never baked" and drops those per-renderer values on import, which is why binding the textures alone changed nothing. `[ExecuteAlways]`, so the Scene view matches the game and builds keep working. |
 | Port the sentinels | `tools/fix_lightmap_indices.py --apply` | `255 → 65535` (5 063), `254 → 65534` (480); real indices (`0`, 3 810 renderers) untouched. |
-| Make the shaders sample lightmaps again | `tools/rebuild_shaders.py` | `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` rewritten as a single **`LightMode = ForwardBase`** pass with `#pragma multi_compile _ LIGHTMAP_ON` and `unity_LightmapST`, decoding the dLDR map with the `×2` of the original `VertexLM` pass. A CG pass tagged `"Vertex"` (the literal APK tag) never receives the `LIGHTMAP_ON` keyword in modern Unity — that is why the first attempt still rendered unlit. |
+| Make the shaders sample lightmaps again | `tools/rebuild_shaders.py` | `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` rewritten as a single **untagged** CG pass that takes the bake exclusively from the per-renderer `MaterialPropertyBlock` (`_BSLightmap` / `_BSLightmapST`), decoding the dLDR map with the `×2` of the original `VertexLM` pass. Neither the literal APK pass tag (`Vertex`) nor `ForwardBase` + `multi_compile LIGHTMAP_ON` behaved reliably on the target editor for scenes without a LightingData asset — see the 2026-10 fix notes below. |
 
 The original Unity 4 `m_Lightmaps` block is **left in the scenes** as ground
 truth; the binder is additive and reversible.
@@ -152,6 +152,37 @@ baked map replaces lighting entirely.
 global is shadowed by a material property the moment one is declared.
 
 In-editor confirmation steps live in [`editor-check-410.md`](editor-check-410.md).
+
+## 2026-10 fix, v2: no LightMode tag, no multi_compile, no engine lightmap
+
+The v1 fix above still left maps black on the target editor. The empirical
+evidence from that machine: every fixed-function shader in the project (the
+water and ladders use `Mobile/Particles/...`) rendered correctly, while every
+map surface through the rewritten lightmap shaders stayed black. The only
+structural difference was the CG pass being tagged `"LightMode"="ForwardBase"`
+with `#pragma multi_compile _ LIGHTMAP_ON` — a combination that depends on the
+editor's per-scene lightmap bookkeeping and keyword stripping, neither of
+which exists for a scene without a LightingData asset (i.e. every scene of
+this export).
+
+v2 removes the dependency entirely:
+
+* one **untagged** CG pass — the same pass shape as the fixed-function
+  shaders that verifiably render on the target editor;
+* **no** `LIGHTMAP_ON`, **no** `unity_Lightmap`, **no** `unity_LightmapST`,
+  **no** `multi_compile` except the standard fog;
+* the bake is sampled **only** from `_BSLightmap` / `_BSLightmapST` delivered
+  per renderer by `BSLegacyLightmaps` (declared `[HideInInspector]` in
+  `Properties`, so the `MaterialPropertyBlock` can address them);
+* `step(0.0001, _BSLightmapST.x)` switches between plain unlit albedo and the
+  `×2` dLDR bake without branches; a `max(lm, 0.02)` floor guarantees a baked
+  shadow can be dark but never pitch black;
+* `BSLegacyLightmaps` keeps also assigning `Renderer.lightmapIndex` — harmless
+  for this shader, and it preserves the data for any future engine-path use.
+
+`Mobile/VertexLit` follows the same shape; its no-bake fallback is
+`ShadeVertexLights` (ambient + per-vertex lights), matching the APK's
+fixed-function `Material`/`Lighting` block.
 
 ## Known limits
 

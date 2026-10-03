@@ -111,9 +111,25 @@ public static class BSLightingDiagnostics
                 log.AppendLine("  " + shaderName + ": NOT FOUND");
                 continue;
             }
-            bool hasKeyword = shader.keywordSpace.keywordNames.Any(k => k == "LIGHTMAP_ON");
-            log.AppendLine("  " + shaderName + ": LIGHTMAP_ON variant " + (hasKeyword ? "present" : "MISSING") +
-                           ", passes " + shader.passCount);
+            // The recovery path delivers the bake through a
+            // MaterialPropertyBlock, so what matters is that the shader
+            // declares _BSLightmap (an undeclared property is a silent no-op).
+            bool declaresRecovery = false;
+            try
+            {
+                int count = shader.GetPropertyCount();
+                for (int p = 0; p < count; p++)
+                {
+                    if (shader.GetPropertyName(p) == "_BSLightmap")
+                    {
+                        declaresRecovery = true;
+                        break;
+                    }
+                }
+            }
+            catch { }
+            log.AppendLine("  " + shaderName + ": recovery lightmap property " +
+                           (declaresRecovery ? "present" : "MISSING") + ", passes " + shader.passCount);
         }
 
         if (sample != null)

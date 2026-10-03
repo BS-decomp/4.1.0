@@ -69,7 +69,11 @@ def binder_list(text):
 
 
 def lightmap_capable(shader_text):
-    return "LIGHTMAP_ON" in shader_text or "unity_Lightmap" in shader_text
+    # Either the engine path (LIGHTMAP_ON / unity_Lightmap) or the recovery
+    # path (_BSLightmap + _BSLightmapST through a MaterialPropertyBlock) can
+    # sample a lightmap; both count.
+    return ("LIGHTMAP_ON" in shader_text or "unity_Lightmap" in shader_text
+            or ("_BSLightmap" in shader_text and "_BSLightmapST" in shader_text))
 
 
 def main(argv=None):

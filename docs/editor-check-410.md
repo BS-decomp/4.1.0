@@ -31,7 +31,7 @@
      `with a lightmap index` может быть 0 — Unity сбрасывает индексы вне play
      mode, доставка идёт через property block);
    - `binder: 1 texture(s), N renderer(s) recorded` с N > 0;
-   - у шейдеров — `LIGHTMAP_ON variant present`.
+   - у шейдеров — `recovery lightmap property present`.
 3. `Tools > Block Strike > Lighting: debug view (cycle)` — прошёлкай
    normal → albedo → lightmap → UV1. Режим «lightmap only» должен показать
    серо-белую запечёнку, а не чёрный экран.
