@@ -26,8 +26,7 @@ public static class BSLightingDiagnostics
         log.AppendLine("=== Block Strike lighting diagnostics ===");
         log.AppendLine("scene: " + (Application.isPlaying ? Application.loadedLevelName : "edit mode"));
         log.AppendLine("colour space: " + PlayerSettings.colorSpace +
-                       " | lightmap encoding (Android): " +
-                       PlayerSettings.GetLightmapEncodingQualityForPlatformGroup(BuildTargetGroup.Android));
+                       " | active target: " + EditorUserBuildSettings.activeBuildTarget);
 
         LightmapData[] maps = LightmapSettings.lightmaps;
         log.AppendLine("LightmapSettings.lightmaps: " + (maps == null ? 0 : maps.Length) +
@@ -130,5 +129,45 @@ public static class BSLightingDiagnostics
             "binder: " + (binder == null ? "нет" : "есть") + "\n" +
             "shaders: " + (shaders.Count == 0 ? "-" : string.Join(", ", shaders.ToArray())),
             "OK");
+    }
+
+    [MenuItem("Tools/Block Strike/Lighting: force rebind")]
+    public static void ForceRebind()
+    {
+        BSLegacyLightmaps[] binders = Object.FindObjectsOfType<BSLegacyLightmaps>();
+        foreach (BSLegacyLightmaps binder in binders)
+        {
+            binder.Apply();
+        }
+        Debug.Log("[BS Lightmaps] re-applied " + binders.Length + " binder(s). " +
+                  "LightmapSettings.lightmaps = " +
+                  (LightmapSettings.lightmaps == null ? 0 : LightmapSettings.lightmaps.Length));
+        EditorUtility.DisplayDialog("Block Strike lighting",
+            "Пересвязано биндеров: " + binders.Length, "OK");
+    }
+
+    [MenuItem("Tools/Block Strike/Lighting: safe mode (unbind)")]
+    public static void SafeMode()
+    {
+        int touched = 0;
+        foreach (Renderer renderer in Object.FindObjectsOfType<Renderer>())
+        {
+            if (renderer.lightmapIndex >= 0 && renderer.lightmapIndex < 65534)
+            {
+                renderer.lightmapIndex = 65535;
+                touched++;
+            }
+        }
+        foreach (BSLegacyLightmaps binder in Object.FindObjectsOfType<BSLegacyLightmaps>())
+        {
+            binder.enabled = false;
+        }
+        Debug.LogWarning("[BS Lightmaps] safe mode: " + touched +
+                         " renderer(s) switched to 'no lightmap' and the binder disabled. " +
+                         "Nothing is saved — reopen the scene to undo.");
+        EditorUtility.DisplayDialog("Block Strike lighting",
+            "Безопасный режим: лайтмапы отвязаны у " + touched + " рендереров.
+" +
+            "Ничего не сохранено — переоткрой сцену, чтобы вернуть.", "OK");
     }
 }

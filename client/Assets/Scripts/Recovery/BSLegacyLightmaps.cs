@@ -51,17 +51,39 @@ public class BSLegacyLightmaps : MonoBehaviour
         Apply();
     }
 
+    private bool warnedUnbound;
+
+#if UNITY_EDITOR
+    private void Update()
+    {
+        // In edit mode Unity's lighting system clears LightmapSettings.lightmaps
+        // whenever it decides the scene is "not baked", so keep re-applying.
+        if (!Application.isPlaying)
+        {
+            Apply();
+        }
+    }
+#endif
+
     public void Apply()
     {
-        ApplyLightmapArray();
-        ApplyRenderers();
+        bool bound = ApplyLightmapArray();
+        ApplyRenderers(bound);
     }
 
-    private void ApplyLightmapArray()
+    /// <summary>Returns true when the baked textures really are bound.</summary>
+    private bool ApplyLightmapArray()
     {
         if (lightmapsFar == null || lightmapsFar.Length == 0)
         {
-            return;
+            return false;
+        }
+        for (int i = 0; i < lightmapsFar.Length; i++)
+        {
+            if (lightmapsFar[i] == null)
+            {
+                return false;   // a missing texture would paint everything black
+            }
         }
 
         LightmapData[] current = LightmapSettings.lightmaps;
@@ -77,29 +99,48 @@ public class BSLegacyLightmaps : MonoBehaviour
                 }
             }
         }
-        if (!needsUpdate)
+        if (needsUpdate)
         {
-            return;
+            LightmapData[] data = new LightmapData[lightmapsFar.Length];
+            for (int i = 0; i < lightmapsFar.Length; i++)
+            {
+                LightmapData entry = new LightmapData();
+                entry.lightmapColor = lightmapsFar[i];
+                data[i] = entry;
+            }
+            LightmapSettings.lightmaps = data;
+            LightmapSettings.lightmapsMode = LightmapsMode.NonDirectional;
         }
 
-        LightmapData[] data = new LightmapData[lightmapsFar.Length];
-        for (int i = 0; i < lightmapsFar.Length; i++)
-        {
-            LightmapData entry = new LightmapData();
-            entry.lightmapColor = lightmapsFar[i];
-            data[i] = entry;
-        }
-        LightmapSettings.lightmaps = data;
-        LightmapSettings.lightmapsMode = LightmapsMode.NonDirectional;
+        LightmapData[] check = LightmapSettings.lightmaps;
+        return check != null && check.Length == lightmapsFar.Length &&
+               check[0] != null && check[0].lightmapColor != null;
     }
 
-    private void ApplyRenderers()
+    /// <summary>Restores lightmapIndex/lightmapScaleOffset. When the textures are
+    /// NOT bound, the indices are cleared instead: a renderer that claims a
+    /// lightmap the engine does not have samples black, which is exactly how a
+    /// map turns pitch black. Unlit-but-correct beats black.</summary>
+    private void ApplyRenderers(bool bound)
     {
         if (renderers == null || lightmapIndices == null || lightmapScaleOffsets == null)
         {
             return;
         }
         int count = Mathf.Min(renderers.Length, Mathf.Min(lightmapIndices.Length, lightmapScaleOffsets.Length));
+        int available = bound && lightmapsFar != null ? lightmapsFar.Length : 0;
+
+        if (!bound && !warnedUnbound)
+        {
+            warnedUnbound = true;
+            Debug.LogWarning("[BS Lightmaps] baked lightmaps are not bound (missing texture reference?) — " +
+                             "renderers keep rendering unlit instead of black. Scene: " + gameObject.scene.name);
+        }
+        if (bound)
+        {
+            warnedUnbound = false;
+        }
+
         for (int i = 0; i < count; i++)
         {
             Renderer renderer = renderers[i];
@@ -107,9 +148,18 @@ public class BSLegacyLightmaps : MonoBehaviour
             {
                 continue;
             }
-            if (renderer.lightmapIndex != lightmapIndices[i])
+            int index = lightmapIndices[i];
+            if (index >= available)
             {
-                renderer.lightmapIndex = lightmapIndices[i];
+                if (renderer.lightmapIndex != 65535)
+                {
+                    renderer.lightmapIndex = 65535;
+                }
+                continue;
+            }
+            if (renderer.lightmapIndex != index)
+            {
+                renderer.lightmapIndex = index;
             }
             if (renderer.lightmapScaleOffset != lightmapScaleOffsets[i])
             {
