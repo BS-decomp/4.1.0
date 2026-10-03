@@ -29,6 +29,7 @@ Press Play (from any scene) and you land in the real **Menu** with:
 | region | `SelectRegion` pref set, so the Menu behaves as "connected" |
 | offline Photon | `PhotonNetwork.offlineMode` is held ON outside matches, so the Menu's own **Create server** builds a local room with any map and any mode, as many times as you want |
 | wallet | gold and silver topped back up to 9 999 999 (configurable), so shop purchases go through and apply for the session |
+| inventory | the default roster of a new account (rifle 12, knife 4, pistol 3 — copied from `AccountManager.Register()`) is seeded, and **everything you win or buy during the session is merged back** if the dead backend rolls it back, so a knife out of a case stays until play mode ends |
 | player | every time a map loads, the runner makes sure a live player exists (mode scripts kill themselves in offline mode) |
 
 Nothing is written to disk: the account lives in memory, and the `PlayerPrefs`
@@ -68,7 +69,25 @@ Capture returns by itself afterwards, and it is re-applied after every scene
 load (Unity drops the cursor lock there, which is why the mouse used to die
 when the level changed).
 
-### Why mode logic still does not run
+## Mode emulation (`BSPlaytestModeDriver`)
+
+Since the game itself destroys every mode component in an offline room, the
+tool now reproduces the local half of each mode, using the game's own public
+API. Values are taken from the mode scripts, not invented:
+
+| Mode | What the tool reproduces |
+| --- | --- |
+| Football | knife, `PlayerWeapons.PushRigidbody = true`, bunny-hop tuning (`BunnyHopSpeed 0.25`, `MotorJumpForce 0.2`, `MotorAirSpeed 1`), score 20, `StartDamageTime -1` |
+| ZombieSurvival | score 20, `StartDamageTime 1`, dispatches `"WaitPlayer"` so every `ZombieBlock` returns to its round-start state — that is why the barricades looked pre-opened before |
+| Deathmatch | random spawn, rifle, friendly fire, `StartDamageTime 2`, score 50 |
+| BunnyHop / Surf / DeathRun / HungerGames / MiniGames | knife (+ auto-jump for BunnyHop, `SurfEnabled` for Surf) |
+| BuildBattle | pistol |
+| TDM / Classic / Bomb / Juggernaut / GunGame / AWP / Knife / Hunter | team spawn, weapon per mode, score 100 for TDM |
+
+Still **not** emulated: scoring, round timers, bots, team balance and anything
+networked — that needs a real Photon room.
+
+### Why the mode scripts themselves do not run
 
 Every mode component (TDMMode, Deathmatch, ZombieMode, …) starts with
 `if (PhotonNetwork.offlineMode) { Destroy(this); }`. Offline rooms deliberately

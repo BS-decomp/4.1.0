@@ -33,6 +33,13 @@ public class BSPlaytestSandbox : MonoBehaviour
     public bool enforceOffline = true;
     public string region = "eu";
 
+    // Everything the player earns/buys during the session. The backend is dead,
+    // so the game's own save call fails ("Session is already outdated", 401) and
+    // it rolls the purchase back — we merge it straight back in, which is what
+    // keeps that knife from the case in your inventory until play mode ends.
+    private readonly Dictionary<int, AccountWeapon> ownedWeapons = new Dictionary<int, AccountWeapon>();
+    private readonly HashSet<int> ownedSkins = new HashSet<int>();
+    private readonly Dictionary<int, AccountSticker> ownedStickers = new Dictionary<int, AccountSticker>();
     private readonly Dictionary<string, string> stringBackup = new Dictionary<string, string>();
     private readonly List<string> createdKeys = new List<string>();
     private float nextTick;
@@ -113,6 +120,9 @@ public class BSPlaytestSandbox : MonoBehaviour
             if ((int)manager.DefaultData.Gold < gold) { manager.DefaultData.Gold = gold; }
             if ((int)manager.DefaultData.Money < money) { manager.DefaultData.Money = money; }
 
+            SeedFreshAccount(manager.Data);
+            PreserveInventory(manager.Data);
+
             try { PhotonNetwork.playerName = (string)manager.Data.AccountName; } catch { }
 
             if (verbose)
@@ -155,6 +165,152 @@ public class BSPlaytestSandbox : MonoBehaviour
         }
     }
 
+    /// <summary>The roster a brand new account gets from the backend. Copied
+    /// verbatim from AccountManager.Register(): rifle 12, knife 4, pistol 3,
+    /// all bought — the same ids AccountData selects by default. Without it the
+    /// shop and the weapon panels index into an empty list.</summary>
+    private void SeedFreshAccount(AccountData data)
+    {
+        if (data == null || data.Weapons == null || data.Weapons.Count > 0)
+        {
+            return;
+        }
+        data.Weapons.Add(new AccountWeapon { ID = 12, Buy = true });
+        data.Weapons.Add(new AccountWeapon { ID = 4, Buy = true });
+        data.Weapons.Add(new AccountWeapon { ID = 3, Buy = true });
+        try { data.GameVersion = AccountConvert.ToInt(VersionManager.bundleVersion); } catch { }
+        Debug.Log("[BS Sandbox] seeded the default account roster (rifle 12, knife 4, pistol 3), " +
+                  "exactly what AccountManager.Register() creates for a new player.");
+    }
+
+    /// <summary>Union of everything the account has ever had this session.</summary>
+    private void PreserveInventory(AccountData data)
+    {
+        if (data == null)
+        {
+            return;
+        }
+
+        if (data.Weapons != null)
+        {
+            for (int i = 0; i < data.Weapons.Count; i++)
+            {
+                AccountWeapon weapon = data.Weapons[i];
+                if (weapon == null)
+                {
+                    continue;
+                }
+                int id = weapon.ID;
+                AccountWeapon known;
+                if (!ownedWeapons.TryGetValue(id, out known))
+                {
+                    ownedWeapons[id] = weapon;
+                    continue;
+                }
+                if (!ReferenceEquals(known, weapon))
+                {
+                    MergeSkins(known, weapon);
+                    ownedWeapons[id] = weapon;
+                }
+            }
+            foreach (KeyValuePair<int, AccountWeapon> pair in ownedWeapons)
+            {
+                if (!ContainsWeapon(data.Weapons, pair.Key))
+                {
+                    data.Weapons.Add(pair.Value);
+                    Debug.Log("[BS Sandbox] restored weapon id " + pair.Key +
+                              " that the dead backend rolled back.");
+                }
+            }
+        }
+
+        if (data.PlayerSkins != null)
+        {
+            for (int i = 0; i < data.PlayerSkins.Count; i++)
+            {
+                ownedSkins.Add(data.PlayerSkins[i]);
+            }
+            foreach (int skin in ownedSkins)
+            {
+                if (!ContainsInt(data.PlayerSkins, skin))
+                {
+                    data.PlayerSkins.Add(skin);
+                }
+            }
+        }
+
+        if (data.Stickers != null)
+        {
+            for (int i = 0; i < data.Stickers.Count; i++)
+            {
+                AccountSticker sticker = data.Stickers[i];
+                if (sticker != null)
+                {
+                    ownedStickers[sticker.ID] = sticker;
+                }
+            }
+            foreach (KeyValuePair<int, AccountSticker> pair in ownedStickers)
+            {
+                bool found = false;
+                for (int i = 0; i < data.Stickers.Count; i++)
+                {
+                    if (data.Stickers[i] != null && (int)data.Stickers[i].ID == pair.Key)
+                    {
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found)
+                {
+                    data.Stickers.Add(pair.Value);
+                }
+            }
+        }
+    }
+
+    private static void MergeSkins(AccountWeapon from, AccountWeapon into)
+    {
+        if (from.Skins == null || into.Skins == null)
+        {
+            return;
+        }
+        for (int i = 0; i < from.Skins.Count; i++)
+        {
+            if (!ContainsInt(into.Skins, from.Skins[i]))
+            {
+                into.Skins.Add(from.Skins[i]);
+            }
+        }
+        if ((bool)from.Buy)
+        {
+            into.Buy = true;
+        }
+    }
+
+    private static bool ContainsWeapon(List<AccountWeapon> list, int id)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            if (list[i] != null && (int)list[i].ID == id)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static bool ContainsInt(List<CryptoInt> list, int value)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            if ((int)list[i] == value)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     // ------------------------------------------------------------------ //
 
     private void BackupPref(string key)
@@ -182,8 +338,9 @@ public class BSPlaytestSandbox : MonoBehaviour
                 PlayerPrefs.DeleteKey(key);
             }
             PlayerPrefs.Save();
-            Debug.Log("[BS Sandbox] play mode finished: PlayerPrefs restored, " +
-                      "emulated account and purchases discarded.");
+            Debug.Log("[BS Sandbox] play mode finished: PlayerPrefs restored, emulated account, " +
+                      ownedWeapons.Count + " weapon(s) and " + ownedSkins.Count +
+                      " skin(s) from this session discarded — the real game is untouched.");
         }
         catch (Exception e)
         {

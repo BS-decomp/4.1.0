@@ -509,38 +509,9 @@ public class BSPlaytestRunner : MonoBehaviour
         }
 
         GameMode mode = session.gameMode >= 0 ? (GameMode)session.gameMode : GameMode.TeamDeathmatch;
-        Debug.Log("[BS Playtest] the map did not spawn a player (mode scripts self-destruct in offline mode), " +
-                  "running the local spawn sequence of " + mode + ".");
-
-        try { GameManager.UpdateRoundState(RoundState.PlayRound); }
-        catch (Exception e) { Debug.LogWarning("[BS Playtest] UpdateRoundState failed: " + e.Message); }
-
-        DrawElements spawn = ResolveSpawn(mode);
-        if (spawn == null)
-        {
-            Debug.LogError("[BS Playtest] this map has no usable spawn point " +
-                           "(GameManager.BlueSpawn / RedSpawn / RandomSpawn are empty).");
-            yield break;
-        }
-
-        try { CameraManager.DeactiveAll(); } catch { }
-
-        try
-        {
-            if (IsTeamMode(mode))
-            {
-                GameManager.OnSelectTeam(Team.Blue);
-            }
-            controller.ActivePlayer(spawn.GetSpawnPosition(), spawn.GetSpawnRotation());
-            controller.PlayerInput.SetHealth(100);
-            ApplyModeFlags(controller, mode);
-            UIPanelManager.ShowPanel("Display");
-        }
-        catch (Exception e)
-        {
-            Debug.LogError("[BS Playtest] could not activate the player: " + e);
-            yield break;
-        }
+        Debug.Log("[BS Playtest] the map did not spawn a player (mode scripts self-destruct in offline " +
+                  "mode), emulating " + mode + " locally.");
+        BSPlaytestModeDriver.Apply(controller, mode);
 
         yield return new WaitForSeconds(1.0f);
         if (!IsPlayerActive(controller))
@@ -571,99 +542,9 @@ public class BSPlaytestRunner : MonoBehaviour
         }
     }
 
-    private static bool IsTeamMode(GameMode mode)
-    {
-        switch (mode)
-        {
-            case GameMode.Deathmatch:
-            case GameMode.HungerGames:
-            case GameMode.MiniGames:
-                return false;
-            default:
-                return true;
-        }
-    }
 
-    private static DrawElements ResolveSpawn(GameMode mode)
-    {
-        DrawElements spawn = null;
-        try
-        {
-            switch (mode)
-            {
-                case GameMode.Deathmatch:
-                    spawn = GameManager.GetRandomSpawn();
-                    break;
-                case GameMode.HungerGames:
-                case GameMode.MiniGames:
-                    spawn = GameManager.GetPlayerIDSpawn();
-                    break;
-                default:
-                    spawn = GameManager.GetTeamSpawn(Team.Blue);
-                    break;
-            }
-        }
-        catch { }
-        if (spawn == null) { try { spawn = GameManager.GetRandomSpawn(); } catch { } }
-        if (spawn == null) { try { spawn = GameManager.GetTeamSpawn(Team.Red); } catch { } }
-        if (spawn == null) { try { spawn = GameManager.GetTeamSpawn(); } catch { } }
-        if (spawn == null)
-        {
-            // Some maps leave GameManager's spawn fields empty and rely on
-            // their mode script; take any spawn marker the scene has.
-            DrawElements[] all = UnityEngine.Object.FindObjectsOfType<DrawElements>();
-            if (all != null && all.Length > 0)
-            {
-                spawn = all[0];
-                Debug.Log("[BS Playtest] GameManager has no spawn assigned, using the scene marker \"" +
-                          all[0].name + "\" (" + all.Length + " found).");
-            }
-        }
-        return spawn;
-    }
 
     /// <summary>Weapon and movement flags taken from each mode's own Start().</summary>
-    private static void ApplyModeFlags(ControllerManager controller, GameMode mode)
-    {
-        PlayerInput input = controller.PlayerInput;
-        WeaponType weapon = WeaponType.Rifle;
-        switch (mode)
-        {
-            case GameMode.KnifeMode:
-            case GameMode.DeathRun:
-            case GameMode.BunnyHop:
-            case GameMode.HungerGames:
-            case GameMode.Surf:
-            case GameMode.Football:
-                weapon = WeaponType.Knife;
-                break;
-            case GameMode.BuildBattle:
-                weapon = WeaponType.Pistol;
-                break;
-        }
-
-        try
-        {
-            if (input.PlayerWeapon != null)
-            {
-                input.PlayerWeapon.UpdateWeaponAll(weapon);
-            }
-        }
-        catch (Exception e)
-        {
-            Debug.LogWarning("[BS Playtest] weapon setup failed (" + weapon + "): " + e.Message);
-        }
-
-        try
-        {
-            if (mode == GameMode.Surf) { input.SurfEnabled = true; }
-            if (mode == GameMode.BunnyHop) { input.SetBunnyHopAutoJump(true); }
-        }
-        catch (Exception e)
-        {
-            Debug.LogWarning("[BS Playtest] mode flags failed: " + e.Message);
-        }
-    }
 }
 
 /// <summary>Scene -> game mode at runtime, read from the game's own
