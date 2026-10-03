@@ -4,6 +4,9 @@ using UnityEngine;
 
 public static class BlockStrikeRecoveryMenu
 {
+    [MenuItem("Tools/BS 4.1 Recovery/SHOW AUDIT NOW")]
+    public static void ShowAuditNow() => AuditImportedMaps();
+
     [MenuItem("Tools/Block Strike Recovery/Audit imported maps")]
     public static void AuditImportedMaps()
     {
