@@ -1,5 +1,5 @@
 {
- "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/SXZtRDEyM0ExMsIAoy2JyTyJeuIAdpnoVkk=.unity",
+ "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial.unity",
  "map": "MainTutorial",
  "generated_by": "tools/debatch_static_meshes.py",
  "renderers": [

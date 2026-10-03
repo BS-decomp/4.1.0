@@ -1,0 +1,306 @@
+{
+ "source_apk": "com.rexetstudio.blockstrike-780.apk",
+ "password_inputs": {
+  "classes.dex": 8101932,
+  "Assembly-CSharp.dll": 1500688
+ },
+ "password": "81019321500688",
+ "des_key": "002b472627036f02",
+ "scenes": [
+  {
+   "encrypted": "SXZtRDEyM0ExMk5W6WOnt5BG",
+   "plain": "Better",
+   "file": "Assets/Levels/Maps/BunnyHop/Better/Better.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMv8bBcKbglsC",
+   "plain": "Eazy",
+   "file": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMkFBfbQGFhtp",
+   "plain": "Fall",
+   "file": "Assets/Levels/Maps/BunnyHop/Fall/Fall.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMrLXCvvSlN9E",
+   "plain": "Harder",
+   "file": "Assets/Levels/Maps/BunnyHop/Harder/Harder.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMmDjHik2iT6p",
+   "plain": "Jumpout",
+   "file": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMo#jmj5GvkVt",
+   "plain": "Speed",
+   "file": "Assets/Levels/Maps/BunnyHop/Speed/Speed.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMsEbwaq7bQleEK1unQRfBAI=",
+   "plain": "Stronger",
+   "file": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMvyTCzdVp9qE",
+   "plain": "Trainer",
+   "file": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMrsXBUB8Dtcm",
+   "plain": "Various",
+   "file": "Assets/Levels/Maps/BunnyHop/Various/Various.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMpFwls6#2wgM",
+   "plain": "Ciald",
+   "file": "Assets/Levels/Maps/DeathRun/Ciald/Ciald.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMqtum#+tRWf+",
+   "plain": "Firati",
+   "file": "Assets/Levels/Maps/DeathRun/Firati/Firati.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMi1PRCYTmY5Q",
+   "plain": "Fractal",
+   "file": "Assets/Levels/Maps/DeathRun/Fractal/Fractal.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMjfZU4oE9glX",
+   "plain": "Grade",
+   "file": "Assets/Levels/Maps/DeathRun/Grade/Grade.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMs5fi+5wbz7a",
+   "plain": "Jacuda",
+   "file": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMnDBcE0zesDj",
+   "plain": "Journey",
+   "file": "Assets/Levels/Maps/DeathRun/Journey/Journey.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMvkkC9uv0ye8",
+   "plain": "Long",
+   "file": "Assets/Levels/Maps/DeathRun/Long/Long.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMoSh2AiOb38y",
+   "plain": "Stander",
+   "file": "Assets/Levels/Maps/DeathRun/Stander/Stander.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMobvSq8CJuDXi5#CtJLNGLg=",
+   "plain": "Skyfield",
+   "file": "Assets/Levels/Maps/Football/Skyfield/Skyfield.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMqgOdS2u42st0FTmHUXPv4k=",
+   "plain": "Sunshine",
+   "file": "Assets/Levels/Maps/Football/Sunshine/Sunshine.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMvdzkfOAmMxzneem1jRZ6fw=",
+   "plain": "Coliseum",
+   "file": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMqrdkmU3YruL3qnT24wcIZo=",
+   "plain": "Labyrinth",
+   "file": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMpnMVELsIELmtDg#7k1gBnI=",
+   "plain": "Pyramids",
+   "file": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMkfvZeFW6QAA",
+   "plain": "Hill",
+   "file": "Assets/Levels/Maps/Hunter/Hill/Hill.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMnyPkq3E7Q3T02nJJbFR3GM=",
+   "plain": "Military Range",
+   "file": "Assets/Levels/Maps/Hunter/Military Range/Military Range.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMgEhI7Dc20Ld",
+   "plain": "Rise",
+   "file": "Assets/Levels/Maps/Hunter/Rise/Rise.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMpGaDRPa4owX",
+   "plain": "38Traps",
+   "file": "Assets/Levels/Maps/MiniGames/38Traps/38Traps.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMh#H09zHE38n",
+   "plain": "100HP",
+   "file": "Assets/Levels/Maps/Others/100HP/100HP.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMoVZuLQC+w+r",
+   "plain": "3000",
+   "file": "Assets/Levels/Maps/Others/3000/3000.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMpxV1Qxu6rZ6",
+   "plain": "Aim",
+   "file": "Assets/Levels/Maps/Others/Aim/Aim.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMsUapymj9kTm",
+   "plain": "Apache",
+   "file": "Assets/Levels/Maps/Others/Apache/Apache.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMt6xab3TLQVn",
+   "plain": "Bust",
+   "file": "Assets/Levels/Maps/Others/Bust/Bust.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMizIEvmxqL+4",
+   "plain": "Bust 2",
+   "file": "Assets/Levels/Maps/Others/Bust 2/Bust 2.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMtvuNABl6UNOJg8rc4OUYDc=",
+   "plain": "Bust 2x2",
+   "file": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMlCrtZ08s9p8",
+   "plain": "Casta",
+   "file": "Assets/Levels/Maps/Others/Casta/Casta.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMhuClB4QRdi+",
+   "plain": "Compact",
+   "file": "Assets/Levels/Maps/Others/Compact/Compact.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMg#4MaW7ogwVwB9tyBdfxBU=",
+   "plain": "District",
+   "file": "Assets/Levels/Maps/Others/District/District.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMnFTU9Y+0RWl",
+   "plain": "Harage",
+   "file": "Assets/Levels/Maps/Others/Harage/Harage.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMlMXBXobkej2",
+   "plain": "India",
+   "file": "Assets/Levels/Maps/Others/India/India.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMptwe67pVSXo+y4CjawnjMA=",
+   "plain": "Lenstown",
+   "file": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMhZKnMvXQgYd",
+   "plain": "Nauts",
+   "file": "Assets/Levels/Maps/Others/Nauts/Nauts.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMqUCn5XJE8Up",
+   "plain": "Office",
+   "file": "Assets/Levels/Maps/Others/Office/Office.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMkuAq8kzba6T",
+   "plain": "Pool",
+   "file": "Assets/Levels/Maps/Others/Pool/Pool.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMk5Pr+wnDDHo",
+   "plain": "Rast",
+   "file": "Assets/Levels/Maps/Others/Rast/Rast.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMlZE#Ms8J+Gj",
+   "plain": "Skyline",
+   "file": "Assets/Levels/Maps/Others/Skyline/Skyline.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMtDIpqGWcTc9",
+   "plain": "Snow",
+   "file": "Assets/Levels/Maps/Others/Snow/Snow.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMpPdeTOfuZCx",
+   "plain": "Storage",
+   "file": "Assets/Levels/Maps/Others/Storage/Storage.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMjLK3fb4tUl2",
+   "plain": "Tecaza",
+   "file": "Assets/Levels/Maps/Others/Tecaza/Tecaza.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMolFHPpc9l6s",
+   "plain": "Turbine",
+   "file": "Assets/Levels/Maps/Others/Turbine/Turbine.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMu3IcKP3OKGa",
+   "plain": "Upload",
+   "file": "Assets/Levels/Maps/Others/Upload/Upload.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMq#6FkgsCpIj",
+   "plain": "Villa",
+   "file": "Assets/Levels/Maps/Others/Villa/Villa.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMqsg7PFc#1ha",
+   "plain": "Deep",
+   "file": "Assets/Levels/Maps/Surf/Deep/Deep.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMu+p0ddNoBse",
+   "plain": "Jet",
+   "file": "Assets/Levels/Maps/Surf/Jet/Jet.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMsIAoy2JyTyJeuIAdpnoVkk=",
+   "plain": "MainTutorial",
+   "file": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMhzaf#+315NXu#QxkvLsieI=",
+   "plain": "Shooting Range",
+   "file": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMgX7mKbMS04Z5Vs2iCQ6Fek=",
+   "plain": "Battleforce",
+   "file": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMlRXEe6XgLKzIZhI9HH0taI=",
+   "plain": "Playground",
+   "file": "Assets/Levels/Maps/Zombie/Playground/Playground.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMh+PPUUwUE5E",
+   "plain": "Menu",
+   "file": "Assets/Levels/Menu.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMlKKTp1OqCIi",
+   "plain": "Logo",
+   "file": "Assets/Levels/Logo.unity"
+  },
+  {
+   "encrypted": "SXZtRDEyM0ExMuurMCVi6TIyyAy5RV1FJOo=",
+   "plain": "AwakeScene",
+   "file": "Assets/Levels/AwakeScene.unity"
+  }
+ ]
+}

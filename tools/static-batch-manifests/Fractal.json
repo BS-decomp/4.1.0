@@ -1,5 +1,5 @@
 {
- "scene": "Assets/Levels/Maps/DeathRun/Fractal/SXZtRDEyM0ExMi1PRCYTmY5Q.unity",
+ "scene": "Assets/Levels/Maps/DeathRun/Fractal/Fractal.unity",
  "map": "Fractal",
  "generated_by": "tools/debatch_static_meshes.py",
  "renderers": [

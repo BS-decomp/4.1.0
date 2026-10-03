@@ -62,15 +62,35 @@ public class LevelManager
 		return gameModeScenes.Contains(GetSceneName());
 	}
 
+	// BS-decomp 4.1.0 reconstruction.
+	// The shipped game stores every scene under a DES-encrypted name and the key
+	// is derived from the byte sizes of classes.dex and Assembly-CSharp.dll
+	// *inside the APK* (Utils.test, built in UIFontControl.GenerateFont).
+	// A Unity project has neither file, so Utils.Encrypt would produce a name
+	// that does not exist and every LoadLevel would fail.
+	// The scenes are therefore stored under their decrypted names
+	// (tools/recover_scene_names.py, docs/scene-names-410.md) and this flag
+	// switches the two helpers below to plain names. Set it to false to get the
+	// exact original behaviour back.
+	public static bool PlainSceneNames = true;
+
 	public static string GetSceneName()
 	{
 		string loadedLevelName = Application.loadedLevelName;
 		loadedLevelName = loadedLevelName.Replace("#", "/");
+		if (PlainSceneNames)
+		{
+			return loadedLevelName;
+		}
 		return Utils.Decrypt(loadedLevelName);
 	}
 
 	private static string GetEncryptSceneName(string name)
 	{
+		if (PlainSceneNames)
+		{
+			return name.Replace("/", "#");
+		}
 		string text = Utils.Encrypt(name);
 		return text.Replace("/", "#");
 	}

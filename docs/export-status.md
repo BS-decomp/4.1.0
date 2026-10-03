@@ -7,6 +7,10 @@
 | Repository scaffold | ✅ Done | Layout follows the BS-decomp convention. |
 | Ground-truth APK | ✅ Received | `original/apk/com.rexetstudio.blockstrike-780.apk`; SHA-256 `4275b1ab06565bf16b8d049b2ad91d2a16c6637a0f41bedacca308a93a608c18`; 56,650,916 bytes. |
 | APK fingerprint | ✅ Done | Mono Android build; armeabi-v7a and x86 libraries; 58 scenes (`level0`–`level57`) and 60 `sharedassets` files observed. |
+| Scene names | ✅ Decrypted | DES/PBKDF2 key recomputed from the APK; all 59 scenes renamed to their real names. See [`scene-names-410.md`](scene-names-410.md). |
+| Playtest tooling | ✅ Added (untested in Unity) | `Tools > Block Strike > Playtest` arms a one-shot offline run as `byvlal`. See [`playtest-410.md`](playtest-410.md). |
+| Shaders | ❌ Open | 17 of 49 shader assets are AssetRipper placeholders (`//DummyShaderTextExporter`), used by 340 material references across 57 maps. |
+| Lightmaps | ⚠️ Partially verified | Every lightmap reference in all 59 scenes resolves to a texture; binding/mode correctness in Unity 2021 is still unverified. |
 | Static batching repair | ✅ Done | All 59 scenes de-batched from the Unity 4 `Combined Mesh (root: scene)` layout; 4305 renderers repaired and verified against the original combined meshes. See [`static-batching-410.md`](static-batching-410.md). |
 | Unity project export | ✅ Initial export complete | AssetRipper 2.0.0 exported 3,321 assets to `client/` using Unity 4.7.2f1; export is present locally and requires validation before committing/migration. |
 
@@ -39,6 +43,22 @@ The original engine is confirmed as **Unity 4.7.2f1**. Unity 2021.3.45f2 is ther
   `tools/verify_static_batching.py` (vertex-by-vertex, max world drift 1.5e-5).
 - Occlusion culling data in the scenes is stale after this change and still needs
   a rebake. `TODO: unverified` — per-scene visual check in Unity 2021.
+
+## Current audit (tools/audit_project_410.py)
+
+```
+scenes                       : 59
+renderers on combined meshes : 0
+missing script GUIDs         : 0
+placeholder shader assets    : 17 of 49 shaders
+materials on placeholders    : 340 (scene references)
+missing lightmap textures    : 0
+scenes not in Build Settings : 0
+```
+
+Most used placeholders: `Unlit-Normal` (57 maps), `Unlit-Alpha` (56),
+`Shader.shader` (56), `UnlitSolidColor` (22), `MADFINGER-blinking-god-rays` (19).
+Full data: [`audit-410.json`](audit-410.json).
 
 ## Notes
 

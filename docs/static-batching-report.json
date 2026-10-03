@@ -9,7 +9,7 @@
   },
   "scenes": [
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Better/SXZtRDEyM0ExMk5W6WOnt5BG.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Better/Better.unity",
       "map": "Better",
       "renderers_total": 237,
       "renderers_batched": 179,
@@ -200,7 +200,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Eazy/SXZtRDEyM0ExMv8bBcKbglsC.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy.unity",
       "map": "Eazy",
       "renderers_total": 164,
       "renderers_batched": 110,
@@ -322,7 +322,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Fall/SXZtRDEyM0ExMkFBfbQGFhtp.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Fall/Fall.unity",
       "map": "Fall",
       "renderers_total": 134,
       "renderers_batched": 80,
@@ -414,7 +414,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Harder/SXZtRDEyM0ExMrLXCvvSlN9E.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Harder/Harder.unity",
       "map": "Harder",
       "renderers_total": 273,
       "renderers_batched": 214,
@@ -640,7 +640,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Jumpout/SXZtRDEyM0ExMmDjHik2iT6p.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout.unity",
       "map": "Jumpout",
       "renderers_total": 201,
       "renderers_batched": 120,
@@ -772,7 +772,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Speed/SXZtRDEyM0ExMo#jmj5GvkVt.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Speed/Speed.unity",
       "map": "Speed",
       "renderers_total": 137,
       "renderers_batched": 82,
@@ -866,7 +866,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Stronger/SXZtRDEyM0ExMsEbwaq7bQleEK1unQRfBAI=.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger.unity",
       "map": "Stronger",
       "renderers_total": 157,
       "renderers_batched": 102,
@@ -980,7 +980,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Trainer/SXZtRDEyM0ExMvyTCzdVp9qE.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer.unity",
       "map": "Trainer",
       "renderers_total": 138,
       "renderers_batched": 80,
@@ -1072,7 +1072,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/BunnyHop/Various/SXZtRDEyM0ExMrsXBUB8Dtcm.unity",
+      "scene": "Assets/Levels/Maps/BunnyHop/Various/Various.unity",
       "map": "Various",
       "renderers_total": 276,
       "renderers_batched": 219,
@@ -1303,7 +1303,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Ciald/SXZtRDEyM0ExMpFwls6#2wgM.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Ciald/Ciald.unity",
       "map": "Ciald",
       "renderers_total": 106,
       "renderers_batched": 32,
@@ -1347,7 +1347,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Firati/SXZtRDEyM0ExMqtum#+tRWf+.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Firati/Firati.unity",
       "map": "Firati",
       "renderers_total": 97,
       "renderers_batched": 25,
@@ -1384,7 +1384,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Fractal/SXZtRDEyM0ExMi1PRCYTmY5Q.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Fractal/Fractal.unity",
       "map": "Fractal",
       "renderers_total": 142,
       "renderers_batched": 25,
@@ -1421,7 +1421,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Grade/SXZtRDEyM0ExMjfZU4oE9glX.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Grade/Grade.unity",
       "map": "Grade",
       "renderers_total": 102,
       "renderers_batched": 14,
@@ -1447,7 +1447,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Jacuda/SXZtRDEyM0ExMs5fi+5wbz7a.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity",
       "map": "Jacuda",
       "renderers_total": 94,
       "renderers_batched": 17,
@@ -1476,7 +1476,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Journey/SXZtRDEyM0ExMnDBcE0zesDj.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Journey/Journey.unity",
       "map": "Journey",
       "renderers_total": 163,
       "renderers_batched": 61,
@@ -1549,7 +1549,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Long/SXZtRDEyM0ExMvkkC9uv0ye8.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Long/Long.unity",
       "map": "Long",
       "renderers_total": 120,
       "renderers_batched": 29,
@@ -1590,7 +1590,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/DeathRun/Stander/SXZtRDEyM0ExMoSh2AiOb38y.unity",
+      "scene": "Assets/Levels/Maps/DeathRun/Stander/Stander.unity",
       "map": "Stander",
       "renderers_total": 121,
       "renderers_batched": 25,
@@ -1627,7 +1627,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Football/Skyfield/SXZtRDEyM0ExMobvSq8CJuDXi5#CtJLNGLg=.unity",
+      "scene": "Assets/Levels/Maps/Football/Skyfield/Skyfield.unity",
       "map": "Skyfield",
       "renderers_total": 64,
       "renderers_batched": 9,
@@ -1648,7 +1648,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Football/Sunshine/SXZtRDEyM0ExMqgOdS2u42st0FTmHUXPv4k=.unity",
+      "scene": "Assets/Levels/Maps/Football/Sunshine/Sunshine.unity",
       "map": "Sunshine",
       "renderers_total": 62,
       "renderers_batched": 5,
@@ -1665,7 +1665,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/HungerGames/Coliseum/SXZtRDEyM0ExMvdzkfOAmMxzneem1jRZ6fw=.unity",
+      "scene": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum.unity",
       "map": "Coliseum",
       "renderers_total": 226,
       "renderers_batched": 152,
@@ -1829,7 +1829,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/HungerGames/Labyrinth/SXZtRDEyM0ExMqrdkmU3YruL3qnT24wcIZo=.unity",
+      "scene": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth.unity",
       "map": "Labyrinth",
       "renderers_total": 305,
       "renderers_batched": 209,
@@ -2050,7 +2050,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/HungerGames/Pyramids/SXZtRDEyM0ExMpnMVELsIELmtDg#7k1gBnI=.unity",
+      "scene": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids.unity",
       "map": "Pyramids",
       "renderers_total": 239,
       "renderers_batched": 185,
@@ -2247,7 +2247,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Hunter/Hill/SXZtRDEyM0ExMkfvZeFW6QAA.unity",
+      "scene": "Assets/Levels/Maps/Hunter/Hill/Hill.unity",
       "map": "Hill",
       "renderers_total": 101,
       "renderers_batched": 46,
@@ -2305,7 +2305,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Hunter/Military Range/SXZtRDEyM0ExMnyPkq3E7Q3T02nJJbFR3GM=.unity",
+      "scene": "Assets/Levels/Maps/Hunter/Military Range/Military Range.unity",
       "map": "Military Range",
       "renderers_total": 92,
       "renderers_batched": 37,
@@ -2354,7 +2354,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Hunter/Rise/SXZtRDEyM0ExMgEhI7Dc20Ld.unity",
+      "scene": "Assets/Levels/Maps/Hunter/Rise/Rise.unity",
       "map": "Rise",
       "renderers_total": 112,
       "renderers_batched": 54,
@@ -2420,7 +2420,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/MiniGames/38Traps/SXZtRDEyM0ExMpGaDRPa4owX.unity",
+      "scene": "Assets/Levels/Maps/MiniGames/38Traps/38Traps.unity",
       "map": "38Traps",
       "renderers_total": 384,
       "renderers_batched": 4,
@@ -2436,7 +2436,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/100HP/SXZtRDEyM0ExMh#H09zHE38n.unity",
+      "scene": "Assets/Levels/Maps/Others/100HP/100HP.unity",
       "map": "100HP",
       "renderers_total": 64,
       "renderers_batched": 9,
@@ -2457,7 +2457,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/3000/SXZtRDEyM0ExMoVZuLQC+w+r.unity",
+      "scene": "Assets/Levels/Maps/Others/3000/3000.unity",
       "map": "3000",
       "renderers_total": 63,
       "renderers_batched": 7,
@@ -2476,7 +2476,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Aim/SXZtRDEyM0ExMpxV1Qxu6rZ6.unity",
+      "scene": "Assets/Levels/Maps/Others/Aim/Aim.unity",
       "map": "Aim",
       "renderers_total": 64,
       "renderers_batched": 10,
@@ -2498,7 +2498,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Apache/SXZtRDEyM0ExMsUapymj9kTm.unity",
+      "scene": "Assets/Levels/Maps/Others/Apache/Apache.unity",
       "map": "Apache",
       "renderers_total": 81,
       "renderers_batched": 27,
@@ -2537,7 +2537,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Bust/SXZtRDEyM0ExMt6xab3TLQVn.unity",
+      "scene": "Assets/Levels/Maps/Others/Bust/Bust.unity",
       "map": "Bust",
       "renderers_total": 256,
       "renderers_batched": 120,
@@ -2669,7 +2669,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Bust 2/SXZtRDEyM0ExMizIEvmxqL+4.unity",
+      "scene": "Assets/Levels/Maps/Others/Bust 2/Bust 2.unity",
       "map": "Bust 2",
       "renderers_total": 177,
       "renderers_batched": 118,
@@ -2799,7 +2799,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Bust 2x2/SXZtRDEyM0ExMtvuNABl6UNOJg8rc4OUYDc=.unity",
+      "scene": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2.unity",
       "map": "Bust 2x2",
       "renderers_total": 128,
       "renderers_batched": 72,
@@ -2883,7 +2883,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Casta/SXZtRDEyM0ExMlCrtZ08s9p8.unity",
+      "scene": "Assets/Levels/Maps/Others/Casta/Casta.unity",
       "map": "Casta",
       "renderers_total": 117,
       "renderers_batched": 45,
@@ -2940,7 +2940,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Compact/SXZtRDEyM0ExMhuClB4QRdi+.unity",
+      "scene": "Assets/Levels/Maps/Others/Compact/Compact.unity",
       "map": "Compact",
       "renderers_total": 84,
       "renderers_batched": 30,
@@ -2982,7 +2982,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/District/SXZtRDEyM0ExMg#4MaW7ogwVwB9tyBdfxBU=.unity",
+      "scene": "Assets/Levels/Maps/Others/District/District.unity",
       "map": "District",
       "renderers_total": 247,
       "renderers_batched": 172,
@@ -3166,7 +3166,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Harage/SXZtRDEyM0ExMnFTU9Y+0RWl.unity",
+      "scene": "Assets/Levels/Maps/Others/Harage/Harage.unity",
       "map": "Harage",
       "renderers_total": 244,
       "renderers_batched": 165,
@@ -3343,7 +3343,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/India/SXZtRDEyM0ExMlMXBXobkej2.unity",
+      "scene": "Assets/Levels/Maps/Others/India/India.unity",
       "map": "India",
       "renderers_total": 76,
       "renderers_batched": 22,
@@ -3377,7 +3377,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Lenstown/SXZtRDEyM0ExMptwe67pVSXo+y4CjawnjMA=.unity",
+      "scene": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity",
       "map": "Lenstown",
       "renderers_total": 66,
       "renderers_batched": 11,
@@ -3400,7 +3400,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Nauts/SXZtRDEyM0ExMhZKnMvXQgYd.unity",
+      "scene": "Assets/Levels/Maps/Others/Nauts/Nauts.unity",
       "map": "Nauts",
       "renderers_total": 209,
       "renderers_batched": 102,
@@ -3514,7 +3514,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Office/SXZtRDEyM0ExMqUCn5XJE8Up.unity",
+      "scene": "Assets/Levels/Maps/Others/Office/Office.unity",
       "map": "Office",
       "renderers_total": 361,
       "renderers_batched": 186,
@@ -3712,7 +3712,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Pool/SXZtRDEyM0ExMkuAq8kzba6T.unity",
+      "scene": "Assets/Levels/Maps/Others/Pool/Pool.unity",
       "map": "Pool",
       "renderers_total": 115,
       "renderers_batched": 45,
@@ -3769,7 +3769,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Rast/SXZtRDEyM0ExMk5Pr+wnDDHo.unity",
+      "scene": "Assets/Levels/Maps/Others/Rast/Rast.unity",
       "map": "Rast",
       "renderers_total": 69,
       "renderers_batched": 15,
@@ -3796,7 +3796,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Skyline/SXZtRDEyM0ExMlZE#Ms8J+Gj.unity",
+      "scene": "Assets/Levels/Maps/Others/Skyline/Skyline.unity",
       "map": "Skyline",
       "renderers_total": 145,
       "renderers_batched": 77,
@@ -3885,7 +3885,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Snow/SXZtRDEyM0ExMtDIpqGWcTc9.unity",
+      "scene": "Assets/Levels/Maps/Others/Snow/Snow.unity",
       "map": "Snow",
       "renderers_total": 69,
       "renderers_batched": 15,
@@ -3912,7 +3912,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Storage/SXZtRDEyM0ExMpPdeTOfuZCx.unity",
+      "scene": "Assets/Levels/Maps/Others/Storage/Storage.unity",
       "map": "Storage",
       "renderers_total": 112,
       "renderers_batched": 32,
@@ -3956,7 +3956,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Tecaza/SXZtRDEyM0ExMjLK3fb4tUl2.unity",
+      "scene": "Assets/Levels/Maps/Others/Tecaza/Tecaza.unity",
       "map": "Tecaza",
       "renderers_total": 140,
       "renderers_batched": 74,
@@ -4042,7 +4042,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Turbine/SXZtRDEyM0ExMolFHPpc9l6s.unity",
+      "scene": "Assets/Levels/Maps/Others/Turbine/Turbine.unity",
       "map": "Turbine",
       "renderers_total": 222,
       "renderers_batched": 87,
@@ -4141,7 +4141,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Upload/SXZtRDEyM0ExMu3IcKP3OKGa.unity",
+      "scene": "Assets/Levels/Maps/Others/Upload/Upload.unity",
       "map": "Upload",
       "renderers_total": 89,
       "renderers_batched": 34,
@@ -4187,7 +4187,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Others/Villa/SXZtRDEyM0ExMq#6FkgsCpIj.unity",
+      "scene": "Assets/Levels/Maps/Others/Villa/Villa.unity",
       "map": "Villa",
       "renderers_total": 184,
       "renderers_batched": 95,
@@ -4294,7 +4294,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Surf/Deep/SXZtRDEyM0ExMqsg7PFc#1ha.unity",
+      "scene": "Assets/Levels/Maps/Surf/Deep/Deep.unity",
       "map": "Deep",
       "renderers_total": 92,
       "renderers_batched": 38,
@@ -4344,7 +4344,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Surf/Jet/SXZtRDEyM0ExMu+p0ddNoBse.unity",
+      "scene": "Assets/Levels/Maps/Surf/Jet/Jet.unity",
       "map": "Jet",
       "renderers_total": 287,
       "renderers_batched": 233,
@@ -4589,7 +4589,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/SXZtRDEyM0ExMsIAoy2JyTyJeuIAdpnoVkk=.unity",
+      "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial.unity",
       "map": "MainTutorial",
       "renderers_total": 102,
       "renderers_batched": 25,
@@ -4626,7 +4626,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Tutorials/ShootingRange/SXZtRDEyM0ExMhzaf#+315NXu#QxkvLsieI=.unity",
+      "scene": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range.unity",
       "map": "ShootingRange",
       "renderers_total": 185,
       "renderers_batched": 71,
@@ -4709,7 +4709,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Zombie/Battleforce/SXZtRDEyM0ExMgX7mKbMS04Z5Vs2iCQ6Fek=.unity",
+      "scene": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity",
       "map": "Battleforce",
       "renderers_total": 131,
       "renderers_batched": 66,
@@ -4787,7 +4787,7 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/Maps/Zombie/Playground/SXZtRDEyM0ExMlRXEe6XgLKzIZhI9HH0taI=.unity",
+      "scene": "Assets/Levels/Maps/Zombie/Playground/Playground.unity",
       "map": "Playground",
       "renderers_total": 273,
       "renderers_batched": 172,
@@ -4971,8 +4971,8 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/SXZtRDEyM0ExMh+PPUUwUE5E.unity",
-      "map": "SXZtRDEyM0ExMh+PPUUwUE5E",
+      "scene": "Assets/Levels/Menu.unity",
+      "map": "Menu",
       "renderers_total": 471,
       "renderers_batched": 15,
       "renderers_fixed": 15,
@@ -4998,8 +4998,8 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/SXZtRDEyM0ExMlKKTp1OqCIi.unity",
-      "map": "SXZtRDEyM0ExMlKKTp1OqCIi",
+      "scene": "Assets/Levels/Logo.unity",
+      "map": "Logo",
       "renderers_total": 0,
       "renderers_batched": 0,
       "renderers_fixed": 0,
@@ -5009,8 +5009,8 @@
       "warnings": []
     },
     {
-      "scene": "Assets/Levels/SXZtRDEyM0ExMuurMCVi6TIyyAy5RV1FJOo=.unity",
-      "map": "SXZtRDEyM0ExMuurMCVi6TIyyAy5RV1FJOo=",
+      "scene": "Assets/Levels/AwakeScene.unity",
+      "map": "AwakeScene",
       "renderers_total": 0,
       "renderers_batched": 0,
       "renderers_fixed": 0,

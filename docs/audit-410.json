@@ -1,0 +1,1304 @@
+{
+ "totals": {
+  "scenes": 59,
+  "combined_mesh_renderers": 0,
+  "missing_scripts": 0,
+  "materials_with_dummy_shader": 340,
+  "missing_lightmaps": 0,
+  "scenes_not_in_build": 0
+ },
+ "placeholder_shaders": [
+  "DiffuseVertexColor.shader",
+  "MADFINGER-blinking-god-rays.shader",
+  "MADFINGER-god-rays.shader",
+  "Mobile-VertexLit-OnlyDirectionalLights.shader",
+  "Mobile-VertexLit.shader",
+  "Particle Add.shader",
+  "Shader.shader",
+  "Unlit-Alpha.shader",
+  "Unlit-Normal.shader",
+  "UnlitSolidColor.shader",
+  "WFX_S Add Scroll.shader",
+  "WFX_S Multiply Soft Scroll.shader",
+  "WFX_S Particle Add A8.shader",
+  "WFX_S Particle AddSoft A8.shader",
+  "WFX_S Smoke Scroll.shader",
+  "pb_HideVertices.shader",
+  "pb_UnlitVertexColor.shader"
+ ],
+ "placeholder_usage": {
+  "Unlit-Alpha.shader": [
+   "100HP",
+   "3000",
+   "38Traps",
+   "Aim",
+   "Apache",
+   "Battleforce",
+   "Better",
+   "Bust",
+   "Bust 2",
+   "Bust 2x2",
+   "Casta",
+   "Ciald",
+   "Coliseum",
+   "Compact",
+   "Deep",
+   "District",
+   "Eazy",
+   "Fall",
+   "Firati",
+   "Fractal",
+   "Grade",
+   "Harage",
+   "Harder",
+   "Hill",
+   "India",
+   "Jacuda",
+   "Jet",
+   "Journey",
+   "Jumpout",
+   "Labyrinth",
+   "Lenstown",
+   "Long",
+   "MainTutorial",
+   "Military Range",
+   "Nauts",
+   "Office",
+   "Playground",
+   "Pool",
+   "Pyramids",
+   "Rast",
+   "Rise",
+   "Shooting Range",
+   "Skyfield",
+   "Skyline",
+   "Snow",
+   "Speed",
+   "Stander",
+   "Storage",
+   "Stronger",
+   "Sunshine",
+   "Tecaza",
+   "Trainer",
+   "Turbine",
+   "Upload",
+   "Various",
+   "Villa"
+  ],
+  "Unlit-Normal.shader": [
+   "100HP",
+   "3000",
+   "38Traps",
+   "Aim",
+   "Apache",
+   "Battleforce",
+   "Better",
+   "Bust",
+   "Bust 2",
+   "Bust 2x2",
+   "Casta",
+   "Ciald",
+   "Coliseum",
+   "Compact",
+   "Deep",
+   "District",
+   "Eazy",
+   "Fall",
+   "Firati",
+   "Fractal",
+   "Grade",
+   "Harage",
+   "Harder",
+   "Hill",
+   "India",
+   "Jacuda",
+   "Jet",
+   "Journey",
+   "Jumpout",
+   "Labyrinth",
+   "Lenstown",
+   "Long",
+   "MainTutorial",
+   "Menu",
+   "Military Range",
+   "Nauts",
+   "Office",
+   "Playground",
+   "Pool",
+   "Pyramids",
+   "Rast",
+   "Rise",
+   "Shooting Range",
+   "Skyfield",
+   "Skyline",
+   "Snow",
+   "Speed",
+   "Stander",
+   "Storage",
+   "Stronger",
+   "Sunshine",
+   "Tecaza",
+   "Trainer",
+   "Turbine",
+   "Upload",
+   "Various",
+   "Villa"
+  ],
+  "Shader.shader": [
+   "100HP",
+   "3000",
+   "38Traps",
+   "Aim",
+   "Apache",
+   "Battleforce",
+   "Better",
+   "Bust",
+   "Bust 2",
+   "Bust 2x2",
+   "Casta",
+   "Ciald",
+   "Coliseum",
+   "Compact",
+   "Deep",
+   "District",
+   "Eazy",
+   "Fall",
+   "Firati",
+   "Fractal",
+   "Grade",
+   "Harage",
+   "Harder",
+   "Hill",
+   "India",
+   "Jacuda",
+   "Jet",
+   "Journey",
+   "Jumpout",
+   "Labyrinth",
+   "Lenstown",
+   "Long",
+   "MainTutorial",
+   "Military Range",
+   "Nauts",
+   "Office",
+   "Playground",
+   "Pool",
+   "Pyramids",
+   "Rast",
+   "Rise",
+   "Shooting Range",
+   "Skyfield",
+   "Skyline",
+   "Snow",
+   "Speed",
+   "Stander",
+   "Storage",
+   "Stronger",
+   "Sunshine",
+   "Tecaza",
+   "Trainer",
+   "Turbine",
+   "Upload",
+   "Various",
+   "Villa"
+  ],
+  "UnlitSolidColor.shader": [
+   "100HP",
+   "3000",
+   "Aim",
+   "Bust",
+   "Bust 2",
+   "Bust 2x2",
+   "Compact",
+   "District",
+   "Grade",
+   "Harage",
+   "Jumpout",
+   "Menu",
+   "Nauts",
+   "Pool",
+   "Rast",
+   "Skyline",
+   "Snow",
+   "Storage",
+   "Tecaza",
+   "Turbine",
+   "Upload",
+   "Villa"
+  ],
+  "MADFINGER-blinking-god-rays.shader": [
+   "Bust",
+   "Bust 2",
+   "Bust 2x2",
+   "Casta",
+   "Coliseum",
+   "Harage",
+   "Jumpout",
+   "Labyrinth",
+   "MainTutorial",
+   "Nauts",
+   "Office",
+   "Playground",
+   "Pool",
+   "Shooting Range",
+   "Skyline",
+   "Storage",
+   "Tecaza",
+   "Turbine",
+   "Villa"
+  ],
+  "Mobile-VertexLit-OnlyDirectionalLights.shader": [
+   "Bust",
+   "Bust 2",
+   "District",
+   "Harage",
+   "Nauts",
+   "Office",
+   "Playground",
+   "Skyfield",
+   "Skyline",
+   "Sunshine",
+   "Tecaza"
+  ],
+  "WFX_S Particle Add A8.shader": [
+   "Bust",
+   "Bust 2",
+   "District",
+   "Harage",
+   "Nauts",
+   "Office",
+   "Skyline",
+   "Tecaza"
+  ],
+  "WFX_S Multiply Soft Scroll.shader": [
+   "Bust",
+   "Bust 2",
+   "District",
+   "Harage",
+   "Nauts",
+   "Office",
+   "Skyline",
+   "Tecaza"
+  ],
+  "WFX_S Smoke Scroll.shader": [
+   "Bust",
+   "Bust 2",
+   "District",
+   "Harage",
+   "Nauts",
+   "Office",
+   "Skyline",
+   "Tecaza"
+  ],
+  "WFX_S Add Scroll.shader": [
+   "Bust",
+   "Bust 2",
+   "District",
+   "Harage",
+   "Nauts",
+   "Office",
+   "Skyline",
+   "Tecaza"
+  ],
+  "MADFINGER-god-rays.shader": [
+   "Casta",
+   "Shooting Range"
+  ],
+  "DiffuseVertexColor.shader": [
+   "Harage",
+   "Shooting Range"
+  ],
+  "Mobile-VertexLit.shader": [
+   "Menu"
+  ]
+ },
+ "scenes": [
+  {
+   "scene": "Assets/Levels/AwakeScene.unity",
+   "name": "AwakeScene",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {},
+   "lightmaps": 0,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Logo.unity",
+   "name": "Logo",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {},
+   "lightmaps": 0,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Better/Better.unity",
+   "name": "Better",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy.unity",
+   "name": "Eazy",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Fall/Fall.unity",
+   "name": "Fall",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Harder/Harder.unity",
+   "name": "Harder",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout.unity",
+   "name": "Jumpout",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Speed/Speed.unity",
+   "name": "Speed",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger.unity",
+   "name": "Stronger",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer.unity",
+   "name": "Trainer",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Various/Various.unity",
+   "name": "Various",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Ciald/Ciald.unity",
+   "name": "Ciald",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Firati/Firati.unity",
+   "name": "Firati",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Fractal/Fractal.unity",
+   "name": "Fractal",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Grade/Grade.unity",
+   "name": "Grade",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity",
+   "name": "Jacuda",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Journey/Journey.unity",
+   "name": "Journey",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Long/Long.unity",
+   "name": "Long",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Stander/Stander.unity",
+   "name": "Stander",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Football/Skyfield/Skyfield.unity",
+   "name": "Skyfield",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Ball.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Football/Sunshine/Sunshine.unity",
+   "name": "Sunshine",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Ball.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum.unity",
+   "name": "Coliseum",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth.unity",
+   "name": "Labyrinth",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids.unity",
+   "name": "Pyramids",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Hill/Hill.unity",
+   "name": "Hill",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Military Range/Military Range.unity",
+   "name": "Military Range",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Rise/Rise.unity",
+   "name": "Rise",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/MiniGames/38Traps/38Traps.unity",
+   "name": "38Traps",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/100HP/100HP.unity",
+   "name": "100HP",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/3000/3000.unity",
+   "name": "3000",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Aim/Aim.unity",
+   "name": "Aim",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Apache/Apache.unity",
+   "name": "Apache",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust/Bust.unity",
+   "name": "Bust",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
+    "Plant.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust 2/Bust 2.unity",
+   "name": "Bust 2",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Plant.mat": "Unlit-Alpha.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2.unity",
+   "name": "Bust 2x2",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Casta/Casta.unity",
+   "name": "Casta",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "Window Glow.mat": "MADFINGER-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Compact/Compact.unity",
+   "name": "Compact",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/District/District.unity",
+   "name": "District",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Plant.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Harage/Harage.unity",
+   "name": "Harage",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Plant.mat": "Unlit-Alpha.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Default_Prototype.mat": "DiffuseVertexColor.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/India/India.unity",
+   "name": "India",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity",
+   "name": "Lenstown",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Nauts/Nauts.unity",
+   "name": "Nauts",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
+    "Plant.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Office/Office.unity",
+   "name": "Office",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
+    "Plant.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Pool/Pool.unity",
+   "name": "Pool",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Rast/Rast.unity",
+   "name": "Rast",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Skyline/Skyline.unity",
+   "name": "Skyline",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
+    "Plant.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Snow/Snow.unity",
+   "name": "Snow",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Storage/Storage.unity",
+   "name": "Storage",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Tecaza/Tecaza.unity",
+   "name": "Tecaza",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Plant.mat": "Unlit-Alpha.shader",
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
+    "Swamp.mat": "Unlit-Alpha.shader",
+    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
+    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
+    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Turbine/Turbine.unity",
+   "name": "Turbine",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Upload/Upload.unity",
+   "name": "Upload",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Villa/Villa.unity",
+   "name": "Villa",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Surf/Deep/Deep.unity",
+   "name": "Deep",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Surf/Jet/Jet.unity",
+   "name": "Jet",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader",
+    "DirtyLens2.mat": "Shader.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial.unity",
+   "name": "MainTutorial",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range.unity",
+   "name": "Shooting Range",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "Window Glow.mat": "MADFINGER-god-rays.shader",
+    "Default_Prototype.mat": "DiffuseVertexColor.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity",
+   "name": "Battleforce",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "DirtyLens2.mat": "Shader.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Zombie/Playground/Playground.unity",
+   "name": "Playground",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
+    "Playground Player.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "DirtyLens2.mat": "Shader.shader",
+    "PlaygroundFace.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
+    "Bullet Holes.mat": "Unlit-Alpha.shader",
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "SprayMaterial.mat": "Unlit-Alpha.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  },
+  {
+   "scene": "Assets/Levels/Menu.unity",
+   "name": "Menu",
+   "combined_mesh_renderers": 0,
+   "missing_scripts": [],
+   "materials_with_dummy_shader": {
+    "SimpleSky.mat": "Unlit-Normal.shader",
+    "Black.mat": "UnlitSolidColor.shader",
+    "PlayerAtlas.mat": "Mobile-VertexLit.shader"
+   },
+   "lightmaps": 1,
+   "missing_lightmaps": [],
+   "in_build_settings": true
+  }
+ ]
+}
