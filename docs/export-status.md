@@ -11,7 +11,7 @@
 | Playtest tooling | ✅ v2.1 — boots through `Menu`, keyboard/mouse input | `Tools > Block Strike > Playtest` arms a one-shot offline run as `byvlal`, using the game's own `OnCreateServerOffline` path so the account, weapons, skin and HUD are the real ones. See [`playtest-410.md`](playtest-410.md). |
 | Script artifacts | ✅ 35 fixed | `RaycastHit.collider.GetComponent<Collider>()` → `.collider`: restored player physics, hit detection and NGUI input. See [`script-artifacts-410.md`](script-artifacts-410.md). |
 | Shaders | ✅ Rebuilt from the APK | All 17 placeholders replaced with shaders transcribed from the compiled ShaderLab in the APK; `tools/verify_shaders.py` checks names, properties and render state. See [`shaders-410.md`](shaders-410.md). |
-| Lightmaps | ⚠️ Partially verified | Every lightmap reference in all 59 scenes resolves to a texture; binding/mode correctness in Unity 2021 is still unverified. |
+| Lightmaps | ✅ Re-bound | 57 scenes: textures re-bound at load (`BSLegacyLightmaps`), Unity 4 index sentinels 255/254 ported to 65535/65534, lightmap shaders rewritten for `LIGHTMAP_ON`. See [`lightmaps-410.md`](lightmaps-410.md). |
 | Static batching repair | ✅ Done | All 59 scenes de-batched from the Unity 4 `Combined Mesh (root: scene)` layout; 4305 renderers repaired and verified against the original combined meshes. See [`static-batching-410.md`](static-batching-410.md). |
 | Unity project export | ✅ Initial export complete | AssetRipper 2.0.0 exported 3,321 assets to `client/` using Unity 4.7.2f1; export is present locally and requires validation before committing/migration. |
 

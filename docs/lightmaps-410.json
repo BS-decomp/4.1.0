@@ -1,0 +1,746 @@
+{
+ "script_guid": "9beabf3c77f39aa4b9edae839a1810d8",
+ "scenes": [
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Better/Better.unity",
+   "name": "Better",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "b5fd6ed1f8f2b1145ad1ad9cd6dede28",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Better/Better/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy.unity",
+   "name": "Eazy",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "932f6540a74125f419ad44cadb4abdf0",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Fall/Fall.unity",
+   "name": "Fall",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "5bfcea45fc00bef49a5925956691b02a",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Fall/Fall/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Harder/Harder.unity",
+   "name": "Harder",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "2914a41adf87ade49b7d48bff25d081c",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Harder/Harder/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout.unity",
+   "name": "Jumpout",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "01aed1f736dd0f34eb9d0a97065548f9",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Speed/Speed.unity",
+   "name": "Speed",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "5cd3a5c1175abb04eb8775d2d45ef40d",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Speed/Speed/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger.unity",
+   "name": "Stronger",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "1a3f61ebfcb48694c9cb26a50355d4d1",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer.unity",
+   "name": "Trainer",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "255c1c8408158c74485751d3cbcb32bd",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/BunnyHop/Various/Various.unity",
+   "name": "Various",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "a9a411be1115f8646927c1a9b21dc505",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/BunnyHop/Various/Various/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Ciald/Ciald.unity",
+   "name": "Ciald",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "1d14620b4b7830b43bc36dc353c8a109",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Ciald/Ciald/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Firati/Firati.unity",
+   "name": "Firati",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "b15b6d8858700984f81eb6a8ed7fb1aa",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Firati/Firati/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Fractal/Fractal.unity",
+   "name": "Fractal",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "07201353584bddb46962975e5d2b8459",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Fractal/Fractal/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Grade/Grade.unity",
+   "name": "Grade",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "993964b969a7c6a47b0115c340928e29",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Grade/Grade/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity",
+   "name": "Jacuda",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "614d7c8ab00cdde48b22e575004045e8",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Journey/Journey.unity",
+   "name": "Journey",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "1f8b4ff2020812d4f869751ded2d4263",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Journey/Journey/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Long/Long.unity",
+   "name": "Long",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "7647e959f084956488d12804f3cf5699",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Long/Long/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/DeathRun/Stander/Stander.unity",
+   "name": "Stander",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "cacbd2d0e15de784f86090da8b490e50",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/DeathRun/Stander/Stander/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Football/Skyfield/Skyfield.unity",
+   "name": "Skyfield",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "823e10865cc9a9545a4f3f4908ed6f2a",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Football/Skyfield/Skyfield/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Football/Sunshine/Sunshine.unity",
+   "name": "Sunshine",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "736c2f15df1185d4380c01280eec5d9d",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Football/Sunshine/Sunshine/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum.unity",
+   "name": "Coliseum",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "145c5432a711ac04b88f6b66f28d036a",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth.unity",
+   "name": "Labyrinth",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "989ae77677d885a4398f93530b71318a",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids.unity",
+   "name": "Pyramids",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "74e7e226510686c499c3e63a9cb4f3ff",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Hill/Hill.unity",
+   "name": "Hill",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "e7075ad084e4a02479bc5aad96bddc8c",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Hunter/Hill/Hill/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Military Range/Military Range.unity",
+   "name": "Military Range",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "3e6201cd3b5f8e7488df76f2748780e7",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Hunter/Military Range/Military Range/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Hunter/Rise/Rise.unity",
+   "name": "Rise",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "2b5a1077d32086f469beff1723a36611",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Hunter/Rise/Rise/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/MiniGames/38Traps/38Traps.unity",
+   "name": "38Traps",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "4f00041d3bacbc8448fe52a983e6381e",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/MiniGames/38Traps/38Traps/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/100HP/100HP.unity",
+   "name": "100HP",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "91e3cb633a13eb748bde3fcd2729540f",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/100HP/100HP/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/3000/3000.unity",
+   "name": "3000",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "67dba2c14b7c4ca44bd6b1b9a3beb76c",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/3000/3000/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Aim/Aim.unity",
+   "name": "Aim",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "a6ed85756494c5d4ba5210467f03cd68",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Aim/Aim/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Apache/Apache.unity",
+   "name": "Apache",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "c4bace2c02f524845bfa1776db0730f3",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Apache/Apache/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust/Bust.unity",
+   "name": "Bust",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "4119f532ee5decd4eb97306d103ae730",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Bust/Bust/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust 2/Bust 2.unity",
+   "name": "Bust 2",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "41719d4cd49cdc445aae7b3fb4a181fa",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Bust 2/Bust 2/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2.unity",
+   "name": "Bust 2x2",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "f72ba2061610a744ab0e3a5e25cfc33e",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Casta/Casta.unity",
+   "name": "Casta",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "759baab2f11346b47847661549dd20aa",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Casta/Casta/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Compact/Compact.unity",
+   "name": "Compact",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "fda9735378ae09442a1d9ed1a7cc39aa",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Compact/Compact/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/District/District.unity",
+   "name": "District",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "97a2ab382e3a175459497105e9abadc8",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/District/District/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Harage/Harage.unity",
+   "name": "Harage",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "abd2d46bb1e0a7a4dadc7f515715b4c1",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Harage/Harage/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/India/India.unity",
+   "name": "India",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "8c4eaea77f3d20540bedbd1307c22358",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/India/India/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity",
+   "name": "Lenstown",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "aafcb6652e20ccc429ee39ca7fd8d455",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Lenstown/Lenstown/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Nauts/Nauts.unity",
+   "name": "Nauts",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "5437300216642d842b7a9892d0538837",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Nauts/Nauts/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Office/Office.unity",
+   "name": "Office",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "affa7e6e91e2d7146877201527c6df2c",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Office/Office/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Pool/Pool.unity",
+   "name": "Pool",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "b877b8793d98bbd43817cd43f4fd195f",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Pool/Pool/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Rast/Rast.unity",
+   "name": "Rast",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "64d7e9bc32019034683e688e3e059f78",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Rast/Rast/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Skyline/Skyline.unity",
+   "name": "Skyline",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "9393bea25124b2949b0fd5741b9a49e8",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Skyline/Skyline/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Snow/Snow.unity",
+   "name": "Snow",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "c7bc8eeddda547b40bef059c9d5ce1c3",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Snow/Snow/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Storage/Storage.unity",
+   "name": "Storage",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "a64b1baa4fb5aea4598a6dd684af7ca3",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Storage/Storage/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Tecaza/Tecaza.unity",
+   "name": "Tecaza",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "e70e95325e271ed43ae18dc990057dae",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Tecaza/Tecaza/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Turbine/Turbine.unity",
+   "name": "Turbine",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "ad925d5a44a1ba447b4f5b0be4e4797d",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Turbine/Turbine/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Upload/Upload.unity",
+   "name": "Upload",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "2c380e039f9620a48a99c1a36a479fff",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Upload/Upload/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Others/Villa/Villa.unity",
+   "name": "Villa",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "0830a6c46576e0f4ebb9b15d4a0459f5",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Others/Villa/Villa/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Surf/Deep/Deep.unity",
+   "name": "Deep",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "d16e0fd9645ac384cad09bb7e17fe227",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Surf/Deep/Deep/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Surf/Jet/Jet.unity",
+   "name": "Jet",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "2ff37bd74fa92424789feda8d8a1e71b",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Surf/Jet/Jet/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial.unity",
+   "name": "MainTutorial",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "060b48d7d27247042b62f562c02dc549",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range.unity",
+   "name": "Shooting Range",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "1a1c88b0d9fd003478344d5d0b883145",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity",
+   "name": "Battleforce",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "f52d2c5d85019614785d7c6951b18330",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Maps/Zombie/Playground/Playground.unity",
+   "name": "Playground",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "f544b3294cae9224cad8c47ae45edd6d",
+     "type": 3,
+     "asset": "Assets/Levels/Maps/Zombie/Playground/Playground/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  },
+  {
+   "scene": "Assets/Levels/Menu.unity",
+   "name": "Menu",
+   "lightmaps": [
+    {
+     "fileID": 2800000,
+     "guid": "1bc975d73bec82d469209d7c64ed0d26",
+     "type": 3,
+     "asset": "Assets/Levels/Menu/LightmapFar-0.png"
+    }
+   ],
+   "binder": true
+  }
+ ]
+}

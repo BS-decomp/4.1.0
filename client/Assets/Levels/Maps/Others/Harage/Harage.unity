@@ -22441,7 +22441,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -22481,7 +22481,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b6d65ac10b6705c4ba04c785205b5713, type: 2}
@@ -22541,7 +22541,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -22602,7 +22602,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -22622,7 +22622,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: da9432e13cb0edf4f8d4ea69567e1e5b, type: 2}
@@ -22684,7 +22684,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -22766,7 +22766,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -22910,7 +22910,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -22992,7 +22992,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -23073,7 +23073,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23093,7 +23093,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23113,7 +23113,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23277,7 +23277,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23337,7 +23337,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23377,7 +23377,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23397,7 +23397,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23417,7 +23417,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: db0f441ac4ea4664494a38eb65a3d28b, type: 2}
@@ -23479,7 +23479,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 681b35d2e18e7934b9f93309f25348e1, type: 2}
@@ -23520,7 +23520,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23583,7 +23583,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -23603,7 +23603,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23766,7 +23766,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -23806,7 +23806,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23826,7 +23826,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23846,7 +23846,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -23907,7 +23907,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24009,7 +24009,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24050,7 +24050,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24171,7 +24171,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24191,7 +24191,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24211,7 +24211,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: da9432e13cb0edf4f8d4ea69567e1e5b, type: 2}
@@ -24272,7 +24272,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24313,7 +24313,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24373,7 +24373,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24393,7 +24393,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24413,7 +24413,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24433,7 +24433,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24453,7 +24453,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24473,7 +24473,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24493,7 +24493,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24513,7 +24513,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24553,7 +24553,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 29cf101dac1fd1d4a94cce8ce2877ae4, type: 2}
@@ -24573,7 +24573,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24656,7 +24656,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24676,7 +24676,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: da9432e13cb0edf4f8d4ea69567e1e5b, type: 2}
@@ -24696,7 +24696,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: db0f441ac4ea4664494a38eb65a3d28b, type: 2}
@@ -24739,7 +24739,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24759,7 +24759,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24799,7 +24799,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24859,7 +24859,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -24879,7 +24879,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -24940,7 +24940,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -24960,7 +24960,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -25040,7 +25040,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25060,7 +25060,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25163,7 +25163,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25183,7 +25183,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -25203,7 +25203,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b6d65ac10b6705c4ba04c785205b5713, type: 2}
@@ -25285,7 +25285,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25305,7 +25305,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -25389,7 +25389,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -25429,7 +25429,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25469,7 +25469,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -25509,7 +25509,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25529,7 +25529,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25549,7 +25549,7 @@ MeshRenderer:
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 8661dbded79c1474592d3723a90744cd, type: 2}
@@ -25569,7 +25569,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -25609,7 +25609,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25731,7 +25731,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -25751,7 +25751,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25771,7 +25771,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -25814,7 +25814,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -25897,7 +25897,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26040,7 +26040,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26121,7 +26121,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -26141,7 +26141,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b6d65ac10b6705c4ba04c785205b5713, type: 2}
@@ -26182,7 +26182,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26243,7 +26243,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -26263,7 +26263,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26303,7 +26303,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26363,7 +26363,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 6f451d7b85a734242af0dfc3694a3242, type: 2}
@@ -26383,7 +26383,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26403,7 +26403,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26423,7 +26423,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b6d65ac10b6705c4ba04c785205b5713, type: 2}
@@ -26443,7 +26443,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26484,7 +26484,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26504,7 +26504,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26524,7 +26524,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -26605,7 +26605,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26625,7 +26625,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b6d65ac10b6705c4ba04c785205b5713, type: 2}
@@ -26665,7 +26665,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26751,7 +26751,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2b12c564bd918554c82246f382b92441, type: 2}
@@ -26771,7 +26771,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26831,7 +26831,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b75838aa9c92a944a9100acd6ee6d5cb, type: 2}
@@ -26936,7 +26936,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26956,7 +26956,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -26976,7 +26976,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27017,7 +27017,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: bc69b1d621e54334fadce13645c9410f, type: 2}
@@ -27058,7 +27058,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27078,7 +27078,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 6f451d7b85a734242af0dfc3694a3242, type: 2}
@@ -27119,7 +27119,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27160,7 +27160,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27180,7 +27180,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27240,7 +27240,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27260,7 +27260,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -27322,7 +27322,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3ae2e6c6a433b64c92ddfc02be5c5c7, type: 2}
@@ -27383,7 +27383,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 254
+  m_LightmapIndex: 65534
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 2ef4557a7e38c7c4c9c4b109a1e3adf5, type: 2}
@@ -43149,7 +43149,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 9b850d5859189b94e88196c0ad403cd5, type: 2}
@@ -43181,7 +43181,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: dac567ddedaa3df43a8dd1f049c2634c, type: 2}
@@ -43213,7 +43213,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: da49ef0141e1a6b47b8ff8d2e4d4f9bd, type: 2}
@@ -43245,7 +43245,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3056b520d9abbb4697ccb2eb33b44b4, type: 2}
@@ -43277,7 +43277,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: aac3d0f69bfe9874a9669402269ad60e, type: 2}
@@ -43309,7 +43309,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 8f1dad4e6e66cd14d9fdff471d1431e8, type: 2}
@@ -43341,7 +43341,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 34053c6a9bd24e9448913df46c12b0ac, type: 2}
@@ -43373,7 +43373,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: 968e205f6446ff94ba61945c182fbbe1, type: 2}
@@ -43405,7 +43405,7 @@ ParticleSystemRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_LightmapIndex: 255
+  m_LightmapIndex: 65535
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
   - {fileID: 2100000, guid: b3056b520d9abbb4697ccb2eb33b44b4, type: 2}
@@ -66180,3 +66180,46 @@ MonoBehaviour:
   ConstantForce: {x: 0, y: 0.7, z: 0}
   RandomForceScale: 0.1
   MaxNumberOfPoints: 20
+--- !u!1 &990000001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 990000002}
+  - 114: {fileID: 990000003}
+  m_Layer: 0
+  m_Name: BS Legacy Lightmaps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &990000002
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990000001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &990000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990000001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9beabf3c77f39aa4b9edae839a1810d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightmapsFar:
+  - {fileID: 2800000, guid: abd2d46bb1e0a7a4dadc7f515715b4c1, type: 3}
+  lightmapsNear: []

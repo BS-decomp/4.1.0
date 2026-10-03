@@ -1,0 +1,75 @@
+# Lightmaps — Block Strike 4.1.0
+
+Status: **re-bound in all 57 lightmapped scenes**, verified offline.
+
+```
+$ python3 tools/verify_lightmaps.py
+scenes 59 | with lightmaps 57 | correctly bound 57 | textures resolved 57
+OK
+```
+
+## Why the maps looked flat
+
+Nothing was lost — the bake was there the whole time. Three separate things
+stopped it from reaching the screen:
+
+**1. Unity 2021 ignores a Unity 4 `LightmapSettings`.** The scenes still carry
+
+```yaml
+m_Lightmaps:
+- m_Lightmap: {fileID: 2800000, guid: 0830a6c4…, type: 3}
+  m_IndirectLightmap: {fileID: 0}
+m_LightmapsMode: 0
+m_BakedColorSpace: 0
+m_UseDualLightmapsInForward: 0
+```
+
+Unity 5 moved the baked array out of the scene into the LightingData asset and
+renamed the rest, so a modern editor reads none of it:
+`LightmapSettings.lightmaps` stays empty and the `LIGHTMAP_ON` keyword is never
+enabled — while every renderer still has a perfectly good `m_LightmapIndex` and
+`m_LightmapTilingOffset`.
+
+**2. The index sentinels changed.** Unity 4 used `255` for "no lightmap" and
+`254` for "lightmapped, not assigned"; Unity 5 moved them to `65535`/`65534`.
+The export contained `255` on 5 063 renderers and `254` on 480, i.e. thousands
+of requests for lightmap number 255 in scenes that have exactly one.
+
+**3. The lightmap shaders could not sample a lightmap any more.**
+`Mobile/Unlit (Supports Lightmap)` — the main map shader, 561 material
+references — and `Mobile/VertexLit` do their lightmapping in fixed-function
+`VertexLM` / `VertexLMRGBM` passes via `SetTexture [unity_Lightmap] { Matrix
+[unity_LightmapMatrix] … }`. `unity_LightmapMatrix` and those combiners are
+gone, so even a bound lightmap would not have been read: the geometry rendered
+through the plain unlit `Vertex` pass. That is literally "flat".
+
+## The fix
+
+| Step | Tool | Result |
+| --- | --- | --- |
+| Re-bind the baked textures at load time | `tools/install_lightmap_binder.py --apply` + `client/Assets/Scripts/Recovery/BSLegacyLightmaps.cs` | 57 scenes got one small `BS Legacy Lightmaps` object that assigns `LightmapSettings.lightmaps` (NonDirectional) from the original texture list, in the original order. `[ExecuteAlways]`, so the Scene view matches the game and builds keep working. |
+| Port the sentinels | `tools/fix_lightmap_indices.py --apply` | `255 → 65535` (5 063), `254 → 65534` (480); real indices (`0`, 3 810 renderers) untouched. |
+| Make the shaders sample lightmaps again | `tools/rebuild_shaders.py` | `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` rewritten: one pass with `#pragma multi_compile _ LIGHTMAP_ON`, `unity_LightmapST` and `DecodeLightmap()`, which handles dLDR *and* RGBM on every renderer and platform — the three legacy passes folded into the modern equivalent. |
+
+The original Unity 4 `m_Lightmaps` block is **left in the scenes** as ground
+truth; the binder is additive and reversible.
+
+## Verification
+
+`tools/verify_lightmaps.py` checks, per scene:
+
+1. the original lightmap list still exists and every texture resolves;
+2. the binder references **exactly** that list, in the same order (renderers
+   address lightmaps by index, so order is not cosmetic);
+3. no renderer asks for an index outside the baked set (sentinels excluded);
+4. the shader behind lightmapped materials can actually sample a lightmap.
+
+## Known limits
+
+* `TODO: unverified` — the visual result has not been compared against the APK
+  on a device; the binding, indices and shader paths are verified offline.
+* Lightmap textures still use the Unity 4 import settings
+  (`linearTexture: 0`, i.e. gamma/dLDR). If the project is ever switched to
+  linear colour space, they need `sRGB` and the decode re-checked.
+* Unity 4 "near" (dual) lightmaps have no modern equivalent; the export only
+  ships far maps, so the slot is empty by design.

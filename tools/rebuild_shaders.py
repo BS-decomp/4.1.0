@@ -836,6 +836,72 @@ SubShader {
 """)
 
 # --------------------------------------------------------------------------- #
+# --------------------------------------------------------------------------- #
+# 18. Mobile/Unlit (Supports Lightmap) — the main map shader
+# --------------------------------------------------------------------------- #
+shader("Mobile-Lightmap-Unlit.shader", "Mobile/Unlit (Supports Lightmap)", "Mobile-Unlit (Supports Lightmap).shaderlab")("""Shader "Mobile/Unlit (Supports Lightmap)" {
+Properties {
+	_MainTex ("Base (RGB)", 2D) = "white" {}
+}
+SubShader {
+	LOD 100
+	Tags { "RenderType"="Opaque" }
+
+	// The APK ships three fixed-function passes: "Vertex" (no lightmap),
+	// "VertexLM" (unity_Lightmap * texture, doubled) and "VertexLMRGBM"
+	// (the same with an RGBM-encoded lightmap, quadrupled).
+	// `unity_LightmapMatrix` and the fixed-function combiners are gone in modern
+	// Unity, so the three are folded into one pass with Unity's own LIGHTMAP_ON
+	// keyword and unity_LightmapST, decoded with DecodeLightmap() — that covers
+	// both the dLDR and the RGBM encodings on every platform/renderer.
+	Pass {
+		Tags { "LightMode"="Vertex" "RenderType"="Opaque" }
+		CGPROGRAM
+		#pragma vertex vert
+		#pragma fragment frag
+		#pragma multi_compile _ LIGHTMAP_ON
+		#include "UnityCG.cginc"
+
+		sampler2D _MainTex;
+		float4 _MainTex_ST;
+
+		struct appdata_t {
+			float4 vertex : POSITION;
+			float2 texcoord : TEXCOORD0;
+			float2 texcoord1 : TEXCOORD1;
+		};
+		struct v2f {
+			float4 pos : SV_POSITION;
+			float2 uv : TEXCOORD0;
+			#ifdef LIGHTMAP_ON
+			float2 lmuv : TEXCOORD1;
+			#endif
+		};
+
+		v2f vert (appdata_t v) {
+			v2f o;
+			o.pos = UnityObjectToClipPos(v.vertex);
+			o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
+			#ifdef LIGHTMAP_ON
+			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+			#endif
+			return o;
+		}
+
+		fixed4 frag (v2f i) : SV_Target {
+			fixed4 col = tex2D(_MainTex, i.uv);
+			#ifdef LIGHTMAP_ON
+			fixed3 lm = DecodeLightmap(UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv));
+			col.rgb *= lm;
+			#endif
+			return col;
+		}
+		ENDCG
+	}
+}
+}
+""")
+
 # 15. Mobile/VertexLit — fixed-function, copied from the APK text as-is
 # --------------------------------------------------------------------------- #
 shader("Mobile-VertexLit.shader", "Mobile/VertexLit", "Mobile-VertexLit.shaderlab")("""Shader "Mobile/VertexLit" {
@@ -846,40 +912,61 @@ SubShader {
 	LOD 80
 	Tags { "RenderType"="Opaque" }
 
-	// The three passes below are the original fixed-function passes, copied
-	// verbatim from the APK text (Unity compiled them to GLES at build time).
-	// The SHADOWCASTER/SHADOWCOLLECTOR passes of the 4.x shader are replaced by
-	// the fallback: SHADOWCOLLECTOR no longer exists in Unity 2021.
+	// The APK has the legacy trio Vertex / VertexLM / VertexLMRGBM plus
+	// SHADOWCASTER and SHADOWCOLLECTOR. SHADOWCOLLECTOR and the fixed-function
+	// lightmap combiners no longer exist, so the lightmap branch is expressed
+	// with Unity's LIGHTMAP_ON keyword and vertex lighting with ShadeVertexLights
+	// (the same maths the fixed-function Material/Lighting block compiled into),
+	// and shadow casting comes from the fallback.
 	Pass {
 		Tags { "LightMode"="Vertex" "RenderType"="Opaque" }
-		Lighting On
-		Material {
-			Ambient (1,1,1,1)
-			Diffuse (1,1,1,1)
+		CGPROGRAM
+		#pragma vertex vert
+		#pragma fragment frag
+		#pragma multi_compile _ LIGHTMAP_ON
+		#include "UnityCG.cginc"
+
+		sampler2D _MainTex;
+		float4 _MainTex_ST;
+
+		struct appdata_t {
+			float4 vertex : POSITION;
+			float3 normal : NORMAL;
+			float2 texcoord : TEXCOORD0;
+			float2 texcoord1 : TEXCOORD1;
+		};
+		struct v2f {
+			float4 pos : SV_POSITION;
+			float2 uv : TEXCOORD0;
+			#ifdef LIGHTMAP_ON
+			float2 lmuv : TEXCOORD1;
+			#else
+			fixed3 vlight : TEXCOORD1;
+			#endif
+		};
+
+		v2f vert (appdata_t v) {
+			v2f o;
+			o.pos = UnityObjectToClipPos(v.vertex);
+			o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
+			#ifdef LIGHTMAP_ON
+			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+			#else
+			o.vlight = ShadeVertexLights(v.vertex, v.normal);
+			#endif
+			return o;
 		}
-		SetTexture [_MainTex] { combine texture * primary double, texture alpha * primary alpha }
-	}
-	Pass {
-		Tags { "LightMode"="VertexLM" "RenderType"="Opaque" }
-		BindChannels {
-			Bind "vertex", Vertex
-			Bind "normal", Normal
-			Bind "texcoord1", TexCoord0
-			Bind "texcoord", TexCoord1
+
+		fixed4 frag (v2f i) : SV_Target {
+			fixed4 col = tex2D(_MainTex, i.uv);
+			#ifdef LIGHTMAP_ON
+			col.rgb *= DecodeLightmap(UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv));
+			#else
+			col.rgb *= i.vlight * 2.0;
+			#endif
+			return col;
 		}
-		SetTexture [unity_Lightmap] { Matrix [unity_LightmapMatrix] combine texture }
-		SetTexture [_MainTex] { combine texture * previous double, texture alpha * primary alpha }
-	}
-	Pass {
-		Tags { "LightMode"="VertexLMRGBM" "RenderType"="Opaque" }
-		BindChannels {
-			Bind "vertex", Vertex
-			Bind "normal", Normal
-			Bind "texcoord1", TexCoord0
-			Bind "texcoord", TexCoord1
-		}
-		SetTexture [unity_Lightmap] { Matrix [unity_LightmapMatrix] combine texture * texture alpha double }
-		SetTexture [_MainTex] { combine texture * previous quad, texture alpha * primary alpha }
+		ENDCG
 	}
 }
 Fallback "Legacy Shaders/VertexLit"
