@@ -1,0 +1,30 @@
+.cache/
+recovered/
+__pycache__/
+scratch/
+# Local Unity working copies
+UnityProject/
+
+# Unity-generated junk (regenerated on open; keep repo lean)
+client/Library/
+client/Temp/
+client/obj/
+client/Logs/
+client/UserSettings/
+client/RecoveryBackups/
+client/*.csproj
+client/*.sln
+client/*.userprefs
+client/*.user
+
+# IDE state (Visual Studio / Rider). These also appear nested, e.g.
+# client/.vs/client/v15/.suo, which a bare `client/*.suo` rule does not match.
+.vs/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# OS junk
+.DS_Store
+Thumbs.db
