@@ -9,7 +9,7 @@
 | APK fingerprint | ✅ Done | Mono Android build; armeabi-v7a and x86 libraries; 58 scenes (`level0`–`level57`) and 60 `sharedassets` files observed. |
 | Scene names | ✅ Decrypted | DES/PBKDF2 key recomputed from the APK; all 59 scenes renamed to their real names. See [`scene-names-410.md`](scene-names-410.md). |
 | Playtest tooling | ✅ Added (untested in Unity) | `Tools > Block Strike > Playtest` arms a one-shot offline run as `byvlal`. See [`playtest-410.md`](playtest-410.md). |
-| Shaders | ❌ Open | 17 of 49 shader assets are AssetRipper placeholders (`//DummyShaderTextExporter`), used by 340 material references across 57 maps. |
+| Shaders | ✅ Rebuilt from the APK | All 17 placeholders replaced with shaders transcribed from the compiled ShaderLab in the APK; `tools/verify_shaders.py` checks names, properties and render state. See [`shaders-410.md`](shaders-410.md). |
 | Lightmaps | ⚠️ Partially verified | Every lightmap reference in all 59 scenes resolves to a texture; binding/mode correctness in Unity 2021 is still unverified. |
 | Static batching repair | ✅ Done | All 59 scenes de-batched from the Unity 4 `Combined Mesh (root: scene)` layout; 4305 renderers repaired and verified against the original combined meshes. See [`static-batching-410.md`](static-batching-410.md). |
 | Unity project export | ✅ Initial export complete | AssetRipper 2.0.0 exported 3,321 assets to `client/` using Unity 4.7.2f1; export is present locally and requires validation before committing/migration. |
@@ -50,15 +50,14 @@ The original engine is confirmed as **Unity 4.7.2f1**. Unity 2021.3.45f2 is ther
 scenes                       : 59
 renderers on combined meshes : 0
 missing script GUIDs         : 0
-placeholder shader assets    : 17 of 49 shaders
-materials on placeholders    : 340 (scene references)
+placeholder shader assets    : 0 of 49 shaders
+materials on placeholders    : 0 (scene references)
 missing lightmap textures    : 0
 scenes not in Build Settings : 0
 ```
 
-Most used placeholders: `Unlit-Normal` (57 maps), `Unlit-Alpha` (56),
-`Shader.shader` (56), `UnlitSolidColor` (22), `MADFINGER-blinking-god-rays` (19).
-Full data: [`audit-410.json`](audit-410.json).
+Full data: [`audit-410.json`](audit-410.json). Shader ground truth extracted
+from the APK lives in `tools/shader-extract/` (71 shaders).
 
 ## Notes
 

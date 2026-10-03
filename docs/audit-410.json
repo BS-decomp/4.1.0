@@ -3,315 +3,12 @@
   "scenes": 59,
   "combined_mesh_renderers": 0,
   "missing_scripts": 0,
-  "materials_with_dummy_shader": 340,
+  "materials_with_dummy_shader": 0,
   "missing_lightmaps": 0,
   "scenes_not_in_build": 0
  },
- "placeholder_shaders": [
-  "DiffuseVertexColor.shader",
-  "MADFINGER-blinking-god-rays.shader",
-  "MADFINGER-god-rays.shader",
-  "Mobile-VertexLit-OnlyDirectionalLights.shader",
-  "Mobile-VertexLit.shader",
-  "Particle Add.shader",
-  "Shader.shader",
-  "Unlit-Alpha.shader",
-  "Unlit-Normal.shader",
-  "UnlitSolidColor.shader",
-  "WFX_S Add Scroll.shader",
-  "WFX_S Multiply Soft Scroll.shader",
-  "WFX_S Particle Add A8.shader",
-  "WFX_S Particle AddSoft A8.shader",
-  "WFX_S Smoke Scroll.shader",
-  "pb_HideVertices.shader",
-  "pb_UnlitVertexColor.shader"
- ],
- "placeholder_usage": {
-  "Unlit-Alpha.shader": [
-   "100HP",
-   "3000",
-   "38Traps",
-   "Aim",
-   "Apache",
-   "Battleforce",
-   "Better",
-   "Bust",
-   "Bust 2",
-   "Bust 2x2",
-   "Casta",
-   "Ciald",
-   "Coliseum",
-   "Compact",
-   "Deep",
-   "District",
-   "Eazy",
-   "Fall",
-   "Firati",
-   "Fractal",
-   "Grade",
-   "Harage",
-   "Harder",
-   "Hill",
-   "India",
-   "Jacuda",
-   "Jet",
-   "Journey",
-   "Jumpout",
-   "Labyrinth",
-   "Lenstown",
-   "Long",
-   "MainTutorial",
-   "Military Range",
-   "Nauts",
-   "Office",
-   "Playground",
-   "Pool",
-   "Pyramids",
-   "Rast",
-   "Rise",
-   "Shooting Range",
-   "Skyfield",
-   "Skyline",
-   "Snow",
-   "Speed",
-   "Stander",
-   "Storage",
-   "Stronger",
-   "Sunshine",
-   "Tecaza",
-   "Trainer",
-   "Turbine",
-   "Upload",
-   "Various",
-   "Villa"
-  ],
-  "Unlit-Normal.shader": [
-   "100HP",
-   "3000",
-   "38Traps",
-   "Aim",
-   "Apache",
-   "Battleforce",
-   "Better",
-   "Bust",
-   "Bust 2",
-   "Bust 2x2",
-   "Casta",
-   "Ciald",
-   "Coliseum",
-   "Compact",
-   "Deep",
-   "District",
-   "Eazy",
-   "Fall",
-   "Firati",
-   "Fractal",
-   "Grade",
-   "Harage",
-   "Harder",
-   "Hill",
-   "India",
-   "Jacuda",
-   "Jet",
-   "Journey",
-   "Jumpout",
-   "Labyrinth",
-   "Lenstown",
-   "Long",
-   "MainTutorial",
-   "Menu",
-   "Military Range",
-   "Nauts",
-   "Office",
-   "Playground",
-   "Pool",
-   "Pyramids",
-   "Rast",
-   "Rise",
-   "Shooting Range",
-   "Skyfield",
-   "Skyline",
-   "Snow",
-   "Speed",
-   "Stander",
-   "Storage",
-   "Stronger",
-   "Sunshine",
-   "Tecaza",
-   "Trainer",
-   "Turbine",
-   "Upload",
-   "Various",
-   "Villa"
-  ],
-  "Shader.shader": [
-   "100HP",
-   "3000",
-   "38Traps",
-   "Aim",
-   "Apache",
-   "Battleforce",
-   "Better",
-   "Bust",
-   "Bust 2",
-   "Bust 2x2",
-   "Casta",
-   "Ciald",
-   "Coliseum",
-   "Compact",
-   "Deep",
-   "District",
-   "Eazy",
-   "Fall",
-   "Firati",
-   "Fractal",
-   "Grade",
-   "Harage",
-   "Harder",
-   "Hill",
-   "India",
-   "Jacuda",
-   "Jet",
-   "Journey",
-   "Jumpout",
-   "Labyrinth",
-   "Lenstown",
-   "Long",
-   "MainTutorial",
-   "Military Range",
-   "Nauts",
-   "Office",
-   "Playground",
-   "Pool",
-   "Pyramids",
-   "Rast",
-   "Rise",
-   "Shooting Range",
-   "Skyfield",
-   "Skyline",
-   "Snow",
-   "Speed",
-   "Stander",
-   "Storage",
-   "Stronger",
-   "Sunshine",
-   "Tecaza",
-   "Trainer",
-   "Turbine",
-   "Upload",
-   "Various",
-   "Villa"
-  ],
-  "UnlitSolidColor.shader": [
-   "100HP",
-   "3000",
-   "Aim",
-   "Bust",
-   "Bust 2",
-   "Bust 2x2",
-   "Compact",
-   "District",
-   "Grade",
-   "Harage",
-   "Jumpout",
-   "Menu",
-   "Nauts",
-   "Pool",
-   "Rast",
-   "Skyline",
-   "Snow",
-   "Storage",
-   "Tecaza",
-   "Turbine",
-   "Upload",
-   "Villa"
-  ],
-  "MADFINGER-blinking-god-rays.shader": [
-   "Bust",
-   "Bust 2",
-   "Bust 2x2",
-   "Casta",
-   "Coliseum",
-   "Harage",
-   "Jumpout",
-   "Labyrinth",
-   "MainTutorial",
-   "Nauts",
-   "Office",
-   "Playground",
-   "Pool",
-   "Shooting Range",
-   "Skyline",
-   "Storage",
-   "Tecaza",
-   "Turbine",
-   "Villa"
-  ],
-  "Mobile-VertexLit-OnlyDirectionalLights.shader": [
-   "Bust",
-   "Bust 2",
-   "District",
-   "Harage",
-   "Nauts",
-   "Office",
-   "Playground",
-   "Skyfield",
-   "Skyline",
-   "Sunshine",
-   "Tecaza"
-  ],
-  "WFX_S Particle Add A8.shader": [
-   "Bust",
-   "Bust 2",
-   "District",
-   "Harage",
-   "Nauts",
-   "Office",
-   "Skyline",
-   "Tecaza"
-  ],
-  "WFX_S Multiply Soft Scroll.shader": [
-   "Bust",
-   "Bust 2",
-   "District",
-   "Harage",
-   "Nauts",
-   "Office",
-   "Skyline",
-   "Tecaza"
-  ],
-  "WFX_S Smoke Scroll.shader": [
-   "Bust",
-   "Bust 2",
-   "District",
-   "Harage",
-   "Nauts",
-   "Office",
-   "Skyline",
-   "Tecaza"
-  ],
-  "WFX_S Add Scroll.shader": [
-   "Bust",
-   "Bust 2",
-   "District",
-   "Harage",
-   "Nauts",
-   "Office",
-   "Skyline",
-   "Tecaza"
-  ],
-  "MADFINGER-god-rays.shader": [
-   "Casta",
-   "Shooting Range"
-  ],
-  "DiffuseVertexColor.shader": [
-   "Harage",
-   "Shooting Range"
-  ],
-  "Mobile-VertexLit.shader": [
-   "Menu"
-  ]
- },
+ "placeholder_shaders": [],
+ "placeholder_usage": {},
  "scenes": [
   {
    "scene": "Assets/Levels/AwakeScene.unity",
@@ -338,12 +35,7 @@
    "name": "Better",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -353,12 +45,7 @@
    "name": "Eazy",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -368,12 +55,7 @@
    "name": "Fall",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -383,12 +65,7 @@
    "name": "Harder",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -398,14 +75,7 @@
    "name": "Jumpout",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -415,12 +85,7 @@
    "name": "Speed",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -430,12 +95,7 @@
    "name": "Stronger",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -445,12 +105,7 @@
    "name": "Trainer",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -460,12 +115,7 @@
    "name": "Various",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -475,12 +125,7 @@
    "name": "Ciald",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -490,12 +135,7 @@
    "name": "Firati",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -505,12 +145,7 @@
    "name": "Fractal",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -520,13 +155,7 @@
    "name": "Grade",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -536,12 +165,7 @@
    "name": "Jacuda",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -551,12 +175,7 @@
    "name": "Journey",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -566,12 +185,7 @@
    "name": "Long",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -581,12 +195,7 @@
    "name": "Stander",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -596,13 +205,7 @@
    "name": "Skyfield",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Ball.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -612,13 +215,7 @@
    "name": "Sunshine",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Ball.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -628,13 +225,7 @@
    "name": "Coliseum",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -644,13 +235,7 @@
    "name": "Labyrinth",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -660,12 +245,7 @@
    "name": "Pyramids",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -675,12 +255,7 @@
    "name": "Hill",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -690,12 +265,7 @@
    "name": "Military Range",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -705,12 +275,7 @@
    "name": "Rise",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -720,12 +285,7 @@
    "name": "38Traps",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -735,13 +295,7 @@
    "name": "100HP",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -751,13 +305,7 @@
    "name": "3000",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -767,13 +315,7 @@
    "name": "Aim",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -783,12 +325,7 @@
    "name": "Apache",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -798,22 +335,7 @@
    "name": "Bust",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
-    "Plant.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -823,22 +345,7 @@
    "name": "Bust 2",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Plant.mat": "Unlit-Alpha.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -848,14 +355,7 @@
    "name": "Bust 2x2",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -865,14 +365,7 @@
    "name": "Casta",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "Window Glow.mat": "MADFINGER-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -882,13 +375,7 @@
    "name": "Compact",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -898,21 +385,7 @@
    "name": "District",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Plant.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -922,23 +395,7 @@
    "name": "Harage",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Plant.mat": "Unlit-Alpha.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Default_Prototype.mat": "DiffuseVertexColor.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -948,12 +405,7 @@
    "name": "India",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -963,12 +415,7 @@
    "name": "Lenstown",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -978,22 +425,7 @@
    "name": "Nauts",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
-    "Plant.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1003,21 +435,7 @@
    "name": "Office",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
-    "Plant.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1027,14 +445,7 @@
    "name": "Pool",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1044,13 +455,7 @@
    "name": "Rast",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1060,22 +465,7 @@
    "name": "Skyline",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader",
-    "Plant.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1085,13 +475,7 @@
    "name": "Snow",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1101,14 +485,7 @@
    "name": "Storage",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1118,23 +495,7 @@
    "name": "Tecaza",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Plant.mat": "Unlit-Alpha.shader",
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "WFXM_M_GlowCircle Add.mat": "WFX_S Particle Add A8.shader",
-    "Swamp.mat": "Unlit-Alpha.shader",
-    "WFXM_M_SmokeScroll SoftMult.mat": "WFX_S Multiply Soft Scroll.shader",
-    "Bomb.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "WFXM_M_SmallDots Add.mat": "WFX_S Particle Add A8.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "WFXM_M_ExplosiveSmoke.mat": "WFX_S Smoke Scroll.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "WFXM_M_GroundGlow Add.mat": "WFX_S Particle Add A8.shader",
-    "WFXM_M_NukeFlames ScrollAdd.mat": "WFX_S Add Scroll.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1144,14 +505,7 @@
    "name": "Turbine",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1161,13 +515,7 @@
    "name": "Upload",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1177,14 +525,7 @@
    "name": "Villa",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1194,12 +535,7 @@
    "name": "Deep",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1209,12 +545,7 @@
    "name": "Jet",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader",
-    "DirtyLens2.mat": "Shader.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1224,13 +555,7 @@
    "name": "MainTutorial",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1240,15 +565,7 @@
    "name": "Shooting Range",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "Window Glow.mat": "MADFINGER-god-rays.shader",
-    "Default_Prototype.mat": "DiffuseVertexColor.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1258,12 +575,7 @@
    "name": "Battleforce",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "DirtyLens2.mat": "Shader.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1273,15 +585,7 @@
    "name": "Playground",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "Light Glow.mat": "MADFINGER-blinking-god-rays.shader",
-    "Playground Player.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "DirtyLens2.mat": "Shader.shader",
-    "PlaygroundFace.mat": "Mobile-VertexLit-OnlyDirectionalLights.shader",
-    "Bullet Holes.mat": "Unlit-Alpha.shader",
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "SprayMaterial.mat": "Unlit-Alpha.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
@@ -1291,11 +595,7 @@
    "name": "Menu",
    "combined_mesh_renderers": 0,
    "missing_scripts": [],
-   "materials_with_dummy_shader": {
-    "SimpleSky.mat": "Unlit-Normal.shader",
-    "Black.mat": "UnlitSolidColor.shader",
-    "PlayerAtlas.mat": "Mobile-VertexLit.shader"
-   },
+   "materials_with_dummy_shader": {},
    "lightmaps": 1,
    "missing_lightmaps": [],
    "in_build_settings": true
