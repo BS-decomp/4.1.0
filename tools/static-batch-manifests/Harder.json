@@ -1,0 +1,2969 @@
+{
+ "scene": "Assets/Levels/Maps/BunnyHop/Harder/SXZtRDEyM0ExMrLXCvvSlN9E.unity",
+ "map": "Harder",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1734,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    261,
+    262
+   ],
+   "mesh_guid": "5579e6ea82ddd260d5ef033d48dc73fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1734.asset",
+   "vertexCount": 76,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1735,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    259,
+    260
+   ],
+   "mesh_guid": "aa2330ccdf8acd8bf4c5c047c1fa0a21",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1735.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1737,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    257,
+    258
+   ],
+   "mesh_guid": "ad31192c3d2cb0135e8229c950e59b84",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1737.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1739,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    266,
+    267
+   ],
+   "mesh_guid": "13ef1a42ceb2e73e5aeab162a8954072",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1739.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1740,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    265
+   ],
+   "mesh_guid": "aad39519e098d385d0f88dae622f5339",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1740.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1741,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    263,
+    264
+   ],
+   "mesh_guid": "6dc0b81c5675f08afa34ca4a6ef63cda",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1741.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1742,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    255,
+    256
+   ],
+   "mesh_guid": "bc4638d55ba0d652ec751c56477f2ee5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1742.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1743,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    248,
+    249
+   ],
+   "mesh_guid": "45c7f480ff7b6ec42e4d585438b4b44a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1743.asset",
+   "vertexCount": 108,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1744,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    246,
+    247
+   ],
+   "mesh_guid": "7e6f02a253d3074b797db2d941fa95b6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1744.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1745,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    244,
+    245
+   ],
+   "mesh_guid": "0b0fc937352d6b583d35e0b4345da278",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1745.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1746,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    254
+   ],
+   "mesh_guid": "b1d661f3a1f1052daed60ab75ae76b37",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1746.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1747,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    252,
+    253
+   ],
+   "mesh_guid": "4b061d94d0b791b3dee5f080f9c03bef",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1747.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1748,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    250,
+    251
+   ],
+   "mesh_guid": "88cd576684c26559f58dfda0383d1d00",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1748.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1749,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    285,
+    286
+   ],
+   "mesh_guid": "2217c2b4629c77ba8c02bcbe59ab02b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1749.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1751,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    283,
+    284
+   ],
+   "mesh_guid": "1bb106d218c169a64ed9cd7200b674c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1751.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1752,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    281,
+    282
+   ],
+   "mesh_guid": "0c0dc4f26978f815a01abd3650718f0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1752.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1753,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    291,
+    292
+   ],
+   "mesh_guid": "3da7e92e2e0b97e8c6696deb80f1cc44",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1753.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1756,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    289,
+    290
+   ],
+   "mesh_guid": "535e5d467027416222862c391434ab57",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1756.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1757,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    287,
+    288
+   ],
+   "mesh_guid": "d6fffff345822e6d14fe9230ecc3b008",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1757.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1759,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    279,
+    280
+   ],
+   "mesh_guid": "f32a835c67568b484328bb3b2134707b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1759.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1760,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    272,
+    273
+   ],
+   "mesh_guid": "08ce859fdb2f005aa97074246effa68d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1760.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1761,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "e4fe76d70e6fd6ad3fed677385714850",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/SkyDome_1761.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1762,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    270,
+    271
+   ],
+   "mesh_guid": "a161b2a83403747392d5f43bbfc46140",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1762.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1763,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    268,
+    269
+   ],
+   "mesh_guid": "25c7b125b24b680901b1368b59c21274",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1763.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1765,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    277,
+    278
+   ],
+   "mesh_guid": "e24947a46f4ad6fbdfcd57bf746a1b6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1765.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1766,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    275,
+    276
+   ],
+   "mesh_guid": "3219a03d0e8fc6e1739c6eb288bd19d8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1766.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1767,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    274
+   ],
+   "mesh_guid": "0ba64e112bf23f0d1deaa9a867b490c3",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1767.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1769,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    212,
+    213
+   ],
+   "mesh_guid": "8e7c6f2803d688df787d9a5cee2c526a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1769.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1770,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    210,
+    211
+   ],
+   "mesh_guid": "d2cfbaaf184d3472ad907e658dc73e79",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1770.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1771,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    208,
+    209
+   ],
+   "mesh_guid": "a6b6fef647f1da83ef7aa2eaef929ef9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1771.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1772,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    217,
+    218
+   ],
+   "mesh_guid": "aea0bb4d7bd6afee9773e13b74452a8e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1772.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1773,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    215,
+    216
+   ],
+   "mesh_guid": "01e1b507492a6bd6b992a2da0cd8b011",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1773.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1774,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    214
+   ],
+   "mesh_guid": "b32f713321913897d0bc9600e3bc9a89",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1774.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1775,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    206,
+    207
+   ],
+   "mesh_guid": "53e3c4d5c004e9fb9371b2448fdbc7a4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1775.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1779,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "1f901b202d89b9afa865f416e6840c9c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Plane_1779.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1781,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    198,
+    199
+   ],
+   "mesh_guid": "a2db901b1deb85875f7ae508a5180e83",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1781.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1783,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    197
+   ],
+   "mesh_guid": "8876d89b041e2bade36249b25db55685",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1783.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1785,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    195,
+    196
+   ],
+   "mesh_guid": "d97ea686911f472d28b4abf00a0a6d8f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1785.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1786,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    204,
+    205
+   ],
+   "mesh_guid": "70696f2440729860ee3bfe4ed2018302",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1786.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1788,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "eb3db2071c2eb67f58020a6cecb9263c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1788.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1789,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "7d49f0b16a17f883cf7f37ce403e65e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Sun 1_1789.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1790,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    202,
+    203
+   ],
+   "mesh_guid": "f8f85b347343b9e24b96b084d7f846fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1790.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1791,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    200,
+    201
+   ],
+   "mesh_guid": "0c7018ba4f6dfd800e13f42a0df4a0d9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1791.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1793,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    237
+   ],
+   "mesh_guid": "022e98b9481a720b9a5ff58aaaf42a6f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1793.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1794,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    388
+   ],
+   "mesh_guid": "43765bc05d13a758c968f8735383c55d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1794.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1795,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    235,
+    236
+   ],
+   "mesh_guid": "9f092e673d9833328159566192029f74",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1795.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1796,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    233,
+    234
+   ],
+   "mesh_guid": "b5395dc01e1e494e7b677eec43dc7259",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1796.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1800,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    242,
+    243
+   ],
+   "mesh_guid": "3db52db7d9a7ece0951f20db67007ae4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1800.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1801,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    240,
+    241
+   ],
+   "mesh_guid": "dea066a7be02de4ea65cc34aacf5eafd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1801.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1802,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    392
+   ],
+   "mesh_guid": "2fcf817f57696cb5384eab22fb63d8a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1802.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1803,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "4a9a3bf9f1ad4cda36ee825c005cd1e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1803.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1805,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    238,
+    239
+   ],
+   "mesh_guid": "ede1e95d86ded0cf2513d2b7a685f738",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1805.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1807,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    231,
+    232
+   ],
+   "mesh_guid": "b25676bdee1655f7db557b5543bc535a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1807.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1808,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    223,
+    224
+   ],
+   "mesh_guid": "592f839b6228a43d0d0576471ccdb069",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1808.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1809,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    221,
+    222
+   ],
+   "mesh_guid": "62c2f04d2cbf4637c902242f1660a7d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1809.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1811,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    219,
+    220
+   ],
+   "mesh_guid": "485fd9ff289f10a9ed3d217ea5737798",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1811.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1812,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    229,
+    230
+   ],
+   "mesh_guid": "ff63842c1e74cccb1258f10e9dfb1387",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1812.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1813,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "7a2f840d6d4caca395d790571a811aca",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1813.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1815,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    227,
+    228
+   ],
+   "mesh_guid": "e2219ecfb4bb0105b541d0faa4daf414",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1815.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1816,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    225,
+    226
+   ],
+   "mesh_guid": "bb00be7ddf82a2e40cc7ed73c8320b49",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1816.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1817,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    372,
+    373
+   ],
+   "mesh_guid": "709cdd1c42a7227cbd7fbd072be152af",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1817.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1818,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    378,
+    379
+   ],
+   "mesh_guid": "f5f2435dc1047b9e4dc385210f40b57c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1818.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1820,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    344,
+    345
+   ],
+   "mesh_guid": "80f6e4fa374d468069d3653cb2de2ec6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1820.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1821,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    362,
+    363
+   ],
+   "mesh_guid": "c5b8d9b778bb8eb15cc9f0a8979ef4ae",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1821.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1822,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    364,
+    365
+   ],
+   "mesh_guid": "ea602a91bbecb93d0212d581c16aedbc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1822.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1824,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    358,
+    359
+   ],
+   "mesh_guid": "a74b1246114eed48e7f55b7b1d5201de",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1824.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1825,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    356,
+    357
+   ],
+   "mesh_guid": "cdb9e9786a78d3bed4db8c33acd01a51",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1825.asset",
+   "vertexCount": 76,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1826,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    360,
+    361
+   ],
+   "mesh_guid": "970f697011285c1104b89139ac733d81",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1826.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1827,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    354,
+    355
+   ],
+   "mesh_guid": "a2e7e0ab4c48f02a0090af5f5d82d2c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1827.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1828,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    386,
+    387
+   ],
+   "mesh_guid": "aa0fa2a06e35562b3d36a11017731613",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1828.asset",
+   "vertexCount": 68,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1829,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    346,
+    347
+   ],
+   "mesh_guid": "b1b2cf9e86bde7e9bb8207a46837c78e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1829.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1830,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    348,
+    349
+   ],
+   "mesh_guid": "c0b40fe81e449cb7c67f0765dda504f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1830.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1831,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    352,
+    353
+   ],
+   "mesh_guid": "17430d9fe44438530559ca434ee754e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1831.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1832,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    350,
+    351
+   ],
+   "mesh_guid": "af2064a3b8c4f35d393123a2761436bc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1832.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1833,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    376,
+    377
+   ],
+   "mesh_guid": "ac2f94de5b42bcc757d8063c46c13def",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1833.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1834,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    374,
+    375
+   ],
+   "mesh_guid": "5cf52523d731640eef989c93243ebd82",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1834.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1835,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    382,
+    383
+   ],
+   "mesh_guid": "9865e1e72a83c0c77f249b05a8a24a55",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1835.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1836,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    366
+   ],
+   "mesh_guid": "1bd638a29cf52439e3b8acadc0284e36",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1836.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1839,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    369
+   ],
+   "mesh_guid": "430bd0567e4af92c05b42aa2ff2a165b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1839.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1840,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    370,
+    371
+   ],
+   "mesh_guid": "08d6a13c2e917c15e67ec14aab6a20ab",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1840.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1841,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    367,
+    368
+   ],
+   "mesh_guid": "69d01ae409316727fce0df1fee0bc112",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1841.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1842,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    380,
+    381
+   ],
+   "mesh_guid": "f9eb4c4b6f411d44808755df21c6e3d7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1842.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1843,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    311,
+    312
+   ],
+   "mesh_guid": "81304d654dfdf41030198429bfaf1604",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1843.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1845,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    309,
+    310
+   ],
+   "mesh_guid": "e12243027c2bb7ceb1cd1268ec08c59c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1845.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1847,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    307,
+    308
+   ],
+   "mesh_guid": "cf0c918eadbe15203a422aa013234896",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1847.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1849,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    316,
+    317
+   ],
+   "mesh_guid": "463f8ff045dcde30b8ac63e3b9367a5f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1849.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1850,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    315
+   ],
+   "mesh_guid": "9144921bbb0d5532e5a740977e8b681b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1850.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1851,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    313,
+    314
+   ],
+   "mesh_guid": "8f3d04c69a4d0be27e69c012ad3aa168",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1851.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1852,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    305,
+    306
+   ],
+   "mesh_guid": "ee2e1410cdf45d446ec9e94ef868b088",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1852.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1853,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    297,
+    298
+   ],
+   "mesh_guid": "0d2d682bbfeacce2fc9887fcaef2d336",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1853.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1854,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    295,
+    296
+   ],
+   "mesh_guid": "ef569ebc54e2f491c59b6ce50124c362",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1854.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1857,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    293,
+    294
+   ],
+   "mesh_guid": "1b7fcdd30ea652eb449164bd3f18d0e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1857.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1858,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    303,
+    304
+   ],
+   "mesh_guid": "c9d208a1d5a3b15cbf3c31ad33c9f5e8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1858.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1859,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    301,
+    302
+   ],
+   "mesh_guid": "ebbcf8d43d7cc4c18aab3d384e66d78d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1859.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1861,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    299,
+    300
+   ],
+   "mesh_guid": "bbe8e7694cb996d1dfa9de8194899c9a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1861.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1862,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    336,
+    337
+   ],
+   "mesh_guid": "cf3fe2cea27807f795ede49d252008c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1862.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1863,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    334,
+    335
+   ],
+   "mesh_guid": "bc4fc2733889fa709b4aad1b52ad8676",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1863.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1864,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    332,
+    333
+   ],
+   "mesh_guid": "10f930026556e922cab2396013f5203e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1864.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1865,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    342,
+    343
+   ],
+   "mesh_guid": "8068a9e7b3e87bf8336a3f4d1542aacc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1865.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1866,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    340,
+    341
+   ],
+   "mesh_guid": "a760b521709ca03c8229d183e805f2bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1866.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1867,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    338,
+    339
+   ],
+   "mesh_guid": "823900e0b72873c9e0e0de01fd035b23",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1867.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1868,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    330,
+    331
+   ],
+   "mesh_guid": "ff883092b1c14d2587922198c56ba41e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1868.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1869,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    322,
+    323
+   ],
+   "mesh_guid": "33083133c6c380e72c80f2a0d43d93f8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1869.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1870,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    320,
+    321
+   ],
+   "mesh_guid": "5cbbac5c9f1a7c0c0cfc03ec6c13ca00",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1870.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1871,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    318,
+    319
+   ],
+   "mesh_guid": "827bc582346d9e03f80c94828df1e00b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1871.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1872,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    328,
+    329
+   ],
+   "mesh_guid": "9121e77da9c43141d9852846f35d4659",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1872.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1873,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    326,
+    327
+   ],
+   "mesh_guid": "27be9e5caf8af757b1d5e2af30abeda3",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1873.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1874,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    324,
+    325
+   ],
+   "mesh_guid": "650677db4a35eceafc95c341d959da96",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1874.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1875,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    63,
+    64
+   ],
+   "mesh_guid": "75494fc04cda30fcd1e20d66b7fe444f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1875.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1876,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    61,
+    62
+   ],
+   "mesh_guid": "cbafcccb8fc489319d52ebe5cb74d5fc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1876.asset",
+   "vertexCount": 76,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1877,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    59,
+    60
+   ],
+   "mesh_guid": "885daa6b2fe73169a64113fa91ebad5f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1877.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1878,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    65,
+    66
+   ],
+   "mesh_guid": "593cfa9f9014c5f328dfde39e355236b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1878.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1882,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    71,
+    72
+   ],
+   "mesh_guid": "1d6024042aef05ab13cf854e4a482b2f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1882.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1883,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    69,
+    70
+   ],
+   "mesh_guid": "3873f7ab22499542bdc392130f4d92d8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1883.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1884,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    67,
+    68
+   ],
+   "mesh_guid": "4bdd5f866f78f2b744f5252406e155d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1884.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1885,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    50,
+    51
+   ],
+   "mesh_guid": "5d2a17df5f1e055cfedb25683603b8e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1885.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1886,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    48,
+    49
+   ],
+   "mesh_guid": "5fab83da1c5e5bd2bccdfa3b425f8f08",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1886.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1887,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    46,
+    47
+   ],
+   "mesh_guid": "95d60866a4a58f8a5bd9705e700bc585",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1887.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1888,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    52,
+    53
+   ],
+   "mesh_guid": "ea1df3010796dde66c8fe78fcbc69c07",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1888.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1889,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    57,
+    58
+   ],
+   "mesh_guid": "c0c25a6a4ef7d7ee0ff449123398365f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1889.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1890,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    55,
+    56
+   ],
+   "mesh_guid": "7ad28522c494df4c267b9dd61f5caf03",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1890.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1891,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "a1313ef8761d1c4ca5ce33e1aa0cf0e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1891.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1892,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    91,
+    92
+   ],
+   "mesh_guid": "256ab1d10f566631e94aadf189f17b77",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1892.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1893,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    89,
+    90
+   ],
+   "mesh_guid": "b35ae5c663023f65c7419b6bdd703c0f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1893.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1895,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    87,
+    88
+   ],
+   "mesh_guid": "a6955a8e1320d8a332aad0f6c43e4134",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1895.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1898,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    93,
+    94
+   ],
+   "mesh_guid": "a67be29d16b7887d4689fb7a7e34e064",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1898.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1899,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    99,
+    100
+   ],
+   "mesh_guid": "6b3fc7c3fa6d7727f5189d89e1d7ea72",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1899.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1900,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    97,
+    98
+   ],
+   "mesh_guid": "68a113a6e6fe49c023c36b3c8de98917",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1900.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1901,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    95,
+    96
+   ],
+   "mesh_guid": "720e77c37a80614e1289a7369db9a3eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1901.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1902,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    384,
+    385
+   ],
+   "mesh_guid": "98a8c93b69c3a9df68399bfb68c8c042",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_1902.asset",
+   "vertexCount": 60,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1903,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    77,
+    78
+   ],
+   "mesh_guid": "4d6b4d1e03d191fe21bcd579ca158908",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1903.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1904,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    75,
+    76
+   ],
+   "mesh_guid": "c112e8c316192d1b5322ed6926ed48cc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1904.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1906,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    390
+   ],
+   "mesh_guid": "7a824e5fc59fd513e087e7c669f58ded",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1906.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1907,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    73,
+    74
+   ],
+   "mesh_guid": "90b281dad817d527d37faf6b9336606c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1907.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1908,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    79,
+    80
+   ],
+   "mesh_guid": "07e6c606332f920279e6f568aade68ea",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1908.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1909,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "903342824431b833baa7a24b8b5c1aad",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1909.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1911,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    85,
+    86
+   ],
+   "mesh_guid": "8acc068d9a1b39167e4a159e840d9ae7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1911.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1912,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    83,
+    84
+   ],
+   "mesh_guid": "d1b2005e77795b452cbde225abdddb5d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1912.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1913,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    81,
+    82
+   ],
+   "mesh_guid": "3c8a54b4c4d8c2767f550f30d84ef1dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1913.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1916,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    16,
+    17
+   ],
+   "mesh_guid": "d027673e4a9e8da3d5d27785ad4dd8e6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1916.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1920,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    14,
+    15
+   ],
+   "mesh_guid": "094e2b9f819bd1bf759a7a64f641f27f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1920.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1921,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "9ab5d0bdf2a6d8920440081c7bd5b9ee",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1921.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1922,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    389
+   ],
+   "mesh_guid": "b3df1d2f0f329534fa8cfad6892b4fff",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1922.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1923,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    21,
+    22
+   ],
+   "mesh_guid": "2b99b938bb47e14167d455d8b3f55a42",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1923.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1925,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "ef44f1a2da90282b3264b23c52997adb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1925.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1926,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    18,
+    19
+   ],
+   "mesh_guid": "b19a0b5bc34ce7dfd9078bd6f076e6c9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1926.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1927,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    11,
+    12
+   ],
+   "mesh_guid": "8d4f5a6f596fe673624290a354c16cad",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1927.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1928,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    9,
+    10
+   ],
+   "mesh_guid": "dfc96f9cc5f609af65abaa1c85af2b7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1928.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1929,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "70a1db5f0d421744a057e8f734ba4bc8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1929.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1930,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    37,
+    38
+   ],
+   "mesh_guid": "44679fd6a58f85a02de45c27c2472ac7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1930.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1931,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    35,
+    36
+   ],
+   "mesh_guid": "4b4bf80225a32716a3b693c2f3d9320b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1931.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1932,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    393
+   ],
+   "mesh_guid": "950b49444c1130ecb230addd70e7e4f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1932.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1933,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    44,
+    45
+   ],
+   "mesh_guid": "9d75e2b87108ecb4027c2fb629f6e191",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1933.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1934,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    42,
+    43
+   ],
+   "mesh_guid": "c63f22520f0aac32b32b3af237f3f991",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1934.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1936,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    40,
+    41
+   ],
+   "mesh_guid": "2c6c726169a51122c3909c347a3524c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1936.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1937,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    27,
+    28
+   ],
+   "mesh_guid": "be3400739b46b077af8b0dcdbb498598",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1937.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1938,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    25,
+    26
+   ],
+   "mesh_guid": "748be121568064f32ef67d244bbccf62",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1938.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1939,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    23,
+    24
+   ],
+   "mesh_guid": "7a3ce188f913b07824a48b4fdc96b4f1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1939.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1940,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "0c090cf2d14f5d93de0e4343fdcd9be4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1940.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1941,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    33,
+    34
+   ],
+   "mesh_guid": "901c2a8fb629060754f626823c0b94c4",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1941.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1942,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    31,
+    32
+   ],
+   "mesh_guid": "0a1370c9f510d1cf76a7757db81c0082",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1942.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1943,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    29,
+    30
+   ],
+   "mesh_guid": "d1965d183f1da682baeb3ca1f4a3189b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1943.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1944,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    163,
+    164
+   ],
+   "mesh_guid": "2ca5579bde126e9e99b5f65c6bfebb85",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1944.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1945,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    161,
+    162
+   ],
+   "mesh_guid": "38139927c9f2271e178c634379f5e853",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1945.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1946,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    159,
+    160
+   ],
+   "mesh_guid": "ba99d3bd02f47a2e65ceb67e59007237",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1946.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1947,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    169,
+    170
+   ],
+   "mesh_guid": "2988222ba4bf6ab70375831d5cbd9e48",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1947.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1948,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    167,
+    168
+   ],
+   "mesh_guid": "5a15d58062207d27560475b0ba23960e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1948.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1949,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    165,
+    166
+   ],
+   "mesh_guid": "9abdd30678e30f17a9e8b596ce36a4d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1949.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1950,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    152
+   ],
+   "mesh_guid": "2409a1a4c0c5f8bf699b116bea84a016",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1950.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1951,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    150,
+    151
+   ],
+   "mesh_guid": "29f146d8e20fec1bc3a4bec2a622db58",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1951.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1952,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "712fada916232a7be33d3d26f41bd843",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Water_1952.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1953,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    149
+   ],
+   "mesh_guid": "5b390eeb6540b8c56ced9d3a3d6230c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1953.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1954,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    157,
+    158
+   ],
+   "mesh_guid": "8aea3ec1f7721cbbcc96df093e675603",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1954.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1955,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    155,
+    156
+   ],
+   "mesh_guid": "04c0092fa9a7115e59a78225bab5fe8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1955.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1956,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    153,
+    154
+   ],
+   "mesh_guid": "5a9774ce817b82c380e194cb357bc0d5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1956.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1957,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    171,
+    172
+   ],
+   "mesh_guid": "bc2d430d553654c5b7328caff5c1fc84",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1957.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1958,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    188,
+    189
+   ],
+   "mesh_guid": "dd52377c2034bcae8488c591e26818eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1958.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1959,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    186,
+    187
+   ],
+   "mesh_guid": "821eb205361b092b81f2768da3efe1a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1959.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1960,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    185
+   ],
+   "mesh_guid": "a36514433f491e73cdb58b0bc4c8ab24",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1960.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1961,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    194
+   ],
+   "mesh_guid": "d305252eaba7ae9d05f7e7d6117ba60e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1961.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1962,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    192,
+    193
+   ],
+   "mesh_guid": "dab5c3f48f5c39e60d179131681eefe1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1962.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1965,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    190,
+    191
+   ],
+   "mesh_guid": "7b0f3667fe1bbc3c53eb920860888910",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1965.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1966,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    177,
+    178
+   ],
+   "mesh_guid": "6a55a7637873c25dfe28ed060b6448e8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1966.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1967,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    175,
+    176
+   ],
+   "mesh_guid": "a66b480eb3d9f8263c21fc296b07ab73",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1967.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1968,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    173,
+    174
+   ],
+   "mesh_guid": "d82a9a83940ee695e8fa453232256b77",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1968.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1969,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    183,
+    184
+   ],
+   "mesh_guid": "e12772bf023b76babc0147b31450bedd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1969.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1970,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    181,
+    182
+   ],
+   "mesh_guid": "1d825e8c1f4f395fca6dc60e79e70a51",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1970.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1971,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    179,
+    180
+   ],
+   "mesh_guid": "e38b9898cf9a7c9e26f8d9093ff9c87f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1971.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1972,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    117
+   ],
+   "mesh_guid": "e1bb205feaddcc85a4ec808b26c47260",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1972.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1974,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    115,
+    116
+   ],
+   "mesh_guid": "e55ef380f69d8ab6e92c42d5b2bbcd96",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1974.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1975,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    113,
+    114
+   ],
+   "mesh_guid": "6bc887802132f24f15faecdabbdbc435",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1975.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1977,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    122,
+    123
+   ],
+   "mesh_guid": "4cff2a3bebb7af37f110737a7ab54f1f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1977.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1978,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    120,
+    121
+   ],
+   "mesh_guid": "144aa785dd9cb804afe0116945344b51",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1978.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1979,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    118,
+    119
+   ],
+   "mesh_guid": "cad920ce0247b8484e92de35dfdb908f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1979.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1981,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    105,
+    106
+   ],
+   "mesh_guid": "60d9e9cd4aa181c016a2b209def3efd2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1981.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1982,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    103,
+    104
+   ],
+   "mesh_guid": "8f0d13b37e7924913e8adfca8ace08e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1982.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1983,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    101,
+    102
+   ],
+   "mesh_guid": "91b6900e3dfd3aeabe85c32bf6dd933c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1983.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1984,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    111,
+    112
+   ],
+   "mesh_guid": "fd6f597dc306ee9bb40fc4dcb8dd3b58",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1984.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1985,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    109,
+    110
+   ],
+   "mesh_guid": "6053c57416cc219ca3c9990366ae07df",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1985.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1986,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    107,
+    108
+   ],
+   "mesh_guid": "67a940292a39646fa934736a11dcb4ad",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1986.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1988,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    124,
+    125
+   ],
+   "mesh_guid": "654a48422004c92db38433ed0111e4f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1988.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1990,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    142,
+    143
+   ],
+   "mesh_guid": "911d531dbdffb879ef08d01a3f79cfd0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1990.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1991,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    140,
+    141
+   ],
+   "mesh_guid": "b5d8e88dc87d8e8f18c40df19dc6d61e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1991.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1992,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    138,
+    139
+   ],
+   "mesh_guid": "e91fbcf7ee9f76976d23a3b855c8366f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1992.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1993,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    147,
+    148
+   ],
+   "mesh_guid": "b7fec33553afe4b043978b28b8f66007",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1993.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1994,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    146
+   ],
+   "mesh_guid": "04ca952362d10d4fd0e802c7e83a5f86",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Platform_1994.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1995,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    144,
+    145
+   ],
+   "mesh_guid": "7f2bbcf0cc214bedbea8935a20ed622d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1995.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1996,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    391
+   ],
+   "mesh_guid": "e358204cf7a7db5a05cf241f424e177c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Floor_1996.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1997,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    130,
+    131
+   ],
+   "mesh_guid": "2803179eb0dcc05b63ac074e669f97ee",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1997.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1998,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    128,
+    129
+   ],
+   "mesh_guid": "81f25f2ab4b77ca37911b0d391418c9b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1998.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1999,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    126,
+    127
+   ],
+   "mesh_guid": "e84cc98e50ac1e761d58d0210c4b86d5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_1999.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2002,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    136,
+    137
+   ],
+   "mesh_guid": "aad5fed6e124fced94eae23d46b4cf50",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_2002.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2003,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    134,
+    135
+   ],
+   "mesh_guid": "fdc16cbfa01349b9a22fe4758599948b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Wall_2003.asset",
+   "vertexCount": 108,
+   "indexCount": 90
+  },
+  {
+   "renderer": 2004,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_18.asset",
+   "combined_guid": "fab19fc1ec6e1f04d9d2db355b6d548e",
+   "subset": [
+    132,
+    133
+   ],
+   "mesh_guid": "bc381c471e981a2591b2a81e396c6894",
+   "mesh_asset": "Assets/Mesh/Debatched/Harder/Block_2004.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  }
+ ]
+}

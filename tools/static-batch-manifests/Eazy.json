@@ -1,0 +1,1441 @@
+{
+ "scene": "Assets/Levels/Maps/BunnyHop/Eazy/SXZtRDEyM0ExMv8bBcKbglsC.unity",
+ "map": "Eazy",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1323,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "ccb69391f85bbba33c5f17c5879f1673",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1323.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1326,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "34d5baaff849d407a49c3f6d735f290f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1326.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1327,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "aa0d5f0e12761b587e8df5d2a9466f19",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1327.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1328,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "eccb5c6b1e11e40c5a7844d220ffd83c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1328.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1329,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "b240388dda2368386767f6957621d494",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1329.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1330,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "40ea2783e38b0e86480185254aa68240",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1330.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1331,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "35afd0c2b123802887ac154fc142fdb5",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1331.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1332,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "3684bdb5acd67819b1a6d7d9a7a8719c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/SkyDome_1332.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1334,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "d003954b5a81a6123717b842b541084c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1334.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1335,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "77ef5d856e0fe196885d4faba8ce3e88",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1335.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1336,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "ffed377a3a456b16dad42ba27263a618",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1336.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1338,
+   "gameObject": "Start",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    109,
+    110
+   ],
+   "mesh_guid": "464d003a7702d332fbd6e3e77a0e9c4c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Start_1338.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1339,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "f86098c8335aa0d2363eee8576c95d6c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1339.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1340,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "020fc2e8d6dc34632a2b7fdcb11702ba",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1340.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1341,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "9d71a450e865112a57298cfa1e1dca84",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1341.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1342,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "607937593cb98837b8a7405744dbb755",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1342.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1345,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "213e2f681b731821dfdb843ebea3c3f3",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1345.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1346,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "b8332b8b3436cf00582a321b02ab4c2a",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1346.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1348,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "7ddd1843e7dbaa0df2f76a5b3685864b",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1348.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1349,
+   "gameObject": "Checkpoint",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    108
+   ],
+   "mesh_guid": "c209f65f53d7143430eca57060daf94e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Checkpoint_1349.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1350,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "b0dfb40f93788448c23d826e067d737f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1350.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1351,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "02b8790a58d8a4ad1f40c72103ee6f6c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1351.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1353,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "c7ee754c26c6d8774874a05e8f1d4b69",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1353.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1355,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "da2fb69bfbb32eebce849397d8685515",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1355.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1358,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "cbfa5ae02f9c147bab46738f8c97e363",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1358.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1359,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "b9422b1e5dd5aa92688e0a1b1b024803",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1359.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1361,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "f9e52c4d9d51d70a8db6a238b445341b",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Platform_1361.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1362,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "044da1738e021fe4fd5da840c5899421",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1362.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1363,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "ab0313f30e1e9875d761ca476a5a92ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1363.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1366,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "2442601ed364f9acf9ba95937866cd22",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1366.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1367,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    103,
+    104
+   ],
+   "mesh_guid": "fbe1e46b451b13b9f841c237ff808e9f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall_1367.asset",
+   "vertexCount": 44,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1368,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "d25fe02cc9263bb90c1927044d3fb001",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1368.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1370,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "14e23f0e2bd68659d4253bea3f11a588",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1370.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1371,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "3b366ba39ff41c77be81cc9ca4e6bcc4",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1371.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1372,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "e12fe8ab406e5ce1c68bf73fe2bd3440",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1372.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1373,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "5c96514589647214aff7bc6d33be7e54",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1373.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1375,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "d83ecaf860f39f21ca37863ae1904063",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1375.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1376,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "6db751bcc0f863a816e43f581e338f01",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1376.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1377,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "1f91afbec4a2e1b9801cb3d3b112c384",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1377.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1378,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "12f10b9be2b8202dcdda39014dce8d52",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1378.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1380,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "7e2e210bebc68ddf928b1b9a3cebcb0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1380.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1383,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "a4c5a64d171ddd8dd9995d664d3a9449",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1383.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1384,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "4fabd0c1dad9785d8a4c63c36a1d4621",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1384.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1387,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "155a6902622d6abdb730b042a2ed0ad1",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1387.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1389,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "838111799530370a7d7d1336379e4aaf",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1389.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1390,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "28f5c6f33902717eca77d435bed503fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1390.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1392,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "b0afa6a53165384492bb30cc43a50b43",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Sun 1_1392.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1394,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "682e2540a6d3b1faef23982cad5c818a",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1394.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1395,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "ea69475977df06183e6c22267a13447c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1395.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1398,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "254a0ca7fea5ee35ea34f3fe1ae5cd07",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1398.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1399,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "af3fe19b76af40b810674daa8d7869de",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1399.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1400,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "2a7875905ab4305b9fab4b2208a5e4ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1400.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1401,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "f2326423675633d7aed0bbbe86b548e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1401.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1402,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "bedb5da35f57ee884cf8197e53b830fc",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1402.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1403,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "165630242d6810605b803b44610dea90",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1403.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1404,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "61f9b5e1d821bd00506c7cfd430a5de2",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1404.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1405,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "4cd118597b54391022fd1ca6526ea194",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1405.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1406,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "62324efb838e376ce9fd9689991093b5",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1406.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1407,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "9fd201437124bbc47fa02084dd05b30f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1407.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1410,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    105
+   ],
+   "mesh_guid": "31b75d4d59259ffec1901daaedb01319",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1410.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1411,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "b30a11359067e4891bd529dfe7671b2d",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1411.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1412,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "fdd64f3758f5faa1305c5a29e1b2aca6",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1412.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1414,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "cadd2a149641eaee192e96504cd63631",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1414.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1415,
+   "gameObject": "Teleport",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "7cca56fe01cd11c797be4e1fb923c082",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Teleport_1415.asset",
+   "vertexCount": 54,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1418,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "1821c94e35a8c51d733cbc8107cb7f16",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1418.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1419,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "a6a5c3e40de6673559840d8625e2a6f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1419.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1420,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "09d05742d33b9cd794470beb3f703dbf",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1420.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1422,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "363464fbcbb5cfc560013ba35dd5ddc9",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1422.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1423,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "b21bfc4305bacee8217ea12997ebe61f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1423.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1425,
+   "gameObject": "Checkpoint",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "8ae2c724ec368c8f3ab91cc790f6b7e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Checkpoint_1425.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1426,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "b1a059f2744fd7459dde366f9b12dda8",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1426.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1427,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "54e0ab8d10d7181495eb13c770fd2aad",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1427.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1428,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "236826a2e44a88abaefa8771c2813e05",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Water_1428.asset",
+   "vertexCount": 46,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1429,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "f1e9f57c72e8d065cc6909574d69466e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1429.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1431,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "d69a9dcc35dcfd67c16aeee595a9d708",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1431.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1432,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "64ab370c7dff7417b91e2d9229e1cc5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1432.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1433,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "451ed72a2607811f4f1cba3695c80877",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1433.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1435,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "e1e588432ad29aa95b333278c151e994",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1435.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1436,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "d348b9078280b1340da8f2d4999b5167",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Floor_1436.asset",
+   "vertexCount": 46,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1437,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "0f74aef9ff9028b4f3d7bdc48e02c912",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1437.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1438,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "e449984fbcfaf59b5b2cf58d5b8d4a58",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1438.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1439,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "ea4eebe56fe0c9ed4303596108ff3d62",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1439.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1440,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "bc03670d8cde50dec21bd1506e032c06",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1440.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1444,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "c10af4627930616edcb908a77c284000",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1444.asset",
+   "vertexCount": 20,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1447,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "de05792858f62759063e551086d9846e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1447.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1448,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "a68dd6bf9fcc28c82dc8651b9fe20143",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1448.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1451,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "9254f31895c52a3d57e6b4ee69bd3c65",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1451.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1452,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "8b392ca5fc10eee67a70b3248335c000",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1452.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1454,
+   "gameObject": "Finish",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    112,
+    113
+   ],
+   "mesh_guid": "41d0ac9a4f8c0c45ab41b1f405fdd6ca",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Finish_1454.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1455,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "4e82e2348d783620b18a5c84b3abe86e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1455.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1456,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "50639457fa3221182067ec1ca4d6018e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1456.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1457,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "e9490ff37c8542c4129018d491821f99",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1457.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1460,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "9e480071aa0ae9b9d658c26534590a55",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Plane_1460.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1462,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "779d08e052a8fa19c9babca4d6e919d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1462.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1463,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "765039efa8e8de7c7730b687a1593157",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1463.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1464,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "894c78a3e37283b5758940cf44d66a68",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1464.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1465,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "41cf75f25567aeb2de0eece3074cea6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1465.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1466,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "df6962c400382186b8e4f21e008d716b",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1466.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1467,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "4f635a7aef489b6462e5f2a1e6a5e43d",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1467.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1468,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "12b9039500bc9c85645bd4a4eb58ed0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1468.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1471,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "b0af366415ef136b846c53292c3b9442",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1471.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1474,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "7bb8a6c94c480253de123ae16b3c1070",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall_1474.asset",
+   "vertexCount": 30,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1476,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "ac00bb2ff67846ef9fa1840ba64066a3",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1476.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "e817f430299ad29def122b8bc97d913f",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1477.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1479,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "dd1ada332ec2a1b0de6f2bff3f62412c",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1479.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1480,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "c8454f182ba7b089ada315ae7fcec973",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1480.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1481,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "e7fc821e0f18fd212e5a083dffe3655b",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1481.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1484,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "b1d026fb7b6427429f244afcf25df432",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1484.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1485,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    99,
+    100
+   ],
+   "mesh_guid": "fba37a85ad0388c1e91756463b442ae7",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Wall-detach_1485.asset",
+   "vertexCount": 34,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1486,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_35.asset",
+   "combined_guid": "0ad359aa847f49745802622cafa6e21e",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "d42575245037d4ff43f0a895e3f27804",
+   "mesh_asset": "Assets/Mesh/Debatched/Eazy/Block_1486.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

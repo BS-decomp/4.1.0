@@ -1,0 +1,80 @@
+{
+ "scene": "Assets/Levels/Maps/Football/Sunshine/SXZtRDEyM0ExMqgOdS2u42st0FTmHUXPv4k=.unity",
+ "map": "Sunshine",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 920,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_14.asset",
+   "combined_guid": "99f51b4da7678784086991a17ee4c3be",
+   "subset": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "mesh_guid": "af628ea6c3d7279695ff8df6bd69db12",
+   "mesh_asset": "Assets/Mesh/Debatched/Sunshine/Wall_920.asset",
+   "vertexCount": 940,
+   "indexCount": 444
+  },
+  {
+   "renderer": 924,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_14.asset",
+   "combined_guid": "99f51b4da7678784086991a17ee4c3be",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "45d939d78a5d44eb7728bb200b7797d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Sunshine/SkyDome_924.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 943,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_14.asset",
+   "combined_guid": "99f51b4da7678784086991a17ee4c3be",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "75b78efbfb993e1dfff0de27893219c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Sunshine/Sun 1_943.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 961,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_14.asset",
+   "combined_guid": "99f51b4da7678784086991a17ee4c3be",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "83e1d6ce0ad9060ce0b65e3c6f5a77bd",
+   "mesh_asset": "Assets/Mesh/Debatched/Sunshine/Plane_961.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 978,
+   "gameObject": "Field",
+   "combined_mesh": "Combined Mesh (root_ scene)_14.asset",
+   "combined_guid": "99f51b4da7678784086991a17ee4c3be",
+   "subset": [
+    3,
+    4
+   ],
+   "mesh_guid": "62e485672691ffe576e1a9833a34e105",
+   "mesh_asset": "Assets/Mesh/Debatched/Sunshine/Field_978.asset",
+   "vertexCount": 600,
+   "indexCount": 1050
+  }
+ ]
+}

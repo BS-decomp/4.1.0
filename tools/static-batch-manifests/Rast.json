@@ -1,0 +1,204 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Rast/SXZtRDEyM0ExMk5Pr+wnDDHo.unity",
+ "map": "Rast",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 939,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "09f70e64b24e5a315b1d3c72fe945267",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_939.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 951,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "03e6b736a1970893cf57abd7c8e15fc2",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Plane_951.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 960,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "889c1be70daef97ae6dca63407701da1",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_960.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 966,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "fe493233143240702eb6d4d0c09fb8a3",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_966.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 976,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "b9682dc54737c54738550f713dbeabfd",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_976.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 979,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "9e5acc738acf171d05c2a63c48b2cb24",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Sun 1_979.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 980,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "e1d989d9f66c8d154a0823e7691accea",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_980.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 982,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "576597146839856057cdcfd151f46ba5",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Black Box_982.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 986,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "3bc2dc8775e6c24c686fcfb70eeef534",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/SkyDome_986.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 988,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    13,
+    14
+   ],
+   "mesh_guid": "5c79ac20c4430507ad2981cc17134de0",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Wall_988.asset",
+   "vertexCount": 596,
+   "indexCount": 612
+  },
+  {
+   "renderer": 989,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    15,
+    16
+   ],
+   "mesh_guid": "7cd42e75c98499a5978b63c13699fcf3",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Wall_989.asset",
+   "vertexCount": 540,
+   "indexCount": 435
+  },
+  {
+   "renderer": 994,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "92c02727b4044d14ebbd1f48d157754c",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Floor_994.asset",
+   "vertexCount": 80,
+   "indexCount": 288
+  },
+  {
+   "renderer": 995,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "f1b52acca1d18ab5f96e1ded57079f49",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_995.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 997,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "d2179bbaf8c8ef3f803750656a2e2fb3",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_997.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1005,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene).asset",
+   "combined_guid": "c555eff13a2b59e47b748dc12130a6f0",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "28944a3d39c766874f9c155996173ed3",
+   "mesh_asset": "Assets/Mesh/Debatched/Rast/Box_1005.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  }
+ ]
+}

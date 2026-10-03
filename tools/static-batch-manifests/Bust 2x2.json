@@ -1,0 +1,985 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Bust 2x2/SXZtRDEyM0ExMtvuNABl6UNOJg8rc4OUYDc=.unity",
+ "map": "Bust 2x2",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1187,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "beadd253c72635f3845e095c7c5b767a",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Light_1187.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1189,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "555b4c9f21b886f82e848863c96e0e42",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1189.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1190,
+   "gameObject": "Door",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "c489ce8252e689b72458e7a6d7b30109",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Door_1190.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1192,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "d06f296a8a0548af3beb8652ce819af5",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1192.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1193,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    72,
+    73,
+    74
+   ],
+   "mesh_guid": "4acb61a3c8f24c55b4e1ddcd3bfe3590",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall_1193.asset",
+   "vertexCount": 152,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1195,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    59,
+    60
+   ],
+   "mesh_guid": "b30e89d71c6c562db14604d7bce51194",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1195.asset",
+   "vertexCount": 40,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1197,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "6a11b3992132fa7c2206d293e7621a29",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1197.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1201,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    78,
+    79
+   ],
+   "mesh_guid": "123af020ce5054ce6e70342261fa3d5f",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1201.asset",
+   "vertexCount": 108,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1202,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "4bdff0c14b23ba2478a86f229dcfc06e",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1202.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1206,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    42,
+    43,
+    44
+   ],
+   "mesh_guid": "9e4dd2b6ab5724832f7c6928fcbc400d",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1206.asset",
+   "vertexCount": 132,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1207,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "bb4df581f8ac6a672d2c098177153f54",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1207.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1208,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "339190ef4501d5f117d78c38ab88ca60",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1208.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1209,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    26,
+    27
+   ],
+   "mesh_guid": "a054f1fd512b36324c04e06c2432b625",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1209.asset",
+   "vertexCount": 64,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1215,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    57,
+    58
+   ],
+   "mesh_guid": "79f568c38516bf0322283c2435b61ca5",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1215.asset",
+   "vertexCount": 85,
+   "indexCount": 159
+  },
+  {
+   "renderer": 1216,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "f9a27dabbb6a007223c232f21275a20c",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1216.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1218,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "5eff9e64f757f1d8a2d5ef72cd6f2ec7",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1218.asset",
+   "vertexCount": 18,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1223,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    103,
+    104,
+    105
+   ],
+   "mesh_guid": "1045d7c28b83c2228520dd3948edcbbf",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1223.asset",
+   "vertexCount": 52,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1224,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    29,
+    30,
+    31
+   ],
+   "mesh_guid": "72c3bc5197ea3ab8766b7646548a6e48",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1224.asset",
+   "vertexCount": 95,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1226,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    111,
+    112,
+    113
+   ],
+   "mesh_guid": "51d0a507383a9a3cb463c962c66f73c7",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1226.asset",
+   "vertexCount": 204,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1228,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "2dd1a17de16ace7bc986894447ecf8c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1228.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1229,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "d41b545d246d1ba304686c77fc90d423",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1229.asset",
+   "vertexCount": 24,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1230,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "d9665275fb16d8e24d9bdbf3d98cd0dc",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1230.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1233,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "7c9def6a319f7b093f9120a473a47d2f",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1233.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1234,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "2c0dffa6bd41e672c71c538165785c60",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1234.asset",
+   "vertexCount": 56,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1236,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    109,
+    110
+   ],
+   "mesh_guid": "4a7d3ca9b2911480c4c2bc21f838b30e",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1236.asset",
+   "vertexCount": 88,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1237,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "8ac8c91956d35bdb0d99a5af2880ccff",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Light_1237.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1239,
+   "gameObject": "Door",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "818e0ca7ea1b8cebc2658c6e037106d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Door_1239.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1242,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    15,
+    16,
+    17
+   ],
+   "mesh_guid": "a897094388bbc411e56750f9fcab070b",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1242.asset",
+   "vertexCount": 72,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1245,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "e8bc39951a1218cbe60c17a2c0121f26",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1245.asset",
+   "vertexCount": 10,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1246,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    91,
+    92
+   ],
+   "mesh_guid": "c5126c28fccd93f2542122f815f54889",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1246.asset",
+   "vertexCount": 88,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1247,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "dbaa46613874f3c7ccbd2f3fc50be06c",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/SkyDome_1247.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1248,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    100,
+    101,
+    102
+   ],
+   "mesh_guid": "87e8ef2589234f07c7c01fe3e00b4b1f",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1248.asset",
+   "vertexCount": 134,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1249,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    96,
+    97,
+    98,
+    99
+   ],
+   "mesh_guid": "601f02bd4bb92471cee4697919620d85",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1249.asset",
+   "vertexCount": 499,
+   "indexCount": 372
+  },
+  {
+   "renderer": 1250,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    93,
+    94,
+    95
+   ],
+   "mesh_guid": "c4ed850449f9c1283429724edff641f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1250.asset",
+   "vertexCount": 432,
+   "indexCount": 387
+  },
+  {
+   "renderer": 1253,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "9eb28e1ed0d8e5c0234877b3ee40a009",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1253.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1254,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "ce8a705a7aa0294bbfc54ee5ffc6e840",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1254.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1257,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "577022c7975c93689c93b60c1e03ae5a",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1257.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1259,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "7fa2b6a5f47eb9c9532b817672278731",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1259.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1261,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "5c55ecbf21c51066996186ab2730b108",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1261.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1263,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "2aa292a493bdfeadeedb6429c8b7c211",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1263.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1264,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    51,
+    52
+   ],
+   "mesh_guid": "e247fcd3b8679863712fd31cf35b10da",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1264.asset",
+   "vertexCount": 33,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1265,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "7c9b7dda30472aaa83a400ac9b1a4bc6",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1265.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1267,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "4a3c09411314ddebd92b86ce169d53b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1267.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1269,
+   "gameObject": "MetalBox",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "c8de89ab65f4e4138fbed37bf920d9ca",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/MetalBox_1269.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1270,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "df006c1d80a14733626d5bb9e5281ce7",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1270.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1271,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "d14ee31f3366f3bad2013509c9577504",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1271.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1272,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    88,
+    89,
+    90
+   ],
+   "mesh_guid": "a6f1ad25576d0ab931f8a0d2182c22f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1272.asset",
+   "vertexCount": 88,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1276,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    46,
+    47
+   ],
+   "mesh_guid": "aa3774bd015ff5dcf4e8222e6ee32601",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1276.asset",
+   "vertexCount": 102,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1279,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    80,
+    81
+   ],
+   "mesh_guid": "44b7e8ba55ac9da2e3c641f4eb6bc59b",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1279.asset",
+   "vertexCount": 206,
+   "indexCount": 177
+  },
+  {
+   "renderer": 1280,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    82,
+    83,
+    84,
+    85
+   ],
+   "mesh_guid": "5d98b12d14d04bca05237193ff42012f",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1280.asset",
+   "vertexCount": 637,
+   "indexCount": 510
+  },
+  {
+   "renderer": 1282,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "9c4a07ddffa5ad97e3df4956d666dd38",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1282.asset",
+   "vertexCount": 14,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1283,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "36d90601cc05ccaf3796dfb1b489afa6",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1283.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1284,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    86,
+    87
+   ],
+   "mesh_guid": "f9ba83676cb406381e0b7a1b19550d64",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1284.asset",
+   "vertexCount": 104,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1285,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "224473917b5e0b379f2ee155be85277c",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1285.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1286,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "b8d1db9bae80a037b2001e7cee9909eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1286.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1291,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "5aad695b70ac91ee78e103b03d216708",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1291.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "6024a6e1bf623440d8807b4e3076ee78",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Sun 1_1294.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1296,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "4bd73f1e1dff8dd297772d64f5e25eb9",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1296.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1297,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "34b986282cc820d3a51cebe0e7dce0f8",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1297.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1299,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "6554d31c8a1d17315046070e5e7eadef",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1299.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1300,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "96f619de5061e245075d8c1a1033b4ef",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Barrel_1300.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1302,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "59f3354b3a669b07afcfdcdd87a8cf72",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Black Box_1302.asset",
+   "vertexCount": 42,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1303,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "5d96c008a8af2429605e40d0ec133a48",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1303.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1304,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    106,
+    107,
+    108
+   ],
+   "mesh_guid": "c7325a7565b269c7607d7257e9318e95",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1304.asset",
+   "vertexCount": 116,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1305,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    75,
+    76,
+    77
+   ],
+   "mesh_guid": "f9fd8bd93c2709ebf264a018eb46e7b2",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1305.asset",
+   "vertexCount": 132,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1307,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    48,
+    49
+   ],
+   "mesh_guid": "aeaef1b7e720029bf1cbc99154b28dbb",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1307.asset",
+   "vertexCount": 374,
+   "indexCount": 309
+  },
+  {
+   "renderer": 1308,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    69,
+    70,
+    71
+   ],
+   "mesh_guid": "5eef7fda868d6feb4b651608c65663de",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1308.asset",
+   "vertexCount": 96,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1309,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "715ccbb2fa739c881bf49ea1e004c572",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Floor-detach_1309.asset",
+   "vertexCount": 47,
+   "indexCount": 93
+  },
+  {
+   "renderer": 1310,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    19,
+    20
+   ],
+   "mesh_guid": "d78bf4174fa76c1beeb547d5618a25be",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Box_1310.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1312,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "3f2448538591efd8eda15d7c42edecf2",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Plane_1312.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1313,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "93ad0d7bb70376068588e5aa653b59ef",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Wall-detach_1313.asset",
+   "vertexCount": 16,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1314,
+   "gameObject": "Door",
+   "combined_mesh": "Combined Mesh (root_ scene)_45.asset",
+   "combined_guid": "a6dfe46ca1f99c14fb5bc7664c709e17",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "9ba25ecf5ea5a4a6ffd44a3953dd720e",
+   "mesh_asset": "Assets/Mesh/Debatched/Bust 2x2/Door_1314.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  }
+ ]
+}

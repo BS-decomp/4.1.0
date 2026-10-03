@@ -1,0 +1,624 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Pool/SXZtRDEyM0ExMkuAq8kzba6T.unity",
+ "map": "Pool",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1064,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "eee1fa67c2f0c2367b4fea312f55fe95",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1064.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1066,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "e3a19b3ca72dd9c30ff82f7e6857c875",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1066.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1068,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "99edb79e7031582bdfc39c48fa3926a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/SkyDome_1068.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "43c1f15ed1616fd3fb571a922ea4ed0a",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1069.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1072,
+   "gameObject": "Shelf",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "b291b84db42c2df6987fff60b0c90c3b",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Shelf_1072.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1073,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    32,
+    33,
+    34,
+    35
+   ],
+   "mesh_guid": "b833ca5a20b6f3402da428501080285d",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1073.asset",
+   "vertexCount": 88,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "Shelf",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "7ee8b2e0b87092d13c6e68e55237c2fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Shelf_1075.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1076,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "fa63bc4b073a7f64b135452fb071b82c",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1076.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1078,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    55,
+    56,
+    57
+   ],
+   "mesh_guid": "0ff6d8f508d2813e58d940f9a421761f",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1078.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1091,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "68988ff55621ed9416845e579baa07a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Black Box_1091.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1094,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "ddea116a99cddedbd78e17126eefd479",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1094.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1096,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "5498747511fcadc53ef579a83fef88d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Metal Box_1096.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1098,
+   "gameObject": "Shelf",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "83b8c9666e48bc7bf9d1652e84e6ffa7",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Shelf_1098.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1100,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    48,
+    49,
+    50,
+    51
+   ],
+   "mesh_guid": "f42c8b72336fcdddd930d84aa6ac6be7",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1100.asset",
+   "vertexCount": 205,
+   "indexCount": 336
+  },
+  {
+   "renderer": 1101,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    52,
+    53,
+    54
+   ],
+   "mesh_guid": "7dcd7a6c3647b928b0052aa02f5e25db",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1101.asset",
+   "vertexCount": 144,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1105,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    64,
+    65
+   ],
+   "mesh_guid": "314f57ec5cb333eba8f74fd0eb47b5e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1105.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1106,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "e25431c0ffb787b2c461725390cf902c",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Metal Box_1106.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1109,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "8dba84771d7f3f12d9b6732338e80c05",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Water_1109.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1111,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    69,
+    70,
+    71,
+    72
+   ],
+   "mesh_guid": "4028f228dc24b5291fe1e08b7edb95d9",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1111.asset",
+   "vertexCount": 144,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1112,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "b99f7975d92b655232a3b17af02d740e",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1112.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1113,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    45,
+    46,
+    47
+   ],
+   "mesh_guid": "b5d1d15a9b4f3f64efd4d8036b6d0bdd",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1113.asset",
+   "vertexCount": 112,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1116,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "c0192c2c42cd957e0f71f28747a33e0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1116.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1121,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    27,
+    28,
+    29,
+    30
+   ],
+   "mesh_guid": "42107bfe03a1073bf0aeccda5818f0d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1121.asset",
+   "vertexCount": 60,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1124,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    62,
+    63
+   ],
+   "mesh_guid": "4957f4dd11b2555ee4352920d95ca92e",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1124.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1125,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    24,
+    25,
+    26
+   ],
+   "mesh_guid": "3a3b30dbb5562a27834068c938829f1f",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1125.asset",
+   "vertexCount": 52,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1127,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "5602242c30dfb717070b520d9f54adb8",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1127.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1128,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "2a03d83ac90084844d574e35cb8d49c3",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1128.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1130,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "ca5c6b1e5dedc48655afedf11225b1b2",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1130.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1131,
+   "gameObject": "Tramp",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "d04292187ee5c34d66fe91c12ad0b340",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Tramp_1131.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1136,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    73,
+    74,
+    75
+   ],
+   "mesh_guid": "a6cc6694eac28bb9bfe4ebf320005f79",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1136.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1137,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "8f1022381d9d1272d10baf42db9bb5f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1137.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1140,
+   "gameObject": "Shelf",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "777e29d5894da4ddb26682b1377de239",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Shelf_1140.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1146,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    58,
+    59,
+    60,
+    61
+   ],
+   "mesh_guid": "da7f980170cdb0fe1678cff1bd234eb5",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Floor_1146.asset",
+   "vertexCount": 265,
+   "indexCount": 447
+  },
+  {
+   "renderer": 1147,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "d789cce2c031e1198189eb32d0a5f113",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1147.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1149,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "fbd4662aae570ffb86997198c16c6b19",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Metal Box_1149.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1152,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "d87525da9643f6c46fc26458f4ac68ec",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Metal Box_1152.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1153,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    66,
+    67,
+    68
+   ],
+   "mesh_guid": "f62164651a9565be7299de403035a0b0",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1153.asset",
+   "vertexCount": 60,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1154,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "d27bbd2269638ba6637b5fe00004b70e",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Plane_1154.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1157,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    36,
+    37,
+    38,
+    39
+   ],
+   "mesh_guid": "3aaeff07087f2171f11a1000d05c7d8d",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Wall_1157.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1161,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "21fddb37cdad8e2ecb003e0846db3cdf",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Sun 1_1161.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1163,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "280b53a570162e6bb466699ea82cbb81",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1163.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1167,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "4232cf5a25e77fc4e266fc485041d544",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1167.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1168,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "0ca0687d5044e6b937eb0fe0d13cc3bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1168.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1170,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "291e16262238c9731f7745fa91e6a91d",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Light_1170.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1177,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_41.asset",
+   "combined_guid": "9582cf1e0526f55489afa207f00a9995",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "4fce5ce9aedbed3d5c3161c1bd3bb4d5",
+   "mesh_asset": "Assets/Mesh/Debatched/Pool/Metal Box_1177.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  }
+ ]
+}

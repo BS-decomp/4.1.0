@@ -1,0 +1,2234 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Harage/SXZtRDEyM0ExMnFTU9Y+0RWl.unity",
+ "map": "Harage",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1586,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    186
+   ],
+   "mesh_guid": "bc9e7aa57fcb3be88593d4f1ed5f88e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1586.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1588,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    173
+   ],
+   "mesh_guid": "228f7c2dc8416477ddbcc9960a97875f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1588.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1589,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    198
+   ],
+   "mesh_guid": "788081b4782a53f530e49c609a31e75b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1589.asset",
+   "vertexCount": 10,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1591,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "1555ae5a314efa753213a97179ff60b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1591.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1592,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    75,
+    76
+   ],
+   "mesh_guid": "91bc00a944a5dc888d0db761d68c8148",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1592.asset",
+   "vertexCount": 80,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1594,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "209f6d45f75ebc388d335307592e45b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Ladder_1594.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1595,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    77,
+    78,
+    79
+   ],
+   "mesh_guid": "c89462c5edb5ca42d87eb6059dd87212",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1595.asset",
+   "vertexCount": 90,
+   "indexCount": 138
+  },
+  {
+   "renderer": 1596,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    182
+   ],
+   "mesh_guid": "a675559906d0dfa25e85989af64d510d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1596.asset",
+   "vertexCount": 34,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1597,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "3f7d241016560112301166d830b2b93d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1597.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1598,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "d6ce7271d2762ee06ef40c0fbf6ca635",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1598.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1599,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    177,
+    178
+   ],
+   "mesh_guid": "1ee7197872b91ee990b5430edaba581c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1599.asset",
+   "vertexCount": 56,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1600,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    114,
+    115
+   ],
+   "mesh_guid": "134bd793395f8dd59787f03b546e390e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1600.asset",
+   "vertexCount": 254,
+   "indexCount": 246
+  },
+  {
+   "renderer": 1602,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "f53675914053cc91d0a92c2859e1b019",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1602.asset",
+   "vertexCount": 38,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1603,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    3,
+    4
+   ],
+   "mesh_guid": "673bda68d86fd6ad0b34219c25d54d7f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1603.asset",
+   "vertexCount": 56,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1604,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "e98647a348e025da1644dd93db0ec2e3",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1604.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1605,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    149,
+    150,
+    151
+   ],
+   "mesh_guid": "0e66bf2fb8dfa7e7ffafdde4b7cec6f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1605.asset",
+   "vertexCount": 74,
+   "indexCount": 51
+  },
+  {
+   "renderer": 1606,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    215,
+    216
+   ],
+   "mesh_guid": "18f928b9c4495bd1717859bac6d305d9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1606.asset",
+   "vertexCount": 84,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1607,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    204
+   ],
+   "mesh_guid": "dd970438f4d1b6d5e07c56681ec00986",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1607.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1609,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    176
+   ],
+   "mesh_guid": "37f3705238044c285f9fdb50d3e0f2fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1609.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1610,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    193,
+    194
+   ],
+   "mesh_guid": "6f665ceba14c01667a6ea01d0131482d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1610.asset",
+   "vertexCount": 89,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1611,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    93,
+    94
+   ],
+   "mesh_guid": "3473b89fc916c59be241abb19f1524a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1611.asset",
+   "vertexCount": 60,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1613,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    165
+   ],
+   "mesh_guid": "90089bafadf04da98d699d4541ddd364",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1613.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1614,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    199,
+    200
+   ],
+   "mesh_guid": "92aa0d17fee400e0a7b0bb97dfcd521b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1614.asset",
+   "vertexCount": 11,
+   "indexCount": 15
+  },
+  {
+   "renderer": 1615,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "592c2e8c8619c99f8a6e8ff80183ee87",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1615.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1619,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "17cdb012135de66cd2fada21061713f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1619.asset",
+   "vertexCount": 27,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1620,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    131,
+    132,
+    133
+   ],
+   "mesh_guid": "7d949a86cfe423e4a2f3014acc6bac34",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1620.asset",
+   "vertexCount": 117,
+   "indexCount": 135
+  },
+  {
+   "renderer": 1621,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    166
+   ],
+   "mesh_guid": "b9ca5be5bf1bad0a31f5dabe84f57282",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1621.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1622,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    134,
+    135
+   ],
+   "mesh_guid": "0a22e1976ebee0a8a93d2a5423091418",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1622.asset",
+   "vertexCount": 62,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1623,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    246
+   ],
+   "mesh_guid": "fdcfc6d5bb8c18f7559f834289936e81",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1623.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1624,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    191
+   ],
+   "mesh_guid": "931e67b0e349acb07573c0b960aae134",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1624.asset",
+   "vertexCount": 53,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1625,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    189,
+    190
+   ],
+   "mesh_guid": "2961434211a728046f4ea7ab212be168",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1625.asset",
+   "vertexCount": 84,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1627,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    167
+   ],
+   "mesh_guid": "24ce4e66091ca7816a1a895c021d3d64",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1627.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1628,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "55bd9880e77ac090ccb30f6ddefcfbf9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1628.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1630,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    240
+   ],
+   "mesh_guid": "52d67ffd67817ade4f0d6484cf8edf7e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1630.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1634,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    168
+   ],
+   "mesh_guid": "1e3657f12225e21bdddbfe7988574be2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1634.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1635,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    36,
+    37,
+    38
+   ],
+   "mesh_guid": "48264012827f6fbc8ad8fb8776e7bfee",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1635.asset",
+   "vertexCount": 54,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1636,
+   "gameObject": "Fence",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "8fe0967ac4bf63f7153b0a921bd891bf",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Fence_1636.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1637,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    34,
+    35
+   ],
+   "mesh_guid": "32d15cddc6ce1a94fc11a0e9b264079a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1637.asset",
+   "vertexCount": 36,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1639,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    169
+   ],
+   "mesh_guid": "c1290f2de9cbd9baa0ff14a5dc0fffe9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1639.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1640,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    234,
+    235,
+    236,
+    237
+   ],
+   "mesh_guid": "bfea59a5741481f60f6ebaaf9fa9612a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1640.asset",
+   "vertexCount": 231,
+   "indexCount": 207
+  },
+  {
+   "renderer": 1641,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "6b6a2e61968a49b0c03d5f66d876b758",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1641.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1643,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    219
+   ],
+   "mesh_guid": "447811304f854254248b27d4b13a704b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1643.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1644,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    136,
+    137
+   ],
+   "mesh_guid": "63a6eeaa0785d921e2386214ce3cc98c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1644.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1645,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    212
+   ],
+   "mesh_guid": "803f0ae910d4842ee2f5c315c965d7d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wood_1645.asset",
+   "vertexCount": 54,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1646,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    104,
+    105
+   ],
+   "mesh_guid": "335265f239cd6c15b6f201eaab54a572",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1646.asset",
+   "vertexCount": 24,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1647,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    188
+   ],
+   "mesh_guid": "601f087092519339b9ba67eb7f6a20d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1647.asset",
+   "vertexCount": 34,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1648,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    23,
+    24
+   ],
+   "mesh_guid": "6321f8e7345ad892a4b659996da4315d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1648.asset",
+   "vertexCount": 86,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1649,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "d43b5d194dcea4d797c16c6edd290a26",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1649.asset",
+   "vertexCount": 41,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1651,
+   "gameObject": "Bar",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "6efb6928d27ba3f34b2d6d946c7f3fb2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Bar_1651.asset",
+   "vertexCount": 80,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1655,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    170
+   ],
+   "mesh_guid": "c3a8affdd9c837bb3643cbeb9fe70d3d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1655.asset",
+   "vertexCount": 38,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1656,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    69,
+    70
+   ],
+   "mesh_guid": "248c79602ee08b63d9949ba04f4fd853",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1656.asset",
+   "vertexCount": 47,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1658,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "64c4c663e75f03bbd87d765733cd7a29",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1658.asset",
+   "vertexCount": 70,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1659,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    31,
+    32,
+    33
+   ],
+   "mesh_guid": "c18037df648bd409b3f81dd28860393b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1659.asset",
+   "vertexCount": 133,
+   "indexCount": 159
+  },
+  {
+   "renderer": 1660,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    172
+   ],
+   "mesh_guid": "01181e99efac54e7db7747bc643d369f",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1660.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1661,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    221
+   ],
+   "mesh_guid": "05650c53bdf883b9c1c7f6fce7c97fd1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1661.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1663,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "688981ce213e23f91897ee8967f89dab",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1663.asset",
+   "vertexCount": 108,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1665,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    5,
+    6
+   ],
+   "mesh_guid": "9730bb1236b18aeeb157b4fbb239c1cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1665.asset",
+   "vertexCount": 92,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1666,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    171
+   ],
+   "mesh_guid": "b14659cfd38f4bd639e83690b2c78496",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1666.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1667,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    163
+   ],
+   "mesh_guid": "5b66949d9cff94af822e4286860208cc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1667.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1668,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    181
+   ],
+   "mesh_guid": "3c6742cfd3742d8296905b96e1bc96b2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1668.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1669,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    162
+   ],
+   "mesh_guid": "4e32740f4d54a3400108b74f8c8524da",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1669.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1671,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "3db49226f43c5709ce8f677eb629f908",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1671.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1672,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    113
+   ],
+   "mesh_guid": "304030b22f0163418c9e0520c84edc7c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Ladder_1672.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1673,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    139,
+    140
+   ],
+   "mesh_guid": "9f4d2d4f03c3a66d49a3cf6017b01909",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1673.asset",
+   "vertexCount": 116,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1674,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    244
+   ],
+   "mesh_guid": "474029beb86ab7d9eeaae157f056e2f5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1674.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1675,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "5b06a9a6059903d5227a5b786179e978",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1675.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1676,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    127,
+    128
+   ],
+   "mesh_guid": "8b7dc6e60308f0790b9bed5cac21d7c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1676.asset",
+   "vertexCount": 86,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1677,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "5fc0f7a19db0ccd2e911c4181f2fc8d9",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1677.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1678,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    164
+   ],
+   "mesh_guid": "afc415afab43e7d7c7b30a2a2d450ffe",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1678.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1679,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    245
+   ],
+   "mesh_guid": "a64263394c8ef43309d805087e3672ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1679.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1682,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "a7ebde9c5b53bac18e308c23047c7682",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1682.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1683,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "73841135eb966c9979b90e728a284fb6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1683.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1688,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "db2a4b7e826b1838e4e54475aae31e8b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1688.asset",
+   "vertexCount": 17,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1691,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "e26b0237ac5d7f9d714f4303c7b1982e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1691.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1692,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    195,
+    196,
+    197
+   ],
+   "mesh_guid": "cc194022e3fc2cf4b79b8e037314db0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1692.asset",
+   "vertexCount": 53,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1693,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    183,
+    184
+   ],
+   "mesh_guid": "784cf704cc6bf01935bd08d8c6773584",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1693.asset",
+   "vertexCount": 40,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1695,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "49b5aa40feb838ad049144afb7b12b7e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Ladder_1695.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1697,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "mesh_guid": "8f3ecee191d462421395811c67afa809",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1697.asset",
+   "vertexCount": 126,
+   "indexCount": 162
+  },
+  {
+   "renderer": 1700,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "145c33ac2bb282951651c2a6556fd615",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1700.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1701,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "aaaf4dfbdcfa42c231ac7c8e2fb2f2cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1701.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1702,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    213
+   ],
+   "mesh_guid": "41a71688baa58ba81da8777ea01eef6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1702.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1703,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    180
+   ],
+   "mesh_guid": "ba3e0f2b9e5509deb05c5cd9255f3380",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1703.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1706,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    174,
+    175
+   ],
+   "mesh_guid": "60fb3b503a7edf6d4772dd4e8d631540",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1706.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1707,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    222
+   ],
+   "mesh_guid": "058dbbdcb5281adc7ba115a6bad52aea",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1707.asset",
+   "vertexCount": 38,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1708,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "1b00096e84f0d4b4d508cd9287d310e3",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1708.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1709,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "449efe3600f59b49930566e00fbb37ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1709.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1710,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    229
+   ],
+   "mesh_guid": "20450d8bea926f6405a6246b59ba73fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1710.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1711,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "066e4e47a30ed4b8f77872ad0d63245b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1711.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1712,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    214
+   ],
+   "mesh_guid": "2baf384329af055af3f4766a8347aee8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1712.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1715,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    66,
+    67,
+    68
+   ],
+   "mesh_guid": "f21d6a1ae8bd1b7abbce517d0cf9ef86",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1715.asset",
+   "vertexCount": 61,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1716,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    179
+   ],
+   "mesh_guid": "173ff59ec11faa548f7854bcb8a1982c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1716.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1717,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    208
+   ],
+   "mesh_guid": "3b5f9f5e70aeb628dc6fb139f3617abe",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wood_1717.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1718,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    108,
+    109
+   ],
+   "mesh_guid": "43eb999a556ea2af835ef8e59790306a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1718.asset",
+   "vertexCount": 38,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1721,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "0e6b9343d1096f1b92bbd18b181445c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Sun 1_1721.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1722,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    29,
+    30
+   ],
+   "mesh_guid": "97565a331d95cc09766349852fc667fc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1722.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1723,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    63,
+    64
+   ],
+   "mesh_guid": "7d439db5fcf0f010d1f9a6149caff872",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1723.asset",
+   "vertexCount": 75,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1724,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "79632e2944d235c5bcd274aadfb4d063",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1724.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1727,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    119,
+    120,
+    121,
+    122
+   ],
+   "mesh_guid": "4578b556b44eeb8aab7c5c855a9bfc4b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1727.asset",
+   "vertexCount": 202,
+   "indexCount": 162
+  },
+  {
+   "renderer": 1728,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    226,
+    227
+   ],
+   "mesh_guid": "f71b92a4f765491f7818a2785f00372c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1728.asset",
+   "vertexCount": 70,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1729,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    228
+   ],
+   "mesh_guid": "92f60e4cd197d76cfc6f2f451e0e28e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1729.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1731,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    118
+   ],
+   "mesh_guid": "d1637972bdd1f0f8f49bd26f022bdae8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1731.asset",
+   "vertexCount": 72,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1733,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    220
+   ],
+   "mesh_guid": "f7e22d74ffaf6903218cdddc602890fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1733.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1735,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "de3872d2475e5fa90c5cfe98d2de23a3",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1735.asset",
+   "vertexCount": 18,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1739,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "160534e62bcbf4d652383ce73e58829b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1739.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1740,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    207
+   ],
+   "mesh_guid": "06674c388b43991fc833b9ce42007ba7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wood_1740.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1742,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    20,
+    21,
+    22
+   ],
+   "mesh_guid": "38710d5ef13b631408cb1cf67150f620",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1742.asset",
+   "vertexCount": 123,
+   "indexCount": 147
+  },
+  {
+   "renderer": 1743,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    126
+   ],
+   "mesh_guid": "94fae28a9d171f30a92e517922cfbeef",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1743.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1744,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "621ef3c70ad9fea6c78e1b70a04f4e9d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1744.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1745,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    157
+   ],
+   "mesh_guid": "3e9cacf0d245fae5b1cae3f3b4ed017d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1745.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1746,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    156
+   ],
+   "mesh_guid": "6369c7561bf9dbdac2b2a93e473a1a79",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1746.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1747,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "004ccb67604ac2f5b4a54cbf771f60a8",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1747.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1749,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "fa013a84c4c13211d864986e6941a887",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1749.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1750,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    81,
+    82,
+    83,
+    84
+   ],
+   "mesh_guid": "35276e82a50e271db778b46671b15a8d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1750.asset",
+   "vertexCount": 222,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1752,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    16,
+    17
+   ],
+   "mesh_guid": "ad47a9d9dc345ccccc11381f3ec351cf",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1752.asset",
+   "vertexCount": 34,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1753,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    9,
+    10,
+    11
+   ],
+   "mesh_guid": "df4afb871040e6a0072ba2cef8023612",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1753.asset",
+   "vertexCount": 126,
+   "indexCount": 138
+  },
+  {
+   "renderer": 1754,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    223
+   ],
+   "mesh_guid": "43cd1eb857d11a0eb9d03fd3235770e7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1754.asset",
+   "vertexCount": 142,
+   "indexCount": 240
+  },
+  {
+   "renderer": 1755,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "a2632f58b63f0cb5ec4d152f1cfb28c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1755.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1756,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    242
+   ],
+   "mesh_guid": "ecdd6657ff9420e527d1291e0f04e6dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1756.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1757,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    241
+   ],
+   "mesh_guid": "5f9f4a3eea090c15b035404bcaf6cd0c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1757.asset",
+   "vertexCount": 19,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1758,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    147,
+    148
+   ],
+   "mesh_guid": "225877173188ffe35b5f7cdd38c372b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1758.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1759,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    209,
+    210,
+    211
+   ],
+   "mesh_guid": "04e5da82db47e0b1d0cf5fde17e2acf0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1759.asset",
+   "vertexCount": 83,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1760,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "e632c6e1d6c74b95219cb1825705f6b5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1760.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1761,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "becb26f5bbbfccc5b21281f8e0a325ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1761.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1763,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    233
+   ],
+   "mesh_guid": "5202d0aeb9940251774ee3808405939b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1763.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1764,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    158,
+    159
+   ],
+   "mesh_guid": "b9465b95c125045c884ca839c574c14d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1764.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1765,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "8fb6c6d4d2c1f534386f8f889b09fae1",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1765.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1768,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    231,
+    232
+   ],
+   "mesh_guid": "d4027c312c2d47fea3abd96d2866011a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1768.asset",
+   "vertexCount": 51,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1769,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "7266a4d3a157061e2566d84138c22e6d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1769.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1770,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    230
+   ],
+   "mesh_guid": "6a6a50a034aea536e708c987cabb0a5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1770.asset",
+   "vertexCount": 34,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1771,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    7,
+    8
+   ],
+   "mesh_guid": "b67af39f235bd1f8290afe4e9680bd69",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1771.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1773,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "d15dbf0d92178d0d9e9d71c2baeccc06",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1773.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1774,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    154
+   ],
+   "mesh_guid": "2534feec77a0e52fc825aae362fb1ecc",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1774.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1776,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "8b18b5c157ccc19b497782625af64412",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1776.asset",
+   "vertexCount": 39,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1777,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    206
+   ],
+   "mesh_guid": "e9c34ef05c7d5c04b91251ca4a4b5a9a",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wood_1777.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1780,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "cb2221433d9c0d41ab560753817b53e7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1780.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1781,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "9eeba338fe65d9721f6434d464474686",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Plane_1781.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1782,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "95dc6737a1971d5988a176cfdf086126",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1782.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1783,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    102,
+    103
+   ],
+   "mesh_guid": "de3772b0dd744425a16e02513c3ab70b",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1783.asset",
+   "vertexCount": 110,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1786,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "44f3ad46eedb7f9f4540ce6338955d4d",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1786.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1787,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    153
+   ],
+   "mesh_guid": "3ef2745077619c3c6bd6a4d71b4cd8fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1787.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1788,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    238,
+    239
+   ],
+   "mesh_guid": "03b65ec92624d99580d51221814f7bff",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1788.asset",
+   "vertexCount": 120,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1789,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    187
+   ],
+   "mesh_guid": "350f53028c2bf1e1070d8229aaf6ee46",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1789.asset",
+   "vertexCount": 38,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1791,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "b7b99a3894b874292b23e99ea4bdbe12",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/SkyDome_1791.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1792,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    138
+   ],
+   "mesh_guid": "0e3029c3dfdc282b0b5b3c4332c920d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1792.asset",
+   "vertexCount": 22,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1794,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    217,
+    218
+   ],
+   "mesh_guid": "9084a295702532682c4e7472b0da6aad",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1794.asset",
+   "vertexCount": 73,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1795,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    201,
+    202,
+    203
+   ],
+   "mesh_guid": "627cc216414c69e2a8ccaf71e34f3001",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1795.asset",
+   "vertexCount": 156,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1796,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    71,
+    72,
+    73,
+    74
+   ],
+   "mesh_guid": "e16aa9f9c67cc3cdad9caa7a2c708686",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1796.asset",
+   "vertexCount": 120,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1799,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    205
+   ],
+   "mesh_guid": "2f2b7e6c2d627945a6f4e163c8b6f38c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wood_1799.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1800,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    185
+   ],
+   "mesh_guid": "daf68c509a439b4141650121a666af97",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1800.asset",
+   "vertexCount": 14,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1802,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    160,
+    161
+   ],
+   "mesh_guid": "90611fc10c1d554df30308cba352182e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1802.asset",
+   "vertexCount": 81,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1803,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    129,
+    130
+   ],
+   "mesh_guid": "137f08647c5a199390ebdffa3eb5ff67",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1803.asset",
+   "vertexCount": 84,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1804,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    141,
+    142,
+    143,
+    144
+   ],
+   "mesh_guid": "57c6eec09ff8c9f0f89468a2f0c530f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1804.asset",
+   "vertexCount": 302,
+   "indexCount": 303
+  },
+  {
+   "renderer": 1805,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    243
+   ],
+   "mesh_guid": "72898d3a1e5488b639b553784cbdbf73",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1805.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1809,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    145,
+    146
+   ],
+   "mesh_guid": "b50b83a586d5563a75b1b365fba84ce7",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1809.asset",
+   "vertexCount": 54,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1811,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    106,
+    107
+   ],
+   "mesh_guid": "841a46d9154437fd455c412d065909a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1811.asset",
+   "vertexCount": 44,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1814,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    91,
+    92
+   ],
+   "mesh_guid": "2eb192b6cc803d0c2e0791ef9ad54d73",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1814.asset",
+   "vertexCount": 62,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1816,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    224,
+    225
+   ],
+   "mesh_guid": "20729c7da47f82bd858b299ebd4f96d5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1816.asset",
+   "vertexCount": 52,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1819,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    192
+   ],
+   "mesh_guid": "c951547f017f625a7101b593da284e7c",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1819.asset",
+   "vertexCount": 19,
+   "indexCount": 33
+  },
+  {
+   "renderer": 1820,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    155
+   ],
+   "mesh_guid": "64b5e4ea8929a6e44173ddd7bf2ce2e6",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1820.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1822,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "348b921eddf10d2bc8f1e0e41691fad0",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1822.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1823,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "7f93b05f589ea53766d49fa3976ab891",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Floor_1823.asset",
+   "vertexCount": 18,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1824,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    123,
+    124,
+    125
+   ],
+   "mesh_guid": "c547f4c7581178676353139173cc0b31",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1824.asset",
+   "vertexCount": 110,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1826,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    152
+   ],
+   "mesh_guid": "550c26dfba36daf4d672edeb5fbaeaf2",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Box_1826.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1827,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    116,
+    117
+   ],
+   "mesh_guid": "bf8befd87532197724b71d47843e0af5",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Wall_1827.asset",
+   "vertexCount": 85,
+   "indexCount": 111
+  },
+  {
+   "renderer": 1828,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_15.asset",
+   "combined_guid": "b81ad1cc4ff24104b9688b7a5ca157dd",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "ba053121c330f329f335a4c570df0c8e",
+   "mesh_asset": "Assets/Mesh/Debatched/Harage/Light_1828.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Fractal/SXZtRDEyM0ExMi1PRCYTmY5Q.unity",
+ "map": "Fractal",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1211,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "fa52a81f82ff7c2e6c116a0713b6abd5",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1211.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1218,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "3dcfc2a4790dacf8547cd0bde4411592",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1218.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1219,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "02cb7413f9f346a7787f201859a57e3f",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1219.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1224,
+   "gameObject": "Red Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "e2f84ace90b9c5155ca627ce289fb3d6",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Red Platform_1224.asset",
+   "vertexCount": 102,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1234,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    20,
+    21
+   ],
+   "mesh_guid": "f83dd22e4b954046621fd1b72203fc03",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1234.asset",
+   "vertexCount": 128,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1237,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "b7327a4e3d015f7b96a1968cc59f4bc9",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/SkyDome_1237.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1244,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    27,
+    28
+   ],
+   "mesh_guid": "a6a6be5b38e23dc3ab285d9d3d78cd90",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1244.asset",
+   "vertexCount": 84,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1246,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    29,
+    30
+   ],
+   "mesh_guid": "1198479a9040868c615a0032cfd18992",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1246.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1247,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "174b515d14e1548e6459921bfd4d9747",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1247.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1251,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "79596dd6c259d8eadf31a26984969891",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1251.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1257,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "53be9729aa8ddf81481d64913a4ffcfe",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Plane_1257.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1260,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "1fbac24e1602bf11540267cd14665029",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1260.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1271,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "222a5cf36a231805f436eaa1a0ca4e0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1271.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1275,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "8dc1a1d8a19b52fcd8b14e4368099f16",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1275.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1284,
+   "gameObject": "Start",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    18,
+    19
+   ],
+   "mesh_guid": "112c3703df20c4c454b75c56c9885a0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Start_1284.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1292,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "e9efe9cbf99b62273b18934d3339db65",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1292.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "e5eaa780ab6aa73f26f9dbefccf7c384",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1294.asset",
+   "vertexCount": 92,
+   "indexCount": 138
+  },
+  {
+   "renderer": 1295,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    24,
+    25
+   ],
+   "mesh_guid": "0540f99f3f84f5bcd1c1b225a9fabb22",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1295.asset",
+   "vertexCount": 72,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1300,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "98f17e78a8aa19a62c6720be4b716be2",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1300.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1304,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "2a890ad64254e734d3f41eff7c4cd402",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1304.asset",
+   "vertexCount": 126,
+   "indexCount": 228
+  },
+  {
+   "renderer": 1309,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "12f6a689adb96a7d2a5a9260ff8aaae1",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Sun 1_1309.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1315,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    22,
+    23
+   ],
+   "mesh_guid": "9b0cccd41af2d6855c246efe1dcb90fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Platform_1315.asset",
+   "vertexCount": 248,
+   "indexCount": 204
+  },
+  {
+   "renderer": 1316,
+   "gameObject": "Fence",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "7585f09522c07209b0f22aaf54faed91",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/Fence_1316.asset",
+   "vertexCount": 70,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1326,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "0533ed2b7cfbb4e54b9dc6207c86ba96",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1326.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1333,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_25.asset",
+   "combined_guid": "40514e71dc0747b4dab6f1f5f120a86f",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "432abeaa2a3391fe635de0d999bbcf1e",
+   "mesh_asset": "Assets/Mesh/Debatched/Fractal/GrayBlock_1333.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "scene": "Assets/Levels/Maps/MiniGames/38Traps/SXZtRDEyM0ExMpGaDRPa4owX.unity",
+ "map": "38Traps",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 2116,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_3.asset",
+   "combined_guid": "30a82ad6c1cdddb4f82cad3ba650d4e3",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "768650f214761ec280167392751b790d",
+   "mesh_asset": "Assets/Mesh/Debatched/38Traps/SkyDome_2116.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 2247,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_3.asset",
+   "combined_guid": "30a82ad6c1cdddb4f82cad3ba650d4e3",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "14e6bae1bef400ac53849bc1a7a81c00",
+   "mesh_asset": "Assets/Mesh/Debatched/38Traps/Sun 1_2247.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 2400,
+   "gameObject": "Map",
+   "combined_mesh": "Combined Mesh (root_ scene)_3.asset",
+   "combined_guid": "30a82ad6c1cdddb4f82cad3ba650d4e3",
+   "subset": [
+    3,
+    4
+   ],
+   "mesh_guid": "804c4e350ca9fd1b15ceef14c282cfdb",
+   "mesh_asset": "Assets/Mesh/Debatched/38Traps/Map_2400.asset",
+   "vertexCount": 72,
+   "indexCount": 78
+  },
+  {
+   "renderer": 2417,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_3.asset",
+   "combined_guid": "30a82ad6c1cdddb4f82cad3ba650d4e3",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "fe87dad641b5bc93c0c4dbd571c6f5c4",
+   "mesh_asset": "Assets/Mesh/Debatched/38Traps/Plane_2417.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  }
+ ]
+}

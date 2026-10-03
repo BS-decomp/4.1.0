@@ -1,0 +1,982 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Tecaza/SXZtRDEyM0ExMjLK3fb4tUl2.unity",
+ "map": "Tecaza",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1224,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "0a9cfd4ffad50a1055ac2d3cd6e468f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1224.asset",
+   "vertexCount": 33,
+   "indexCount": 63
+  },
+  {
+   "renderer": 1226,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "ef55c459619dc2631faf0f0075c9c42c",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1226.asset",
+   "vertexCount": 37,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1229,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "fa50037d45b3d6769be7b7e6872eab17",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1229.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1238,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "71a4a5e139d40d80c13d26619e216267",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1238.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1239,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "11b818c8569ab26c5b51564034c5afd5",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1239.asset",
+   "vertexCount": 49,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1240,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "ad90f7a34e895681f26588c162abdac1",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1240.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1242,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "7481801cabd117823150f7bf51838eae",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1242.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1243,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "a794b76263b0f15c69fe5d26241eed19",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1243.asset",
+   "vertexCount": 64,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1244,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "f7c3945e93fea62870aa2f996d6d7156",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Sun 1_1244.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1245,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "5210be02c9d671500073032f6fc76004",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1245.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1247,
+   "gameObject": "BlackBox",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "0edc4bc402cc9661c6b7785ef085f0bf",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/BlackBox_1247.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1248,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "84b4d6dad338e43c15e2e09075d2747f",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1248.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1250,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "15e988df38e999531971da184dffd564",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1250.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1251,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "1c41b3fc575dae56038f69984a6c02ec",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1251.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1254,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "0f84132556c014d0fbc49d033181d5ab",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1254.asset",
+   "vertexCount": 88,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1257,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "3d593e350ba5e0225a6eeaa2ff39b8be",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/SkyDome_1257.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1259,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    62,
+    63
+   ],
+   "mesh_guid": "ab00eadf046f1f3b9948511ab5060d12",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1259.asset",
+   "vertexCount": 70,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1260,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "48eed69c7cbd65ead1552ddbf818c590",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1260.asset",
+   "vertexCount": 44,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1261,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    10,
+    11,
+    12
+   ],
+   "mesh_guid": "28e8aee4b186296c9f26286a02e44a06",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1261.asset",
+   "vertexCount": 330,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1263,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "516a676e6026e44d1f456bcb1321b8a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1263.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1264,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "bcd3198e4989dea7534b64d13b7c65d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1264.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1266,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "5d9b9af83e185aea5fbf98298c6de80b",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1266.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1267,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "0f8d6a050ef859c713c47171f4745497",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1267.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1268,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "a6e38f14ec7c301c5a74b616e775e965",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1268.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1269,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "314fc35caa1583f2bbae00e711741435",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1269.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1275,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "07ac9466611f0f703f1109edc7219232",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1275.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1278,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "4f6ad77e4c181fa4cb469aadb404e05d",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1278.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1281,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "aabc3e0494d417ccb23d8d314f81aeef",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1281.asset",
+   "vertexCount": 45,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1282,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "a8f546e555adaae1e006c68e2f0a2cfe",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1282.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1283,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "dcf4ea33f2e469f10fe7577bfc86507e",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1283.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1284,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "ae0c8da4b3fca07ddc91392fe6883421",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1284.asset",
+   "vertexCount": 63,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1285,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "cb631276b84d80fad82111e8bde313c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1285.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1286,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    7,
+    8
+   ],
+   "mesh_guid": "8ec6eb9c9873b47ee04a99413ea3c9aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1286.asset",
+   "vertexCount": 84,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1287,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "d489953730a5c838ca396e55e3bba7ac",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1287.asset",
+   "vertexCount": 47,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1288,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "3770caee3ba4d4c9685d20f60d485eb8",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1288.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1289,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "900c8b056244458dc6e99378f6572e7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1289.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1290,
+   "gameObject": "Swamp",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "671259cb352904819dc48b0780903c16",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Swamp_1290.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1292,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    81,
+    82,
+    83
+   ],
+   "mesh_guid": "9e74d3647e1657f7a0fb7307cd011b69",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1292.asset",
+   "vertexCount": 194,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1293,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "ee83e0a33bfaf7405b809f1a13f47ec4",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1293.asset",
+   "vertexCount": 57,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "bf919e301e1d001bc5f8a077037bb74e",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1294.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1295,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "1e2bcd1345cfd314abd2a6cf9f8e58fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1295.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1296,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "b713260301a98a1ea04d15d0e8dc11be",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1296.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1297,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "5b0905bbab0e99584a7e021b48171f53",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1297.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1298,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    84,
+    85
+   ],
+   "mesh_guid": "84c4f88792ca66caaace4ac1bce09071",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1298.asset",
+   "vertexCount": 60,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1299,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "faf3e0993909fb8f4dfcc78bcaecda03",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1299.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1300,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "af1feb4c7918cc3f8bb93853ee729b20",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1300.asset",
+   "vertexCount": 56,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1306,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "01060fdd732e16d5b26f5839f30dbd6d",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1306.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1308,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    21,
+    22
+   ],
+   "mesh_guid": "43208802beab658327bd68a0a5773470",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1308.asset",
+   "vertexCount": 76,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1309,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "cdc0ca92c72b514f29062f861295e2fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1309.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1311,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "545a1dc591cb5abe6853e451f95cc326",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1311.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1314,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    74,
+    75
+   ],
+   "mesh_guid": "881a424ad4c1c4c4f44bf1715373000b",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1314.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1317,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "b09da90ff3396a7d4093f8b5f9e497a9",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1317.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1318,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "c001e4f65126b5c96a814ea1e5598ff9",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1318.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1320,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "e1f517a98b1fd1459710541a147afa24",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1320.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1322,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "ac088035d56fea38f2646102e99f0a03",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall_1322.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1323,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "3d4b762a67b7566ade6eaeeda327f363",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1323.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1325,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "1315175ffb50ae5fe6d259b4f8ce2cec",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1325.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1326,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "a4ed7e152598f53368ce1faeadeded00",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1326.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1327,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "643f1bff19d68dc7de899781a839a7e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1327.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1329,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    17,
+    18
+   ],
+   "mesh_guid": "3d1bcd11303e4bb8f303b0125fce47a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1329.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1330,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "7097dc50d70011c8ce8d977487d897f1",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1330.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1334,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "096d355966874d8300759c26229d0b5a",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1334.asset",
+   "vertexCount": 56,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1340,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "2709c48a8a2298c43d47cdfedf1e08bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1340.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1342,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "996dd4e3c3b8286d1c82eeb88e12d2a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1342.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1343,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "c169840a2b3e9c1dfa5525ad3bd68001",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1343.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1344,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "88dbf21fa2ae2b262126481e861b27aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1344.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1345,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    38,
+    39,
+    40
+   ],
+   "mesh_guid": "7e4f35495163e8870ad623814cebf646",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor_1345.asset",
+   "vertexCount": 162,
+   "indexCount": 147
+  },
+  {
+   "renderer": 1348,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    53,
+    54
+   ],
+   "mesh_guid": "4eb0193b5c12dc9db50d3dfb3ca79c3d",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Box_1348.asset",
+   "vertexCount": 72,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1350,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "2ab91952650ad1b26c98edb4bdc36247",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Light_1350.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1352,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "dea25f13fa90e923fcd5fb35dbccdc8f",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1352.asset",
+   "vertexCount": 53,
+   "indexCount": 81
+  },
+  {
+   "renderer": 1353,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "5f828d0b5014d6eb8095f8b6eec1290b",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Plane_1353.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1357,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "b6a5e70a6892914dddafee3e9391f4a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1357.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1360,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "4c7b4a4142aa4c9682e457500be58f3b",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Wall-detach_1360.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1361,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_48.asset",
+   "combined_guid": "d584767545ee0fc429aa5978dd0a24dd",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "d15c85e979c3bcc1c235a024a0f52b57",
+   "mesh_asset": "Assets/Mesh/Debatched/Tecaza/Floor-detach_1361.asset",
+   "vertexCount": 39,
+   "indexCount": 69
+  }
+ ]
+}

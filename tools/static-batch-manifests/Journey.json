@@ -1,0 +1,800 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Journey/SXZtRDEyM0ExMnDBcE0zesDj.unity",
+ "map": "Journey",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1274,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "55d19e7a041123c4e841051d70637f38",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1274.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1275,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "a0b1ffa578dc142217cfd27880ee9963",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1275.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1278,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "7bf2b7561ef2d6a529091c64eef6e62b",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1278.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1281,
+   "gameObject": "Trap",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "f48900c3a641f92695f3f024c336c8e4",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Trap_1281.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1285,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "37b21ed0e133eb5b94636c9d9830ca77",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1285.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1288,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "f5e3911b9e59f28d96539096c5fe298a",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1288.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1289,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "dcdec254eaa9e13bae953ab2e4f07029",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1289.asset",
+   "vertexCount": 56,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "ca9baba69382d0596c77db5c1dce5659",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1294.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1295,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "b21a0094c8a7bdfe90871ef8ed653d60",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1295.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1297,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "7c1e20735e329fd7daf595df1997c849",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1297.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1298,
+   "gameObject": "RedPlatform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "dc2e226be79a8fa4809e3f45ad97f8e7",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/RedPlatform_1298.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1302,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "44b05cc0f99da541e852083100b262f7",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1302.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1303,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "77b64ece4c21fa3608d0e54682625273",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1303.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1304,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "0134d4a06939bf7e39fcfd07f924ff5d",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1304.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1313,
+   "gameObject": "Trap",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "35e56d987a7bd4f337b7141d4ef8e992",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Trap_1313.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1316,
+   "gameObject": "Lava",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "d7906ca5765542212608bd7e7671f84a",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Lava_1316.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1318,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "ca39c603a044135527967c391588259c",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1318.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1320,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "2b5aec05169dcfd0a6deabe1bcc3296f",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1320.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1323,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "f784bed0d6d180c32ca0a259d096014f",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1323.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1327,
+   "gameObject": "Blocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "d974bf9e044f0770ef8394967b754af1",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Blocks_1327.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1328,
+   "gameObject": "Lava",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "f901ec494e4be0e216065b059fcb79c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Lava_1328.asset",
+   "vertexCount": 18,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1329,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "96d346564e3f5cae56c1f2f972faef7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Plane_1329.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1330,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "572a87754421e2d8895b17d3e7bc685e",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1330.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1331,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "05c57564f6f5bf5c363afec577bc8bf9",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1331.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1334,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "d4cdd366e77df71d776c0a86f7afe9f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1334.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1337,
+   "gameObject": "Trap",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "03a191f8ca907670bae89d3cf72c1047",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Trap_1337.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1342,
+   "gameObject": "Blocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "c54f91a64b756a958ff96855c4d9db4b",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Blocks_1342.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1347,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "50691febc8ecb77ff7acd611482f795a",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1347.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1352,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "383b0211a7f317990d8f837564c8bef4",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1352.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1354,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "738e9356d50b77a62490d36e95745512",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1354.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1356,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "7701f8acd30649bfc872d798aeff634f",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1356.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1358,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "9a988ac324005fade38ac12c3d22ac2d",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1358.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1361,
+   "gameObject": "Blocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "d74de0b68f0f554c7f83f21053d3c540",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Blocks_1361.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1365,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "e4acaef29ea99eec4250226fb76d2067",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1365.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1366,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "e589e99634d9bdcffe309aad92b01f9a",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1366.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1376,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "78d7964b71ad1d94fcfcd2c4fa9af966",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1376.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1377,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "1198bbe8cb0d455c8426050f10832248",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1377.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1378,
+   "gameObject": "Blocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "8c46440b77cf1479804e737ba81ef110",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Blocks_1378.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1379,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "0e22ffd1b31b9f84609678e494470ff7",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Sun 1_1379.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1380,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "ab0f8a71ccbc64fe72fe3566ba7ff7ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1380.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1382,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "794acd4b90918141ae77e7bdec47c931",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall_1382.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1386,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "07e204c371ff5cc6a3b62dc39da83acb",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1386.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1387,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "d270075da93d7d950b1135a309e66bc6",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1387.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1388,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "e81fa7f5bed18f0a6b30959278fa7b8d",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1388.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1391,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "b0bacdd8c4e1cdbb557c7dff4f9d7d48",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Building_1391.asset",
+   "vertexCount": 56,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1395,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "284422b2d9297d9737843ea234df8a82",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1395.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1399,
+   "gameObject": "FireBlocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "7f0544b92c777daa631d7045b577f6f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/FireBlocks_1399.asset",
+   "vertexCount": 160,
+   "indexCount": 240
+  },
+  {
+   "renderer": 1401,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "036fc08d41a4e01a62796db36412cc49",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1401.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1402,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "9b11cce36f3a1d8f108679108123d719",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1402.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1406,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "d6e5ced70ed627e4d202b2c371413147",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1406.asset",
+   "vertexCount": 35,
+   "indexCount": 51
+  },
+  {
+   "renderer": 1410,
+   "gameObject": "Trap",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "3e26ff46a7db757809d29d55a1ed2842",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Trap_1410.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1415,
+   "gameObject": "Trap",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "f0a9fc6be4bff513893d05b5b591486f",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Trap_1415.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1417,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "d61ef656d0dd6c24b5261cde141bf1b3",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1417.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1421,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "8de07733fc9aaeabe51f71c1f896546f",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Wall-detach_1421.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1423,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "41a2fa5bd837e040ee3b99a61a670c1b",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1423.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1424,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "d9c0ebff375dbfbbdb0f666ad3f07a71",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1424.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1429,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "bdb91ab76686626ae75225d4075f5e83",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/SkyDome_1429.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1431,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "991618ac2210c48f7b693c6d7d50c3f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/GrayBlock_1431.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1432,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "df18eedc06b96e02cca95fb63885e085",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Building_1432.asset",
+   "vertexCount": 56,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1433,
+   "gameObject": "Blocks",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "e316a978a6a504da8013ef8e4e3dd267",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Blocks_1433.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1434,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_17.asset",
+   "combined_guid": "65abe87ba12e1bc42b78af89ae94bd87",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "e0fc325431be2982d1811a4524acbbdf",
+   "mesh_asset": "Assets/Mesh/Debatched/Journey/Platform_1434.asset",
+   "vertexCount": 98,
+   "indexCount": 144
+  }
+ ]
+}

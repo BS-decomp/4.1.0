@@ -1,0 +1,335 @@
+{
+ "scene": "Assets/Levels/Maps/Tutorials/MainTutorial/SXZtRDEyM0ExMsIAoy2JyTyJeuIAdpnoVkk=.unity",
+ "map": "MainTutorial",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1047,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "05cb544a2c4064d717dbb504e07d497e",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Ladder_1047.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1056,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "b79ceacfdb893849206b4010e0c9088e",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Wood_1056.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1062,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "9282a3cf7ccb4ddeb34a18f5dd839c5a",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Ladder_1062.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "05bf3d94e285d8d6b1ac2c5a69775161",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1069.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1072,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "b16fa382e4f25e13ce0386a36460dc12",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Sun 1_1072.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "17d5bdddd2ae6b2c2f01af6539efeb25",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1075.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1077,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "fab22a973ba1b8f499eb0bc1512f4b43",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Wood_1077.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1080,
+   "gameObject": "Door",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "0b3a66bf7e54fcef58050348986a57b9",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Door_1080.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1087,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "2f2ab0d963fccdbe92c18b2545ad67d3",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1087.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1090,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "ac619f213e9e1121babf4cda8dd93a45",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1090.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1092,
+   "gameObject": "Door",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "ad65d7a90775113b71a423870a0f3931",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Door_1092.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1093,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "5901c1230cc6d611bec008516bc8e898",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1093.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1098,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "fa8fd4666035230d82edd20d0b6742af",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Wood_1098.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1105,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "f7e10252f1bbb2e19f8b6e982fc48949",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Box_1105.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1109,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "d85dab4ca3bd44b3ac583df6e0ff86c5",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1109.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1111,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    15,
+    16,
+    17
+   ],
+   "mesh_guid": "0893fc85f8c522d372b291a157623078",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Wall_1111.asset",
+   "vertexCount": 180,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1113,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    22,
+    23
+   ],
+   "mesh_guid": "d80b1f6903699f630eb9788b427bfb25",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Box_1113.asset",
+   "vertexCount": 41,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1116,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "06bdb0dd1ef2f4e841be16535380d865",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Plane_1116.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1119,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "f344f7acc25fe2ee13fc1f7266b86507",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1119.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1126,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "5fef0c254218fcde2a186af993beaa11",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1126.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1128,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "5ef0f53b03d18d5bf5f5f151ab479e80",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1128.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1134,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "94aede3cd1aac507813ce61d07f1f8e0",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Light_1134.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1138,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "a423810eacefc00dea3485926d112941",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Box_1138.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1141,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "9781728a6aead3c4f3ef0a63d95d63e0",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/SkyDome_1141.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1142,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_44.asset",
+   "combined_guid": "7c69e82aaf5323245b62c353c474d72d",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "391ee94d840162b0dd73ee6f10373290",
+   "mesh_asset": "Assets/Mesh/Debatched/MainTutorial/Wall_1142.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  }
+ ]
+}

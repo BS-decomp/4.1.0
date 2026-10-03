@@ -1,0 +1,1029 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Skyline/SXZtRDEyM0ExMlZE#Ms8J+Gj.unity",
+ "map": "Skyline",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1211,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "mesh_guid": "3803e008cc274e621f7b6ca6c445deb9",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1211.asset",
+   "vertexCount": 62,
+   "indexCount": 81
+  },
+  {
+   "renderer": 1213,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "fb132a199c8908f6b0fb30ed53f7ea27",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1213.asset",
+   "vertexCount": 17,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1214,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "2eef60aa5d6ae11c3dedb93660140dca",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1214.asset",
+   "vertexCount": 8,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1215,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    13,
+    14
+   ],
+   "mesh_guid": "0a98dada55ebbb505d7a5a89072bbcdf",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1215.asset",
+   "vertexCount": 13,
+   "indexCount": 21
+  },
+  {
+   "renderer": 1216,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "011858cf93333f504379a73564af615a",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor-detach_1216.asset",
+   "vertexCount": 22,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1219,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "257bb3adec660382d089b3f889ec2752",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor-detach_1219.asset",
+   "vertexCount": 96,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1220,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "e873cf95a34378b621c1d4517dbcac50",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1220.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1225,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "d5d1e6c60437b4078609b9f6a2bf0f8e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1225.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1230,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "699aaafe242661122b7b19fc310e1613",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1230.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1231,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "789ae32a9d1090e25124517097edf006",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1231.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1233,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "f76bf3e9fa1b21459851f5792c297cc3",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor-detach_1233.asset",
+   "vertexCount": 10,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1234,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    62,
+    63
+   ],
+   "mesh_guid": "0831539da3b0d4e6e1a48c7e3c6de05d",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor-detach_1234.asset",
+   "vertexCount": 170,
+   "indexCount": 159
+  },
+  {
+   "renderer": 1236,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "9de19206b1e804c5a459856eab77b849",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1236.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1237,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "cf46eff9910a3ffdd020ed88da0ec10f",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1237.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1241,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "c1284aa448dbe50ab76a9075e613e073",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1241.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1242,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "932f2c69d5ec10554d7537271680f335",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1242.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1244,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "f0e98134e376e8449d396e4678577991",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1244.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1247,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "5202a683eeb4b3fafe9d211da56f13b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1247.asset",
+   "vertexCount": 23,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1248,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "8738df3dd881fd6658fede21816983a4",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1248.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1249,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    54,
+    55,
+    56
+   ],
+   "mesh_guid": "63f4cac9e1b0eb61e6c1c945724b581e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1249.asset",
+   "vertexCount": 57,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1251,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "9571b698f501abe07d3761efcec120d6",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1251.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1253,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "0ddd105cb5385c1156dd1acf50b12751",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1253.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1254,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    41,
+    42
+   ],
+   "mesh_guid": "97a866d8f61ea185da211f9b4b166a03",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor_1254.asset",
+   "vertexCount": 87,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1258,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "83c6d1abd129cbd4fbc95a263c399c6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1258.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1261,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "bdc1d86622462f5f025051305bb5296e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1261.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1262,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "817748e132cdeb7850f207855bf3edba",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor_1262.asset",
+   "vertexCount": 58,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1264,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "e397d1f487a3fa0a7e09cd2b06f42b77",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1264.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1265,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "7e417a88da13842c5b84a8ca5b533c87",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1265.asset",
+   "vertexCount": 24,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1266,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "98eb4be4a9ec74a6daa1b1e1077ab2e3",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1266.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1267,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "bff410c1884d00c2ff2947fd4466b77d",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1267.asset",
+   "vertexCount": 12,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1269,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "14aa0aabb2fd8f6002143271d8cc7d85",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1269.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1272,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "139c7b644c8d98bee50548d9d3fa37c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1272.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1273,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    82,
+    83
+   ],
+   "mesh_guid": "fdc42269f7118c9652c817138d98acf3",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1273.asset",
+   "vertexCount": 48,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1274,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "d2203e4fc976fc02f50dd6d040dc0891",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1274.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1277,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "acdafde9bb654d93605ba8da97dd7fe3",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1277.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1278,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "1d4d385dae50ea8eb10f757b9c83174d",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1278.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1279,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "eefe25c3c3c8b16a7c477ec0c128d377",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1279.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1281,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "f075fb85d8294343276906c8ad2c79a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1281.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1287,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    47,
+    48,
+    49,
+    50,
+    51
+   ],
+   "mesh_guid": "e7006f5cba281824b715419b12308589",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1287.asset",
+   "vertexCount": 60,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1290,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "3d1d77c045defa24a919b678ef6d3f50",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1290.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1292,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "dd360535dc7a783457df599bc184932e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1292.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1293,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "cf8caf5875014ff7541fbf6cb00d2eca",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1293.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "96b78ab89be06662e71ec981b15e9262",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1294.asset",
+   "vertexCount": 39,
+   "indexCount": 63
+  },
+  {
+   "renderer": 1296,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "3d04a587de93dede97a328a99933908a",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1296.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1298,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "6cae79c812e383869dd58c156404736f",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1298.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1301,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "5040dc2a98368871efcc96c0d7732daf",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1301.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1302,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "e4c7a39036a7dc073b7c9be4b8b9c602",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1302.asset",
+   "vertexCount": 44,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1304,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "5e6d39c6f8b144f06c9766c622972c3a",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1304.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1306,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "30a55e0813a7e02aa40af2365b1df79e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1306.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1308,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "2fc124b1e96441cfc017a287b8c86dcb",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1308.asset",
+   "vertexCount": 78,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1309,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "2e891b53f577a54d8384a7d4a4099f62",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Ladder_1309.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1310,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "17bbfd139410bf6917d6abe350a44e49",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1310.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1311,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "aeaa906be0ebebbbc8a71e1b540974d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1311.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1312,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "d87687c9ab984779f559a1efc7716d43",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1312.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1314,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "4a939e484f903484c7db39c7cd82f06e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1314.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1315,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "86602274cc4c777ecacef763fa2bcbad",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Sun 1_1315.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1316,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "dbffc61018a4e60699c8daf279bfa909",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1316.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1319,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    57,
+    58
+   ],
+   "mesh_guid": "19f474c987543e1d892675ff324374ba",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building_1319.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1320,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "5f02b8a3c5b5451a33a18897347d13c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1320.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1324,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "5abc0f3f0dcd9b0248c85ce7cd95b282",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1324.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1327,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    90,
+    91
+   ],
+   "mesh_guid": "988c1bd7f2a5c9f88bfc8aac5ba53c7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor-detach_1327.asset",
+   "vertexCount": 29,
+   "indexCount": 45
+  },
+  {
+   "renderer": 1328,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "aadf35b61b6752fab20aef2030cfaf85",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1328.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1329,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "5815747b896224b69226d86bbd0d41e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1329.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1331,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "dbe3434d141d9667d17d504736c9177b",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor_1331.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1333,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "39d2e0859770e921bfc7d11eab8dd268",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1333.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1334,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "mesh_guid": "ad251f6fdc5acbe4c3334999619988ee",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1334.asset",
+   "vertexCount": 76,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1335,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "5f7486f742df55c4f1d0f7b0b2c213ee",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Black Box_1335.asset",
+   "vertexCount": 42,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1337,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "3cb323f59f1b186dc9de3392ff51408d",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1337.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1340,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "688e528ba8db16edad15be5f98e55afb",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/SkyDome_1340.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1341,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    59,
+    60
+   ],
+   "mesh_guid": "b9d65bf0c8784e3586edf14e9d80d670",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Floor_1341.asset",
+   "vertexCount": 215,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1342,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "6dfd9997a57d1614422ef8e9c3a62ff2",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Metal Box_1342.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1346,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "d062118a182dca204200e63c83942482",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Box_1346.asset",
+   "vertexCount": 34,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1349,
+   "gameObject": "Building-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "aa0b4512cbb5302bc0d914290ce6b29b",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Building-detach_1349.asset",
+   "vertexCount": 20,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1350,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "49d8776922eee15874d2e930f2a26d2f",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1350.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1351,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "7c0b00503c934bda62a2e8197c13e835",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Light_1351.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1352,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "4bec3523aae0cfe50da5745a334d4c3e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Plane_1352.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1354,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_37.asset",
+   "combined_guid": "3f9d4cc901d227c44be64b13f6694c26",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "1cf9f58074a54e18696566c77db5172e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyline/Wall_1354.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  }
+ ]
+}

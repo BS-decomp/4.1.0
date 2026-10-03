@@ -1,0 +1,946 @@
+{
+ "scene": "Assets/Levels/Maps/Tutorials/ShootingRange/SXZtRDEyM0ExMhzaf#+315NXu#QxkvLsieI=.unity",
+ "map": "ShootingRange",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1367,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "283f88f8e3f6cbf6ef893c14e58c435a",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1367.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1368,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "254a74c663f5d519979d6c70f855a4d9",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1368.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1369,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    60,
+    61
+   ],
+   "mesh_guid": "cbcecd20cadf224ab4d52b9c75a589a3",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1369.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1370,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "d1e34941841d1f6a9fe4b21ddd42c274",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1370.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1371,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "a72fd836e16fa17c7a18f8b149830c47",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1371.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1372,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "d32078ab38023b4f8a93c7cf47fe52e6",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1372.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1378,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "8c2df6bd96bd0d6a21f0f4a2cb1aef39",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Glass_1378.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1380,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "4b4ddae070d8a90e3e5c64b41c510883",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Plane_1380.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1383,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "8f9629cd6e5a97052f503de4ea42f030",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1383.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1385,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "97b192470001e0ebab0d1a94a7485768",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1385.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1386,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "mesh_guid": "3a7aa8d5f146c52a62b16eefb6e50ea2",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1386.asset",
+   "vertexCount": 742,
+   "indexCount": 312
+  },
+  {
+   "renderer": 1389,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "08f3a3aa6ab9a52ab5d812fd98882744",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1389.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1395,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "9bccd8720181bec78b68b10262e68ca6",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1395.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1396,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "f83a94118981715388901e5c878a5ff6",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1396.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1397,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "aa22a19929621827269f86c520adae3f",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Floor_1397.asset",
+   "vertexCount": 16,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1398,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "fea78c3c3b20c68bc9b6c865f9bdc915",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1398.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1405,
+   "gameObject": "Bullet",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "fe1e176452f7fa2e0a09277f4b2aa9c9",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Bullet_1405.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1409,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "a1ef0665bf2559957750a64d651e079f",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1409.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1412,
+   "gameObject": "Bullet",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "e2aafface28483c429c6e8bb233a4e07",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Bullet_1412.asset",
+   "vertexCount": 440,
+   "indexCount": 660
+  },
+  {
+   "renderer": 1414,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    67,
+    68
+   ],
+   "mesh_guid": "1f0ccba3584e45a5b85e81ffd910fa34",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1414.asset",
+   "vertexCount": 77,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1415,
+   "gameObject": "Object004",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "0b845f9fa1c80f9fe8b5ed6e42ff579a",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Object004_1415.asset",
+   "vertexCount": 284,
+   "indexCount": 528
+  },
+  {
+   "renderer": 1418,
+   "gameObject": "Ammo",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "cf754b8563e494b8d51eab9a1c84fd78",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Ammo_1418.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1420,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "94b8c53100710aa86264ac418c41ba81",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1420.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1423,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "mesh_guid": "05124310171f42e29955856e530856df",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1423.asset",
+   "vertexCount": 185,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1424,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "e58265eede0895b086f543394b9ad5ca",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1424.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1427,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "763dd765010136a3b3b601d5f44b2264",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1427.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1429,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "cf4a1870202c0ac5aa87764b465dbc0f",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1429.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1433,
+   "gameObject": "Object001",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "03f409a8045556ded0674872bb203be3",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Object001_1433.asset",
+   "vertexCount": 164,
+   "indexCount": 294
+  },
+  {
+   "renderer": 1435,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "fca671e7619f5fb389c425b1d2323354",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1435.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1436,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "ef9f532bb35e6171d9d7b3c3a4690824",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1436.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1438,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    51,
+    52
+   ],
+   "mesh_guid": "2fa72e0d90289ef6afd46acfa34c3ecf",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1438.asset",
+   "vertexCount": 337,
+   "indexCount": 354
+  },
+  {
+   "renderer": 1440,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "1e594cb56a9e4548c5dfefd158f47c7c",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1440.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1442,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    2,
+    3
+   ],
+   "mesh_guid": "91bca89963f0f0c1ede73e59051eeb5c",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1442.asset",
+   "vertexCount": 30,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1450,
+   "gameObject": "Object003",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "9da644993cc398b58382e9dbea1750f0",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Object003_1450.asset",
+   "vertexCount": 232,
+   "indexCount": 384
+  },
+  {
+   "renderer": 1452,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "0c151ed123117cc29eb6102787e7e84c",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1452.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1461,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "ba0f0d2847eb787d62e8ac3964afa2d8",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Border_1461.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1463,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "d9b1276b5f52536f65c4c9f68a04a9d4",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Glass_1463.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1464,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "ecaf8d8ee05ad3e255017141022c8682",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1464.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1469,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "1a3068608cdc92305f19f0e7869c2a8c",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1469.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1471,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "8a26e98b535abb9259b16f85574b1532",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1471.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1474,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "7a97d98f8b9ce374bfe90212ff7a8a6d",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Sun 1_1474.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1475,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "8611953a7062f7faeb3c4ad3fe100c95",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1475.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Object002",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "4c3fcb53bd5062081dd56626480882b1",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Object002_1477.asset",
+   "vertexCount": 138,
+   "indexCount": 240
+  },
+  {
+   "renderer": 1479,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "4c1e80b2c7941e3f8209d142a3cd4c60",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1479.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1487,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "7bf4183f6aa1884261627b80f9d4d3cb",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1487.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1490,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "4be24850abd00d4a9c66363810d71d7a",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1490.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1495,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "6459d3dd618e6ffdffa2ff7c1a6f0c27",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1495.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1497,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "35ddda215100cb1ec4b2d65b4e3043c4",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1497.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1500,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "c197dc004a25470d8331722bda2370a2",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1500.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1503,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    57,
+    58
+   ],
+   "mesh_guid": "6760565949c31484a625950644fd1f10",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1503.asset",
+   "vertexCount": 45,
+   "indexCount": 63
+  },
+  {
+   "renderer": 1504,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "cf08a8c48d3dcef7709432932b1a2696",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1504.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1508,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "e0d6c01248e0ad1a5c9f7c42defc99ee",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1508.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1510,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "f4bd852a286e4385f068bdf130f8fde6",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1510.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1512,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "2ea8a2d9db01d1fb20bbf2a7dd6992d9",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1512.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1513,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "mesh_guid": "bd54c1bc6893929e8e31463c7edd1384",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1513.asset",
+   "vertexCount": 126,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1515,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    16,
+    17
+   ],
+   "mesh_guid": "15f9003bddc6d8e03551f49d818b9eb1",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Wall_1515.asset",
+   "vertexCount": 197,
+   "indexCount": 312
+  },
+  {
+   "renderer": 1518,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "c9fcc76e828b6d238206e54680bef58a",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1518.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1521,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "c2577d2ecd102eacaf9c1184017df78d",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1521.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1524,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "b53e74922a8c2b5298614159328cbc4f",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1524.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1526,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "ef4c615b6b03ce9dfe48a9d3298e1225",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1526.asset",
+   "vertexCount": 84,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1527,
+   "gameObject": "Ceiling",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "5e9aef586e25b6d04a86349b44c8f13c",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Ceiling_1527.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1533,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "aa94fc2a0923756dda38b12cbcdac943",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1533.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1535,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "16df58c8dccf18f4f77c182feb61a205",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1535.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1536,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "f8ac8202bd1369cd6ad4dbbf9d76e159",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1536.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1537,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "1e960a6126dcfaae8a4cb4cfbaac827b",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/SkyDome_1537.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1542,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "a78c0a8bacd9ab4181a2eb398c77b558",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Platform_1542.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1543,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "605c2398e10a35033e164f5f5a08642e",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Border_1543.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1544,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "f348fb87d84126ab0925ab492844fd84",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1544.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1545,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "ac0d9aea976c5be94f61c7c54bf7b9b9",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1545.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1546,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "f2a4e12d70ac0350b87e8ab7f2c7f63a",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Light_1546.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1547,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_33.asset",
+   "combined_guid": "017883ab9a3404343b8c19e2396e406c",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "41f038158560603b006c1f97feed10c4",
+   "mesh_asset": "Assets/Mesh/Debatched/ShootingRange/Box_1547.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  }
+ ]
+}

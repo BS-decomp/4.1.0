@@ -1,0 +1,1154 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Turbine/SXZtRDEyM0ExMolFHPpc9l6s.unity",
+ "map": "Turbine",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1461,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "694c4b51f238c92b066dab8c9edf7174",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1461.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1466,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "43b985277fdeee2ccd4bef8734a36f38",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1466.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1468,
+   "gameObject": "Ceiling",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "c953c38063dfb48db63dcca2920bc4f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ceiling_1468.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1473,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "5fea3b8f631a465a15c8e601601be9aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1473.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1475,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "ffc14e0472b33f19763169e36fe7c50e",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1475.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "25a8f4d261bab488ead9960b5c4f318f",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1477.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1479,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "377019149338ac39ea07cdf4a2f71db8",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Glass_1479.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1481,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    65,
+    66
+   ],
+   "mesh_guid": "699391eaa5a43e8d4709ad2127e56f53",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1481.asset",
+   "vertexCount": 56,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1482,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "fd55e2c5f4350d747cfa557cd6c42e07",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1482.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1487,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "a62fadcd1dc63211c2ed9cd6d911dfb6",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Sun 1_1487.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1490,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "5f8a7165d54af5edbf8762c1ab4d2d5d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1490.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1491,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "da0cf67fce0606bebde398144887dcd1",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1491.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1493,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "ee31163c9529bb8d08d446075f7ae82d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1493.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1496,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "e81b469ee0e2adc87fd0c11260893a10",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1496.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1497,
+   "gameObject": "Ceiling",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "a7e2899aa625f1cb2741bb0102cb333d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ceiling_1497.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1498,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "f9011d6a32f192da79ac91c77852d315",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1498.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1506,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "6b8b11de4c0c0123c11a99eefd0436a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1506.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1508,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "6d3ac8d21e65be9d42a56096a3cea0c6",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1508.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1512,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "b94332fb48a2e83d35a011f3a95283b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1512.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1513,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "258f43049ef9472d94d4eb1b65c595c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1513.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1514,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "1d16e2acc39da630fa285b6e5361265a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1514.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1517,
+   "gameObject": "Mine",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "00346b65aa3ce89e276530fd99224ff5",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Mine_1517.asset",
+   "vertexCount": 124,
+   "indexCount": 192
+  },
+  {
+   "renderer": 1521,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "6857cee0a984547db5c1c2ed5bafe605",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1521.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1522,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "b935e4cb341f92a2953803879321c2a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1522.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1523,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "6bda1ce5d0c23607ffcb312ded86bf2a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1523.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1527,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "0977d7c57f4809d476d53fc31a949be6",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Platform_1527.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1528,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "af14a51f1f4e6a67a08c7a1c607f115d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1528.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1529,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "45e11cb899ee7fa2b45780151566a764",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1529.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1532,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "a11ca84e0a4cfc2ff6fef2ec9d7ca220",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1532.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1533,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "adfbd75de17b9d8757a275770ec67891",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1533.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1534,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "76d9a2644133303b6cce7011e39a0135",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1534.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1535,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "55edec311bf6727e8956573fe6d3f885",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1535.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1536,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "7a1989ae4bd5614ddaf411044bc8c90e",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1536.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1537,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "137646cc02125315230cd2d5371693a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1537.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1542,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "94ac901a85298bebf7c61a30f164c07c",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1542.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1543,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "95b3700780a0cde8d280a07d480d35aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1543.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1546,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    48,
+    49
+   ],
+   "mesh_guid": "623d982ca11544a9c827bd760ff7f48b",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Floor_1546.asset",
+   "vertexCount": 14,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1547,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "df8e1e21da2ef9cafd57c7f99426baa8",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1547.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1548,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    76,
+    77
+   ],
+   "mesh_guid": "f6c46e48e164ecd354c5ccdeeb100969",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1548.asset",
+   "vertexCount": 113,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1549,
+   "gameObject": "Mine",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "92d570c5eda581ba861af30d0b807ca8",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Mine_1549.asset",
+   "vertexCount": 124,
+   "indexCount": 192
+  },
+  {
+   "renderer": 1551,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "ca3583028a5da505210d4423afc6a309",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1551.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1553,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    74,
+    75
+   ],
+   "mesh_guid": "e72c7bbe68bcf7a275ed4f17adf75df3",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1553.asset",
+   "vertexCount": 83,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1558,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "cc6bc8ef06eb16255d07e1717775051a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1558.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1562,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "bf1868306622d8535011703bc78f92a4",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/SkyDome_1562.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1563,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    72,
+    73
+   ],
+   "mesh_guid": "e5884496eb1eff15a8e3681fe00d6f2d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1563.asset",
+   "vertexCount": 56,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1567,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "ed4b0f05182cc9f16ba3365cd29662ea",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1567.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1569,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    69,
+    70,
+    71
+   ],
+   "mesh_guid": "056de1d8b7ebac01c61060a3f2bd077e",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1569.asset",
+   "vertexCount": 65,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1571,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    67,
+    68
+   ],
+   "mesh_guid": "5042124d8de33b223447c003630fe7bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1571.asset",
+   "vertexCount": 78,
+   "indexCount": 87
+  },
+  {
+   "renderer": 1575,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "20bc8c828cbaa85b6803cff9c1d110c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1575.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1576,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "1abb2ee4f8031b7967615b12a5346ccd",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1576.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1580,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "5a993b73665c374df8b4d0725f0a2f8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1580.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1581,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    88,
+    89,
+    90,
+    91
+   ],
+   "mesh_guid": "6bd2d2babe3743aa3777cb054fd0f8b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall_1581.asset",
+   "vertexCount": 338,
+   "indexCount": 408
+  },
+  {
+   "renderer": 1584,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "c727f6b915064385c5b30168f751c084",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1584.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1586,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "40c86f39d885cd4f98b6f4bc129ca08f",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1586.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1587,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "fd60fa310fd0dd78f922c88baa97f4f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1587.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1590,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "8bf9cafadd299c4ca90958b3d7ef8900",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1590.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1594,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "d8149a7cdc4b96a35756342fee730d57",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Platform_1594.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1595,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "609522464b7f6c6afd3c10cc65af4eda",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Black Box_1595.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1596,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "e36f99a425d305c52fc313726b1d21b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1596.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1598,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    78,
+    79
+   ],
+   "mesh_guid": "114aba26652cabc96fe84199b94c9235",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1598.asset",
+   "vertexCount": 113,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1599,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "442d21cc77b9e3b4449ec605e701a047",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1599.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1600,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "5f1a34c57231736e5078409a58cbf141",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1600.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1603,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "299697962bf2a2cee39d60add0ce8f91",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1603.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1608,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "e44aa02cb14f12779d331d32dd8464f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1608.asset",
+   "vertexCount": 22,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1609,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "52de1c10d967cd5d2fafaa4df1e37736",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1609.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1612,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    60,
+    61,
+    62
+   ],
+   "mesh_guid": "042d51c16b58c843980fc14a2d4fb1f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Wall-detach_1612.asset",
+   "vertexCount": 65,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1616,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "338ce19145aa4d4f875e31e35ae7a286",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1616.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1618,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "5f54ad5b11e34e4930dfc523e4e51b21",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Metal Box_1618.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1622,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "a6f274ef29ea767353712e26ef8f8587",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1622.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1624,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "469e961fad937ec19bb525567edb3acc",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Plane_1624.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1625,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "676cb580a043eb2553f8b7adbe9d98b3",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1625.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1626,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "07978b66c32070ce42a88ba5cf9d9c15",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1626.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1627,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "ddec1158facc1f0be2e40f0dac6163f5",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Border_1627.asset",
+   "vertexCount": 74,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1631,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "fd9c4f594a26d0c5896257bf662cf43b",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1631.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1638,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "29aa20fbedefd3f9b498e3e3d129dd6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1638.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1639,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    51,
+    52
+   ],
+   "mesh_guid": "e47597651032e2b6d19ef05a10b09d8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Floor_1639.asset",
+   "vertexCount": 67,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1640,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "ef551618a52731d910ce1cec46926737",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Ladder_1640.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1641,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "1cba2dc512cb90b678229f32be953c33",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1641.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1642,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "9a062353a4190f649a1cb1e51173a37a",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1642.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1644,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "22f98848636e941200d17364af1d4b9e",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1644.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1659,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    54,
+    55
+   ],
+   "mesh_guid": "6d28ce6caab8358f8123040412285b48",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Floor_1659.asset",
+   "vertexCount": 67,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1662,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "d4d0ceabdb971b2fcbf535ba4f0a02c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Glass_1662.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1663,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "80b8b00df5adfa74f0e6f48a62dcdc77",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Border_1663.asset",
+   "vertexCount": 74,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1666,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "6824aa90ff366d21554001dca8093c5f",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Box_1666.asset",
+   "vertexCount": 22,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1669,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "088a2e405e16f971de92cbd346dae190",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1669.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1680,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "9f9c25fa17f16da3c84f11605098ba5d",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1680.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1682,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_28.asset",
+   "combined_guid": "675c10c40c78fd9459f55a00eae40ded",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "8392fde98dbfe1b62f6170d95a978f8f",
+   "mesh_asset": "Assets/Mesh/Debatched/Turbine/Light_1682.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  }
+ ]
+}

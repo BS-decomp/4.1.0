@@ -1,0 +1,125 @@
+{
+ "scene": "Assets/Levels/Maps/Football/Skyfield/SXZtRDEyM0ExMobvSq8CJuDXi5#CtJLNGLg=.unity",
+ "map": "Skyfield",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 936,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "12de4d5e47840c2b347d931fb8926c10",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Wall_936.asset",
+   "vertexCount": 50,
+   "indexCount": 78
+  },
+  {
+   "renderer": 945,
+   "gameObject": "Mesh",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "552ca7ecded6ff0c1a098aac332a4128",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Mesh_945.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 962,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "7855620cd79c7bf66c45b530f4cf5c29",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/SkyDome_962.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 963,
+   "gameObject": "Mesh",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "00808a021ef64b2798f1db3af837d29e",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Mesh_963.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 964,
+   "gameObject": "Red",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "6b52924eb3fc44270cda3dff063ff831",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Red_964.asset",
+   "vertexCount": 180,
+   "indexCount": 270
+  },
+  {
+   "renderer": 966,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "f676c6942ab06e07547244c6a4747361",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Plane_966.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 969,
+   "gameObject": "Blue",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "5337161a079ae354ed32afe1e0b9fd47",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Blue_969.asset",
+   "vertexCount": 176,
+   "indexCount": 264
+  },
+  {
+   "renderer": 990,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "f50a58792db753543a7b5f75c2a17b74",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Sun 1_990.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 996,
+   "gameObject": "Field",
+   "combined_mesh": "Combined Mesh (root_ scene)_16.asset",
+   "combined_guid": "d5447b7924b20a64eae3f2002f899a41",
+   "subset": [
+    6,
+    7
+   ],
+   "mesh_guid": "57bbb488c4e3c6f9ef5c944a6ac61d04",
+   "mesh_asset": "Assets/Mesh/Debatched/Skyfield/Field_996.asset",
+   "vertexCount": 586,
+   "indexCount": 1050
+  }
+ ]
+}

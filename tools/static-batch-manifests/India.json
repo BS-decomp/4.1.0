@@ -1,0 +1,304 @@
+{
+ "scene": "Assets/Levels/Maps/Others/India/SXZtRDEyM0ExMlMXBXobkej2.unity",
+ "map": "India",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 972,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "4119a5da86051b307a3cc671294606b1",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Metal Box_972.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 981,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    6,
+    7
+   ],
+   "mesh_guid": "6de4d9935467018a19fe11e207b02870",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Wall_981.asset",
+   "vertexCount": 195,
+   "indexCount": 180
+  },
+  {
+   "renderer": 984,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "80e2a7f017f9c7829e43242db542d1cd",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_984.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 985,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    16,
+    17
+   ],
+   "mesh_guid": "199193799d979bc0c08b3b2efdcbb6a2",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_985.asset",
+   "vertexCount": 56,
+   "indexCount": 60
+  },
+  {
+   "renderer": 988,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    14,
+    15
+   ],
+   "mesh_guid": "2bf728fb00a785c918bf69e32491af84",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Wall_988.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 989,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    22,
+    23
+   ],
+   "mesh_guid": "38f9cb611c97edbfc26493f2ae18e749",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_989.asset",
+   "vertexCount": 56,
+   "indexCount": 60
+  },
+  {
+   "renderer": 991,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    20,
+    21
+   ],
+   "mesh_guid": "9f5b690bc6a8c29f53b0d2c18ec7fc0e",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_991.asset",
+   "vertexCount": 56,
+   "indexCount": 60
+  },
+  {
+   "renderer": 994,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "132060e9f6dedfbd9a41cfd43c095578",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Floor_994.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 995,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    4,
+    5
+   ],
+   "mesh_guid": "aec446747bd134c30b793899af75776f",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Wall_995.asset",
+   "vertexCount": 204,
+   "indexCount": 180
+  },
+  {
+   "renderer": 997,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "fe25daebc13f31d5dd86c386ddd0b28b",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Plane_997.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1006,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "be382d4ebe4eb1f91eb8a3b894456638",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Metal Box_1006.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1012,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "f52c438fdecf79574b0905bedeab6fdb",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Metal Box_1012.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1018,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "1c410416b0fe9efc21de24462f303c4d",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_1018.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1020,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    8,
+    9
+   ],
+   "mesh_guid": "b042dd511de607a4644189d0d20a5c8b",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Wall_1020.asset",
+   "vertexCount": 96,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1029,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "4809f3c8a6c024a65b97c5fda835f09b",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Floor_1029.asset",
+   "vertexCount": 36,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1032,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "36853848f9a363c193b58da166743de1",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Sun 1_1032.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1037,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "5a37aaa70792db7096ed154355a32afd",
+   "mesh_asset": "Assets/Mesh/Debatched/India/SkyDome_1037.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1039,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "a58c871caf1efdcfcf9fdde546da2261",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_1039.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1040,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    18,
+    19
+   ],
+   "mesh_guid": "3ebba3d08bfb3866f872a4aaba943dd0",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_1040.asset",
+   "vertexCount": 56,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1043,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "94611f1ccb7fa5d586ae6abd1908713c",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Metal Box_1043.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1044,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    29,
+    30,
+    31,
+    32
+   ],
+   "mesh_guid": "1c634bc17ee756825b9a66b8e6ea01c4",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Wall_1044.asset",
+   "vertexCount": 252,
+   "indexCount": 276
+  },
+  {
+   "renderer": 1046,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_23.asset",
+   "combined_guid": "fbd2bdfb12a4baf4289c18ecc672e913",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "2589daabedd1b17a054d1953d87e846c",
+   "mesh_asset": "Assets/Mesh/Debatched/India/Box_1046.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  }
+ ]
+}
