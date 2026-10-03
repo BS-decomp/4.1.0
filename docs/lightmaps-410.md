@@ -117,6 +117,42 @@ a lightmap index, the shaders those renderers use, whether each shader really
 has a `LIGHTMAP_ON` variant, the UV1 channel of a sample mesh and the project's
 colour space / lightmap encoding. That output pins the failure down in one step.
 
+## 2026-10 fix: the property block never reached the shader
+
+Symptom (reported in the editor and in play mode): every map rendered as raw
+unlit albedo — flat, dark, "chocolate" surfaces instead of the baked lighting.
+Nothing went magenta and no error was printed, because the black-sample guard
+turned "no lightmap delivered" into a white multiplier, i.e. plain unlit.
+
+Cause: `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` sampled
+`_BSLightmap` / `_BSLightmapST` as plain CG uniforms that were **not declared
+in the `Properties` block**. A `MaterialPropertyBlock` can only address
+properties declared there, so every `SetTexture` / `SetVector` call in
+`BSLegacyLightmaps.ApplyRenderers` was a silent no-op: `_BSLightmapST` stayed
+`(0,0,0,0)`, the fallback branch never ran, and the `LIGHTMAP_ON` variant —
+the only other source of baked light — is never enabled by the editor for a
+scene without a LightingData asset. Result: neither lightmap path worked.
+
+Fix (regenerate with `tools/rebuild_shaders.py`, allowed by
+`tools/verify_shaders.py` as a documented deviation; everything else still
+matches the APK property list):
+
+```
+[HideInInspector] _BSLightmap ("BS legacy lightmap (recovery)", 2D) = "black" {}
+[HideInInspector] _BSLightmapST ("BS legacy lightmap scale/offset (recovery)", Vector) = (0, 0, 0, 0)
+```
+
+`Mobile/VertexLit` also gained an explicit source priority in the fragment
+shader — engine lightmap (`LIGHTMAP_ON`, play mode) > property-block lightmap
+> `ShadeVertexLights` — matching the original `VertexLM` behaviour where a
+baked map replaces lighting entirely.
+
+`_BSDebugMode` deliberately stays a code-only uniform: it is driven through
+`Shader.SetGlobalFloat` (`Tools > Block Strike > Lighting: debug view`), and a
+global is shadowed by a material property the moment one is declared.
+
+In-editor confirmation steps live in [`editor-check-410.md`](editor-check-410.md).
+
 ## Known limits
 
 * `TODO: unverified` — the visual result has not been compared against the APK

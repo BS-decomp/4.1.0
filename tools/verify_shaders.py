@@ -49,7 +49,17 @@ STATE_EXCEPTIONS = {
 }
 STATE_KEYS = ("Blend", "ZWrite", "Cull", "ColorMask", "Offset", "AlphaTest", "ZTest")
 
-PROPERTY_RE = re.compile(r"^\s*([_A-Za-z][\w]*)\s*\(\s*\"([^\"]*)\"\s*,\s*([^)]+)\)\s*=\s*(.+?)\s*$", re.M)
+# Recovery-only properties that the Unity 2021 port adds on top of the APK
+# property list (documented in docs/lightmaps-410.md): BSLegacyLightmaps feeds
+# the baked lightmap through a MaterialPropertyBlock, and a block can only
+# address properties declared in the shader's Properties list. Everything else
+# must still match the APK byte for byte.
+EXTRA_PROPERTIES = {
+    "Mobile/Unlit (Supports Lightmap)": {"_BSLightmap", "_BSLightmapST"},
+    "Mobile/VertexLit": {"_BSLightmap", "_BSLightmapST"},
+}
+
+PROPERTY_RE = re.compile(r"^\s*(?:\[[^\]]+\]\s*)?([_A-Za-z][\w]*)\s*\(\s*\"([^\"]*)\"\s*,\s*([^)]+)\)\s*=\s*(.+?)\s*$", re.M)
 
 
 def properties(text):
@@ -140,7 +150,8 @@ def main(argv=None):
         checked += 1
 
         want_props = properties(ground)
-        have_props = properties(text)
+        allowed_extra = EXTRA_PROPERTIES.get(name, set())
+        have_props = [p for p in properties(text) if p[0] not in allowed_extra]
         if want_props != have_props:
             only_want = [p for p in want_props if p not in have_props]
             only_have = [p for p in have_props if p not in want_props]

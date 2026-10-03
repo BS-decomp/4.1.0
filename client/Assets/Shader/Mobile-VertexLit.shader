@@ -99,7 +99,15 @@ SubShader {
 				if (_BSDebugMode < 2.5) { return fixed4(lm, 1); }
 				return fixed4(frac(i.bsuv), 0, 1);
 			}
+			// Priority, matching the original VertexLM behaviour: the engine
+			// lightmap (LIGHTMAP_ON, play mode) replaces lighting entirely; the
+			// BSLegacyLightmaps property block is the editor/fallback source;
+			// only a renderer with neither falls back to vertex lights.
+			#ifdef LIGHTMAP_ON
+			col.rgb *= lm;
+			#else
 			col.rgb *= any(_BSLightmapST.xy) ? lm : i.vlight;
+			#endif
 			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
 		}

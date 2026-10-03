@@ -7,6 +7,15 @@
 Shader "Mobile/Unlit (Supports Lightmap)" {
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
+	// Recovery additions (not in the APK shader, documented deviation — see
+	// docs/lightmaps-410.md): a MaterialPropertyBlock can only address
+	// properties that are declared in this block, so the BSLegacyLightmaps
+	// fallback needs these two here or the baked map never reaches the shader
+	// and every map renders as raw unlit albedo. [HideInInspector] keeps the
+	// material inspector clean; the defaults leave the branch off, exactly the
+	// behaviour of the undeclared-uniform version when nobody sets them.
+	[HideInInspector] _BSLightmap ("BS legacy lightmap (recovery)", 2D) = "black" {}
+	[HideInInspector] _BSLightmapST ("BS legacy lightmap scale/offset (recovery)", Vector) = (0, 0, 0, 0)
 }
 SubShader {
 	LOD 100

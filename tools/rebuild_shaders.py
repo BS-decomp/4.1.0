@@ -842,6 +842,15 @@ SubShader {
 shader("Mobile-Lightmap-Unlit.shader", "Mobile/Unlit (Supports Lightmap)", "Mobile-Unlit (Supports Lightmap).shaderlab")("""Shader "Mobile/Unlit (Supports Lightmap)" {
 Properties {
 	_MainTex ("Base (RGB)", 2D) = "white" {}
+	// Recovery additions (not in the APK shader, documented deviation — see
+	// docs/lightmaps-410.md): a MaterialPropertyBlock can only address
+	// properties that are declared in this block, so the BSLegacyLightmaps
+	// fallback needs these two here or the baked map never reaches the shader
+	// and every map renders as raw unlit albedo. [HideInInspector] keeps the
+	// material inspector clean; the defaults leave the branch off, exactly the
+	// behaviour of the undeclared-uniform version when nobody sets them.
+	[HideInInspector] _BSLightmap ("BS legacy lightmap (recovery)", 2D) = "black" {}
+	[HideInInspector] _BSLightmapST ("BS legacy lightmap scale/offset (recovery)", Vector) = (0, 0, 0, 0)
 }
 SubShader {
 	LOD 100
@@ -1036,7 +1045,15 @@ SubShader {
 				if (_BSDebugMode < 2.5) { return fixed4(lm, 1); }
 				return fixed4(frac(i.bsuv), 0, 1);
 			}
+			// Priority, matching the original VertexLM behaviour: the engine
+			// lightmap (LIGHTMAP_ON, play mode) replaces lighting entirely; the
+			// BSLegacyLightmaps property block is the editor/fallback source;
+			// only a renderer with neither falls back to vertex lights.
+			#ifdef LIGHTMAP_ON
+			col.rgb *= lm;
+			#else
 			col.rgb *= any(_BSLightmapST.xy) ? lm : i.vlight;
+			#endif
 			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
 		}

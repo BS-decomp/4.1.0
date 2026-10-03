@@ -26,7 +26,22 @@
 
 ## Target editor decision
 
-The original engine is confirmed as **Unity 4.7.2f1**. Unity 2021.3.45f2 is therefore a possible *later migration target*, not the initial export target. The first AssetRipper export must be checked in a compatible legacy workflow before migration to a modern editor.
+The original engine is confirmed as **Unity 4.7.2f1**; the AssetRipper export
+was produced in that version and every serialized file in `client/` is Unity
+4.7 format. The repair tooling (lightmap sentinel port, `LIGHTMAP_ON` shader
+rewrites, the `BSLegacyLightmaps` binder, de-batching) is written against
+**Unity 2021.3.x** semantics, and the project is being opened in
+**2021.3.45f2** — the same editor as BS-decomp/6.5.1.
+`client/ProjectSettings/ProjectVersion.txt` is therefore pinned to
+`2021.3.45f2 (0da89fac8e79)`: the first open upgrades the serialized assets in
+place. A legacy 4.7.2f1 pass is no longer possible after that upgrade —
+`original/apk/` stays the ground truth for all machine checks.
+
+2026-10 incident, fixed: maps rendered as raw unlit albedo ("chocolate")
+because the recovery uniforms were not declared in the shaders' `Properties`
+block, so the `MaterialPropertyBlock` fallback of `BSLegacyLightmaps` never
+reached the shader. Details in [`lightmaps-410.md`](lightmaps-410.md),
+in-editor confirmation steps in [`editor-check-410.md`](editor-check-410.md).
 
 ## Next steps
 

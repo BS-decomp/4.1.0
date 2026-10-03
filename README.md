@@ -34,7 +34,14 @@ For context, this version sits between the two already-reconstructed neighbors:
 
 ## Open the project
 
-`client/` is a placeholder until the export is produced. The target editor version will be announced here and pinned in `client/ProjectSettings/ProjectVersion.txt` once recovery begins.
+Open `client/` in **Unity 2021.3.45f2** (pinned in
+`client/ProjectSettings/ProjectVersion.txt`). The serialized assets were
+exported in Unity 4.7 format, so the first open runs a one-way upgrade —
+expect a long import. After it finishes, `Tools > Block Strike > Diagnose
+lighting` prints the state of the baked lighting for the open scene, and
+`Tools > Block Strike > Playtest` boots the game offline (see
+[`docs/playtest-410.md`](docs/playtest-410.md) and
+[`docs/editor-check-410.md`](docs/editor-check-410.md)).
 
 ## Bugs and contributions
 
