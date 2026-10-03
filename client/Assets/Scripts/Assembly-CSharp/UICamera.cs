@@ -979,7 +979,7 @@ public class UICamera : MonoBehaviour
 				{
 					for (int j = 0; j < array.Length; j++)
 					{
-						GameObject gameObject = array[j].GetComponent<Collider>().gameObject;
+						GameObject gameObject = array[j].collider.GetComponent<Collider>().gameObject;
 						UIWidget component = gameObject.GetComponent<UIWidget>();
 						if (component != null)
 						{
@@ -1001,7 +1001,7 @@ public class UICamera : MonoBehaviour
 						{
 							mHit.hit = array[j];
 							mHit.point = array[j].point;
-							mHit.go = array[j].GetComponent<Collider>().gameObject;
+							mHit.go = array[j].collider.GetComponent<Collider>().gameObject;
 							mHits.Add(mHit);
 						}
 					}
@@ -1025,7 +1025,7 @@ public class UICamera : MonoBehaviour
 					{
 						continue;
 					}
-					GameObject gameObject2 = array[0].GetComponent<Collider>().gameObject;
+					GameObject gameObject2 = array[0].collider.GetComponent<Collider>().gameObject;
 					UIWidget component2 = gameObject2.GetComponent<UIWidget>();
 					if (component2 != null)
 					{
@@ -1042,7 +1042,7 @@ public class UICamera : MonoBehaviour
 							continue;
 						}
 					}
-					if (IsVisible(array[0].point, array[0].GetComponent<Collider>().gameObject))
+					if (IsVisible(array[0].point, array[0].collider.GetComponent<Collider>().gameObject))
 					{
 						lastHit = array[0];
 						lastWorldPosition = array[0].point;
