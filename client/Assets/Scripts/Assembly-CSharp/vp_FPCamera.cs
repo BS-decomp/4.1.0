@@ -288,7 +288,7 @@ public class vp_FPCamera : vp_Component
 	{
 		m_CameraCollisionStartPos = FPController.Transform.TransformPoint(0f, PositionOffset.y, 0f);
 		m_CameraCollisionEndPos = base.Transform.position + (base.Transform.position - m_CameraCollisionStartPos).normalized * FPController.mCharacterController.radius;
-		if (Physics.Linecast(m_CameraCollisionStartPos, m_CameraCollisionEndPos, out m_CameraHit, -1749041173) && !m_CameraHit.collider.GetComponent<Collider>().isTrigger)
+		if (Physics.Linecast(m_CameraCollisionStartPos, m_CameraCollisionEndPos, out m_CameraHit, -1749041173) && !m_CameraHit.collider.isTrigger)
 		{
 			base.Transform.position = m_CameraHit.point - (m_CameraHit.point - m_CameraCollisionStartPos).normalized * FPController.mCharacterController.radius;
 		}

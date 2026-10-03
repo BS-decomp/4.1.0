@@ -480,7 +480,7 @@ public class vp_FPController : vp_Component
 		}
 		mCharacterController.Move(m_MoveDirection * base.Delta);
 		Physics.SphereCast(new Ray(base.Transform.position + Vector3.up * mCharacterController.radius, Vector3.down), mCharacterController.radius, out m_GroundHit, m_SkinWidth + 0.001f, -1749041173);
-		m_Grounded = m_GroundHit.collider.GetComponent<Collider>() != null;
+		m_Grounded = m_GroundHit.collider != null;
 		if (m_GroundHit.transform == null && m_LastGroundHit.transform != null)
 		{
 			if (m_Platform != null && m_PositionOnPlatform != Vector3.zero)
@@ -537,7 +537,7 @@ public class vp_FPController : vp_Component
 			m_MotorThrottle.y = 0f;
 			m_MotorJumpForceAcc = 0f;
 			m_MotorJumpForceHoldSkipFrames = 0;
-			if (m_GroundHit.collider.GetComponent<Collider>().gameObject.layer == 28)
+			if (m_GroundHit.collider.gameObject.layer == 28)
 			{
 				m_Platform = m_GroundHit.transform;
 				m_LastPlatformAngle = m_Platform.eulerAngles.y;

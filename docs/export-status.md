@@ -8,7 +8,8 @@
 | Ground-truth APK | ✅ Received | `original/apk/com.rexetstudio.blockstrike-780.apk`; SHA-256 `4275b1ab06565bf16b8d049b2ad91d2a16c6637a0f41bedacca308a93a608c18`; 56,650,916 bytes. |
 | APK fingerprint | ✅ Done | Mono Android build; armeabi-v7a and x86 libraries; 58 scenes (`level0`–`level57`) and 60 `sharedassets` files observed. |
 | Scene names | ✅ Decrypted | DES/PBKDF2 key recomputed from the APK; all 59 scenes renamed to their real names. See [`scene-names-410.md`](scene-names-410.md). |
-| Playtest tooling | ✅ Added (untested in Unity) | `Tools > Block Strike > Playtest` arms a one-shot offline run as `byvlal`. See [`playtest-410.md`](playtest-410.md). |
+| Playtest tooling | ✅ v2 — boots through `Menu` | `Tools > Block Strike > Playtest` arms a one-shot offline run as `byvlal`, using the game's own `OnCreateServerOffline` path so the account, weapons, skin and HUD are the real ones. See [`playtest-410.md`](playtest-410.md). |
+| Script artifacts | ✅ 35 fixed | `RaycastHit.collider.GetComponent<Collider>()` → `.collider`: restored player physics, hit detection and NGUI input. See [`script-artifacts-410.md`](script-artifacts-410.md). |
 | Shaders | ✅ Rebuilt from the APK | All 17 placeholders replaced with shaders transcribed from the compiled ShaderLab in the APK; `tools/verify_shaders.py` checks names, properties and render state. See [`shaders-410.md`](shaders-410.md). |
 | Lightmaps | ⚠️ Partially verified | Every lightmap reference in all 59 scenes resolves to a texture; binding/mode correctness in Unity 2021 is still unverified. |
 | Static batching repair | ✅ Done | All 59 scenes de-batched from the Unity 4 `Combined Mesh (root: scene)` layout; 4305 renderers repaired and verified against the original combined meshes. See [`static-batching-410.md`](static-batching-410.md). |

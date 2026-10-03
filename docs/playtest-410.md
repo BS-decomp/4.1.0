@@ -8,51 +8,53 @@ Files:
 
 | File | Role |
 | --- | --- |
-| `client/Assets/BSPlaytest/BSPlaytest.cs` | runtime bootstrap + mode driver (wrapped in `#if UNITY_EDITOR`, never ships in a build) |
+| `client/Assets/BSPlaytest/BSPlaytest.cs` | runtime bootstrap, account stub and spawn fallback (wrapped in `#if UNITY_EDITOR`, never ships in a build) |
 | `client/Assets/Editor/BlockStrikeRecovery/BSPlaytestWindow.cs` | the window, the preflight and the session guards |
 | `client/Assets/Editor/BlockStrikeRecoveryMenu.cs` | `Tools > Block Strike > Audit all maps` — the same checks over all 59 scenes |
 
-## What it actually does at Play
+## What it actually does at Play (v2)
 
-`[RuntimeInitializeOnLoadMethod(BeforeSceneLoad)]` runs **before** the map's
-`GameManager.Awake()` (which would otherwise bounce you to `Menu`) and:
+v1 faked a minimal account inside the map scene and that produced a crippled
+player: no joystick, no weapon, no physics, NGUI labels stuck on "new label".
+The reason is that a map scene initialises almost nothing — the real game boots
+`AwakeScene -> Logo -> Menu`, and it is `Logo`/`Menu` that call
+`Settings.Load()`, create the `AccountManager` (DontDestroyOnLoad, with its
+serialized `Data`/`DefaultData`), warm up Localization, the weapon/skin store
+managers and `mPhotonSettings`.
 
-1. creates a stub account — `AccountManager.Init()`, `isConnect = true`,
-   `AccountName = "byvlal"`;
-2. `PhotonNetwork.offlineMode = true`, `playerName = "byvlal"`,
-   `CreateRoom("Playtest")`, `automaticallySyncScene = false`;
-3. writes the standard room properties with the game's own keys —
-   `s` scene name, `p` password (empty), `g` game mode, `r` round state
-   (`PlayRound`);
-4. clears/sets the local player properties (`ClearProperties`, player id, level);
-5. after the map has loaded, reproduces the **local-player part** of the mode's
-   `Start()`: round state, spawn point (`GetTeamSpawn` / `GetRandomSpawn` /
-   `GetPlayerIDSpawn`, exactly as the matching mode script picks it), weapon
-   (Rifle / Knife / Pistol per mode), `UIPanelManager.ShowPanel("Display")`,
-   plus `SurfEnabled` for Surf and auto-jump for BunnyHop.
+v2 therefore reproduces the path a player takes:
 
-The game mode comes from the game's own `Resources/others/SceneManager.json`
-(scene → mode); the window lets you override it.
+1. `[RuntimeInitializeOnLoadMethod(BeforeSceneLoad)]` arms the session and calls
+   `Settings.Load()` (what `Logo.Start()` does);
+2. it loads **`Menu`** and waits for the scene to come up, so every manager the
+   game needs exists and survives via DontDestroyOnLoad;
+3. it stubs the account the backend would normally deliver —
+   `AccountManager.Init()`, `isConnect = true`, `AccountID/Token`,
+   `AccountName = "byvlal"`. The loadout comes from `AccountData`'s own
+   defaults, i.e. the game's: Money 100, Gold 10, Level 1, rifle 12, pistol 3,
+   knife 4, player skin 0;
+4. it calls the game's **own** offline entry point,
+   `mPhotonSettings.OnCreateServerOffline(map)` — the same call the in-game
+   offline/training flow uses. That sets `offlineMode`, creates the room and
+   loads the map through `LevelManager`;
+5. it stamps the standard room properties (`s` scene, `p` password, `g` game
+   mode, `r` round state) and the local player properties;
+6. after the map loads it waits 2 s; if the map spawned the player itself
+   (tutorial-style maps do) it stays out of the way, otherwise it runs the
+   matching mode's local spawn sequence (spawn point, weapon, HUD panel,
+   Surf/BunnyHop flags).
 
-### Why the mode scripts themselves do not run
+The old behaviour is still available: untick "Поднимать игру через Menu" in the
+window. It is only useful for checking geometry — the player will be incomplete,
+and the window says so.
 
-Every mode component in 4.1.0 starts with
+### Why mode logic still does not run
 
-```csharp
-private void Awake()
-{
-    if (PhotonNetwork.offlineMode) { Object.Destroy(this); }
-    else if (PhotonNetwork.room.GetGameMode() != GameMode.X) { Object.Destroy(this); }
-    ...
-}
-```
-
-so offline rooms deliberately have no mode logic — that is how the original
-tutorial/offline flow works. The playtest therefore emulates the local-player
-setup only. **Not emulated:** scoring, rounds, bots, team balance, bomb/zombie
-logic, networked events. You get a working map, a working player, weapons,
-physics, triggers and colliders — enough to walk the level and test geometry,
-spawns, lightmaps and shaders.
+Every mode component (TDMMode, Deathmatch, ZombieMode, …) starts with
+`if (PhotonNetwork.offlineMode) { Destroy(this); }`. Offline rooms deliberately
+have no mode logic — that is the game's design, not a porting gap. Scoring,
+rounds, bots and networked events are therefore not emulated; everything that
+belongs to the local player is.
 
 ## Preflight
 
@@ -63,6 +65,7 @@ console, a summary into a dialog):
 * the scene file exists;
 * `Resources/player/ControllerManager` and `Resources/PhotonServerSettings` load;
 * the scene contains a `GameManager`;
+* `Menu` exists and is enabled in Build Settings (when booting through it);
 * no renderer in the scene still points at a `Combined Mesh (root: scene)`
   (regression guard for the static-batch repair).
 

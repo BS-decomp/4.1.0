@@ -32,6 +32,8 @@ public class BSPlaytestWindow : EditorWindow
     private int sceneIndex;
     private string nick = "byvlal";
     private int modeOverride = -1;
+    private bool bootThroughMenu = true;
+    private const string BootScene = "Menu";
     private Vector2 scroll;
     private List<Check> checks = new List<Check>();
     private bool preflightDone;
@@ -113,6 +115,16 @@ public class BSPlaytestWindow : EditorWindow
         sceneIndex = Mathf.Clamp(sceneIndex, 0, scenePaths.Length - 1);
         sceneIndex = EditorGUILayout.Popup("Карта", sceneIndex, sceneLabels);
         nick = EditorGUILayout.TextField("Ник", nick);
+        bootThroughMenu = EditorGUILayout.ToggleLeft(
+            "Поднимать игру через " + BootScene + " (как в оригинале: аккаунт, оружие, скин, джойстик)",
+            bootThroughMenu);
+        if (!bootThroughMenu)
+        {
+            EditorGUILayout.HelpBox(
+                "Прямой запуск карты пропускает инициализацию Logo/Menu: не будет настроек, " +
+                "локализации и данных аккаунта — игрок будет неполноценным. Включай только для " +
+                "проверки геометрии.", MessageType.Warning);
+        }
 
         string sceneName = Path.GetFileNameWithoutExtension(scenePaths[sceneIndex]);
         int resolved = BSPlaytestModes.ResolveMode(sceneName);
@@ -183,6 +195,18 @@ public class BSPlaytestWindow : EditorWindow
 
         Add(Resources.Load("PhotonServerSettings") != null, "PhotonServerSettings",
             "Нет PhotonServerSettings — PUN не инициализируется.", true);
+
+        string bootPath = AssetDatabase.FindAssets("t:SceneAsset " + BootScene, new[] { "Assets/Levels" })
+            .Select(AssetDatabase.GUIDToAssetPath)
+            .FirstOrDefault(p => System.IO.Path.GetFileNameWithoutExtension(p) == BootScene);
+        if (bootThroughMenu)
+        {
+            Add(bootPath != null, "Сцена " + BootScene + " найдена",
+                "Без неё игру нечем инициализировать: сними галку или восстанови сцену.", true);
+            Add(bootPath != null && EditorBuildSettings.scenes.Any(s => s.path == bootPath && s.enabled),
+                BootScene + " включена в Build Settings",
+                "Application.LoadLevel(\"" + BootScene + "\") не сработает, пока сцены нет в Build Settings.", true);
+        }
 
         string sceneName = Path.GetFileNameWithoutExtension(scenePath);
         int mode = modeOverride >= 0 ? modeOverride : BSPlaytestModes.ResolveMode(sceneName);
@@ -267,6 +291,8 @@ public class BSPlaytestWindow : EditorWindow
             scene = Path.GetFileNameWithoutExtension(scenePath),
             gameMode = mode,
             spawnPlayer = true,
+            bootThroughMenu = bootThroughMenu,
+            bootScene = BootScene,
             createdUtc = DateTime.UtcNow.ToString("o"),
             maxAgeMinutes = 180
         };
@@ -277,7 +303,10 @@ public class BSPlaytestWindow : EditorWindow
         EditorPrefs.SetString(ArmedSceneKey, scenePath);
 
         EditorUtility.DisplayDialog("Block Strike Playtest",
-            "Готово.\n\nОткрой карту «" + session.scene + "» (или любую другую) и нажми Play.\n" +
+            "Готово.\n\n" + (bootThroughMenu
+                ? "Жми Play из любой сцены: плейтест сам поднимет " + BootScene +
+                  ", сделает аккаунт и зайдёт на карту через оффлайн-комнату игры.\n"
+                : "Открой карту «" + session.scene + "» и нажми Play.\n") +
             "Ник: " + session.nick + "\nРежим: " + (mode >= 0 ? ((GameMode)mode).ToString() : "TeamDeathmatch (по умолчанию)") + "\n\n" +
             "Сессия одноразовая: после выхода из Play её нужно взвести заново.",
             "Поехали");

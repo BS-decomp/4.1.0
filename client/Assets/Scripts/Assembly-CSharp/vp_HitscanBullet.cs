@@ -79,7 +79,7 @@ public class vp_HitscanBullet : MonoBehaviour
 				m_Transform.localScale = localScale;
 				m_Transform.parent = hitInfo.transform;
 			}
-			Rigidbody attachedRigidbody = hitInfo.collider.GetComponent<Collider>().attachedRigidbody;
+			Rigidbody attachedRigidbody = hitInfo.collider.attachedRigidbody;
 			if (attachedRigidbody != null && !attachedRigidbody.isKinematic)
 			{
 				attachedRigidbody.AddForceAtPosition(ray.direction * Force / Time.timeScale / vp_TimeUtility.AdjustedTimeScale, hitInfo.point);
@@ -107,7 +107,7 @@ public class vp_HitscanBullet : MonoBehaviour
 				m_Audio.Stop();
 				m_Audio.Play();
 			}
-			hitInfo.collider.GetComponent<Collider>().SendMessageUpwards(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
+			hitInfo.collider.SendMessageUpwards(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
 			if (NoDecalOnTheseLayers.Length > 0)
 			{
 				int[] noDecalOnTheseLayers = NoDecalOnTheseLayers;
