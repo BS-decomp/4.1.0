@@ -416,7 +416,7 @@ public class UIScrollablePopupList : UIWidgetContainer
 			UIPlaySound uIPlaySound = components[i];
 			if (uIPlaySound.trigger == UIPlaySound.Trigger.OnClick)
 			{
-				NGUITools.PlaySound(uIPlaySound.GetComponent<AudioSource>()Clip, uIPlaySound.volume, 1f);
+				NGUITools.PlaySound(uIPlaySound.audioClip, uIPlaySound.volume, 1f);
 			}
 		}
 		Close();

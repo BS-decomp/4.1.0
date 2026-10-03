@@ -462,7 +462,7 @@ public class UIPanel : UIRect
 			{
 				if (base.anchorCamera != null)
 				{
-					return mCam.GetWorldCorners(base.GetComponent<Camera>()RayDistance);
+					return mCam.GetWorldCorners(base.rayDistance);
 				}
 				Vector2 viewSize = GetViewSize();
 				float num3 = -0.5f * viewSize.x;
@@ -544,7 +544,7 @@ public class UIPanel : UIRect
 		}
 		if (base.anchorCamera != null && anchorOffset)
 		{
-			Vector3[] sides = mCam.GetSides(base.GetComponent<Camera>()RayDistance);
+			Vector3[] sides = mCam.GetSides(base.rayDistance);
 			Vector3 position = base.cachedTransform.position;
 			for (int j = 0; j < 4; j++)
 			{
