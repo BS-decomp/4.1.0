@@ -136,6 +136,61 @@ public static class BSLightingDiagnostics
                            "and the binder has to restore them (it runs in Awake/OnEnable).");
         }
 
+        // Per-renderer detail: this is what tells apart "no texture", "no UV1",
+        // "no lightmap" and "shader does not sample it".
+        int shown = 0;
+        foreach (Renderer r in renderers)
+        {
+            if (r.lightmapIndex < 0 || r.lightmapIndex >= 65534)
+            {
+                continue;
+            }
+            Material mat = r.sharedMaterial;
+            MeshFilter filter = r.GetComponent<MeshFilter>();
+            Mesh mesh = filter != null ? filter.sharedMesh : null;
+            probe.Clear();
+            if (r.HasPropertyBlock())
+            {
+                r.GetPropertyBlock(probe);
+            }
+            Vector4 st = probe.GetVector("_BSLightmapST");
+            Texture blockTex = probe.GetTexture("_BSLightmap");
+
+            log.AppendLine("renderer \"" + r.name + "\"");
+            log.AppendLine("  material: " + (mat == null ? "<none>" : mat.name) +
+                           " | shader: " + (mat == null || mat.shader == null ? "<none>" : mat.shader.name) +
+                           " | mainTexture: " + (mat == null || mat.mainTexture == null
+                               ? "NOT SET" : mat.mainTexture.name));
+            log.AppendLine("  block: _BSLightmap " + (blockTex == null ? "NOT SET" : blockTex.name) +
+                           " | _BSLightmapST " + st);
+            log.AppendLine("  renderer.lightmapIndex " + r.lightmapIndex +
+                           " | scaleOffset " + r.lightmapScaleOffset);
+            if (mesh == null)
+            {
+                log.AppendLine("  mesh: <none>");
+            }
+            else
+            {
+                Vector2[] uv2 = mesh.uv2;
+                log.AppendLine("  mesh " + mesh.name + ": verts " + mesh.vertexCount +
+                               " | uv2 " + (uv2 == null ? 0 : uv2.Length) +
+                               (uv2 != null && uv2.Length > 0 ? " first " + uv2[0] : "") +
+                               " | uv " + (mesh.uv == null ? 0 : mesh.uv.Length));
+                if (uv2 != null && uv2.Length > 0)
+                {
+                    Vector2 mapped = new Vector2(uv2[0].x * st.x + st.z, uv2[0].y * st.y + st.w);
+                    log.AppendLine("  lightmap UV of vertex 0: " + mapped);
+                }
+            }
+            if (++shown >= 3)
+            {
+                break;
+            }
+        }
+
+        log.AppendLine("RenderSettings: fog " + RenderSettings.fog + " (" + RenderSettings.fogMode +
+                       ", colour " + RenderSettings.fogColor + ") | ambient " + RenderSettings.ambientLight);
+
         Debug.Log(log.ToString());
         EditorUtility.DisplayDialog("Block Strike lighting",
             "Отчёт в консоли. Коротко:\n\n" +
@@ -183,5 +238,17 @@ public static class BSLightingDiagnostics
         EditorUtility.DisplayDialog("Block Strike lighting",
             "Безопасный режим: лайтмапы отвязаны у " + touched + " рендереров.\n" +
             "Ничего не сохранено — переоткрой сцену, чтобы вернуть.", "OK");
+    }
+
+    [MenuItem("Tools/Block Strike/Lighting: debug view (cycle)")]
+    public static void CycleDebugView()
+    {
+        int mode = (Mathf.RoundToInt(Shader.GetGlobalFloat("_BSDebugMode")) + 1) % 4;
+        Shader.SetGlobalFloat("_BSDebugMode", mode);
+        string[] names = { "normal", "albedo only (_MainTex)", "lightmap only", "UV1 as colour" };
+        Debug.Log("[BS Lightmaps] debug view: " + names[mode]);
+        EditorUtility.DisplayDialog("Block Strike lighting", "Режим показа: " + names[mode] +
+            "\n\nПрощёлкай по кругу: normal -> albedo -> lightmap -> UV1.", "OK");
+        SceneView.RepaintAll();
     }
 }

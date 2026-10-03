@@ -36,6 +36,30 @@ SubShader {
 		sampler2D _BSLightmap;
 		float4 _BSLightmapST;
 
+		// One place that decides where the baked light comes from:
+		//  * Unity's own lightmap when the engine provides one (LIGHTMAP_ON),
+		//  * otherwise the texture BSLegacyLightmaps pushes per renderer.
+		// Both are decoded with the x2 of the original dLDR "double" pass.
+		// A fully black sample means "nothing is actually bound" (Unity hands out a
+		// black default texture), so the surface stays unlit instead of going black.
+		// Debug switch driven by Tools > Block Strike > Lighting: debug view.
+		// 0 = normal, 1 = albedo only, 2 = lightmap only, 3 = UV1 as colour.
+		float _BSDebugMode;
+
+		fixed3 BSSampleLightmap(float2 unityUV, float2 bsUV)
+		{
+			fixed3 lm = fixed3(1, 1, 1);
+			#ifdef LIGHTMAP_ON
+			lm = 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, unityUV).rgb;
+			#else
+			if (any(_BSLightmapST.xy))
+			{
+				lm = 2.0 * tex2D(_BSLightmap, bsUV).rgb;
+			}
+			#endif
+			return (lm.r + lm.g + lm.b) < 0.01 ? fixed3(1, 1, 1) : lm;
+		}
+
 		struct appdata_t {
 			float4 vertex : POSITION;
 			float3 normal : NORMAL;
@@ -46,8 +70,9 @@ SubShader {
 			float4 pos : SV_POSITION;
 			float2 uv : TEXCOORD0;
 			float2 lmuv : TEXCOORD1;
+			float2 bsuv : TEXCOORD2;
 			fixed3 vlight : TEXCOORD3;
-			UNITY_FOG_COORDS(2)
+			UNITY_FOG_COORDS(4)
 		};
 
 		v2f vert (appdata_t v) {
@@ -57,8 +82,9 @@ SubShader {
 			#ifdef LIGHTMAP_ON
 			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
 			#else
-			o.lmuv = v.texcoord1.xy * _BSLightmapST.xy + _BSLightmapST.zw;
+			o.lmuv = v.texcoord1.xy;
 			#endif
+			o.bsuv = v.texcoord1.xy * _BSLightmapST.xy + _BSLightmapST.zw;
 			o.vlight = ShadeVertexLights(v.vertex, v.normal);
 			UNITY_TRANSFER_FOG(o, o.pos);
 			return o;
@@ -66,18 +92,14 @@ SubShader {
 
 		fixed4 frag (v2f i) : SV_Target {
 			fixed4 col = tex2D(_MainTex, i.uv);
-			#ifdef LIGHTMAP_ON
-			col.rgb *= 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv).rgb;
-			#else
-			if (any(_BSLightmapST.xy))
+			fixed3 lm = BSSampleLightmap(i.lmuv, i.bsuv);
+			if (_BSDebugMode > 0.5)
 			{
-				col.rgb *= 2.0 * tex2D(_BSLightmap, i.lmuv).rgb;
+				if (_BSDebugMode < 1.5) { return fixed4(col.rgb, 1); }
+				if (_BSDebugMode < 2.5) { return fixed4(lm, 1); }
+				return fixed4(frac(i.bsuv), 0, 1);
 			}
-			else
-			{
-				col.rgb *= i.vlight;
-			}
-			#endif
+			col.rgb *= any(_BSLightmapST.xy) ? lm : i.vlight;
 			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
 		}
