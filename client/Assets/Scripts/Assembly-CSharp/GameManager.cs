@@ -346,10 +346,12 @@ public class GameManager : PunBehaviour
 		PhotonNetwork.LoadLevel(LevelManager.GetNextScene((GameMode)mode));
 	}
 
-	public unsafe static void StartAutoBalance()
-	{
-		TimerManager.In(30f, -1, 30f, new TimerManager.Callback(null, (IntPtr)(void*)(ulong)(UIntPtr/*delegate*<bool, void>*/)(&BalanceTeam)));
-	}
+		public static void StartAutoBalance()
+		{
+			// The original export contained an IL-style function-pointer artifact here.
+			// Use the existing managed TimerManager callback API instead of unsafe code.
+			TimerManager.In(30f, -1, 30f, () => BalanceTeam());
+		}
 
 	public static void BalanceTeam(bool updateTeam = false)
 	{
