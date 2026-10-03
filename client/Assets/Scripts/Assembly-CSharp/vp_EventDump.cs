@@ -98,7 +98,7 @@ public class vp_EventDump
 				{
 				default:
 				{
-					int num;
+					int num = 0;
 					text = ((num != 1) ? (text + "Unsupported listener: ") : (text + "Set"));
 					break;
 				}

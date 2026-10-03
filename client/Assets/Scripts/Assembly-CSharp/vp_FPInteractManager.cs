@@ -161,9 +161,9 @@ public class vp_FPInteractManager : MonoBehaviour
 		RaycastHit hitInfo;
 		if (Physics.Raycast(m_Camera.Transform.position, m_Camera.Transform.forward, out hitInfo, MaxInteractDistance, -1828716565))
 		{
-			if (!m_Interactables.TryGetValue(hitInfo.GetComponent<Collider>(), out interactable))
+			if (!m_Interactables.TryGetValue(hitInfo.collider.GetComponent<Collider>(), out interactable))
 			{
-				m_Interactables.Add(hitInfo.GetComponent<Collider>(), interactable = hitInfo.GetComponent<Collider>().GetComponent<vp_Interactable>());
+				m_Interactables.Add(hitInfo.collider.GetComponent<Collider>(), interactable = hitInfo.collider.GetComponent<Collider>().GetComponent<vp_Interactable>());
 			}
 			if (interactable == null)
 			{
@@ -190,13 +190,13 @@ public class vp_FPInteractManager : MonoBehaviour
 
 	protected virtual void OnControllerColliderHit(ControllerColliderHit hit)
 	{
-		Rigidbody attachedRigidbody = hit.GetComponent<Collider>().attachedRigidbody;
+		Rigidbody attachedRigidbody = hit.collider.GetComponent<Collider>().attachedRigidbody;
 		if (!(attachedRigidbody == null) && !attachedRigidbody.isKinematic)
 		{
 			vp_Interactable value = null;
-			if (!m_Interactables.TryGetValue(hit.GetComponent<Collider>(), out value))
+			if (!m_Interactables.TryGetValue(hit.collider.GetComponent<Collider>(), out value))
 			{
-				m_Interactables.Add(hit.GetComponent<Collider>(), value = hit.GetComponent<Collider>().GetComponent<vp_Interactable>());
+				m_Interactables.Add(hit.collider.GetComponent<Collider>(), value = hit.collider.GetComponent<Collider>().GetComponent<vp_Interactable>());
 			}
 			if (!(value == null) && value.InteractType == vp_Interactable.vp_InteractType.CollisionTrigger)
 			{

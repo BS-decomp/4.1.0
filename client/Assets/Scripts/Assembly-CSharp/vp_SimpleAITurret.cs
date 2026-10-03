@@ -53,7 +53,7 @@ public class vp_SimpleAITurret : MonoBehaviour
 		{
 			RaycastHit hitInfo;
 			Physics.Linecast(m_Transform.position, collider.transform.position + Vector3.up, out hitInfo);
-			if (!(hitInfo.GetComponent<Collider>() != null) || !(hitInfo.GetComponent<Collider>() != collider))
+			if (!(hitInfo.collider.GetComponent<Collider>() != null) || !(hitInfo.collider.GetComponent<Collider>() != collider))
 			{
 				return collider.transform;
 			}

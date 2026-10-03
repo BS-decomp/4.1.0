@@ -961,7 +961,7 @@ public class UICamera : MonoBehaviour
 					continue;
 				}
 				lastWorldPosition = lastHit.point;
-				mRayHitObject = lastHit.GetComponent<Collider>().gameObject;
+				mRayHitObject = lastHit.collider.GetComponent<Collider>().gameObject;
 				if (!list[0].eventsGoToColliders)
 				{
 					Rigidbody rigidbody = FindRootRigidbody(mRayHitObject.transform);
@@ -1046,7 +1046,7 @@ public class UICamera : MonoBehaviour
 					{
 						lastHit = array[0];
 						lastWorldPosition = array[0].point;
-						mRayHitObject = lastHit.GetComponent<Collider>().gameObject;
+						mRayHitObject = lastHit.collider.GetComponent<Collider>().gameObject;
 						return true;
 					}
 				}

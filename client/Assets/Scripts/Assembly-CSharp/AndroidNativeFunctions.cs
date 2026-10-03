@@ -740,7 +740,7 @@ public class AndroidNativeFunctions : MonoBehaviour
 	private IEnumerator CreateScreenshot(string name, string directory, int superSize, Action<string> finishAction)
 	{
 		name += ".png";
-		Application.CaptureScreenshot(name, superSize);
+		ScreenCapture.CaptureScreenshot(name, superSize);
 		yield return new WaitForSeconds(0.5f);
 		while (!File.Exists(Application.persistentDataPath + "/" + name))
 		{

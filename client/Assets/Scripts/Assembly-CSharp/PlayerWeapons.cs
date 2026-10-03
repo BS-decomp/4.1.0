@@ -517,7 +517,7 @@ public class PlayerWeapons : MonoBehaviour
 			{
 				continue;
 			}
-			if (FireRaycastHit.GetComponent<Collider>().CompareTag("PlayerSkin"))
+			if (FireRaycastHit.collider.GetComponent<Collider>().CompareTag("PlayerSkin"))
 			{
 				if (decalInfo.BloodDecal == 200)
 				{
@@ -534,11 +534,11 @@ public class PlayerWeapons : MonoBehaviour
 			}
 			else
 			{
-				if (FireRaycastHit.GetComponent<Collider>().CompareTag("IgnoreDecal"))
+				if (FireRaycastHit.collider.GetComponent<Collider>().CompareTag("IgnoreDecal"))
 				{
 					continue;
 				}
-				if (FireRaycastHit.GetComponent<Collider>().CompareTag("RigidbodyObject"))
+				if (FireRaycastHit.collider.GetComponent<Collider>().CompareTag("RigidbodyObject"))
 				{
 					if (PushRigidbody)
 					{
@@ -546,13 +546,13 @@ public class PlayerWeapons : MonoBehaviour
 					}
 					continue;
 				}
-				if (FireRaycastHit.GetComponent<Collider>().CompareTag("DamageObject"))
+				if (FireRaycastHit.collider.GetComponent<Collider>().CompareTag("DamageObject"))
 				{
 					DamageInfo value2 = DamageInfo.Get(weapon.Damage, m_PlayerInput.PlayerTransform.position, m_PlayerInput.PlayerTeam, weapon.ID, PhotonNetwork.player.ID, false);
 					FireRaycastHit.transform.SendMessage("Damage", value2, SendMessageOptions.DontRequireReceiver);
 					continue;
 				}
-				if (FireRaycastHit.GetComponent<Collider>().CompareTag("PaintObject"))
+				if (FireRaycastHit.collider.GetComponent<Collider>().CompareTag("PaintObject"))
 				{
 					EventManager.Dispatch("Paint", FireRaycastHit);
 					FireRaycastHit.transform.SendMessage("OnPaint", FireRaycastHit, SendMessageOptions.DontRequireReceiver);

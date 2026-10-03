@@ -32,7 +32,7 @@ public class SimpleDrag : MonoBehaviour
 	{
 		Ray ray = finger.GetRay();
 		RaycastHit hitInfo = default(RaycastHit);
-		if (Physics.Raycast(ray, out hitInfo, float.PositiveInfinity, LayerMask) && hitInfo.GetComponent<Collider>().gameObject == base.gameObject)
+		if (Physics.Raycast(ray, out hitInfo, float.PositiveInfinity, LayerMask) && hitInfo.collider.GetComponent<Collider>().gameObject == base.gameObject)
 		{
 			draggingFinger = finger;
 		}

@@ -193,7 +193,7 @@ public static class NGUITools
 	{
 		get
 		{
-			return Application.platform != true;
+			return true;
 		}
 	}
 

@@ -462,7 +462,7 @@ public class UIPanel : UIRect
 			{
 				if (base.anchorCamera != null)
 				{
-					return mCam.GetWorldCorners(base.rayDistance);
+					return mCam.GetWorldCorners(Mathf.Lerp(mCam.nearClipPlane, mCam.farClipPlane, 0.5f));
 				}
 				Vector2 viewSize = GetViewSize();
 				float num3 = -0.5f * viewSize.x;
@@ -544,7 +544,7 @@ public class UIPanel : UIRect
 		}
 		if (base.anchorCamera != null && anchorOffset)
 		{
-			Vector3[] sides = mCam.GetSides(base.rayDistance);
+			Vector3[] sides = mCam.GetSides(Mathf.Lerp(mCam.nearClipPlane, mCam.farClipPlane, 0.5f));
 			Vector3 position = base.cachedTransform.position;
 			for (int j = 0; j < 4; j++)
 			{
@@ -759,7 +759,7 @@ public class UIPanel : UIRect
 	protected override void Awake()
 	{
 		base.Awake();
-		mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.XBOX360 || Application.platform == Application.platform == RuntimePlatform.WindowsEditor;
+		mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.XBOX360 || Application.platform == RuntimePlatform.WindowsEditor;
 		if (mHalfPixelOffset && SystemInfo.graphicsDeviceVersion.Contains("Direct3D"))
 		{
 			mHalfPixelOffset = SystemInfo.graphicsShaderLevel < 40;
