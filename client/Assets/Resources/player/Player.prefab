@@ -1,0 +1,997 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 405782}
+  - 143: {fileID: 14361526}
+  - 114: {fileID: 11454010}
+  - 114: {fileID: 11419550}
+  - 114: {fileID: 11484216}
+  - 114: {fileID: 11443158}
+  - 114: {fileID: 11431434}
+  - 82: {fileID: 8270521}
+  - 82: {fileID: 8296012}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &179954
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 477035}
+  - 81: {fileID: 8103859}
+  - 20: {fileID: 2069566}
+  - 114: {fileID: 11488124}
+  - 114: {fileID: 11424449}
+  m_Layer: 0
+  m_Name: FPSCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &109266
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 491323}
+  - 20: {fileID: 2069143}
+  m_Layer: 0
+  m_Name: WeaponCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &405782
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 477035}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!143 &14361526
+CharacterController:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Height: 1.49
+  m_Radius: 0.3
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11454010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddacd39d85510443f9c700043753afe4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Persist: 0
+  EventHandler: {fileID: 0}
+  States:
+  - TypeName: vp_FPController
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock:
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  FPCamera: {fileID: 11488124}
+  MotorAcceleration: 0.18
+  MotorDamping: 0.17
+  MotorBackwardsSpeed: 0.9
+  MotorAirSpeed: 0.35
+  MotorSlopeSpeedUp: 1
+  MotorSlopeSpeedDown: 1
+  MotorFreeFly:
+    cryptoKey: 112
+    hiddenValue: 80
+    fakeValue: 0
+    fakeValueChanged: 0
+    inited: 1
+  MotorJumpForce: 0.15
+  MotorJumpForceDamping: 0.1
+  MotorJumpForceHold: 0
+  MotorJumpForceHoldDamping: 0
+  MotorDoubleJump: 0
+  PhysicsForceDamping: 0.05
+  PhysicsPushForce: 5
+  PhysicsGravityModifier:
+    cryptoKey: 1145909920
+    hiddenValue: 6d6cec9e
+    fakeValue: 0.2
+    inited: 1
+  PhysicsGravityModifierFixed:
+    cryptoKey: 1866712210
+    hiddenValue: fd8091a9
+    fakeValue: 0.002
+    inited: 1
+  PhysicsSlopeSlideLimit: 45
+  PhysicsSlopeSlidiness: 0.15
+  PhysicsWallBounce: 0
+  PhysicsWallFriction: 0
+  PhysicsHasCollisionTrigger: 0
+--- !u!114 &11419550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de5da02bbb28d69a55d6e35d244b935f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Health:
+    cryptoKey: 127285894
+    hiddenValue: 127285986
+    fakeValue: 100
+    inited: 1
+  PlayerTeam: 0
+  PlayerSpeed:
+    cryptoKey: -2078915502
+    hiddenValue: be036a6c
+    fakeValue: 0.18
+    inited: 1
+  isAwake: 0
+  Dead:
+    cryptoKey: 171
+    hiddenValue: 185
+    fakeValue: 1
+    fakeValueChanged: 1
+    inited: 1
+  NoDamage:
+    cryptoKey: 5
+    hiddenValue: 37
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  Move:
+    cryptoKey: 106
+    hiddenValue: 120
+    fakeValue: 1
+    fakeValueChanged: 1
+    inited: 1
+  Zombie:
+    cryptoKey: 28
+    hiddenValue: 60
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  DamageSpeed:
+    cryptoKey: 47
+    hiddenValue: 15
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  DamageForce:
+    cryptoKey: 140
+    hiddenValue: 172
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  MoveIce:
+    cryptoKey: 33
+    hiddenValue: 1
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  MaxHealth:
+    cryptoKey: 1971472708
+    hiddenValue: 1971472672
+    fakeValue: 100
+    inited: 1
+  Climb:
+    cryptoKey: 2
+    hiddenValue: 34
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  Water:
+    cryptoKey: 193
+    hiddenValue: 225
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  FPController: {fileID: 11454010}
+  FPlayerEvent: {fileID: 11431434}
+  FPCamera: {fileID: 11488124}
+  mCharacterController: {fileID: 14361526}
+  PlayerTransform: {fileID: 405782}
+  PlayerCamera: {fileID: 2069566}
+  PlayerWeaponCamera: {fileID: 2069143}
+  PlayerWeapon: {fileID: 11484216}
+  Controller: {fileID: 0}
+  PlayerFoosteps:
+  - {fileID: 8300000, guid: 5c31ea5a4dc45754a86151accb3d82d1, type: 3}
+  - {fileID: 8300000, guid: 20279d38605314d4796fce16e8ddb155, type: 3}
+  - {fileID: 8300000, guid: 9de63a60ea04352499a05b76f408c93c, type: 3}
+  MoveAxis: {x: 0, y: 0}
+  LookAxis: {x: 0, y: 0}
+  RotateCamera: 0
+  FallDamage:
+    cryptoKey: 29
+    hiddenValue: 61
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  FallDamageThreshold:
+    cryptoKey: -223584134
+    hiddenValue: 7a7a5a3b
+    fakeValue: 10
+    inited: 1
+  BunnyHopEnabled:
+    cryptoKey: 74
+    hiddenValue: 106
+    fakeValue: 0
+    fakeValueChanged: 1
+    inited: 1
+  BunnyHopSpeed:
+    cryptoKey: 1562966610
+    hiddenValue: 9f9e9e6c
+    fakeValue: 0.4
+    inited: 1
+  BunnyHopLerp:
+    cryptoKey: -1703548642
+    hiddenValue: 1e1ebe5e
+    fakeValue: 5
+    inited: 1
+  BunnyHopDefaultLerp:
+    cryptoKey: -1791440910
+    hiddenValue: f2f2f2cd
+    fakeValue: 0.5
+    inited: 1
+  BunnyHopDefaultSpeed:
+    cryptoKey: 1773048150
+    hiddenValue: ba076e68
+    fakeValue: 0.18
+    inited: 1
+  SurfEnabled: 0
+  SurfAcceleration: 2
+  SurfMaxSpeed: 120
+  SurfSpeed: 0
+  Surf: 0
+  StepOffset:
+    cryptoKey: -2095746082
+    hiddenValue: 444747e0
+    fakeValue: 0.3
+    inited: 1
+  MotorJumpForce:
+    cryptoKey: -1097839014
+    hiddenValue: c0c34364
+    fakeValue: 0.15
+    inited: 1
+  MotorJumpForceDamping:
+    cryptoKey: 1290927142
+    hiddenValue: ebeaea1b
+    fakeValue: 0.1
+    inited: 1
+  m_AudioSource: {fileID: 8270521}
+--- !u!114 &11484216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc5dd8fc3a313b49dd005f841e9702b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SelectedWeapon: 1
+  CanFire: 1
+  isDebug: 1
+  isFire: 0
+  isScope: 0
+  isReload: 0
+  Wielded: 0
+  InfiniteAmmo: 0
+  KnifeData:
+    Enabled: 0
+    ID:
+      cryptoKey: -1720663094
+      hiddenValue: -1720663094
+      fakeValue: 0
+      inited: 1
+    CanFire:
+      cryptoKey: 13
+      hiddenValue: 45
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    Name:
+      cryptoKey: -2113099186
+      hiddenValue:
+      fakeValue:
+      inited: 1
+    Damage:
+      cryptoKey: -1124771874
+      hiddenValue: -1124771874
+      fakeValue: 0
+      inited: 1
+    FireRate:
+      cryptoKey: -1662204624
+      hiddenValue: 30303030
+      fakeValue: 0
+      inited: 1
+    Accuracy:
+      cryptoKey: 1395019660
+      hiddenValue: 8c8c8c8c
+      fakeValue: 0
+      inited: 1
+    FireAccuracy:
+      cryptoKey: -632644742
+      hiddenValue: 7a7a7a7a
+      fakeValue: 0
+      inited: 1
+    FireBullets:
+      cryptoKey: -760885116
+      hiddenValue: -760885116
+      fakeValue: 0
+      inited: 1
+    ReloadTime:
+      cryptoKey: -1810506432
+      hiddenValue: 40404040
+      fakeValue: 0
+      inited: 1
+    Distance:
+      cryptoKey: -1132338632
+      hiddenValue: 38383838
+      fakeValue: 0
+      inited: 1
+    Mass:
+      cryptoKey: 1879103798
+      hiddenValue: 36363636
+      fakeValue: 0
+      inited: 1
+    Scope:
+      cryptoKey: 25
+      hiddenValue: 57
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    ScopeSize:
+      cryptoKey: 1579108452
+      hiddenValue: 1579108452
+      fakeValue: 0
+      inited: 1
+    ScopeSensitivity:
+      cryptoKey: 1625929776
+      hiddenValue: 30303030
+      fakeValue: 0
+      inited: 1
+    ScopeRecoil:
+      cryptoKey: 2147413628
+      hiddenValue: 7c7c7c7c
+      fakeValue: 0
+      inited: 1
+    ScopeAccuracy:
+      cryptoKey: -750050138
+      hiddenValue: a6a6a6a6
+      fakeValue: 0
+      inited: 1
+    FireSound: 0
+    ReloadSound: 0
+    Ammo:
+      cryptoKey: -577507408
+      hiddenValue: -577507408
+      fakeValue: 0
+      inited: 1
+    AmmoTotal:
+      cryptoKey: -952742334
+      hiddenValue: -952742334
+      fakeValue: 0
+      inited: 1
+    AmmoMax:
+      cryptoKey: 1701670736
+      hiddenValue: 1701670736
+      fakeValue: 0
+      inited: 1
+    LastFire: 0
+    Script: {fileID: 0}
+  PistolData:
+    Enabled: 0
+    ID:
+      cryptoKey: -397449334
+      hiddenValue: -397449334
+      fakeValue: 0
+      inited: 1
+    CanFire:
+      cryptoKey: 111
+      hiddenValue: 79
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    Name:
+      cryptoKey: -827067150
+      hiddenValue:
+      fakeValue:
+      inited: 1
+    Damage:
+      cryptoKey: -1272647530
+      hiddenValue: -1272647530
+      fakeValue: 0
+      inited: 1
+    FireRate:
+      cryptoKey: 120910380
+      hiddenValue: 2c2c2c2c
+      fakeValue: 0
+      inited: 1
+    Accuracy:
+      cryptoKey: -889649586
+      hiddenValue: 4e4e4e4e
+      fakeValue: 0
+      inited: 1
+    FireAccuracy:
+      cryptoKey: 671806370
+      hiddenValue: a2a2a2a2
+      fakeValue: 0
+      inited: 1
+    FireBullets:
+      cryptoKey: -1065544468
+      hiddenValue: -1065544468
+      fakeValue: 0
+      inited: 1
+    ReloadTime:
+      cryptoKey: 1517518054
+      hiddenValue: e6e6e6e6
+      fakeValue: 0
+      inited: 1
+    Distance:
+      cryptoKey: -844124186
+      hiddenValue: e6e6e6e6
+      fakeValue: 0
+      inited: 1
+    Mass:
+      cryptoKey: -1411221756
+      hiddenValue: 04040404
+      fakeValue: 0
+      inited: 1
+    Scope:
+      cryptoKey: 24
+      hiddenValue: 56
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    ScopeSize:
+      cryptoKey: 1067457596
+      hiddenValue: 1067457596
+      fakeValue: 0
+      inited: 1
+    ScopeSensitivity:
+      cryptoKey: 1221194948
+      hiddenValue: c4c4c4c4
+      fakeValue: 0
+      inited: 1
+    ScopeRecoil:
+      cryptoKey: -2031707474
+      hiddenValue: aeaeaeae
+      fakeValue: 0
+      inited: 1
+    ScopeAccuracy:
+      cryptoKey: -1588058062
+      hiddenValue: 32323232
+      fakeValue: 0
+      inited: 1
+    FireSound: 0
+    ReloadSound: 0
+    Ammo:
+      cryptoKey: -1532334366
+      hiddenValue: -1532334366
+      fakeValue: 0
+      inited: 1
+    AmmoTotal:
+      cryptoKey: -1603581002
+      hiddenValue: -1603581002
+      fakeValue: 0
+      inited: 1
+    AmmoMax:
+      cryptoKey: 1038209564
+      hiddenValue: 1038209564
+      fakeValue: 0
+      inited: 1
+    LastFire: 0
+    Script: {fileID: 0}
+  RifleData:
+    Enabled: 0
+    ID:
+      cryptoKey: -967121838
+      hiddenValue: -967121838
+      fakeValue: 0
+      inited: 1
+    CanFire:
+      cryptoKey: 29
+      hiddenValue: 61
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    Name:
+      cryptoKey: -1378229048
+      hiddenValue:
+      fakeValue:
+      inited: 1
+    Damage:
+      cryptoKey: 127546878
+      hiddenValue: 127546878
+      fakeValue: 0
+      inited: 1
+    FireRate:
+      cryptoKey: -507146970
+      hiddenValue: 26262626
+      fakeValue: 0
+      inited: 1
+    Accuracy:
+      cryptoKey: -2058627330
+      hiddenValue: fefefefe
+      fakeValue: 0
+      inited: 1
+    FireAccuracy:
+      cryptoKey: 1994879972
+      hiddenValue: e4e4e4e4
+      fakeValue: 0
+      inited: 1
+    FireBullets:
+      cryptoKey: -191962332
+      hiddenValue: -191962332
+      fakeValue: 0
+      inited: 1
+    ReloadTime:
+      cryptoKey: -1925039186
+      hiddenValue: aeaeaeae
+      fakeValue: 0
+      inited: 1
+    Distance:
+      cryptoKey: -1720733112
+      hiddenValue: 48484848
+      fakeValue: 0
+      inited: 1
+    Mass:
+      cryptoKey: -471068848
+      hiddenValue: 50505050
+      fakeValue: 0
+      inited: 1
+    Scope:
+      cryptoKey: 146
+      hiddenValue: 178
+      fakeValue: 0
+      fakeValueChanged: 1
+      inited: 1
+    ScopeSize:
+      cryptoKey: -1361752920
+      hiddenValue: -1361752920
+      fakeValue: 0
+      inited: 1
+    ScopeSensitivity:
+      cryptoKey: -1211542606
+      hiddenValue: b2b2b2b2
+      fakeValue: 0
+      inited: 1
+    ScopeRecoil:
+      cryptoKey: -1646325744
+      hiddenValue: 10101010
+      fakeValue: 0
+      inited: 1
+    ScopeAccuracy:
+      cryptoKey: -352844280
+      hiddenValue: 08080808
+      fakeValue: 0
+      inited: 1
+    FireSound: 0
+    ReloadSound: 0
+    Ammo:
+      cryptoKey: -940133340
+      hiddenValue: -940133340
+      fakeValue: 0
+      inited: 1
+    AmmoTotal:
+      cryptoKey: 103617150
+      hiddenValue: 103617150
+      fakeValue: 0
+      inited: 1
+    AmmoMax:
+      cryptoKey: 98387696
+      hiddenValue: 98387696
+      fakeValue: 0
+      inited: 1
+    LastFire: 0
+    Script: {fileID: 0}
+  PushRigidbody: 0
+  PushRigidbodyForce: 1000
+  Sounds: {fileID: 11443158}
+  FireLayers:
+    serializedVersion: 2
+    m_Bits: 1063256059
+  m_PlayerInput: {fileID: 11419550}
+  PlayerCamera: {fileID: 2069566}
+  WeaponCamera: {fileID: 2069143}
+--- !u!114 &11443158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe32840d2a49ffb9c79b83ec61ceef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Source: {fileID: 8296012}
+  FireKnife: {fileID: 8300000, guid: b4f4e5a949b71134890f3b26e022753f, type: 3}
+  FirePistol: {fileID: 8300000, guid: 5513988a2370bb94a9514cd9915a80a0, type: 3}
+  FirePistol2: {fileID: 8300000, guid: 2cab686d7c7890c4a95463ee38377952, type: 3}
+  FirePistol3: {fileID: 8300000, guid: a2ad0121dae651e469c2d4242979727a, type: 3}
+  FirePistol4: {fileID: 8300000, guid: 8f973f9a73338de4391475f8bad33389, type: 3}
+  FirePistol5: {fileID: 8300000, guid: 16daf5d319e5fed47887481a23adb9f9, type: 3}
+  FireRifle: {fileID: 8300000, guid: 791f3819a6024cd4d989b627c95c3d35, type: 3}
+  FireRifle2: {fileID: 8300000, guid: 77539f53c4c9d8046bf5c5d6c16139f2, type: 3}
+  FireShotgun: {fileID: 8300000, guid: f9c92f955b4896847a16bc0ec83054d8, type: 3}
+  FireSniper: {fileID: 8300000, guid: b8ae501f38dc5274fbdd2a14151b4c4d, type: 3}
+  FireSubMachineGun: {fileID: 8300000, guid: 43d890fe2f4625740908d2f889efe137, type: 3}
+  ReloadPistol: {fileID: 8300000, guid: ded4143791d1d744b8fe2fe6d9957db1, type: 3}
+  ReloadRifle: {fileID: 8300000, guid: 4b414a6ac302b09488c70e449ea18cf0, type: 3}
+  AmmoEmpty: {fileID: 8300000, guid: 4fd300c37ccf326499303f7a099e153f, type: 3}
+--- !u!114 &11431434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adf9f13c18a18de9fecc7250e3c933ce, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!82 &8270521
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8296012
+AudioSource:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 100
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.01
+      value: 1
+      inSlope: -100.03985
+      outSlope: -100.03985
+      tangentMode: 0
+    - time: 0.02
+      value: 0.5
+      inSlope: -25.009962
+      outSlope: -25.009962
+      tangentMode: 0
+    - time: 0.04
+      value: 0.25
+      inSlope: -6.2524905
+      outSlope: -6.2524905
+      tangentMode: 0
+    - time: 0.072665036
+      value: 0.125
+      inSlope: -1.5631226
+      outSlope: -1.5631226
+      tangentMode: 0
+    - time: 0.15755501
+      value: 0.05269608
+      inSlope: -0.39078066
+      outSlope: -0.39078066
+      tangentMode: 0
+    - time: 0.317555
+      value: 0.021446079
+      inSlope: -0.097695164
+      outSlope: -0.097695164
+      tangentMode: 0
+    - time: 0.64
+      value: 0.012357026
+      inSlope: -0.024423791
+      outSlope: -0.024423791
+      tangentMode: 0
+    - time: 1
+      value: 0.00019607786
+      inSlope: -0.010003992
+      outSlope: -0.010003992
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!4 &477035
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 491323}
+  m_Father: {fileID: 405782}
+  m_RootOrder: 0
+--- !u!81 &8103859
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+--- !u!20 &2069566
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 200
+  field of view: 60
+  orthographic: 0
+  orthographic size: 100
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4292837375
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &11488124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244452777f7c40960a17a16cba8116e1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Persist: 0
+  EventHandler: {fileID: 0}
+  States:
+  - TypeName: vp_FPCamera
+    Name: Default
+    TextAsset: {fileID: 0}
+    StatesToBlock:
+  Children: []
+  Siblings: []
+  Family: []
+  Renderers: []
+  AudioSources: []
+  FPController: {fileID: 11454010}
+  MouseSensitivity: {x: 5, y: 5}
+  MouseSmoothSteps: 10
+  MouseSmoothWeight: 0.5
+  MouseAcceleration: 0
+  MouseAccelerationThreshold: 0.4
+  RenderingFieldOfView: 60
+  RenderingZoomDamping: 0.2
+  PositionOffset: {x: 0, y: 1.4, z: 0.1}
+  PositionGroundLimit: 0.1
+  PositionSpringStiffness: 0.01
+  PositionSpringDamping: 0.25
+  PositionSpring2Stiffness: 0.95
+  PositionSpring2Damping: 0.25
+  PositionKneeling: 0.025
+  PositionKneelingSoftness: 1
+  PositionEarthQuakeFactor: 1
+  RotationPitchLimit: {x: 90, y: -90}
+  RotationYawLimit: {x: -360, y: 360}
+  RotationSpringStiffness: 0.01
+  RotationSpringDamping: 0.25
+  RotationKneeling: 0.025
+  RotationKneelingSoftness: 1
+  RotationStrafeRoll: 0.01
+  RotationEarthQuakeFactor: 0
+  ShakeSpeed: 0
+  ShakeAmplitude: {x: 10, y: 10, z: 0}
+  BobRate: {x: 0, y: 2, z: 0, w: 1}
+  BobAmplitude: {x: 0, y: 0.25, z: 0, w: 0.4}
+  BobInputVelocityScale: 1
+  BobMaxInputVelocity: 100
+  BobRequireGroundContact: 1
+  BobStepThreshold: 10
+--- !u!114 &11424449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61454c8163a89f1bf20fde619a25ea61, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_Camera: {fileID: 2069566}
+--- !u!4 &491323
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109266}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.586617, y: -2.1210332, z: 0.1510634}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477035}
+  m_RootOrder: 0
+--- !u!20 &2069143
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109266}
+  m_Enabled: 1
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 50
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_HDR: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
