@@ -63,7 +63,22 @@ public static class BSLightingDiagnostics
 
         Renderer[] renderers = Object.FindObjectsOfType<Renderer>();
         int lit = renderers.Count(r => r.lightmapIndex >= 0 && r.lightmapIndex < 65534);
-        log.AppendLine("renderers in scene: " + renderers.Length + " | with a lightmap index: " + lit);
+        MaterialPropertyBlock probe = new MaterialPropertyBlock();
+        int viaBlock = 0;
+        foreach (Renderer r in renderers)
+        {
+            if (!r.HasPropertyBlock())
+            {
+                continue;
+            }
+            r.GetPropertyBlock(probe);
+            if (probe.GetVector("_BSLightmapST") != Vector4.zero)
+            {
+                viaBlock++;
+            }
+        }
+        log.AppendLine("renderers in scene: " + renderers.Length + " | with a lightmap index: " + lit +
+                       " | fed through a property block: " + viaBlock);
 
         HashSet<string> shaders = new HashSet<string>();
         Renderer sample = null;
@@ -125,7 +140,7 @@ public static class BSLightingDiagnostics
         EditorUtility.DisplayDialog("Block Strike lighting",
             "Отчёт в консоли. Коротко:\n\n" +
             "lightmaps bound: " + (maps == null ? 0 : maps.Length) + "\n" +
-            "renderers with lightmap: " + lit + "\n" +
+            "renderers with lightmap: " + lit + " (index) / " + viaBlock + " (property block)\n" +
             "binder: " + (binder == null ? "нет" : "есть") + "\n" +
             "shaders: " + (shaders.Count == 0 ? "-" : string.Join(", ", shaders.ToArray())),
             "OK");

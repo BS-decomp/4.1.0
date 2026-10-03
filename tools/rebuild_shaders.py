@@ -863,6 +863,13 @@ SubShader {
 
 		sampler2D _MainTex;
 		float4 _MainTex_ST;
+		// Set per renderer by BSLegacyLightmaps through a MaterialPropertyBlock.
+		// Unity resets Renderer.lightmapIndex in the editor whenever it decides a
+		// scene is "not baked" (no LightingData asset), which is exactly our case,
+		// so the baked map is also delivered through these two uniforms. They cost
+		// nothing when unused: _BSLightmapST stays (0,0,0,0) and the branch is off.
+		sampler2D _BSLightmap;
+		float4 _BSLightmapST;
 
 		struct appdata_t {
 			float4 vertex : POSITION;
@@ -872,9 +879,7 @@ SubShader {
 		struct v2f {
 			float4 pos : SV_POSITION;
 			float2 uv : TEXCOORD0;
-			#ifdef LIGHTMAP_ON
 			float2 lmuv : TEXCOORD1;
-			#endif
 			UNITY_FOG_COORDS(2)
 		};
 
@@ -884,6 +889,8 @@ SubShader {
 			o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
 			#ifdef LIGHTMAP_ON
 			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
+			#else
+			o.lmuv = v.texcoord1.xy * _BSLightmapST.xy + _BSLightmapST.zw;
 			#endif
 			UNITY_TRANSFER_FOG(o, o.pos);
 			return o;
@@ -893,6 +900,11 @@ SubShader {
 			fixed4 col = tex2D(_MainTex, i.uv);
 			#ifdef LIGHTMAP_ON
 			col.rgb *= 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv).rgb;
+			#else
+			if (any(_BSLightmapST.xy))
+			{
+				col.rgb *= 2.0 * tex2D(_BSLightmap, i.lmuv).rgb;
+			}
 			#endif
 			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
@@ -927,6 +939,13 @@ SubShader {
 
 		sampler2D _MainTex;
 		float4 _MainTex_ST;
+		// Set per renderer by BSLegacyLightmaps through a MaterialPropertyBlock.
+		// Unity resets Renderer.lightmapIndex in the editor whenever it decides a
+		// scene is "not baked" (no LightingData asset), which is exactly our case,
+		// so the baked map is also delivered through these two uniforms. They cost
+		// nothing when unused: _BSLightmapST stays (0,0,0,0) and the branch is off.
+		sampler2D _BSLightmap;
+		float4 _BSLightmapST;
 
 		struct appdata_t {
 			float4 vertex : POSITION;
@@ -937,11 +956,8 @@ SubShader {
 		struct v2f {
 			float4 pos : SV_POSITION;
 			float2 uv : TEXCOORD0;
-			#ifdef LIGHTMAP_ON
 			float2 lmuv : TEXCOORD1;
-			#else
-			fixed3 vlight : TEXCOORD1;
-			#endif
+			fixed3 vlight : TEXCOORD3;
 			UNITY_FOG_COORDS(2)
 		};
 
@@ -952,8 +968,9 @@ SubShader {
 			#ifdef LIGHTMAP_ON
 			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
 			#else
-			o.vlight = ShadeVertexLights(v.vertex, v.normal);
+			o.lmuv = v.texcoord1.xy * _BSLightmapST.xy + _BSLightmapST.zw;
 			#endif
+			o.vlight = ShadeVertexLights(v.vertex, v.normal);
 			UNITY_TRANSFER_FOG(o, o.pos);
 			return o;
 		}
@@ -963,7 +980,14 @@ SubShader {
 			#ifdef LIGHTMAP_ON
 			col.rgb *= 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv).rgb;
 			#else
-			col.rgb *= i.vlight;
+			if (any(_BSLightmapST.xy))
+			{
+				col.rgb *= 2.0 * tex2D(_BSLightmap, i.lmuv).rgb;
+			}
+			else
+			{
+				col.rgb *= i.vlight;
+			}
 			#endif
 			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;

@@ -52,6 +52,7 @@ public class BSLegacyLightmaps : MonoBehaviour
     }
 
     private bool warnedUnbound;
+    private MaterialPropertyBlock block;
 
 #if UNITY_EDITOR
     private void Update()
@@ -141,6 +142,11 @@ public class BSLegacyLightmaps : MonoBehaviour
             warnedUnbound = false;
         }
 
+        if (block == null)
+        {
+            block = new MaterialPropertyBlock();
+        }
+
         for (int i = 0; i < count; i++)
         {
             Renderer renderer = renderers[i];
@@ -149,6 +155,21 @@ public class BSLegacyLightmaps : MonoBehaviour
                 continue;
             }
             int index = lightmapIndices[i];
+
+            // Primary path: hand the baked map to the renderer ourselves.
+            // Unity overwrites Renderer.lightmapIndex in the editor whenever it
+            // rebuilds lighting for a scene it considers "not baked" (no
+            // LightingData asset) — which is every scene of this export — so the
+            // official binding alone silently does nothing outside play mode.
+            // A MaterialPropertyBlock is never touched by that logic and works
+            // identically in edit mode, play mode and builds.
+            if (bound && index >= 0 && index < available && lightmapsFar[index] != null)
+            {
+                renderer.GetPropertyBlock(block);
+                block.SetTexture("_BSLightmap", lightmapsFar[index]);
+                block.SetVector("_BSLightmapST", lightmapScaleOffsets[i]);
+                renderer.SetPropertyBlock(block);
+            }
             if (index >= available)
             {
                 if (renderer.lightmapIndex != 65535)

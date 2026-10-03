@@ -64,6 +64,35 @@ truth; the binder is additive and reversible.
 3. no renderer asks for an index outside the baked set (sentinels excluded);
 4. the shader behind lightmapped materials can actually sample a lightmap.
 
+## Why the official binding alone was not enough
+
+`Tools > Block Strike > Diagnose lighting` reported exactly this on Villa:
+
+```
+lightmaps bound: 1
+renderers with lightmap: 0
+binder: есть
+```
+
+The array binds fine, but **Unity overwrites `Renderer.lightmapIndex` outside
+play mode** whenever it rebuilds lighting for a scene it considers "not baked"
+— and without a LightingData asset every scene of this export is exactly that.
+So the renderers keep saying "I have no lightmap" no matter what the binder
+does, and the shader renders unlit (or, before the guard was added, black).
+
+The binder therefore delivers the baked map a second way, which Unity's
+lighting logic never touches:
+
+* `BSLegacyLightmaps` writes `_BSLightmap` (the texture) and `_BSLightmapST`
+  (the renderer's `m_LightmapTilingOffset`) into a **`MaterialPropertyBlock`**
+  on each baked renderer;
+* `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` use the standard
+  `LIGHTMAP_ON` path when Unity does provide one, and fall back to those two
+  uniforms otherwise — same texture, same scale/offset, same `×2` dLDR decode.
+
+Result: identical lighting in the Scene view, in play mode and in a build,
+on any renderer and platform, without a LightingData asset.
+
 ## If a map still looks flat
 
 `Tools > Block Strike > Diagnose lighting` prints, for the open scene: the
