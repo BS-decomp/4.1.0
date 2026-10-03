@@ -513,7 +513,7 @@ public class vp_FPWeapon : vp_Component
 			Vector3 vector = WeaponModel.transform.TransformPoint(RetractionOffset);
 			Vector3 end = vector + WeaponModel.transform.forward * RetractionDistance;
 			RaycastHit hitInfo;
-			if (Physics.Linecast(vector, end, out hitInfo, -1749041173) && !hitInfo.collider.GetComponent<Collider>().isTrigger)
+			if (Physics.Linecast(vector, end, out hitInfo, -1749041173) && !hitInfo.collider.isTrigger)
 			{
 				WeaponModel.transform.position = hitInfo.point - (hitInfo.point - vector).normalized * (RetractionDistance * 0.99f);
 				WeaponModel.transform.localPosition = Vector3.forward * Mathf.Min(WeaponModel.transform.localPosition.z, 0f);

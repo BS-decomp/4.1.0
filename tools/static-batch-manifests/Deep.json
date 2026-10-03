@@ -1,0 +1,502 @@
+{
+ "scene": "Assets/Levels/Maps/Surf/Deep/Deep.unity",
+ "map": "Deep",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1004,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "0c449b8bfa0ec747b1cb6f5ae6a1828f",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1004.asset",
+   "vertexCount": 30,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1005,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "5c2fb937e96c7aa6fa9ec702deb4e090",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1005.asset",
+   "vertexCount": 102,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1006,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "f1adf241ad4ca18552ef128e7df30dae",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1006.asset",
+   "vertexCount": 48,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1013,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "bfdced9e2b19481ae6d80ba89c232dcd",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Sun 1_1013.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1015,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "96d77509a5831df07fb3d4d198b42224",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1015.asset",
+   "vertexCount": 138,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1021,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "29e3f9b51a06a63cc24e1be8edb675c7",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1021.asset",
+   "vertexCount": 30,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1022,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "b0366b78395dbc45d9a2730219d158e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1022.asset",
+   "vertexCount": 126,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1028,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "7b2fb692723e67d61bf788909f00d3bf",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1028.asset",
+   "vertexCount": 114,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1029,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "eb84283861df913bb16d3941f1b51dee",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/SkyDome_1029.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1030,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "0489d48a62c6571123466155a762cfd0",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1030.asset",
+   "vertexCount": 30,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1031,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "156f33436e6689bb05f95912044f5d9b",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1031.asset",
+   "vertexCount": 30,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1032,
+   "gameObject": "Start",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "39a058fb2db34b4fd8ff9c625ac11a38",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Start_1032.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1036,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "ed32f1fc96afb18834c9738c52fda4c3",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1036.asset",
+   "vertexCount": 320,
+   "indexCount": 474
+  },
+  {
+   "renderer": 1038,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "aabb41f675e5d06d64096a8e97d45e1a",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1038.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1040,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "1676234ac6b8a32c0c1b3dbec6450fad",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1040.asset",
+   "vertexCount": 162,
+   "indexCount": 240
+  },
+  {
+   "renderer": 1041,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "781fad7680ba0018cc4722182d1e0de1",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1041.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1042,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "1550c8c06586a00b2785e3c586ea158e",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1042.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1043,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "095a405e3c11b84fd6a9dffc09973325",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1043.asset",
+   "vertexCount": 114,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1045,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "ab7d92f4137f948ee7aecafff5833606",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1045.asset",
+   "vertexCount": 18,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1047,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "78cc6efb7f87b0472f7008ddca8b5ade",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1047.asset",
+   "vertexCount": 114,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1048,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "4467b0a637f57e87a622580174fa1358",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1048.asset",
+   "vertexCount": 320,
+   "indexCount": 474
+  },
+  {
+   "renderer": 1055,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "c707426ef5ad736fbf351d0bf8a086da",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1055.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1057,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "7b20ddc970828678b1ae06834a1b8c01",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1057.asset",
+   "vertexCount": 36,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1061,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "b74d84b3f9282e7da66068cd804868e6",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1061.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1067,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "840d52b406a9855eb23c471be7d0614e",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1067.asset",
+   "vertexCount": 18,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1068,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "6b7b761550dd0f4359eeab2edcec68b3",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1068.asset",
+   "vertexCount": 102,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1070,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "b599b1d6943aeed4f9553acddf453447",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1070.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1072,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "e1c26267118cec5401b8eb8f03d7d5be",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1072.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1073,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "2b1b89796de476000df512a1079ab7c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Plane_1073.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "77cd12cc3511de95c9cec139072bd788",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1075.asset",
+   "vertexCount": 18,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1076,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "df0557e06a001ff3e56c91b5122670c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1076.asset",
+   "vertexCount": 18,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1078,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "ec203c7d04bf00094b4958b0e28d0c6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1078.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1081,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "4fa41fe32c68d9f44477ef09d8d67053",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1081.asset",
+   "vertexCount": 90,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1082,
+   "gameObject": "Finish",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    37,
+    38
+   ],
+   "mesh_guid": "1ea2b62b6b7af9c5c70b0334bd0785d6",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Finish_1082.asset",
+   "vertexCount": 60,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1085,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "d1b50c74ed22de6b1b3c02af7a5a4276",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1085.asset",
+   "vertexCount": 114,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1088,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "30662a491d82f2bcdd3f9b43cc1b3fb8",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1088.asset",
+   "vertexCount": 189,
+   "indexCount": 279
+  },
+  {
+   "renderer": 1090,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "5b74912b333bbc14f4cedefc5b28f96c",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1090.asset",
+   "vertexCount": 138,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1095,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_7.asset",
+   "combined_guid": "c255fc70b829aa645aa278b72040efa7",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "97a70bd0f363e53bfa0b1510efb953d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Deep/Slide_1095.asset",
+   "vertexCount": 213,
+   "indexCount": 315
+  }
+ ]
+}

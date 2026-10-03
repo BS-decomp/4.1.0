@@ -1,0 +1,597 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Casta/Casta.unity",
+ "map": "Casta",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1080,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    48,
+    49
+   ],
+   "mesh_guid": "1d53f90ebbb1486ef6d7b1b28096f00a",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1080.asset",
+   "vertexCount": 52,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1083,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "876dd374312a0e982325520bb4a9aeb3",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1083.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1093,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "aebd5890ffac1d73a9b98d26a6fbda87",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Sun 1_1093.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1094,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "70ff996688f5c3de03b3032ddcba68a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1094.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1095,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "4c203936f3445bad7d1fb773a9d5b7eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1095.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1097,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "d44720a1a8d57af57818b0865839b1c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1097.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1099,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "100a713bba0f669e247109decc6512aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Border_1099.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1103,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "3e83e57c99ec2bff4b71221c21cbee7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Border_1103.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1104,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "99e3546b4d55b3719f2258c62bbd1d14",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1104.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1108,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "20896fbebb9fdd37db3263c9e833bb7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Plane_1108.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1114,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "a8b7ee2ff1b00a11808adbc0a3c75978",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1114.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1115,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "aff2deaeca11477999a4755da1ebd34d",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1115.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1117,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    46,
+    47
+   ],
+   "mesh_guid": "89c1d18f5a1fab2f37708deaf5cf1d23",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1117.asset",
+   "vertexCount": 38,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1118,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "add9bca8588b401b26b339164d467594",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1118.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1122,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "79704c0d08b5590a33b08575a98e1d9b",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1122.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1123,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    26,
+    27
+   ],
+   "mesh_guid": "e23a0a53ff33559fd6c55b3a5e38bfac",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Wall_1123.asset",
+   "vertexCount": 156,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1126,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "b9829c79a6af8ea3600e1aedd85ee078",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1126.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1127,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "d39be2c9f1e653f4ffcd36860f650cb6",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1127.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1128,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "a8a5cda06e849ea880396489b52eb3f7",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1128.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1130,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "2ba223d2499518bb396dce84eea6db14",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1130.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1131,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "eb5a387700c26848e27fb94ed3d6cc10",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1131.asset",
+   "vertexCount": 92,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1132,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "d650e9e6064443839374c42ffcdac36d",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Border_1132.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1134,
+   "gameObject": "Ceiling",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    29,
+    30
+   ],
+   "mesh_guid": "e9ab3667522cdae285b5affe1f815f21",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Ceiling_1134.asset",
+   "vertexCount": 178,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1140,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "eb4141e62fab5cc51791662fff6ebede",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1140.asset",
+   "vertexCount": 92,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1141,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "fb581b38893ad2c1352600c0eabf38fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1141.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1142,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "38153fe3e35f77dba6fa02b3a29b6f36",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Floor_1142.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1143,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "1bd794bb09242721e16a172df4b7efe0",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1143.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1148,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "fa4eccba2521c81017f3aa843ee85b23",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/SkyDome_1148.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1149,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    20,
+    21
+   ],
+   "mesh_guid": "7e32ad6dd344c19c6c962a9f7454fee7",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Platform_1149.asset",
+   "vertexCount": 275,
+   "indexCount": 318
+  },
+  {
+   "renderer": 1150,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "663876fa9dade78000a2d448870344bd",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Border_1150.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1151,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "c4a95c035d29ea3c1ee07a6d4b4cab8d",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1151.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1153,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "02ff4dc7bd229696963518d23d37ae84",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1153.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1154,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "dda2e63a647740ebb75b1ec33209fe0c",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1154.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1157,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "530c58101fba5430a10861f16ef92fb7",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1157.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1160,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "0c99eca02b2ba412d38023899191b4a4",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1160.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1164,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "857b680c5c6b40be25186e1da4650cc6",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1164.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1167,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "bf82823ef729fc47ca9bd1211dafa94d",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1167.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1169,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "45977d3c4a5422774d83aa264959cfdd",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1169.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1175,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "6b5523526ea496226fe61587cff860b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1175.asset",
+   "vertexCount": 92,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1179,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "475eedad6217b412e71cbaac15f45c8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Building_1179.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1182,
+   "gameObject": "Bulding",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "457c25e546652f9914ff58a0b989514e",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Bulding_1182.asset",
+   "vertexCount": 92,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1186,
+   "gameObject": "Border",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "35f1f34d34f4307732685c6e94639ab1",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Border_1186.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1187,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "dd34776c14fe9b90f7b71ffda6871628",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1187.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1189,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "a9da60e1cb32337393d254f6ce742034",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Light_1189.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1193,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_9.asset",
+   "combined_guid": "7141457a0d4b3e64d98122203dd643f4",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "40accb5074d2f68d051e4f23b366045d",
+   "mesh_asset": "Assets/Mesh/Debatched/Casta/Box_1193.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  }
+ ]
+}

@@ -961,7 +961,7 @@ public class UICamera : MonoBehaviour
 					continue;
 				}
 				lastWorldPosition = lastHit.point;
-				mRayHitObject = lastHit.collider.GetComponent<Collider>().gameObject;
+				mRayHitObject = lastHit.collider.gameObject;
 				if (!list[0].eventsGoToColliders)
 				{
 					Rigidbody rigidbody = FindRootRigidbody(mRayHitObject.transform);
@@ -979,7 +979,7 @@ public class UICamera : MonoBehaviour
 				{
 					for (int j = 0; j < array.Length; j++)
 					{
-						GameObject gameObject = array[j].collider.GetComponent<Collider>().gameObject;
+						GameObject gameObject = array[j].collider.gameObject;
 						UIWidget component = gameObject.GetComponent<UIWidget>();
 						if (component != null)
 						{
@@ -1001,7 +1001,7 @@ public class UICamera : MonoBehaviour
 						{
 							mHit.hit = array[j];
 							mHit.point = array[j].point;
-							mHit.go = array[j].collider.GetComponent<Collider>().gameObject;
+							mHit.go = array[j].collider.gameObject;
 							mHits.Add(mHit);
 						}
 					}
@@ -1025,7 +1025,7 @@ public class UICamera : MonoBehaviour
 					{
 						continue;
 					}
-					GameObject gameObject2 = array[0].collider.GetComponent<Collider>().gameObject;
+					GameObject gameObject2 = array[0].collider.gameObject;
 					UIWidget component2 = gameObject2.GetComponent<UIWidget>();
 					if (component2 != null)
 					{
@@ -1042,11 +1042,11 @@ public class UICamera : MonoBehaviour
 							continue;
 						}
 					}
-					if (IsVisible(array[0].point, array[0].collider.GetComponent<Collider>().gameObject))
+					if (IsVisible(array[0].point, array[0].collider.gameObject))
 					{
 						lastHit = array[0];
 						lastWorldPosition = array[0].point;
-						mRayHitObject = lastHit.collider.GetComponent<Collider>().gameObject;
+						mRayHitObject = lastHit.collider.gameObject;
 						return true;
 					}
 				}

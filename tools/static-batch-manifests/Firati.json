@@ -1,0 +1,332 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Firati/Firati.unity",
+ "map": "Firati",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1015,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "2ed212c998cdf62acc8bead5cf1e8fed",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1015.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1018,
+   "gameObject": "pb-Cube-2037902",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "bc23ce94613c27481eeeb9a96b3342c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-2037902_1018.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1023,
+   "gameObject": "Lava",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "9544a6bbdc94b2a920b82dd4bbe2deab",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/Lava_1023.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1025,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "076461582ea6d52661a478577cd0ca44",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1025.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1032,
+   "gameObject": "pb-Cube-2626382",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "e9b9b7e047292d9624be8cc5bb424c5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-2626382_1032.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1035,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "11bf70b2bef657233a55429ba4033ec1",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1035.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1045,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "5045aa09db6f9d9e095505cf44974ead",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1045.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1048,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "0b243968f1ac8a7e5861847c4e076f44",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/Sun 1_1048.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1052,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "25a0778a650e0ad3a364735ed7a34b04",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1052.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1053,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "f8458ca81efeaf6702ca852373bc2299",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1053.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1054,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "f52bd070fe0c842a9e84db9565082587",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1054.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1057,
+   "gameObject": "pb-Cube-49854",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "79be3ea44815ef8ebe6122835563c455",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-49854_1057.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1059,
+   "gameObject": "pb-Cube-2517346",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "de0f9d54913a0166099297e8b0586416",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-2517346_1059.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1061,
+   "gameObject": "pb-Cube-3963034",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "f0dbc3cd262a62aec0f7b95824de6b3b",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-3963034_1061.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "d0d1029d1dc3161f0a73e7b1cf38712d",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/Plane_1069.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1072,
+   "gameObject": "pb-Cube-4923688",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "4d405a9aa4f5681ab071303371833bc9",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-4923688_1072.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "d4229d19403663ad35ad61b6c35961c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1075.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1077,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "060584a546e85dbbb8a0ef12cf5dcac6",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1077.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1078,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "c39861c020ed2bd9ffffbd627297aef5",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1078.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1082,
+   "gameObject": "pb-Cube-2444002",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "dd737892a4412c8b68ca2140d08e310d",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-2444002_1082.asset",
+   "vertexCount": 68,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1084,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "1bc4db9b255bf804f98e29f66b3a1371",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1084.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1086,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "6d974e32e900ac06e6f82fe3d8749dd1",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/GrayBlock_1086.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1089,
+   "gameObject": "pb-Cube-1797402",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "fa235017982e6a7ffd854d6c3cb4310c",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1797402_1089.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1101,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "220d1d9008b9524d487e3a9fb0a9e6d8",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/SkyDome_1101.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1107,
+   "gameObject": "pb-Cube-1973672",
+   "combined_mesh": "Combined Mesh (root_ scene)_53.asset",
+   "combined_guid": "bf0b5b908b45be844a0f1ba87a02c069",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "823b4d4781a970445c4ad516beb7da48",
+   "mesh_asset": "Assets/Mesh/Debatched/Firati/pb-Cube-1973672_1107.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

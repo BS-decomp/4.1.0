@@ -1,0 +1,1385 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Nauts/Nauts.unity",
+ "map": "Nauts",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1474,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "5a0375840bdb384e08b20642374ac1cd",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1474.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1476,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "2171b136aaf0c8c6f8d8309677ccae31",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1476.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    116
+   ],
+   "mesh_guid": "6e84a1f207ae8870ea1e82ffb1249c46",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1477.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1481,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    72,
+    73
+   ],
+   "mesh_guid": "55cd5aeffe8e79e1a8495e9581e82321",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1481.asset",
+   "vertexCount": 191,
+   "indexCount": 159
+  },
+  {
+   "renderer": 1485,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    87,
+    88
+   ],
+   "mesh_guid": "5b34941d4d608ca984160c68c189dff7",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1485.asset",
+   "vertexCount": 131,
+   "indexCount": 129
+  },
+  {
+   "renderer": 1495,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "bd84540ec5ab3ad9e732850d147b4661",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1495.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1498,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    139
+   ],
+   "mesh_guid": "61fd579443847235a1f515ded838e87d",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1498.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1499,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    54,
+    55
+   ],
+   "mesh_guid": "1b40dccbbc420ed8ee0cf1d0448f8f18",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1499.asset",
+   "vertexCount": 172,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1502,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    123
+   ],
+   "mesh_guid": "da0cd5911d5b528f24464bc70b6e4ae9",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1502.asset",
+   "vertexCount": 34,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1508,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    117
+   ],
+   "mesh_guid": "08b463e8a8eefcd4e4d42791d9427230",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1508.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1511,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "4afd8f1cd5ffb4992d9a045a383fd064",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1511.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1513,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    114
+   ],
+   "mesh_guid": "c6a433dd330e79f5d89f06e156572465",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1513.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1517,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    135
+   ],
+   "mesh_guid": "2795da0b537592758e32abd27a1a755c",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1517.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1518,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    120
+   ],
+   "mesh_guid": "0e6f403ec1882f329917258fd0987270",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1518.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1520,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "066b57cf4df34c8a9f1974f67fa84a73",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1520.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1521,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    64,
+    65,
+    66,
+    67
+   ],
+   "mesh_guid": "e935c314f8a5f3f394c5af0764ed8119",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1521.asset",
+   "vertexCount": 262,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1522,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    121
+   ],
+   "mesh_guid": "c247ee1af05ccb1305b11946cd22d19b",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1522.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1526,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    136
+   ],
+   "mesh_guid": "f768de364187ae558e2a9d74ab327b1d",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1526.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1527,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    118
+   ],
+   "mesh_guid": "2ed478381f6e38cf5b4f2272be20c830",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1527.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1529,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    81,
+    82
+   ],
+   "mesh_guid": "04180b8639cf32d64031cb295010d0b6",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1529.asset",
+   "vertexCount": 34,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1530,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "0dc36ab9670e511dceb2a973cbcdacd5",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1530.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1531,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    104
+   ],
+   "mesh_guid": "c2938f13b55582d3fc12beccba70ae2d",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1531.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1533,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    45,
+    46
+   ],
+   "mesh_guid": "25f4ee3a8e9c7710519c6e9c2816c086",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1533.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1535,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "8209ca9d2dd9b70b685cdcff021a8336",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Sun 1_1535.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1536,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    142,
+    143
+   ],
+   "mesh_guid": "e257e0432c66e0f1d27ec393f29c7156",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall_1536.asset",
+   "vertexCount": 54,
+   "indexCount": 63
+  },
+  {
+   "renderer": 1540,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    28,
+    29,
+    30
+   ],
+   "mesh_guid": "ca3f6162a424fd025af87184e3cab400",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1540.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1544,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    77,
+    78
+   ],
+   "mesh_guid": "a45f2fb1a54a6ae7603a246bdaeb8bd3",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1544.asset",
+   "vertexCount": 102,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1545,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "1fda66f63767cb7df749f3647ea59f19",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/SkyDome_1545.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1548,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    129
+   ],
+   "mesh_guid": "d13bc875cd343aedf2f63c968a15664a",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1548.asset",
+   "vertexCount": 31,
+   "indexCount": 45
+  },
+  {
+   "renderer": 1549,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    42,
+    43,
+    44
+   ],
+   "mesh_guid": "8f08f5235f8fb54084a470bfa69eaa8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1549.asset",
+   "vertexCount": 178,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1550,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    25,
+    26,
+    27
+   ],
+   "mesh_guid": "ef7462b1d46e2893ab3c1077bbb15b42",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1550.asset",
+   "vertexCount": 36,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1551,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    32,
+    33
+   ],
+   "mesh_guid": "b7f177866e6d74e9dd87224fff02b2b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1551.asset",
+   "vertexCount": 81,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1554,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    79,
+    80
+   ],
+   "mesh_guid": "3450c58bc9ecebbce66ec474dac22ac4",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1554.asset",
+   "vertexCount": 64,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1555,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    39,
+    40
+   ],
+   "mesh_guid": "9cd4b77cdb59962b621faf62ad8b0220",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1555.asset",
+   "vertexCount": 72,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1556,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "d430767e64678c81bd9cf8545ca5a1d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor_1556.asset",
+   "vertexCount": 47,
+   "indexCount": 75
+  },
+  {
+   "renderer": 1557,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "5dec54be01de6b39d392401a6c283101",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Ladder_1557.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1561,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    122
+   ],
+   "mesh_guid": "2402ceeeed3af81392c1c8642716f5c3",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Black Box_1561.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1563,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    74,
+    75,
+    76
+   ],
+   "mesh_guid": "4a9211040ecbfbce85637f194a3a2d6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1563.asset",
+   "vertexCount": 49,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1565,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "be12b24d0510e7cb797cd4515ab274e7",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1565.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1567,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    89,
+    90
+   ],
+   "mesh_guid": "241aa72e812a0ef1afac756fb0dd4897",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1567.asset",
+   "vertexCount": 140,
+   "indexCount": 216
+  },
+  {
+   "renderer": 1570,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    108,
+    109
+   ],
+   "mesh_guid": "863714ff622505d204cdcd7f076b37b1",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1570.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1571,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "6059f15bc7a6e8d1bcbc3fb8876ea713",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1571.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1572,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "5b2826cb60637cf7575ddccf8ca0f30d",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1572.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1574,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    105
+   ],
+   "mesh_guid": "70fa6016128b73e5da6349f8d4694e0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1574.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1575,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    141
+   ],
+   "mesh_guid": "d712cf2d31eb3dd107d15f1ce8ae62fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wood_1575.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1576,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    49,
+    50
+   ],
+   "mesh_guid": "21039fdb4d800a02a852b22c6d9a54ca",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1576.asset",
+   "vertexCount": 74,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1577,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    137
+   ],
+   "mesh_guid": "12c20449f078e8bca93fd3eed22e6137",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1577.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1578,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "192d4ea36a074b34b191a12f702ab6c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1578.asset",
+   "vertexCount": 13,
+   "indexCount": 33
+  },
+  {
+   "renderer": 1579,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "04a32192331e199dc31996f39c11b9b1",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1579.asset",
+   "vertexCount": 22,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1584,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "dbad2d1cd106fa470571547f13347b52",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1584.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1585,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    113
+   ],
+   "mesh_guid": "9a7ea2f77eb74733d49d7933bba0540a",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1585.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1586,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "mesh_guid": "1b7f37801ffed3253a9415659b00a251",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1586.asset",
+   "vertexCount": 110,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1587,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+   ],
+   "mesh_guid": "1568b77eae8e430ab31f53b6534b10fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1587.asset",
+   "vertexCount": 220,
+   "indexCount": 171
+  },
+  {
+   "renderer": 1588,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    119
+   ],
+   "mesh_guid": "3b9e776fc5a177741205583d3b818b0d",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1588.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1590,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    124
+   ],
+   "mesh_guid": "0ad1775c553ded955d06633ba6417a36",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1590.asset",
+   "vertexCount": 29,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1594,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    138
+   ],
+   "mesh_guid": "114d0bad25940fc034c33b6bf63ebbc4",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1594.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1595,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    132,
+    133
+   ],
+   "mesh_guid": "fcea11cefed341622e9e7ce40eb5fc9a",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1595.asset",
+   "vertexCount": 28,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1596,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    51,
+    52,
+    53
+   ],
+   "mesh_guid": "4591f8a6b4710ea303dcb913d6125a0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1596.asset",
+   "vertexCount": 68,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1605,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    134
+   ],
+   "mesh_guid": "e98b4e4e84707d34a2fbaf1176130110",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1605.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1606,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    115
+   ],
+   "mesh_guid": "9d29c6d4f74c25a6fd75d3a4c4da4548",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1606.asset",
+   "vertexCount": 25,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1607,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "e891ef3d295104637cd5e76af63eefcb",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1607.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1608,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "d2c3d96fbe703967d0d049e5d90eb050",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1608.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1609,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    103
+   ],
+   "mesh_guid": "9f41215560591b7316d0bb660be333d9",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1609.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1611,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    22,
+    23,
+    24
+   ],
+   "mesh_guid": "f65524bdce8622c49bbe8911cc604771",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1611.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1613,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    131
+   ],
+   "mesh_guid": "949498d9c5626ff5cd62deeb357427af",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1613.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1614,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "588819b2daff0c471019e332be536b0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1614.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1616,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    127
+   ],
+   "mesh_guid": "39d1ad7f04e952dbbdcbda88a21fd1bc",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1616.asset",
+   "vertexCount": 29,
+   "indexCount": 45
+  },
+  {
+   "renderer": 1617,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    36,
+    37
+   ],
+   "mesh_guid": "adcd48e8c590dbd35259ee328f56e749",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall_1617.asset",
+   "vertexCount": 142,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1618,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "402e40084f3d2135a9ad81c2007a1a34",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1618.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1620,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "882a3018e918ccffe2362491ea1e75b6",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Plane_1620.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1621,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "cbd4c9694e222af26208b4dbba75545e",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1621.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1622,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "ed0ebe406e74508fc4ed132acd54364a",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1622.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1625,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "cfea4b214792ab8a36d9b637f2eabda6",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1625.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1628,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "c792f33965011d47eda82e7fb3ad09dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1628.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1629,
+   "gameObject": "Barrel",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "d3f167abc220ef182dc3f2255c036ff3",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Barrel_1629.asset",
+   "vertexCount": 48,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1632,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    68,
+    69,
+    70,
+    71
+   ],
+   "mesh_guid": "2051860a092a018bd745f71ed791ac7f",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1632.asset",
+   "vertexCount": 263,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1634,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    130
+   ],
+   "mesh_guid": "9a4ed2362ad51fdb125747e64f140fa6",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1634.asset",
+   "vertexCount": 26,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1635,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    83,
+    84,
+    85,
+    86
+   ],
+   "mesh_guid": "a6dab28811769380962851a9a2caf309",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1635.asset",
+   "vertexCount": 424,
+   "indexCount": 318
+  },
+  {
+   "renderer": 1638,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "d642330a278a6d4a871552c62b442874",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1638.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1640,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "7ad4fea57bb701e749cd899b9bb195fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1640.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1641,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    144,
+    145
+   ],
+   "mesh_guid": "08ca13afb326d1d4ab5990293da088e6",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1641.asset",
+   "vertexCount": 50,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1642,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "69eb2820b34acf72dcf79478297e3a13",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1642.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1643,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "77605035106628cbdd240ab47c066717",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1643.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1646,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "2aefca4767df85083f6f6c52160b989e",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1646.asset",
+   "vertexCount": 13,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1649,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "dc9dbfc44373f280dd5d7ab807434d59",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1649.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1650,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "444acc5887ed647b5c699aad2a63694b",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Ladder_1650.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1651,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "806e0089f707b48a16daa6fb3b5ff917",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1651.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1652,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    140
+   ],
+   "mesh_guid": "1548edbf05b33fa1ebd2f181ea6fb428",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wood_1652.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1654,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    125
+   ],
+   "mesh_guid": "bbd66898ecea4e2d0a58c4e20af3a188",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1654.asset",
+   "vertexCount": 59,
+   "indexCount": 99
+  },
+  {
+   "renderer": 1655,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "164d6e67d6fdaba0935d3b0ad0b2d968",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1655.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1656,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "6811051d874029509f63937520cfe822",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1656.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1659,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    152,
+    153
+   ],
+   "mesh_guid": "ab4daa966fa7011f159606662ce85e60",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1659.asset",
+   "vertexCount": 176,
+   "indexCount": 171
+  },
+  {
+   "renderer": 1661,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    56,
+    57
+   ],
+   "mesh_guid": "412adfb167b2476d5bc26ce55ddd9f1f",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1661.asset",
+   "vertexCount": 125,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1664,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    146,
+    147,
+    148,
+    149,
+    150,
+    151
+   ],
+   "mesh_guid": "9f677eb8ecf5238525e0e018d6c7d5ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1664.asset",
+   "vertexCount": 337,
+   "indexCount": 225
+  },
+  {
+   "renderer": 1665,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    128
+   ],
+   "mesh_guid": "983ba6cc2570867d0fa346ee52d899d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1665.asset",
+   "vertexCount": 29,
+   "indexCount": 51
+  },
+  {
+   "renderer": 1666,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "2fce3de5604dae54e54bbc68c49c2ddd",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1666.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1669,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "12e6f09ba0a79a9088e567a090378f35",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1669.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1670,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    126
+   ],
+   "mesh_guid": "2b9b241b86da76466661014d5e425807",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Floor-detach_1670.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1671,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "1234d320d535f4332013f04199e5e3b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Light_1671.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1672,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "f82dde0fc6bb48b210fe80d4e543d054",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Wall-detach_1672.asset",
+   "vertexCount": 10,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1673,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "d0b7838a020ffaa10be8cb6548b72e90",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1673.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1682,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_54.asset",
+   "combined_guid": "2873884a6b03e5b4a87f859160fcaeb0",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "0085507653d00ece59139f8312120d4b",
+   "mesh_asset": "Assets/Mesh/Debatched/Nauts/Box_1682.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  }
+ ]
+}

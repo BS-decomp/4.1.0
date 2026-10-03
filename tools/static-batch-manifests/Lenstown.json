@@ -1,0 +1,153 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Lenstown/Lenstown.unity",
+ "map": "Lenstown",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 934,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "c36753b54e9b980cda877bc65dce1c4d",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Floor_934.asset",
+   "vertexCount": 24,
+   "indexCount": 66
+  },
+  {
+   "renderer": 935,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "62d3c1efb1d82e81f22ea24adced43ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/SkyDome_935.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 938,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "56f60ac87a892dadc82d4fe0fbc373dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Wall_938.asset",
+   "vertexCount": 84,
+   "indexCount": 156
+  },
+  {
+   "renderer": 941,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "41204cc8775b28726d86b38c369287ba",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Floor_941.asset",
+   "vertexCount": 54,
+   "indexCount": 108
+  },
+  {
+   "renderer": 951,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    8,
+    9
+   ],
+   "mesh_guid": "edad8fa261557bd2b78f90b3bc0e1451",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Building_951.asset",
+   "vertexCount": 608,
+   "indexCount": 504
+  },
+  {
+   "renderer": 960,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    10,
+    11
+   ],
+   "mesh_guid": "20113573ec337504e3c07ef2c048cebf",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Building_960.asset",
+   "vertexCount": 615,
+   "indexCount": 507
+  },
+  {
+   "renderer": 963,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "6951d44dee5a298daea8f8a09aabab60",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Plane_963.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 965,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    12,
+    13
+   ],
+   "mesh_guid": "bce708c9b482ba0b61945ca56bb98347",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Building_965.asset",
+   "vertexCount": 172,
+   "indexCount": 144
+  },
+  {
+   "renderer": 973,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "82e1dc670adf600b4b8676d7f3e83d2d",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Floor_973.asset",
+   "vertexCount": 54,
+   "indexCount": 108
+  },
+  {
+   "renderer": 974,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "b90fb00850364b20496f6bcc42139ae6",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Building_974.asset",
+   "vertexCount": 156,
+   "indexCount": 240
+  },
+  {
+   "renderer": 984,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_6.asset",
+   "combined_guid": "00b4091167812dd42aa5bd3b6515bb7a",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "614a63e57d84277a0637e60b4121ffda",
+   "mesh_asset": "Assets/Mesh/Debatched/Lenstown/Building_984.asset",
+   "vertexCount": 156,
+   "indexCount": 240
+  }
+ ]
+}

@@ -1,0 +1,891 @@
+{
+ "scene": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce.unity",
+ "map": "Battleforce",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1132,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "f7fc9db9576a3585172d8e1c91144ad7",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1132.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1134,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "afad221d14dc14d35b5fd2dfd8275157",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/SkyDome_1134.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1135,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    62,
+    63
+   ],
+   "mesh_guid": "81c01061f55920ff51a40cf1274b4333",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1135.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1136,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "3e3172698e43541a57600060eac2d029",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1136.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1139,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "723fdcc3654e5bf09c0dada6c71f7bf9",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1139.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1141,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "8b2fdbf48a2c23b3f982bcc18fe48b16",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1141.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1144,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "b1927d2e44b8115703c3db1891c188ea",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1144.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1146,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    2,
+    3
+   ],
+   "mesh_guid": "11f588e8921f5cc962894ade6a5dc076",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1146.asset",
+   "vertexCount": 216,
+   "indexCount": 330
+  },
+  {
+   "renderer": 1147,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "390d7045fc9d1a6c4967fcebfd942538",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1147.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1148,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "72d486eb1e6e411b05a442540bec499c",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1148.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1149,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "71b736ea7e969fa067a8966b3d9b5b80",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1149.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1151,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "7db04e50e4daaf7bea485d7c5d61c334",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1151.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1152,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    47,
+    48,
+    49,
+    50
+   ],
+   "mesh_guid": "245069baea2c5e9a5f3a1e7989e8c8ec",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1152.asset",
+   "vertexCount": 348,
+   "indexCount": 276
+  },
+  {
+   "renderer": 1153,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "198dee780ecff7c1f83473ca7b0772c7",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1153.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1158,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    37,
+    38
+   ],
+   "mesh_guid": "7828fe073f087a3714790190921e37a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1158.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1160,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    27,
+    28
+   ],
+   "mesh_guid": "1b2c8f938362b8949bbaa707c24b4867",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1160.asset",
+   "vertexCount": 104,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1161,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "d47d384ca1852119e71d5d24c512663d",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1161.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1169,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "801a5036f7a1f8ff620170d438b5cb69",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1169.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1171,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "f1f2b005bf28e42847a598963425f212",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1171.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1172,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "de66c90dd26239e4aaebf95b19012c2c",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1172.asset",
+   "vertexCount": 166,
+   "indexCount": 273
+  },
+  {
+   "renderer": 1173,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    64,
+    65
+   ],
+   "mesh_guid": "dd141fb45aea575d8d1e3e1e234c68e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1173.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1175,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    58,
+    59
+   ],
+   "mesh_guid": "b27e38a10f3b13b86b9dce66e359a00c",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1175.asset",
+   "vertexCount": 27,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1176,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "681c49f179acb99f7dd235b9ec4c08d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1176.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1178,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "f977df4ab3fc08bc56771ff0278548f8",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1178.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1179,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "9ac63cffde0da06571c5d645bab4740b",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1179.asset",
+   "vertexCount": 46,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1180,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "c02c773b878069bf808218ebc6c52067",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1180.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1181,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "41d5c4738994822109cd9ed70a9aba41",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1181.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1182,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "0198d110d2be9e52c19055d5acdb1b71",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1182.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1183,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    60,
+    61
+   ],
+   "mesh_guid": "74916947bfc058edf20c79dcf53c1f97",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1183.asset",
+   "vertexCount": 27,
+   "indexCount": 27
+  },
+  {
+   "renderer": 1184,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "mesh_guid": "4430e70f75ad864dd396a0f1405e9834",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Wall_1184.asset",
+   "vertexCount": 2246,
+   "indexCount": 1356
+  },
+  {
+   "renderer": 1186,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "5f961e0da5977d36350ce04dabfca6b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1186.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1187,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "7fbe1d6b8c6fde8f5a7e9801426fc643",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1187.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1188,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "2f3256d2f5f7077a9a653b0081ac1a70",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Wood_1188.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1189,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "fc54438d67df16818ce73059097eede3",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1189.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1190,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "c23f5aa33da2e286c236a1bb7f01a37d",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1190.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1193,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "4daaad5d24ba5b83d069b59d63b38b36",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1193.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1198,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "73ef32cd4ae2f10500b824801bd626e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1198.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1199,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "674a81cfa48c2eedef4461d2012c02da",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1199.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1203,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "545c1775ced587204db8e7f64b28d5f7",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1203.asset",
+   "vertexCount": 158,
+   "indexCount": 246
+  },
+  {
+   "renderer": 1204,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "mesh_guid": "3f7c4f24039b2babd1551629602ae9c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1204.asset",
+   "vertexCount": 418,
+   "indexCount": 348
+  },
+  {
+   "renderer": 1207,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    39,
+    40
+   ],
+   "mesh_guid": "2644fb3ab5376c8fc4c2ada4cc4bb69d",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1207.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1208,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "03cb984151c286bef22b314471aa59cf",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Sun 1_1208.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1209,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "583671df8214e4283af19ab7dab39b72",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1209.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1212,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "37f03522a2f9828d7316c7ca108dbcc8",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1212.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1214,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "84e0132433f5ac384a492e68328ef112",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1214.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1216,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "44b366ebdf7da9ea58d3f396b9497cbd",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1216.asset",
+   "vertexCount": 80,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1217,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "43a90ebd99ff142099e6e6d7115556ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1217.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1221,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "ea0f194f1d4390add7f6177abcc467c7",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1221.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1223,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "306ccaa0d06a32121ebb212afeee22e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Plane_1223.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1224,
+   "gameObject": "Wood",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "3d1f795e50ba99d11732da1bec445a57",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Wood_1224.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1225,
+   "gameObject": "Hidden",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "45bb5c48261bac6166b544b9b018cc10",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Hidden_1225.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1227,
+   "gameObject": "Wall-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    31,
+    32
+   ],
+   "mesh_guid": "aeb24ba47cdcf4ab529479c45cad5183",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Wall-detach_1227.asset",
+   "vertexCount": 178,
+   "indexCount": 270
+  },
+  {
+   "renderer": 1229,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "dda69805b151faad18c6fdf3016a97d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1229.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1230,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "ef6ded1775b9266b76bdd105f1b89b2c",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1230.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1232,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "cfc1dbb0f616a28b008817c51308336b",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1232.asset",
+   "vertexCount": 52,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1233,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "7d36912692f79e4f11d89ff334eb4c6c",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1233.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1234,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "51165f0c029ffe7780cb8148a124fc0d",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1234.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1236,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "def9e59d2ebab303cf2c2d646add43e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Light_1236.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1240,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    29,
+    30
+   ],
+   "mesh_guid": "8142d4c8ef2dd89586f5979e38bb8486",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Floor_1240.asset",
+   "vertexCount": 506,
+   "indexCount": 477
+  },
+  {
+   "renderer": 1246,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "47ef2977fa239a5daff883f511864ce4",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1246.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1248,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    56,
+    57
+   ],
+   "mesh_guid": "36308532a96f6f90b6c764f6a7d7d6a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1248.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1250,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46
+   ],
+   "mesh_guid": "0a313f577955b8676fa0e0d56f296e35",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Building_1250.asset",
+   "vertexCount": 1457,
+   "indexCount": 690
+  },
+  {
+   "renderer": 1251,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "22697a5bd503acb4a6b5d4fb2fd80a8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1251.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1253,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "a71167ff88efb85cf55426819320abef",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/GrayBlock_1253.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1255,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "e1e1f5f5636d1c1dd3c21d4721c6bda4",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Block_1255.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1261,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_43.asset",
+   "combined_guid": "fde1c7c836d23164ca2927ec0549f2d4",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "724f4cb5de2c9a5ddae78f5931c37fd2",
+   "mesh_asset": "Assets/Mesh/Debatched/Battleforce/Ladder_1261.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  }
+ ]
+}

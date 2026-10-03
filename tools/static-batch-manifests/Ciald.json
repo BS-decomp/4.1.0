@@ -1,0 +1,423 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Ciald/Ciald.unity",
+ "map": "Ciald",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1057,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "7eb9fd9a2d3463e934a56ee6b6263281",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1057.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1065,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "bf0e1a791119a39ba0646984d9450f0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1065.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1067,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "cb2d57f218821f9bfb4c5a118e3356ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1067.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1071,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "e9e4aa3db8030c5f545a5b09756f7046",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1071.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1072,
+   "gameObject": "Red Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "a83890d6ba947e473674e73a526feb8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Red Platform_1072.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "977c818e39ca24fdae0768aadbb2411e",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1075.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1076,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "b6181b5c8b5e0f8fd2e278c7066bf8d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1076.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1078,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "1c70756ea54df1340bc96f4e3337fe82",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1078.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1085,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "65d423b388f4fbdccac2202dc1389f3c",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Sun 1_1085.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1086,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "65bb35c7530536849530e03b8f2b3da6",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1086.asset",
+   "vertexCount": 96,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1089,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "0d8e0fd62a0ebb15905bc7e49f2133e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1089.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1094,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "2a61b5dc0b6a84dfbfa1590724962fd1",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/SkyDome_1094.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1099,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "65c80c52c049972ca9acc33d912c4749",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1099.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1100,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "b98629131695f41695b8d3b0656402b5",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1100.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1101,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "d23099e695ca6a4c9ebae1f5bda8d95a",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1101.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1108,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "3a1138ffd018af7f079f797a6d2de4d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1108.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1113,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "b06a9089bb3a94fac7543431461f8aa0",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1113.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1116,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "44e688141fdddd1af0feda3b0886fac6",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1116.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1123,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "73ea2306c6b35f7053f911b7b03ad8dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1123.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1125,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "612e1f94a0223e9606c3dd9e3eaec5cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1125.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1130,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "360afeb1e5289fba482f6825b1ef1315",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1130.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1131,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "54d92fba6f1909620df607c2fd5892ef",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1131.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1132,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "6d9cc2339f6928be39fd0ce50e3bef7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1132.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1134,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "5f9e03779bca871c2b8e050f176b0b0d",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1134.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1136,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "a4c37d3a57f44152089a0df7fea6ff23",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1136.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1138,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "3815188c852ea9ccb74e5a719f56914d",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1138.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1141,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "e5db97e12c0db8c6f9829bbf4d5044e7",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1141.asset",
+   "vertexCount": 216,
+   "indexCount": 324
+  },
+  {
+   "renderer": 1144,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "c53b4b90f82f11a907edaee9c4e4356e",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Plane_1144.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1145,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "1644273d9d8c1eb8e2fa0594dbf18543",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/GrayBlock_1145.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1147,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "c5ae2ac1937f1318549cfb92cbd910c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1147.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1155,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "45f1b35fd3e02fb62494cc51fb91e9f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/Static_1155.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1160,
+   "gameObject": "RedBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_46.asset",
+   "combined_guid": "80ac821724f73ae4d894c7b5938a5ec3",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "934c8af5d040933b3dfe652573fc81df",
+   "mesh_asset": "Assets/Mesh/Debatched/Ciald/RedBlock_1160.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  }
+ ]
+}

@@ -1,0 +1,2008 @@
+{
+ "scene": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum.unity",
+ "map": "Coliseum",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1407,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "bc1e9af23398d4d3cbaf9dfc850ea9cc",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1407.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1408,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "8255516029d4319334ecf551a63272a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1408.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1409,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "a2ea0db46b667e45d0b52ed7364de287",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1409.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1410,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    132,
+    133
+   ],
+   "mesh_guid": "bca395d0a983375d3c73abeef39b87dc",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1410.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1411,
+   "gameObject": "Palace-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    154,
+    155
+   ],
+   "mesh_guid": "c901a494108b5d39ef065a0ae4bbe135",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace-detach_1411.asset",
+   "vertexCount": 141,
+   "indexCount": 123
+  },
+  {
+   "renderer": 1412,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    123
+   ],
+   "mesh_guid": "432e34601685abff520e4d407118ff7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Ladder_1412.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1414,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "b6bfc50af3f27d101189b381fa752f0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1414.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1415,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "d41ceda6aec2da15633390189d3b058b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1415.asset",
+   "vertexCount": 18,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1417,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "c2f18e5fdb147c4ef25cb402bdb1ba2b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1417.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1422,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    105
+   ],
+   "mesh_guid": "71d1a904c7ecb02b2c09a431a7ae2375",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1422.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1425,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "185713808be700925cf49e80ebf92e5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1425.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1428,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    109
+   ],
+   "mesh_guid": "9d3c16b2e3bfbc9b3ae3c496aeab48bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Floor_1428.asset",
+   "vertexCount": 50,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1430,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "011c7a18cbe1c80927be26ed0088f491",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1430.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1432,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    117
+   ],
+   "mesh_guid": "aaeb6f9a6888ff03b548c27ba1cab12f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Metal Box_1432.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1433,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "d3954c24824619913f5cce6964084526",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1433.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1434,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    141
+   ],
+   "mesh_guid": "3d65355030e42154725e013923434e92",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1434.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1436,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "92f37d6af3849c7a4798dab093c8e146",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1436.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1437,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    139
+   ],
+   "mesh_guid": "9f4a58a77788865547a12768a1d38b14",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1437.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1438,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    144
+   ],
+   "mesh_guid": "f6e7de0e354c8a0c0a72f62ddc2bb342",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1438.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1440,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    142
+   ],
+   "mesh_guid": "8d517869e861888375d7b8869e37363f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1440.asset",
+   "vertexCount": 43,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1441,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "3746a1d220c8d443f8fe6a74c8e6a09d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1441.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1442,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    165
+   ],
+   "mesh_guid": "a5ddce98e773279bfadeca1d5a7f0e46",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1442.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1443,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "90a779d70b8a47f2b237eab2e417acdd",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1443.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1444,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    164
+   ],
+   "mesh_guid": "5c48cd9be966d758bb100de3d8625f4e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1444.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1448,
+   "gameObject": "Palace",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    152,
+    153
+   ],
+   "mesh_guid": "69dbf71a866c30a2b1543162e6f11a50",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace_1448.asset",
+   "vertexCount": 148,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1449,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "aa50de466cfd62b82450be52876f0734",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1449.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1450,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "b616d3b1a683618e5091eb3eb86819fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1450.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1451,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "bed5230f42ff0efcb370ca526aa05925",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1451.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1454,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    168
+   ],
+   "mesh_guid": "f7dea8d02b0a75549937b50afadbe97b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1454.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1455,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    146
+   ],
+   "mesh_guid": "81f447d80429016cac57d6d276d04a83",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1455.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1458,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "3beb33aef7e2d2fbe1c4d9781dcefbf9",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1458.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1461,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "bd0392fb467724293e975403a866363d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1461.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1462,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    127
+   ],
+   "mesh_guid": "bdc9b667a2890f2d42552256ea4e8e94",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1462.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1465,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "5f134e038ce9d3407f193a33cba17908",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1465.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1466,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "3258d822507b63caf6b7e896829fe422",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1466.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1467,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "c6751403d04b17f2132c7edd5937a713",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1467.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1468,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "79f248ea1c7c3204a00bd3b23236fcf6",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1468.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1469,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "b6b02124bd06e46746c46db13f1105f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1469.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1470,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "a74c71f3a48139f7d4915b1188bb9a7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1470.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1471,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "b8f73987ce208c3e5678c2873edf31e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1471.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1474,
+   "gameObject": "Palace-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    148,
+    149
+   ],
+   "mesh_guid": "05f059ae07e004230f228bd7f8ffc99f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace-detach_1474.asset",
+   "vertexCount": 141,
+   "indexCount": 123
+  },
+  {
+   "renderer": 1475,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "56fee80a1402de892e1589066cca67c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1475.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1476,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "02e3c41b85ea646d212346629ffa20a8",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1476.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    136
+   ],
+   "mesh_guid": "b0e84239eb117b74c2369463e1c34f1d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1477.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1478,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "5c1bda3857a7b51146d2d5ad461db2bd",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1478.asset",
+   "vertexCount": 20,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1481,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    121
+   ],
+   "mesh_guid": "39985f265e7088a31b3cae88d896b590",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Metal Box_1481.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1482,
+   "gameObject": "Palace-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    150,
+    151
+   ],
+   "mesh_guid": "0ebbafc047db843e17a3d6c0c29b7fa3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace-detach_1482.asset",
+   "vertexCount": 141,
+   "indexCount": 123
+  },
+  {
+   "renderer": 1483,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    113,
+    114,
+    115
+   ],
+   "mesh_guid": "6aae7bf16f4799baa64bd9a8ef10a17d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1483.asset",
+   "vertexCount": 84,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1484,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "6052e3715638286ad2490ab73f7add5b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1484.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1488,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "c45731f5f149c9bbbee44cf5827be1fc",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1488.asset",
+   "vertexCount": 22,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1489,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "8eb48b3ed6a2715dd54c4e0b8405f996",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1489.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1491,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "0e1c8188be3a6a168856d9bcb5a42cd9",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1491.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1492,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    126
+   ],
+   "mesh_guid": "14d1ece3f08323fa0feae3fbc845cff8",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Ladder_1492.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1493,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    175
+   ],
+   "mesh_guid": "a4b55763bc09d863e9c4c49eb5153d54",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1493.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1495,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    137
+   ],
+   "mesh_guid": "2d99b068801da80727a59a9b081834fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1495.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1496,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "c97b1b3c7eae0991a3942ce7fbe316ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1496.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1498,
+   "gameObject": "Palace",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    156,
+    157
+   ],
+   "mesh_guid": "475c310e40b308a5f2527bfde9458222",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace_1498.asset",
+   "vertexCount": 152,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1499,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "36d3817103cc189db212b6573cc2b943",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Plane_1499.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1501,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "7e00aa4e0cac9a3f2c1720082fd76108",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1501.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1502,
+   "gameObject": "Palace",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    158,
+    159
+   ],
+   "mesh_guid": "b6e39a53d62930331580e7aa39e3c791",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace_1502.asset",
+   "vertexCount": 148,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1503,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    170
+   ],
+   "mesh_guid": "c568960b6b4f08903c9cec5fc36f0c66",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1503.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1504,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    104
+   ],
+   "mesh_guid": "d5230853d3c07bbe87f585d58225ff02",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1504.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1505,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    23,
+    24,
+    25
+   ],
+   "mesh_guid": "e4e0fddabbe9b1ff9f35968b009d046f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1505.asset",
+   "vertexCount": 74,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1506,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "ed92a1d832dedb4e5b76f5c58f1ff081",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1506.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1507,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    171
+   ],
+   "mesh_guid": "5b952254db6327f52187add03037850a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1507.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1509,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "3106df7daf7b76982f697822478d6be2",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1509.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1511,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "75939c21f5dcfda3824e1b9867d5ab48",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1511.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1512,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    13,
+    14,
+    15
+   ],
+   "mesh_guid": "296d7becc17554ed9f602096baa0c63a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1512.asset",
+   "vertexCount": 110,
+   "indexCount": 111
+  },
+  {
+   "renderer": 1514,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "f8bbe890aaa1d36ffcab204e02dfe20b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1514.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1516,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    173
+   ],
+   "mesh_guid": "c482b9bcbdcf10136538cc41bc386eea",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1516.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1518,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    129
+   ],
+   "mesh_guid": "b4d48d833c172e7599f9539659aca71c",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1518.asset",
+   "vertexCount": 43,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1520,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "33b005efb2946372b48583394b35ad23",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1520.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1521,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    16,
+    17,
+    18
+   ],
+   "mesh_guid": "eae42791c2e32c5a69482354d0a8ebde",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1521.asset",
+   "vertexCount": 80,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1522,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    125
+   ],
+   "mesh_guid": "db2e67246cb818642125dedcc1085485",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Ladder_1522.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1523,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "0582a9323762594255c4b06b98facf3b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1523.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1524,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "d9175322757085bdd19b72bcf9b50f1e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1524.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1525,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "a10f21e5014bf53eb06c5d92f01b5590",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1525.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1526,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "c0e4d7b79754221b547c5a03d099be7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1526.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1528,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    174
+   ],
+   "mesh_guid": "62b1219848552c29f99b031c3fcf5868",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1528.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1529,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    140
+   ],
+   "mesh_guid": "41962cf820ef041a5727d73de0ef225b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1529.asset",
+   "vertexCount": 41,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1531,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "c118f2fed771b9025195a20d51c6f73f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1531.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1532,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "fecf9e4d52c96ade220e3060c0f9719a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1532.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1533,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "45d2c36784f5b3e352423dc11dcd240a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1533.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1534,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    124
+   ],
+   "mesh_guid": "1a61d348c0b01541913073bf11bf4e02",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Ladder_1534.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1535,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "d88783859c98fd7c37330a39d5eb903e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1535.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1537,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "ab5de1c7d7ffe237ef1ac9d53910912b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1537.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1540,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "bbe89534b14dce13b76ca3336042f6ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/SkyDome_1540.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1542,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "f314a05d4419228804caea274de43208",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1542.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1543,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    138
+   ],
+   "mesh_guid": "632f5a306f80d060fc8d933ddc1f33c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1543.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1545,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    19,
+    20,
+    21
+   ],
+   "mesh_guid": "7dda4951b32d17fa9674098837db2a77",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1545.asset",
+   "vertexCount": 126,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1546,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "62188917373b05c73083692304765d32",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1546.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1549,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    145
+   ],
+   "mesh_guid": "c9e0fca9b6e9fef3ddcae8bbdbc5e7d6",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1549.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1551,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    167
+   ],
+   "mesh_guid": "7188d6d6c6b56e857ad7e46e8694e373",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1551.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1554,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "aa615eb14c76339e6e021ce7351e1f5a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1554.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1555,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    143
+   ],
+   "mesh_guid": "e81d621ceff74652f857c43dab6205c8",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1555.asset",
+   "vertexCount": 28,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1556,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "6b6e823ce06aff47c0320323f13aa92c",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1556.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1557,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    116
+   ],
+   "mesh_guid": "9c9560a6e128d06563ed3fa2a8fc011c",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1557.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1558,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "2a22041f23e14d4152ae6a5bea7a3cde",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1558.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1561,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "6a888d0a7c37097ccef18c31638d9d50",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1561.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1563,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "4d3cb748e3d7fc520c9d9d63fe05c401",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1563.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1565,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "94efae5dd8f51cd56c8754c30b50fc93",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1565.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1566,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "4c3af15e6021b77fbe5b681e6cc412a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1566.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1567,
+   "gameObject": "Concrete",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    122
+   ],
+   "mesh_guid": "d99e1be5009ebf885a23070f5122d4b0",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Concrete_1567.asset",
+   "vertexCount": 50,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1568,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "13916c5d08cfd89033632a7a62150952",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1568.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1569,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    10,
+    11,
+    12
+   ],
+   "mesh_guid": "1cd259c50e2a3d669559f16650281aa5",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1569.asset",
+   "vertexCount": 164,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1570,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "f93922a8a56f1b4486c0852c111f338c",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1570.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1571,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "8f532bdec76bf6af6acb9fdbfbe726ea",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1571.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1572,
+   "gameObject": "Palace",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    160,
+    161
+   ],
+   "mesh_guid": "6680a513676c5b0693ac775bcbee291e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace_1572.asset",
+   "vertexCount": 148,
+   "indexCount": 129
+  },
+  {
+   "renderer": 1573,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "18106f40cac9ad95dd491b3d0d8d2e04",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1573.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1574,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "71d3e469c5e0c4abbba88d84d5d22cf6",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1574.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1575,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "a0901f657a928ffa7597ea20b57ddd0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1575.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1576,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "faa288a4719e3e2090b59345c696d129",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1576.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1579,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "62cd34d5768e8bbf3b7380901037024f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1579.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1580,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "f2270a54872809a1f840feb07cdc91b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1580.asset",
+   "vertexCount": 20,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1582,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "5b2e2727e61da569d230115fb8625173",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1582.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1583,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    118
+   ],
+   "mesh_guid": "1a6bea809a192bfe4594606f92efd209",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Metal Box_1583.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1584,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "13425461f843861dfdb80f7e5b4e69e4",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1584.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1585,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    147
+   ],
+   "mesh_guid": "fbfbaae63329795c0ace56951bc3d9a3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1585.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1586,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "e0bc660ebfca6e1466c6414d8fa8cd3f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1586.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1587,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "10d54321bbab18fa02112df53b310712",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1587.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1589,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    166
+   ],
+   "mesh_guid": "010c7ca10bc62a4d1aaba02b4b1e059b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1589.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1592,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "1707c0d7e63ed85a857a580115862b87",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Floor_1592.asset",
+   "vertexCount": 42,
+   "indexCount": 90
+  },
+  {
+   "renderer": 1595,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "fcf365acdfea434e71c4f8b5eb815ee3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1595.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1597,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "5afe7054b751b4f9d2d2e49692247657",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1597.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1599,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    130
+   ],
+   "mesh_guid": "8942103127d645939c4fa02fa63ffae1",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1599.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1600,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    128
+   ],
+   "mesh_guid": "fafb368fad18259fab035b69cc88519a",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1600.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1601,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    31,
+    32,
+    33
+   ],
+   "mesh_guid": "b68fda7fc59e8732c45fcc66c281e8a3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1601.asset",
+   "vertexCount": 116,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1602,
+   "gameObject": "Basement-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    27,
+    28,
+    29
+   ],
+   "mesh_guid": "743db0eb24818846194827b0e9d94665",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Basement-detach_1602.asset",
+   "vertexCount": 72,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1603,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    176
+   ],
+   "mesh_guid": "3b8d7f2b67f57fc47d503ee5a67b1064",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Wall_1603.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1606,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "d91b37778916a0abe13314e6b6d098a9",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1606.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1609,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "2881670da1857c8b85fb9e36fd7cedc3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1609.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1610,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    103
+   ],
+   "mesh_guid": "744f08207c09e3b63837fd7ba14e17e0",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1610.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1611,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "6c54852c622f17a127bedf1b9817e900",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1611.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1612,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "e2b2c541eeb821dd93228a3910a544d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1612.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1613,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    169
+   ],
+   "mesh_guid": "45e0e8c5243970f008223c15c9b1df7e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1613.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1615,
+   "gameObject": "Spawn place",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    172
+   ],
+   "mesh_guid": "e0cc19b525f992ee0878eeb495ae30f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Spawn place_1615.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1617,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    135
+   ],
+   "mesh_guid": "dbdca34084e6980aa0ce09a237c93f8b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1617.asset",
+   "vertexCount": 34,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1618,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "c0b66243ab03471fb4d063a6c137cbd2",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1618.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1619,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    119
+   ],
+   "mesh_guid": "69fc851d6343c343243985f0a82e2717",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Metal Box_1619.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1620,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "4c3f22c631f84e3fd2b3f09728c0eebf",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1620.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1621,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "a4b31f403e84a48da37c03ba9d933006",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1621.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1622,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "0f46f2edc0e551d7384a822d6861ca5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1622.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1623,
+   "gameObject": "Post",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    108
+   ],
+   "mesh_guid": "d2eae7726599d5c6da7052fd4c83a347",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Post_1623.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1624,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "cb1c08e07687b3530150108d8e0126bf",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Sun 1_1624.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1625,
+   "gameObject": "Palace",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    162,
+    163
+   ],
+   "mesh_guid": "8447080f7df9ec38203d8fe39f370b5f",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Palace_1625.asset",
+   "vertexCount": 148,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1626,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "e0db526f3e65474df66ed6689590638c",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Light_1626.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1627,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    134
+   ],
+   "mesh_guid": "8802c715ac0c39be3840f061e8025a0b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1627.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1628,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "6ba74c5c8b74ddf484b1844e8691f92d",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1628.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1629,
+   "gameObject": "Metal Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    120
+   ],
+   "mesh_guid": "6b92f17ab1364d82cffeb8723cce346b",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Metal Box_1629.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1630,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "4c7ad600a9b5fb5fce45f3b0a8f7d0f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Tower_1630.asset",
+   "vertexCount": 66,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1631,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    131
+   ],
+   "mesh_guid": "e461047080bcd0efc978403007089208",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1631.asset",
+   "vertexCount": 75,
+   "indexCount": 111
+  },
+  {
+   "renderer": 1632,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_32.asset",
+   "combined_guid": "d88183beb5b20a24da0ee9cd5a55512d",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "caabd4d7dfa127ae46ba285c48235a9e",
+   "mesh_asset": "Assets/Mesh/Debatched/Coliseum/Box_1632.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

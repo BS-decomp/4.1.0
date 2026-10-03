@@ -1,0 +1,99 @@
+{
+ "scene": "Assets/Levels/Maps/Others/3000/3000.unity",
+ "map": "3000",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 938,
+   "gameObject": "Walls",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    6,
+    7
+   ],
+   "mesh_guid": "d2b4829e7a3751d2c56f33c0228898a2",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Walls_938.asset",
+   "vertexCount": 216,
+   "indexCount": 294
+  },
+  {
+   "renderer": 943,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "e9bbcff5f432c26e2b9ca0654f6d194f",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Sun 1_943.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 948,
+   "gameObject": "Props",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "0afa86cf088f81de91dc80ed40b7f9f8",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Props_948.asset",
+   "vertexCount": 128,
+   "indexCount": 192
+  },
+  {
+   "renderer": 952,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "f38b3bf4aaff2f0635818bb0bbb05891",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Floor_952.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 971,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "51b73a478501ecca99029168649779d7",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Plane_971.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 983,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "1f4ad8e7eec6ac4e1b7beba51698c2c7",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/Black Box_983.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 984,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_11.asset",
+   "combined_guid": "d97ed0364d9c97647b6a9f0d755eabb6",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "015cfab7b610832caea52dbd9f9f62a2",
+   "mesh_asset": "Assets/Mesh/Debatched/3000/SkyDome_984.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  }
+ ]
+}

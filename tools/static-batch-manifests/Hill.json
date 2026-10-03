@@ -1,0 +1,607 @@
+{
+ "scene": "Assets/Levels/Maps/Hunter/Hill/Hill.unity",
+ "map": "Hill",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 987,
+   "gameObject": "Object002",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "8224f9a6cff7704144e640760a14a15e",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Object002_987.asset",
+   "vertexCount": 138,
+   "indexCount": 240
+  },
+  {
+   "renderer": 989,
+   "gameObject": "pb-Cube-1148804",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    11,
+    12
+   ],
+   "mesh_guid": "84053cce7b72cf9dfe148b1043b7be61",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1148804_989.asset",
+   "vertexCount": 52,
+   "indexCount": 60
+  },
+  {
+   "renderer": 992,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "176fc56d630fde0912b64ffa11ddd6ee",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Plane_992.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 994,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "bba1d7716cc06d9cca989c195e23a99b",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_994.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 995,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "a1f29dcecb89c899f351ba68d51a658f",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_995.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1000,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "e543630630b6a2b2e2837ce1c8089bad",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1000.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1005,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "d5c1c777ba4f18c15d8d590c4532829c",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1005.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1007,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "ba2886a3ccfbc0caa096082c92aaf5ac",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1007.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1011,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "818025ec03ea53b707caafb3a3934baf",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1011.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1012,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "66d71a424b75ef1ef82fd8e4b568b239",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/SkyDome_1012.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1013,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "110982632bc5b4f21a2efd3446ece15c",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1013.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1015,
+   "gameObject": "Object003",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "7be9a5fd364b98ca3c34c336ae7069ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Object003_1015.asset",
+   "vertexCount": 232,
+   "indexCount": 384
+  },
+  {
+   "renderer": 1016,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "c38b8814569e643060a43a613d8b6653",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1016.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1017,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "4dcb2c897f7e109cbb8b3c5706a60031",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1017.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1019,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "c1b97f627627fab02bd2e62477dd1315",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1019.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1021,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "daf80c0621c6b6680ab4c529949ad1a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1021.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1024,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "0c655cca2418494a1eb3da8e24dff97b",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1024.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1026,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "5bec6b83b29eeb12449f16e270ca396a",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1026.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1029,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "684bb8b33e40f4221ba1598d180b4d17",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1029.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1030,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "6a81b9abeca4ce6ba3c1351593984d47",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1030.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1032,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "951b14820b5ff25400dbf25b72487f99",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1032.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1034,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "e0d15f9a7d4507778518b6ca9036d2cf",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1034.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1035,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "f4dc446fd1160792e1e5d760b3689aab",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1035.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1036,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "6498ab740409390797a902aa454c309e",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1036.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1037,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "11c3b3707d46e05199bd8bee2f2f030e",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1037.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1039,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "5b0ef4d6ef6963460a175917ff66682a",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1039.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1040,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "9ff7ef20357d65be2924ffa841e29bcb",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1040.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1042,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "a2668ad71c076380dc0101adec8fd815",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1042.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1044,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "4fb9a0c59843148f9755a091b0a0c35d",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1044.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1047,
+   "gameObject": "Object004",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "fb2ee0b0cdbd93abdada4d98fe4b8e5c",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Object004_1047.asset",
+   "vertexCount": 284,
+   "indexCount": 528
+  },
+  {
+   "renderer": 1049,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "27333382b82847c801bd9563fae94906",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1049.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1050,
+   "gameObject": "Object001",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "ab275fa5a021712bd596bf01655a568b",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Object001_1050.asset",
+   "vertexCount": 164,
+   "indexCount": 294
+  },
+  {
+   "renderer": 1053,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "d66a0996a9c43a4cc08d88a74696c8d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1053.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1055,
+   "gameObject": "pb-Cube-897374",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    42,
+    43
+   ],
+   "mesh_guid": "e3fbcc19504c5a5b4cfaa614753094a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-897374_1055.asset",
+   "vertexCount": 36,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1056,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "5417488ee9c4615d5e1ac5fdd282716d",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1056.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1058,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "3c7e4e7db5887d09e4ae10ff36449538",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1058.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1060,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "565a11a02b08e23b0832e196c91eceb3",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1060.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1062,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "544e8a3274b512e5dc45f6e04c98abbd",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1062.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1066,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "2c618074c97aa5ca06c33c8028cf7520",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1066.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1067,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "186bbd67d47e970aaeff3d21c55f33d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1067.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1068,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "b93941c21511da916313f465792f84d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1068.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "d5ec7b593881fc096257c961e13b9d8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1069.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1071,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "b3aa15a00bdf0849a5d32930c017d9fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1071.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1081,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "7c8fefd7b9cc01eee9ec536c3555d8cd",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1081.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1082,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "c297d944dae4b24563f66fe28ef816d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/Sun 1_1082.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1085,
+   "gameObject": "pb-Cube-1449000",
+   "combined_mesh": "Combined Mesh (root_ scene)_49.asset",
+   "combined_guid": "206ae3dcf46bdb14a8b86e21e355e36f",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "4d5448efcbb8c1dde8b35605adf8d94d",
+   "mesh_asset": "Assets/Mesh/Debatched/Hill/pb-Cube-1449000_1085.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

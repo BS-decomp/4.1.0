@@ -1,0 +1,1263 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Villa/Villa.unity",
+ "map": "Villa",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1275,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "9bae424c658cf4b47f8077493dd864f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1275.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1279,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "43058652b16ba201fb6a2488d5d237f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1279.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1282,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "6330b25488190728d09812db30cc7aa3",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1282.asset",
+   "vertexCount": 57,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1283,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "4debf1799a4987fb4a9e5181710d9846",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Plane_1283.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1284,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "b906b851b88048311c8a68008bf2ab78",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1284.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1285,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "74b6123587908e8d360feab4ac7babe8",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1285.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1288,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "00b30e19ed52fe404d06a6058fe771fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1288.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1291,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "6a7547a55df190d910fd7e314601d00c",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1291.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1292,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    69,
+    70
+   ],
+   "mesh_guid": "d8b05c617e66aa35460b371f354c7924",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Floor_1292.asset",
+   "vertexCount": 365,
+   "indexCount": 594
+  },
+  {
+   "renderer": 1293,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "e1a5efc5b235e255ff5a805f11f2b927",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1293.asset",
+   "vertexCount": 32,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1294,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "680e92a995b39ab8de79e236e92ff742",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1294.asset",
+   "vertexCount": 116,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1299,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "d42380b9f538f9e18156a1d0e03cdcb2",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1299.asset",
+   "vertexCount": 48,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1300,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "53abf0e9b1d6b31ec0500d02ab4c38a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Sun 1_1300.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1301,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "dd496a781103d3b3925b1b309cdd01ea",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1301.asset",
+   "vertexCount": 48,
+   "indexCount": 111
+  },
+  {
+   "renderer": 1305,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "e5c61661d866ec3fe559a8d2d77d3a79",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1305.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1309,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "36d0b7807318d0158e4c3a72da6a935e",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1309.asset",
+   "vertexCount": 36,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1311,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    109
+   ],
+   "mesh_guid": "3f827e1a601b7ca4c3a548315188593e",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Ladder_1311.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1313,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "d879166f743206e93aae46ae1ef615da",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1313.asset",
+   "vertexCount": 33,
+   "indexCount": 51
+  },
+  {
+   "renderer": 1314,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    9,
+    10
+   ],
+   "mesh_guid": "754efccdc64dff5797cbe1cf105f2bb0",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1314.asset",
+   "vertexCount": 116,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1316,
+   "gameObject": "Floor-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    103
+   ],
+   "mesh_guid": "1bb64f33a3530067edc125cd08198f84",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Floor-detach_1316.asset",
+   "vertexCount": 92,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1318,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "b86d17f3d0a3d204d6fd0752ce792a70",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1318.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1321,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "5122fbaf69e1bdaeab7b2abac8f29c17",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1321.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1322,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "9b17774b8f8522e9fbc48f14c7136128",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1322.asset",
+   "vertexCount": 34,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1323,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "a8e9704cf1aac724150c18b60e37cb85",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1323.asset",
+   "vertexCount": 52,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1324,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "a1f9cc3f34952d55cbf4be1996f759b6",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1324.asset",
+   "vertexCount": 181,
+   "indexCount": 279
+  },
+  {
+   "renderer": 1325,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    104,
+    105
+   ],
+   "mesh_guid": "b049396fcb56f4458190a8d3aa3232a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Floor_1325.asset",
+   "vertexCount": 199,
+   "indexCount": 342
+  },
+  {
+   "renderer": 1326,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "0e3a3a596535a1d16c4b3329b9e827f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1326.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1328,
+   "gameObject": "BuildingBlu",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    54,
+    55,
+    56
+   ],
+   "mesh_guid": "5871c67667ae85bd127c6fd06aea9099",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu_1328.asset",
+   "vertexCount": 143,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1330,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "8647420e2df62ed533191c3ca04ba59f",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1330.asset",
+   "vertexCount": 36,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1334,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "3aa8ed0c66cc445c5981ddbfa726767e",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1334.asset",
+   "vertexCount": 42,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1335,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "53493c286647b5930f9815178e303932",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1335.asset",
+   "vertexCount": 32,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1336,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    79,
+    80
+   ],
+   "mesh_guid": "34bf6cdedb7c1948b22a69514df8bd8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1336.asset",
+   "vertexCount": 52,
+   "indexCount": 81
+  },
+  {
+   "renderer": 1337,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "ed6a19ab4f937e2c3b712e5a53133d79",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1337.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1340,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "c5a38d8d813492743529ece54f846a2a",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1340.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1341,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "4d5fb253fb93dadf6a5ccd1424e68358",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1341.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1342,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    11,
+    12
+   ],
+   "mesh_guid": "b6c20aef646d3a17c284eaef0cdf93fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1342.asset",
+   "vertexCount": 122,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1343,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "2a06865382ce3a4f2526d9b2299f866c",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1343.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1344,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "279e0e874c5a309c6908fe3ee325c9d7",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1344.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1347,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "a02549d5e6506ea923d567ee4c777fa3",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1347.asset",
+   "vertexCount": 63,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1349,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "722e883f2cb34a06612319697118613f",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1349.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1350,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "7aeed7913234ac94df86035ec906c4ac",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1350.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1356,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    113
+   ],
+   "mesh_guid": "0f762085eb8a99781e1215518aa565f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Box_1356.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1357,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "2f65230415f9dc3dcc59c556e6c3b95b",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Box_1357.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1359,
+   "gameObject": "BuildingRed",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    57,
+    58,
+    59
+   ],
+   "mesh_guid": "9d0442f4d69ff66196f9b8c73a38bdc2",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed_1359.asset",
+   "vertexCount": 143,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1360,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "620fd52132481530b3b6273523232c45",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1360.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1364,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    97,
+    98
+   ],
+   "mesh_guid": "ba9cd07dc11dafd2c32f459a27fe370f",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1364.asset",
+   "vertexCount": 43,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1365,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "ced8ed8b3690710cca3d95854a176625",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1365.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1371,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "1a4c0e5515359dcfdb2c17fa732f5026",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1371.asset",
+   "vertexCount": 40,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1372,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    114
+   ],
+   "mesh_guid": "fa47865fbce48853b61a3553018ab602",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Black Box_1372.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1374,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "77a475b15c9d649b3ac3a4e23ba88517",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1374.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1375,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "6630132607581c2e64acc98d70320932",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1375.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1376,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "8a84d7d2436fdb2de271d2818d8dbf13",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1376.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1377,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "3bb3d56588ad44529558dbdafbbce4c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Box_1377.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1378,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "ac28a9e7ba4b82d793e0968f0abbeedf",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1378.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1379,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "670fdd9446831f7062c9c47be1229acc",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Ladder_1379.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1380,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "2f44a3606c2d3f36a5947533199e008f",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1380.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1381,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "424e973712e7c88a15f86bf30ad921cc",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1381.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1383,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "207537a100f3724ce889c0b5675ac83b",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1383.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1387,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    108
+   ],
+   "mesh_guid": "b43b35b5075142117a32073674590b31",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Ladder_1387.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1388,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    60,
+    61,
+    62
+   ],
+   "mesh_guid": "9fe5db15bb9c20c4dffb9c1bf7ebbdc9",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1388.asset",
+   "vertexCount": 304,
+   "indexCount": 186
+  },
+  {
+   "renderer": 1389,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    14,
+    15
+   ],
+   "mesh_guid": "96f7cd96266802c6d4aa749091eaf94c",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1389.asset",
+   "vertexCount": 98,
+   "indexCount": 177
+  },
+  {
+   "renderer": 1390,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "f2c518d96ce9308ebfe133b86e789d2e",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1390.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1394,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "7960c1704ae43a0442a43975165ffc42",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Ladder_1394.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1395,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "b4e1a9cb7b49b5a8353e7d3fe4e359a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1395.asset",
+   "vertexCount": 63,
+   "indexCount": 123
+  },
+  {
+   "renderer": 1397,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "ef6caf049e5ec7e8bebf40ba40a854ca",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1397.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1398,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "93a4ae0389942c52f68eefd827a4b551",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1398.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1399,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "bfa94aec43fb8bf52f6628e7f50367df",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Box_1399.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1400,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "f399744eebe8f1e917b3b503ede6e7db",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Water_1400.asset",
+   "vertexCount": 88,
+   "indexCount": 132
+  },
+  {
+   "renderer": 1403,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "1c2a8c7ed806ef44896aabc41b76a2a9",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1403.asset",
+   "vertexCount": 38,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1408,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    2,
+    3
+   ],
+   "mesh_guid": "1cc251560c4178873eee45e2aa5924f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1408.asset",
+   "vertexCount": 98,
+   "indexCount": 177
+  },
+  {
+   "renderer": 1410,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    7,
+    8
+   ],
+   "mesh_guid": "f87979b3308fefd1962ee3f146d3c912",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1410.asset",
+   "vertexCount": 122,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1411,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "cf985950bd9cb612d0d89e0ea06f39eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1411.asset",
+   "vertexCount": 28,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1414,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "a71cb4d632e5144904a9fa408a1ad535",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1414.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1415,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "1e61857be18f957ac2b022a27434ae95",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1415.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1416,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    67,
+    68
+   ],
+   "mesh_guid": "0f64096982bc511a60e9ecae1ccfcc23",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Floor_1416.asset",
+   "vertexCount": 365,
+   "indexCount": 594
+  },
+  {
+   "renderer": 1419,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "14562d5919c55b28b790151afd69627c",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1419.asset",
+   "vertexCount": 43,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1420,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    94,
+    95
+   ],
+   "mesh_guid": "a4f1b47c9d87abe5fbad7d0ee7837b4b",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1420.asset",
+   "vertexCount": 34,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1422,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "35291a851642e4170b993fc25c0c1ee5",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1422.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1424,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "7a0e3555605fa67ad3ab873eaf5abc97",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1424.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1426,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "2bac5ed7175bd1c51c7e9019dc75ace7",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/SkyDome_1426.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1427,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "92da2b0c5c8b3ce689dd4dfd46110a66",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1427.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1431,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "7980ebb4cad4e93da18f21cb2ef848c6",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1431.asset",
+   "vertexCount": 78,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1432,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "f3e569618e10f1bc3bef812c5d2fc062",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1432.asset",
+   "vertexCount": 51,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1435,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "90ff5decfea338138a1298611190bb5e",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1435.asset",
+   "vertexCount": 34,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1436,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "168a2f66201eca023ed6c893764f9db1",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1436.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1437,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "5721ea74ecd14fb39c1fd5f15e17c33f",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1437.asset",
+   "vertexCount": 78,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1443,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "3679d99bad6d814e64e3e2108f5c63a7",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1443.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1444,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "f03f71a7e3ce7fcb54ef296e229f54fe",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1444.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1445,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    115
+   ],
+   "mesh_guid": "7c19648ce84e555e302465f994a2e018",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Wall_1445.asset",
+   "vertexCount": 70,
+   "indexCount": 108
+  },
+  {
+   "renderer": 1448,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "4a0799232d3440d0dac38752c9e9522d",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Light_1448.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1450,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "f073cb4045aa78e4293a9c99308d2598",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1450.asset",
+   "vertexCount": 181,
+   "indexCount": 279
+  },
+  {
+   "renderer": 1451,
+   "gameObject": "Fontain",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "5bb7cd22f968278dead38f4d9889fd6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/Fontain_1451.asset",
+   "vertexCount": 172,
+   "indexCount": 264
+  },
+  {
+   "renderer": 1454,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    73,
+    74
+   ],
+   "mesh_guid": "0c742eeb6adff523f7601fed78135035",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1454.asset",
+   "vertexCount": 43,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1456,
+   "gameObject": "BuildingBlu-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "0627f4ba85dcbad74991bfa5825c63d8",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingBlu-detach_1456.asset",
+   "vertexCount": 32,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1457,
+   "gameObject": "BuildingRed-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_40.asset",
+   "combined_guid": "fe5ed2324eae18447a0ef1acd87b62fd",
+   "subset": [
+    63,
+    64,
+    65
+   ],
+   "mesh_guid": "9b2809e731bd4f3fa0dcff8b5b761c59",
+   "mesh_asset": "Assets/Mesh/Debatched/Villa/BuildingRed-detach_1457.asset",
+   "vertexCount": 304,
+   "indexCount": 186
+  }
+ ]
+}

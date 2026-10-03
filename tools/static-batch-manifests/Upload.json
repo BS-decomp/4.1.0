@@ -1,0 +1,463 @@
+{
+ "scene": "Assets/Levels/Maps/Others/Upload/Upload.unity",
+ "map": "Upload",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 992,
+   "gameObject": "Tower float",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "334ca2a3cc6e6896c2b25b4b295dc108",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Tower float_992.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 995,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "cc45d967ced95c507c153b617f9158f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_995.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 996,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "6b582a9d548cab417d28a479044c8b14",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Box_996.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 997,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "302e4882f63682ff0374145672f190ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Wall_997.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 998,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "3fda099ae1c0e26f521edd7f6d7aa9e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Black Box_998.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1001,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "bd568b5ae8db8f276335dd928f310db2",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Box_1001.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1002,
+   "gameObject": "Towers",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    15,
+    16
+   ],
+   "mesh_guid": "d0a3e85bd2fcc62ba4b732bcbdd4b3b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Towers_1002.asset",
+   "vertexCount": 757,
+   "indexCount": 615
+  },
+  {
+   "renderer": 1004,
+   "gameObject": "Walls",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "f6e6863dc870d0b99ed5d396d979f3eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Walls_1004.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1006,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "139a8cbaf9934bf8f66fb88b06121962",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Wall_1006.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1008,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "ef0c67e67e2b242fa63cd7142438e36f",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_1008.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1010,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "2fcd64a2964ea6563cfeeabb8da6bd40",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Wall_1010.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1012,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "a62e73ee350153b29907296a30385f7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/SkyDome_1012.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1016,
+   "gameObject": "Towers float",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "09947ff225b77ffd0fff702218472494",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Towers float_1016.asset",
+   "vertexCount": 38,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1018,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "706178ca3476c2946e49feb48fe0cf16",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Plane_1018.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1022,
+   "gameObject": "Water",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "8ddc9b1ea282b214014917257eacdcd4",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Water_1022.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1023,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    10,
+    11
+   ],
+   "mesh_guid": "9ae17cee726b665de82bb84c6f5ada9f",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Tower_1023.asset",
+   "vertexCount": 460,
+   "indexCount": 390
+  },
+  {
+   "renderer": 1026,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "mesh_guid": "b4e03715d264edcbff53fc8961b39205",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Building_1026.asset",
+   "vertexCount": 508,
+   "indexCount": 330
+  },
+  {
+   "renderer": 1030,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "44c541d1a1d66525dcece3bd3a853775",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Box_1030.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1032,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "9ae32895bd085c19ffc05fa7c384268e",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Wall_1032.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1035,
+   "gameObject": "Walls",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "ff4acf2415252588ce0d509c0419501e",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Walls_1035.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1036,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "3dc11934216ca8923a78902293dfdfa2",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_1036.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1038,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "d33e778d8773933aa6ebe13847d06140",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Wall_1038.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1039,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "43617e16cbebdc3733408d486b259881",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Box_1039.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1042,
+   "gameObject": "Tower float",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "d090ef154bcb4da6ccee5ba42a8f80fc",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Tower float_1042.asset",
+   "vertexCount": 36,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1053,
+   "gameObject": "Towers float",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "a77421ec4209f91d55e6bfecdf6db8ca",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Towers float_1053.asset",
+   "vertexCount": 46,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1054,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "5fc58bc8e8764d94d412588d1cfa5c2b",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Sun 1_1054.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1061,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    8,
+    9
+   ],
+   "mesh_guid": "e6e1c39c1d32a97b36d7863933cd12e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Platform_1061.asset",
+   "vertexCount": 26,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1065,
+   "gameObject": "Tower",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    5,
+    6
+   ],
+   "mesh_guid": "0c59120bc9084d6eb2463870bf535297",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Tower_1065.asset",
+   "vertexCount": 460,
+   "indexCount": 390
+  },
+  {
+   "renderer": 1067,
+   "gameObject": "Towers",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    12,
+    13
+   ],
+   "mesh_guid": "4a6fa84e289bf616f2e9e549ce89dfe9",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Towers_1067.asset",
+   "vertexCount": 757,
+   "indexCount": 615
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "68968ecba385eac0167813a16aa5d5a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_1069.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1074,
+   "gameObject": "WaterBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    17,
+    18
+   ],
+   "mesh_guid": "52b6e10478d145aedb73e1ac1bf72e98",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/WaterBlock_1074.asset",
+   "vertexCount": 32,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1075,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "3ed838a1bc8df3f59a8b36683bd54147",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_1075.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1078,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "94c137da7d25820c34e14838c63e17cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Ladder_1078.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1080,
+   "gameObject": "Building",
+   "combined_mesh": "Combined Mesh (root_ scene)_26.asset",
+   "combined_guid": "f5c40a0b79adc674a9ebb490896a8394",
+   "subset": [
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "mesh_guid": "ca80213348e201e2c06628bfdcc9453b",
+   "mesh_asset": "Assets/Mesh/Debatched/Upload/Building_1080.asset",
+   "vertexCount": 508,
+   "indexCount": 330
+  }
+ ]
+}

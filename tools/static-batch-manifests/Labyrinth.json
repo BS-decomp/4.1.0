@@ -1,0 +1,2726 @@
+{
+ "scene": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth.unity",
+ "map": "Labyrinth",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1595,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    197
+   ],
+   "mesh_guid": "c9a5fe9ba7cff1186d2cb11c5f159d83",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1595.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1597,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    144
+   ],
+   "mesh_guid": "cf50b7bfb9b1cb35e4fc5fb9c4d00b38",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1597.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1598,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "08ff9c1dd266c013f41dd65e739edd85",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1598.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1601,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "e4e8868fa6feb7ed835d51776ed7fa73",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1601.asset",
+   "vertexCount": 130,
+   "indexCount": 228
+  },
+  {
+   "renderer": 1602,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    174
+   ],
+   "mesh_guid": "052b6b2d27bd6b78fdae865b02207995",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1602.asset",
+   "vertexCount": 8,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1604,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    135
+   ],
+   "mesh_guid": "dc0fad47769eab7c4c967b01b5088c60",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1604.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1605,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    170
+   ],
+   "mesh_guid": "30b757838055f36d99de24e13d3059ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1605.asset",
+   "vertexCount": 6,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1607,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    189
+   ],
+   "mesh_guid": "caeab93c55a26cfa5179b819a4740eff",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1607.asset",
+   "vertexCount": 8,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1610,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    202
+   ],
+   "mesh_guid": "74901dab1681b962c9f9bcb8ef7dcc77",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1610.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1611,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "e2288a3a307c4025d57e39dd9322c739",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1611.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1612,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    179
+   ],
+   "mesh_guid": "2c25e442e185557ff21577fc7bbab862",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1612.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1613,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "e303216b446267ee369ce405674a0e6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1613.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1614,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "a96c3b1b4317016034e208f03d3bc4b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1614.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1615,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "ed29b8c5e9f4b95c26fd5b323281a51d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1615.asset",
+   "vertexCount": 36,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1618,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "a5e00140280634d6daf9d317234e2d60",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1618.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1621,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "c1ea1ddce16aaf77b32ba62cfb5a4433",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1621.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1622,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    109
+   ],
+   "mesh_guid": "601d2ed56d7d6e6cfc4908f61cbb565f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1622.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1623,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "bfc6f586517f9369eced379a38b40ee5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1623.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1624,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    196
+   ],
+   "mesh_guid": "1a41e1a0deddb23d1cfeaa2191a59751",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1624.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1626,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "6a0280ad67b25c9c7039db0f3e406f1c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1626.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1627,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "afeb1a029827517ddfc0616d321c8a4a",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1627.asset",
+   "vertexCount": 40,
+   "indexCount": 60
+  },
+  {
+   "renderer": 1628,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    159
+   ],
+   "mesh_guid": "dddd68573d45e508b15f7e45b124f174",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1628.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1629,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "e7f6bfb299f704232a25d3404af4e61d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1629.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1630,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    117
+   ],
+   "mesh_guid": "619d6916ac381cc80d22875c636374c9",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1630.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1631,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    187
+   ],
+   "mesh_guid": "2e509bb331ed8b1893716c70c4e2d851",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1631.asset",
+   "vertexCount": 12,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1632,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    156
+   ],
+   "mesh_guid": "cef4622e7ccece4e15d226dcb4405fa1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1632.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1635,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "6e06ace85466d2bd4eda4087711d01aa",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1635.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1636,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "fd4c42bcde2bd3bcd423319695c9547b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1636.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1637,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "6f556dffa16d4258e6479d280f471cc5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1637.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1638,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    206
+   ],
+   "mesh_guid": "dd1cff8c4d6c8e9ba1844752afea52c7",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1638.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1639,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "64be0731f475da8a2eccd11caa89e424",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1639.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1641,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    129
+   ],
+   "mesh_guid": "7d67a416ba3f921fb43d7c11ff20b0ac",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1641.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1643,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    130
+   ],
+   "mesh_guid": "d6aad7ebf24713f4b55221279519774e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1643.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1644,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "76943d333c94c451817ea02f5bf50700",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1644.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1645,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "54566e9abab9ec786ca98dc0ca8ac351",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1645.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1646,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "180c2491bf05303ac575ce6898594784",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1646.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1647,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "82c4e1b19f624eefcc20a69d5748a143",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1647.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1650,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "573c81fbae093ae56f3d9a05790ee5b0",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1650.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1651,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "9f36c7238779898698352fc9989a41f5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1651.asset",
+   "vertexCount": 90,
+   "indexCount": 150
+  },
+  {
+   "renderer": 1652,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "7fafaabf136ba2543ba0b11bf1966f62",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1652.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1653,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "0dfe547ecb42bf2031098616b70cd2ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1653.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1655,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "44f9e06b78cd61a3d71a61aa721b503d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1655.asset",
+   "vertexCount": 80,
+   "indexCount": 138
+  },
+  {
+   "renderer": 1656,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    160
+   ],
+   "mesh_guid": "22b8a46b02789faa9eb4e6b398301851",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1656.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1657,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "1b3edb6daf03ef7a79b184320738f70f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1657.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1658,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    59,
+    60
+   ],
+   "mesh_guid": "b5643b6224ea6c607bb9be2b866b9e2c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Wall_1658.asset",
+   "vertexCount": 46,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1659,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "e1ff7549a94f590e2f78ca7dd1da2479",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1659.asset",
+   "vertexCount": 50,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1660,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    199
+   ],
+   "mesh_guid": "f7a1c6066e8c664e5049a3016b4be40e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1660.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1663,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "52181ef7e46a50ce6aa5b884d1a56054",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1663.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1665,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    137
+   ],
+   "mesh_guid": "b2caf798fb9b6e6d3a6b7519d3896ac3",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1665.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1666,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "24f4d74fb8ffebb5e820f92b3f918fc4",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1666.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1667,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "17494d5c0df5d43e189cf2b6f220b5af",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1667.asset",
+   "vertexCount": 26,
+   "indexCount": 42
+  },
+  {
+   "renderer": 1668,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    178
+   ],
+   "mesh_guid": "11c319c24f68d302bdf2b6222df20902",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1668.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1671,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    200
+   ],
+   "mesh_guid": "8501f7edca17ab5b23c7e9d597ac884c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1671.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1672,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "1fa3355dd43bd4c42ffa924d594e9cba",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1672.asset",
+   "vertexCount": 121,
+   "indexCount": 201
+  },
+  {
+   "renderer": 1673,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "1675642e3b0790910c10128342d4de00",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1673.asset",
+   "vertexCount": 80,
+   "indexCount": 138
+  },
+  {
+   "renderer": 1675,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "8e6f123d46d80547030fe007fbfd5d0d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1675.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1676,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "deafe5d4a4f366b9402877a71290b627",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1676.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1677,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "df1b7da52e8aa2b280ee39d4b53aed0f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1677.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1678,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    158
+   ],
+   "mesh_guid": "216aba173e700dc7e2fb0018aa594c31",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1678.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1679,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    141
+   ],
+   "mesh_guid": "8ea37d18b23eb57f2191d61a1f9e1473",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1679.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1680,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "910772b080a7c18a62a18856cfbbd24d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1680.asset",
+   "vertexCount": 90,
+   "indexCount": 156
+  },
+  {
+   "renderer": 1681,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    118
+   ],
+   "mesh_guid": "22c53ab48cce514e65634da99fd6c8d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1681.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1684,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "57805c1043bb235054783f3d0bc28730",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1684.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1685,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "5783b172419a7cfc40e200be3dad5639",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1685.asset",
+   "vertexCount": 50,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1686,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    128
+   ],
+   "mesh_guid": "5e9a6637b79651a82b1374bd8b369111",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1686.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1687,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "bc8ec5f1a278668976983605e2c62a11",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1687.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1690,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    171,
+    172
+   ],
+   "mesh_guid": "14aaba596cfa3539a9d91692ff842c08",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1690.asset",
+   "vertexCount": 73,
+   "indexCount": 165
+  },
+  {
+   "renderer": 1692,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    163
+   ],
+   "mesh_guid": "955edc5b6a38bcad76110e3190a939f5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1692.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1693,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "0465d0319cb4ef7e47bf3eb4e93516e5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1693.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1694,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "7d5f9e51ca5a41b555bd54933491a41d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1694.asset",
+   "vertexCount": 120,
+   "indexCount": 210
+  },
+  {
+   "renderer": 1697,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "0435bd680b6bda1c4ea7ee38d5421dc2",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1697.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1698,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "431b90a4bc80f3e44890e21af50e1936",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1698.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1701,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    181
+   ],
+   "mesh_guid": "386cb76c1638970306fd0625d712113c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1701.asset",
+   "vertexCount": 17,
+   "indexCount": 33
+  },
+  {
+   "renderer": 1702,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    125
+   ],
+   "mesh_guid": "73aac540ea9fc0fd808c1aceb9b457c6",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1702.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1703,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    164
+   ],
+   "mesh_guid": "a00b4f589acc7b8fa32185b6a703c565",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1703.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1704,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    131
+   ],
+   "mesh_guid": "27b648ab3bddf343ddf7c590321a4c7f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1704.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1705,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "754369388b1ceb95994d678bc0c1d4f3",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1705.asset",
+   "vertexCount": 126,
+   "indexCount": 222
+  },
+  {
+   "renderer": 1706,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "29244af9efc08364b4bcbdc07f57392f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1706.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1707,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "9e5006f344bb27f9076cf9d62fa653cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1707.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1709,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    183
+   ],
+   "mesh_guid": "915a2ef5735d3bb0e97b3a24b3f7129b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1709.asset",
+   "vertexCount": 6,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1710,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    103
+   ],
+   "mesh_guid": "1564e532d5e40271ba90ba63001a51bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Plane_1710.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1711,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "1172cb03ca3c2b4ab3c576273199e813",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1711.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1713,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "fa891a666df8c85f2b205f3206087860",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1713.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1716,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    173
+   ],
+   "mesh_guid": "30b2ab1e81c6a612eb29129de27b4162",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1716.asset",
+   "vertexCount": 17,
+   "indexCount": 45
+  },
+  {
+   "renderer": 1717,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    177
+   ],
+   "mesh_guid": "aa33af6403c3c5afdf8bbcb037619c55",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1717.asset",
+   "vertexCount": 10,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1718,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "0d4b26dd7e950ed6465af7245e734be1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1718.asset",
+   "vertexCount": 50,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1720,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "83e1299633d2c3b4b1d81c2bf002002c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1720.asset",
+   "vertexCount": 116,
+   "indexCount": 204
+  },
+  {
+   "renderer": 1721,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "dcfb06fa378cb846fba6ffd03bcd0f6c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1721.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1723,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    167
+   ],
+   "mesh_guid": "a8a75d3dd2777e0e37f6d1b522031052",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1723.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1724,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "3dd37c90a4bbd4bbf3d89ef7f1afb34d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1724.asset",
+   "vertexCount": 212,
+   "indexCount": 366
+  },
+  {
+   "renderer": 1725,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    104
+   ],
+   "mesh_guid": "3281b9fd2b3d1cb50ccb0b55269c67d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Sun 1_1725.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1726,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "2ed6e9221ce292b9a55a4a1f2ee9807d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1726.asset",
+   "vertexCount": 102,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1727,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    120
+   ],
+   "mesh_guid": "f0e5f4932bf2f6516f0868c722b89d77",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1727.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1730,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    119
+   ],
+   "mesh_guid": "95881a59d0086b72be8a189d7e33221c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1730.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1731,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "14a5b90eeb87c155c5f6736131f7421f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1731.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1735,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    124
+   ],
+   "mesh_guid": "417bd2cc3e7241eecc3e0e198eeaf791",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1735.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1737,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    123
+   ],
+   "mesh_guid": "90e8b813e8ebd8c95126299e03648296",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1737.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1739,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    122
+   ],
+   "mesh_guid": "c38c2605896ea35331f14ef54de3bd72",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1739.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1740,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "cb75e0fc971cb98f68ff0dc620118b4e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1740.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1741,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    157
+   ],
+   "mesh_guid": "ea80dbf5c29688b5727419da5ec7f3a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1741.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1743,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "d39d09e4f5f1d4dccf850b069d017dfb",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1743.asset",
+   "vertexCount": 150,
+   "indexCount": 264
+  },
+  {
+   "renderer": 1744,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    194
+   ],
+   "mesh_guid": "9792f630f0c4e11ede138031d3dbff74",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1744.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1745,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "ef2993c6df206e93a0b69671a89378f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1745.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1747,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    155
+   ],
+   "mesh_guid": "3bc0c8e2526994d6a70c9f272a61b889",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1747.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1748,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "55093230e7fecaf29ce73ce0a5a0aaa5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1748.asset",
+   "vertexCount": 100,
+   "indexCount": 174
+  },
+  {
+   "renderer": 1749,
+   "gameObject": "Ground",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    198
+   ],
+   "mesh_guid": "a869a16166bb70e1f7afdc64ffa38e00",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ground_1749.asset",
+   "vertexCount": 31,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1750,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    175
+   ],
+   "mesh_guid": "7e03e6984a6ed726b19a03bf004e5074",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1750.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1751,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    138
+   ],
+   "mesh_guid": "cc009e0be62f22f65dc416dfa2a84a01",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1751.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1752,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    134
+   ],
+   "mesh_guid": "7866eb27111c9dbd5f8414f54a1e8075",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1752.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1753,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    133
+   ],
+   "mesh_guid": "846a0734a509c7b978d556c0de03ebba",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1753.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1755,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    132
+   ],
+   "mesh_guid": "28c43df73f6a7b8cb6b0ce985488fae7",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1755.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1757,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    162
+   ],
+   "mesh_guid": "aafbcf75480b1fcad32469539c108f27",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1757.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1759,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    208
+   ],
+   "mesh_guid": "afc9852ee6bb3100dff038367b1c77e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1759.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1760,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "e3538f0a9255f785040ea46d4b67d684",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1760.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1761,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "dd7b4da817b3c3fb73497c9e3e5ee003",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1761.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1762,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "15193fc2b10e93c9e4197dc036ac0a97",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1762.asset",
+   "vertexCount": 56,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1765,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "3210084a8c42e6ee51f6731da99f5e5b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1765.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1766,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "fe8146bf80c3340e72c5dcf9a5f60080",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1766.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1769,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    193
+   ],
+   "mesh_guid": "4b287f5419ab00a9454294364eba4f87",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1769.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1770,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "9d9f47302150d3532225b77a8c76b014",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1770.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1771,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    210
+   ],
+   "mesh_guid": "36a36fc4839a519e7d13aed12cd84c94",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1771.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1773,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "0944736ef2e15e47758621c6236c1401",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/SkyDome_1773.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1776,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    192
+   ],
+   "mesh_guid": "ee3f77744322b6d76271159906c2005a",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1776.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1778,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    114
+   ],
+   "mesh_guid": "497b5d41dfe50752f6d5092572c25cb2",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1778.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1779,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    209
+   ],
+   "mesh_guid": "2fa290b3a9e354e9ba01993ab70379dc",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1779.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1781,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "3e4a02afb34305a8b92cf56a38fc7a8e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1781.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1782,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    186
+   ],
+   "mesh_guid": "77987fff2d3ec594d9011ce4ef021220",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1782.asset",
+   "vertexCount": 12,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1784,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "ff27ea76c91eef095cc85dd561a36353",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1784.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1785,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "6e8d4d82f5109fba085f9fa062b938c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1785.asset",
+   "vertexCount": 50,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1786,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "dd6b90ca61d707a86a3d16813c091cb5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1786.asset",
+   "vertexCount": 240,
+   "indexCount": 426
+  },
+  {
+   "renderer": 1787,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    113
+   ],
+   "mesh_guid": "90acdfbd52a56dc1eaf0b974d922b78b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1787.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1790,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    191
+   ],
+   "mesh_guid": "30f0e1589ec0b20f2ef4044354eadb1c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1790.asset",
+   "vertexCount": 8,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1791,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    161
+   ],
+   "mesh_guid": "94da2c8bd16a303d32978b13f6ccad61",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1791.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1796,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    201
+   ],
+   "mesh_guid": "12882b390fd505e9a94c2b8e68cc395e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1796.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1797,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "3924d3536e2465e7157c8754dace6f16",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1797.asset",
+   "vertexCount": 30,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1799,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "f4109f73959579617d2a576c107909e6",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1799.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1800,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    203
+   ],
+   "mesh_guid": "1c12b0695aa59a7c6448ed61a457d81b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1800.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1802,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "50952127e3bbe8ebe7d3cfd08206ef42",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1802.asset",
+   "vertexCount": 110,
+   "indexCount": 192
+  },
+  {
+   "renderer": 1804,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "8955e9d53ddb27559b6bd6cce3bf3ada",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1804.asset",
+   "vertexCount": 174,
+   "indexCount": 264
+  },
+  {
+   "renderer": 1807,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    168
+   ],
+   "mesh_guid": "56fed4f1b220cf5df730fc2f7003dad8",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1807.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1808,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "a6016356b8824c08d16798ac6d7aeabe",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1808.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1809,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    169
+   ],
+   "mesh_guid": "a1fe0a72f26e11e4070d45812fa7f563",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1809.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1810,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    105
+   ],
+   "mesh_guid": "124314ab9d159bad6f59001cda08dc3f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1810.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1812,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "a8d6060566db0c9d0c18ba2718f0167c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1812.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1813,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    204
+   ],
+   "mesh_guid": "457419a51c20f1d6bbb204d085aee5f6",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1813.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1814,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    115
+   ],
+   "mesh_guid": "72955d0f45a5e85eada493b68a6be022",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1814.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1815,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "3a474b1929b5de32cc283df4a4d215ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1815.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1816,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "43a789ede4da16c9798070d3eb24778d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1816.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1817,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "3241ffc10e7539b14e33b2b36871bab8",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1817.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1818,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    182
+   ],
+   "mesh_guid": "9b1af98dc24d4deff0daffd6173b7832",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1818.asset",
+   "vertexCount": 8,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1819,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    166
+   ],
+   "mesh_guid": "4086afee82609cca25b07f1fdbf6f4f7",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1819.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1820,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "45bbb188acf325a36a8195624ff88d98",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1820.asset",
+   "vertexCount": 50,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1821,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    165
+   ],
+   "mesh_guid": "a697e9cbdbbbffd0d00f04053e4afff6",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1821.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1822,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "086c16d99750de8df2deef86bb49f1b4",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1822.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1824,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "8571c566b5b85b97556e4bd7134e0583",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1824.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1825,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "08d23cedecbcc432cace30f3d5498ac0",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1825.asset",
+   "vertexCount": 56,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1826,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "956b235971387183a0142f49b0f35f91",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1826.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1827,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "17503058169e9bf6ddb0120775db2610",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1827.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1829,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    152
+   ],
+   "mesh_guid": "9c832731a8c10a96df4ef606e382b235",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1829.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1830,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "2d6adb8c640434c10cab232d0b79f7d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1830.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1832,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    180
+   ],
+   "mesh_guid": "b14a54f68a07cd98e0a025d22dc01811",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1832.asset",
+   "vertexCount": 8,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1833,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    205
+   ],
+   "mesh_guid": "83d998ef0957822e2d1551c29aa850b2",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1833.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1834,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "a02b649f9b51db38d05cc83393e1fc2f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1834.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1835,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    154
+   ],
+   "mesh_guid": "b3e68bd3320c77e324682d059afb84b1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1835.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1836,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    153
+   ],
+   "mesh_guid": "9c15c3cf7fade0b2a85928b9fb161629",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1836.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1837,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "1bd2b9812c9657398dc6c5ed743869da",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1837.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1838,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    108
+   ],
+   "mesh_guid": "266bd564ffbf9fe2b1d7e940ea440f97",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1838.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1840,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "57dfa136a14a5949462f3084244f4e52",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1840.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1841,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    185
+   ],
+   "mesh_guid": "157fbf1514262560c565a9a9d82ceedf",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1841.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1842,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "c03f2ec99e5f4257cede6669d35e379a",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1842.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1844,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    150
+   ],
+   "mesh_guid": "f0267ce74957cd282bc264a97ba2b3f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1844.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1845,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "09b93d6ad4ae96982a84a5066cfe218d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1845.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1846,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    188
+   ],
+   "mesh_guid": "169e029c0b37fc183a57da1493c53a18",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1846.asset",
+   "vertexCount": 12,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1848,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    116
+   ],
+   "mesh_guid": "c55802355af2028592f5e537e128fa7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1848.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1851,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    149
+   ],
+   "mesh_guid": "72cf932c804e968d178392035131214f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1851.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1852,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "d2962e17bbdc3023e3929489ad0201f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1852.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1853,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "8fc749286e3cab91bd52f6e50a28ecce",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1853.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1854,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "0e791dea7fb85187e4f63167ac525387",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1854.asset",
+   "vertexCount": 32,
+   "indexCount": 48
+  },
+  {
+   "renderer": 1856,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "873e9980e83865f6d220592ab411014a",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1856.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1857,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "6f397009531e6f8a19e9c02d32cb69da",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1857.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1859,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "2faec193f386ecaac9fa2badde333c08",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1859.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1860,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "bfb5b8af3516c2d173f598a7eee0a2f0",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1860.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1861,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    136
+   ],
+   "mesh_guid": "24b4acf5aa9082c02a9cd3f90ad09b63",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1861.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1862,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "9456cacc26fcf5d89f01d6dc4ac99d6c",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1862.asset",
+   "vertexCount": 70,
+   "indexCount": 120
+  },
+  {
+   "renderer": 1863,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    148
+   ],
+   "mesh_guid": "b357e325967dd1adfba3110cfbceeb57",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1863.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1864,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    143
+   ],
+   "mesh_guid": "2a10ab608eca42ce89895fb111754942",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1864.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1866,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    146
+   ],
+   "mesh_guid": "afdc0b419c69a944054e9dea88850644",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1866.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1867,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "f1858cb9a15dade1b3f56d994e0e5f6d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1867.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1868,
+   "gameObject": "Ladder",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    195
+   ],
+   "mesh_guid": "0bcefe215accc84e036eca7c1d95a073",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Ladder_1868.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1869,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    142
+   ],
+   "mesh_guid": "6b6d25ff3a270a2ea6282b85396c467b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1869.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1870,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    139
+   ],
+   "mesh_guid": "1384aa7cb1c2d9d488ac28002561ca14",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1870.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1873,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    147
+   ],
+   "mesh_guid": "42c3b18520dfe6c40d8c1a85a8126d33",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1873.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1877,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "34ad2b7e12b81bac5d40d3017fd9bcaa",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1877.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1879,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    176
+   ],
+   "mesh_guid": "3052afb844c31c19d166a0e184896392",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1879.asset",
+   "vertexCount": 6,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1880,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "c35b390dbb722753094e3af087e2ec6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1880.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1881,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "37ce36c072088158a4dc33d770df8f76",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1881.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1882,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "8b20b13fd93331e32cdee892a4edbfb1",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1882.asset",
+   "vertexCount": 40,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1883,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    151
+   ],
+   "mesh_guid": "3586338eafc610861a0cca415c5a4b0e",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1883.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1884,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    127
+   ],
+   "mesh_guid": "042d045f24ee7d905f2c890e9c395b1d",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1884.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1886,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    207
+   ],
+   "mesh_guid": "f4400afdcda3d4330e2827553d8fbdc5",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Platform_1886.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1887,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    126
+   ],
+   "mesh_guid": "8e63b8b60673f32f47eaf10f38eb802b",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1887.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1888,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "6861390185a7e15a69b2f4bc7b137095",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1888.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1889,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    121
+   ],
+   "mesh_guid": "bb827d40000bfce4e00cada2aa2eab67",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1889.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1891,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "e5f1b3f5020aadaad6f027fc83514ee4",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Light_1891.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1893,
+   "gameObject": "Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    140
+   ],
+   "mesh_guid": "7a7c38d7af0c2ef073490174c6504517",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Box_1893.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1894,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    190
+   ],
+   "mesh_guid": "040605c1e86df54ad2d91b32cc13a853",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1894.asset",
+   "vertexCount": 15,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1897,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    145
+   ],
+   "mesh_guid": "402ef351f837930c0a61b5b8a762422f",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1897.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1898,
+   "gameObject": "Labyrinth",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "abdfea68aef4bfe85b29fddb4e9f6b26",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Labyrinth_1898.asset",
+   "vertexCount": 60,
+   "indexCount": 102
+  },
+  {
+   "renderer": 1899,
+   "gameObject": "Down-detach",
+   "combined_mesh": "Combined Mesh (root_ scene)_21.asset",
+   "combined_guid": "f106815dad6c0b64db6fe44fc81a4656",
+   "subset": [
+    184
+   ],
+   "mesh_guid": "44e698008d7e2e51316883df170fdee7",
+   "mesh_asset": "Assets/Mesh/Debatched/Labyrinth/Down-detach_1899.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  }
+ ]
+}

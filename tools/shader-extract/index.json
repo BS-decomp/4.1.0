@@ -1,0 +1,641 @@
+[
+ {
+  "shader_name": "Diffuse",
+  "asset_name": "Normal-Diffuse",
+  "source_file": "unity_builtin_extra",
+  "bytes": 115154,
+  "file": "Diffuse.shaderlab",
+  "subprograms": 83,
+  "passes": 4
+ },
+ {
+  "shader_name": "DirtyLens_01_GeoMobile",
+  "asset_name": "\"!!GLES3\"",
+  "source_file": "sharedassets3.assets",
+  "bytes": 88845,
+  "file": "DirtyLens_01_GeoMobile.shaderlab",
+  "subprograms": 27,
+  "passes": 3
+ },
+ {
+  "shader_name": "GUI/Text Shader",
+  "asset_name": "Font",
+  "source_file": "unity default resources",
+  "bytes": 2138,
+  "file": "GUI-Text Shader.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/BlitCopy",
+  "asset_name": "Internal-BlitCopy",
+  "source_file": "unity default resources",
+  "bytes": 1346,
+  "file": "Hidden-BlitCopy.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Camera-DepthNormalTexture",
+  "asset_name": "Camera-DepthNormalTexture",
+  "source_file": "unity default resources",
+  "bytes": 56266,
+  "file": "Hidden-Camera-DepthNormalTexture.shaderlab",
+  "subprograms": 40,
+  "passes": 10
+ },
+ {
+  "shader_name": "Hidden/Camera-DepthTexture",
+  "asset_name": "Camera-DepthTexture",
+  "source_file": "unity default resources",
+  "bytes": 34671,
+  "file": "Hidden-Camera-DepthTexture.shaderlab",
+  "subprograms": 36,
+  "passes": 9
+ },
+ {
+  "shader_name": "Hidden/Internal-CombineDepthNormals",
+  "asset_name": "Internal-CombineDepthNormals",
+  "source_file": "unity default resources",
+  "bytes": 3781,
+  "file": "Hidden-Internal-CombineDepthNormals.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-Flare",
+  "asset_name": "Internal-Flare",
+  "source_file": "unity default resources",
+  "bytes": 1819,
+  "file": "Hidden-Internal-Flare.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-GUITexture",
+  "asset_name": "Internal-GUITexture",
+  "source_file": "unity default resources",
+  "bytes": 1903,
+  "file": "Hidden-Internal-GUITexture.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-GUITextureBlit",
+  "asset_name": "Internal-GUITextureBlit",
+  "source_file": "unity default resources",
+  "bytes": 2542,
+  "file": "Hidden-Internal-GUITextureBlit.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-GUITextureClip",
+  "asset_name": "Internal-GUITextureClip",
+  "source_file": "unity default resources",
+  "bytes": 2622,
+  "file": "Hidden-Internal-GUITextureClip.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-GUITextureClipText",
+  "asset_name": "Internal-GUITextureClipText",
+  "source_file": "unity default resources",
+  "bytes": 2615,
+  "file": "Hidden-Internal-GUITextureClipText.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-Halo",
+  "asset_name": "Internal-Halo",
+  "source_file": "unity default resources",
+  "bytes": 2156,
+  "file": "Hidden-Internal-Halo.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-PrePassCollectShadows",
+  "asset_name": "Internal-PrePassCollectShadows",
+  "source_file": "unity default resources",
+  "bytes": 17303,
+  "file": "Hidden-Internal-PrePassCollectShadows.shaderlab",
+  "subprograms": 12,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Internal-PrePassLighting",
+  "asset_name": "Internal-PrePassLighting",
+  "source_file": "unity default resources",
+  "bytes": 428577,
+  "file": "Hidden-Internal-PrePassLighting.shaderlab",
+  "subprograms": 180,
+  "passes": 3
+ },
+ {
+  "shader_name": "Hidden/InternalClear",
+  "asset_name": "Internal-Clear",
+  "source_file": "unity default resources",
+  "bytes": 8029,
+  "file": "Hidden-InternalClear.shaderlab",
+  "subprograms": 32,
+  "passes": 8
+ },
+ {
+  "shader_name": "Hidden/InternalErrorShader",
+  "asset_name": "Internal-ErrorShader",
+  "source_file": "unity default resources",
+  "bytes": 833,
+  "file": "Hidden-InternalErrorShader.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/ProBuilder/HideVertices",
+  "asset_name": "pb_HideVertices",
+  "source_file": "99ab5b57a637bdb4192babafc1298bee",
+  "bytes": 777,
+  "file": "Hidden-ProBuilder-HideVertices.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Shadow-ScreenBlur",
+  "asset_name": "Shadow-ScreenBlur",
+  "source_file": "unity default resources",
+  "bytes": 9095,
+  "file": "Hidden-Shadow-ScreenBlur.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Shadow-ScreenBlurRotated",
+  "asset_name": "Shadow-ScreenBlurRotated",
+  "source_file": "unity default resources",
+  "bytes": 13628,
+  "file": "Hidden-Shadow-ScreenBlurRotated.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Premultiplied Colored (TextureClip)",
+  "asset_name": "Unlit - Premultiplied Colored (TextureClip)",
+  "source_file": "773952d1ab5b7714392cdc5473b20244",
+  "bytes": 2949,
+  "file": "Hidden-Unlit-Premultiplied Colored (TextureClip).shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Premultiplied Colored 1",
+  "asset_name": "Unlit - Premultiplied Colored 1",
+  "source_file": "93c84009f8f004b4f84697c8cb12dd63",
+  "bytes": 3177,
+  "file": "Hidden-Unlit-Premultiplied Colored 1.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Premultiplied Colored 2",
+  "asset_name": "Unlit - Premultiplied Colored 2",
+  "source_file": "65ca32170bb371f459991a5d7696a9ba",
+  "bytes": 4211,
+  "file": "Hidden-Unlit-Premultiplied Colored 2.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Premultiplied Colored 3",
+  "asset_name": "Unlit - Premultiplied Colored 3",
+  "source_file": "5e82b392f79aa394fb1a579743600d5f",
+  "bytes": 5298,
+  "file": "Hidden-Unlit-Premultiplied Colored 3.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Text (TextureClip)",
+  "asset_name": "Unlit - Text (TextureClip)",
+  "source_file": "eec9c90e5acd4d74d9e021119fc70cf8",
+  "bytes": 2624,
+  "file": "Hidden-Unlit-Text (TextureClip).shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Text 1",
+  "asset_name": "Unlit - Text 1",
+  "source_file": "9f39f1d1f2f3ee04bb793082eee05819",
+  "bytes": 2794,
+  "file": "Hidden-Unlit-Text 1.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Text 2",
+  "asset_name": "Unlit - Text 2",
+  "source_file": "37590480333382341b5007dec2a032c6",
+  "bytes": 3866,
+  "file": "Hidden-Unlit-Text 2.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Text 3",
+  "asset_name": "Unlit - Text 3",
+  "source_file": "27275fc7df2ec0346ba12831e6a01345",
+  "bytes": 4921,
+  "file": "Hidden-Unlit-Text 3.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Colored (TextureClip)",
+  "asset_name": "Unlit - Transparent Colored (TextureClip)",
+  "source_file": "720c2c242cde13e4188964c550502b5e",
+  "bytes": 2772,
+  "file": "Hidden-Unlit-Transparent Colored (TextureClip).shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Colored 1",
+  "asset_name": "Unlit - Transparent Colored 1",
+  "source_file": "cf9ebc36d43f657468fecb524763e3bc",
+  "bytes": 3248,
+  "file": "Hidden-Unlit-Transparent Colored 1.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Colored 2",
+  "asset_name": "Unlit - Transparent Colored 2",
+  "source_file": "1682092270f88d04bb434756a984ea87",
+  "bytes": 4316,
+  "file": "Hidden-Unlit-Transparent Colored 2.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Colored 3",
+  "asset_name": "Unlit - Transparent Colored 3",
+  "source_file": "7c0a1aa668787ad42a48d1a535825520",
+  "bytes": 5371,
+  "file": "Hidden-Unlit-Transparent Colored 3.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Masked 1",
+  "asset_name": "Unlit - Transparent Masked 1",
+  "source_file": "2cd1f5408130bdc4cbcf8c8fab8efd21",
+  "bytes": 3689,
+  "file": "Hidden-Unlit-Transparent Masked 1.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Masked 2",
+  "asset_name": "Unlit - Transparent Masked 2",
+  "source_file": "c6f11eb0ceeb5e044b3199208e1a99bf",
+  "bytes": 4757,
+  "file": "Hidden-Unlit-Transparent Masked 2.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Masked 3",
+  "asset_name": "Unlit - Transparent Masked 3",
+  "source_file": "222c64d503379884db00185ebbe08590",
+  "bytes": 5812,
+  "file": "Hidden-Unlit-Transparent Masked 3.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Packed 1",
+  "asset_name": "Unlit - Transparent Packed 1",
+  "source_file": "182695e850938314fa6675a8926ad9ee",
+  "bytes": 3553,
+  "file": "Hidden-Unlit-Transparent Packed 1.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Packed 2",
+  "asset_name": "Unlit - Transparent Packed 2",
+  "source_file": "f4f0faf73e6bf89419cf29b611f29ade",
+  "bytes": 4621,
+  "file": "Hidden-Unlit-Transparent Packed 2.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Hidden/Unlit/Transparent Packed 3",
+  "asset_name": "Unlit - Transparent Packed 3",
+  "source_file": "d1ba9e7ba321b2c4d97f6a19f1deab6a",
+  "bytes": 5682,
+  "file": "Hidden-Unlit-Transparent Packed 3.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "MADFINGER/Diffuse/Simple",
+  "asset_name": "TextureSimple",
+  "source_file": "sharedassets2.assets",
+  "bytes": 179,
+  "file": "MADFINGER-Diffuse-Simple.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "MADFINGER/Particles/Additive TwoSide",
+  "asset_name": "Particles Additive Culled",
+  "source_file": "sharedassets12.assets",
+  "bytes": 1184,
+  "file": "MADFINGER-Particles-Additive TwoSide.shaderlab",
+  "subprograms": 0,
+  "passes": 2
+ },
+ {
+  "shader_name": "MADFINGER/Transparent/Blinking GodRays",
+  "asset_name": "MADFINGER-blinking-god-rays",
+  "source_file": "sharedassets3.assets",
+  "bytes": 8115,
+  "file": "MADFINGER-Transparent-Blinking GodRays.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "MADFINGER/Transparent/GodRays",
+  "asset_name": "MADFINGER-god-rays",
+  "source_file": "sharedassets4.assets",
+  "bytes": 4088,
+  "file": "MADFINGER-Transparent-GodRays.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Mobile/Particles/Additive",
+  "asset_name": "Mobile-Particle-Add",
+  "source_file": "sharedassets2.assets",
+  "bytes": 524,
+  "file": "Mobile-Particles-Additive.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "Mobile/Particles/Alpha Blended",
+  "asset_name": "Mobile-Particle-Alpha",
+  "source_file": "sharedassets3.assets",
+  "bytes": 542,
+  "file": "Mobile-Particles-Alpha Blended.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "Mobile/Particles/Multiply",
+  "asset_name": "Mobile-Particle-Multiply",
+  "source_file": "sharedassets8.assets",
+  "bytes": 618,
+  "file": "Mobile-Particles-Multiply.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "Mobile/Particles/VertexLit Blended",
+  "asset_name": "Mobile-Particle-Alpha-VertexLit",
+  "source_file": "sharedassets3.assets",
+  "bytes": 594,
+  "file": "Mobile-Particles-VertexLit Blended.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "Mobile/Unlit (Supports Lightmap)",
+  "asset_name": "Mobile-Lightmap-Unlit",
+  "source_file": "sharedassets2.assets",
+  "bytes": 986,
+  "file": "Mobile-Unlit (Supports Lightmap).shaderlab",
+  "subprograms": 0,
+  "passes": 3
+ },
+ {
+  "shader_name": "Mobile/VertexLit",
+  "asset_name": "Mobile-VertexLit",
+  "source_file": "sharedassets2.assets",
+  "bytes": 23801,
+  "file": "Mobile-VertexLit.shaderlab",
+  "subprograms": 20,
+  "passes": 5
+ },
+ {
+  "shader_name": "Mobile/VertexLit (Only Directional Lights)",
+  "asset_name": "Mobile-VertexLit-OnlyDirectionalLights",
+  "source_file": "sharedassets5.assets",
+  "bytes": 54381,
+  "file": "Mobile-VertexLit (Only Directional Lights).shaderlab",
+  "subprograms": 35,
+  "passes": 1
+ },
+ {
+  "shader_name": "OptimizedSkybox",
+  "asset_name": "OptimizedSkybox",
+  "source_file": "sharedassets35.assets",
+  "bytes": 225,
+  "file": "OptimizedSkybox.shaderlab",
+  "subprograms": 0,
+  "passes": 1
+ },
+ {
+  "shader_name": "Particles/Additive",
+  "asset_name": "Particle Add",
+  "source_file": "0000000000000000f000000000000000",
+  "bytes": 6088,
+  "file": "Particles-Additive.shaderlab",
+  "subprograms": 8,
+  "passes": 1
+ },
+ {
+  "shader_name": "ProBuilder/Diffuse Vertex Color",
+  "asset_name": "DiffuseVertexColor",
+  "source_file": "sharedassets4.assets",
+  "bytes": 123729,
+  "file": "ProBuilder-Diffuse Vertex Color.shaderlab",
+  "subprograms": 83,
+  "passes": 4
+ },
+ {
+  "shader_name": "ProBuilder/Unlit Solid Color",
+  "asset_name": "UnlitSolidColor",
+  "source_file": "sharedassets2.assets",
+  "bytes": 1152,
+  "file": "ProBuilder-Unlit Solid Color.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "ProBuilder/UnlitVertexColor",
+  "asset_name": "pb_UnlitVertexColor",
+  "source_file": "84f04ba86cd824249bb1c2029be83101",
+  "bytes": 1313,
+  "file": "ProBuilder-UnlitVertexColor.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Sprites/Default",
+  "asset_name": "Sprites-Default",
+  "source_file": "unity default resources",
+  "bytes": 5354,
+  "file": "Sprites-Default.shaderlab",
+  "subprograms": 8,
+  "passes": 1
+ },
+ {
+  "shader_name": "UI/Default",
+  "asset_name": "UI-Default",
+  "source_file": "unity_builtin_extra",
+  "bytes": 3200,
+  "file": "UI-Default.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "UI/Default Font",
+  "asset_name": "UI-DefaultFont",
+  "source_file": "unity_builtin_extra",
+  "bytes": 2761,
+  "file": "UI-Default Font.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Unlit/Premultiplied Colored",
+  "asset_name": "Unlit - Premultiplied Colored",
+  "source_file": "ed5591596df551e4c8f4b05ce88a7a07",
+  "bytes": 2236,
+  "file": "Unlit-Premultiplied Colored.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Unlit/Text",
+  "asset_name": "Unlit - Text",
+  "source_file": "773417da4aa1b46409bd1e7574dcb251",
+  "bytes": 2392,
+  "file": "Unlit-Text.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Unlit/Texture",
+  "asset_name": "Unlit-Normal",
+  "source_file": "sharedassets2.assets",
+  "bytes": 1697,
+  "file": "Unlit-Texture.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Unlit/Transparent",
+  "asset_name": "Unlit-Alpha",
+  "source_file": "sharedassets3.assets",
+  "bytes": 1862,
+  "file": "Unlit-Transparent.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Unlit/Transparent Colored",
+  "asset_name": "Unlit - Transparent Colored",
+  "source_file": "sharedassets1.assets",
+  "bytes": 2408,
+  "file": "Unlit-Transparent Colored.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Unlit/Transparent Colored (Packed) (TextureClip)",
+  "asset_name": "Unlit - Transparent Colored (Packed) (TextureClip)",
+  "source_file": "e37f44f1a08cf594fb6b3919774527ed",
+  "bytes": 3572,
+  "file": "Unlit-Transparent Colored (Packed) (TextureClip).shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "Unlit/Transparent Masked",
+  "asset_name": "Unlit - Transparent Masked",
+  "source_file": "9300d87db4ad0b0439f6fb97c3ce8ccf",
+  "bytes": 2955,
+  "file": "Unlit-Transparent Masked.shaderlab",
+  "subprograms": 4,
+  "passes": 2
+ },
+ {
+  "shader_name": "Unlit/Transparent Packed",
+  "asset_name": "Unlit - Transparent Packed",
+  "source_file": "f3fd145b191cf4040ac6b55cda352a53",
+  "bytes": 2729,
+  "file": "Unlit-Transparent Packed.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "VertexLit",
+  "asset_name": "Normal-VertexLit",
+  "source_file": "unity_builtin_extra",
+  "bytes": 24224,
+  "file": "VertexLit.shaderlab",
+  "subprograms": 20,
+  "passes": 5
+ },
+ {
+  "shader_name": "WFX/Additive (Soft) Alpha8",
+  "asset_name": "WFX_S Particle AddSoft A8",
+  "source_file": "sharedassets3.assets",
+  "bytes": 7191,
+  "file": "WFX-Additive (Soft) Alpha8.shaderlab",
+  "subprograms": 8,
+  "passes": 3
+ },
+ {
+  "shader_name": "WFX/Additive Alpha8",
+  "asset_name": "WFX_S Particle Add A8",
+  "source_file": "sharedassets5.assets",
+  "bytes": 7239,
+  "file": "WFX-Additive Alpha8.shaderlab",
+  "subprograms": 8,
+  "passes": 3
+ },
+ {
+  "shader_name": "WFX/Scroll/Additive",
+  "asset_name": "WFX_S Add Scroll",
+  "source_file": "sharedassets5.assets",
+  "bytes": 9483,
+  "file": "WFX-Scroll-Additive.shaderlab",
+  "subprograms": 8,
+  "passes": 3
+ },
+ {
+  "shader_name": "WFX/Scroll/Multiply Soft Tint",
+  "asset_name": "WFX_S Multiply Soft Scroll",
+  "source_file": "sharedassets5.assets",
+  "bytes": 3592,
+  "file": "WFX-Scroll-Multiply Soft Tint.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ },
+ {
+  "shader_name": "WFX/Scroll/Smoke",
+  "asset_name": "WFX_S Smoke Scroll",
+  "source_file": "sharedassets5.assets",
+  "bytes": 3481,
+  "file": "WFX-Scroll-Smoke.shaderlab",
+  "subprograms": 4,
+  "passes": 1
+ }
+]

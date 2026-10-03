@@ -1,0 +1,1656 @@
+{
+ "scene": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout.unity",
+ "map": "Jumpout",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1419,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "c7532175114ce70675cbc5977e7520ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Glass_1419.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1422,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    168,
+    169
+   ],
+   "mesh_guid": "2727613d5948ccac30ca7a458f2ead66",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1422.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1423,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    160,
+    161
+   ],
+   "mesh_guid": "5c3e6a4c6b4646741f1a9c6f5c926be1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1423.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1425,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    188,
+    189
+   ],
+   "mesh_guid": "f4f9ec6d83d3a2a0067dba7b6273ef01",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1425.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1427,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    118,
+    119
+   ],
+   "mesh_guid": "2f5d5478a2016a847a47aed4abd8e1e9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1427.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1428,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "6d7cd69691a67e90f69a1aecccda4eba",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1428.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1429,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "dd54fadd689270edbc2d7862835fc4e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1429.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1430,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    126,
+    127
+   ],
+   "mesh_guid": "b1cef1315f8e9d898b87b22e5e872fc9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1430.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1433,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    136,
+    137
+   ],
+   "mesh_guid": "d9f320253f693bfc34f6e5b6eaac6223",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1433.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1436,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    134,
+    135
+   ],
+   "mesh_guid": "eb6037a082e037262fb7a048fd7dfdb5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1436.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1437,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "3a45586909b416549bdcc9c75cb711b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1437.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1438,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    203,
+    204
+   ],
+   "mesh_guid": "d69f050a1ccfee72b4b40dae6f6aa4fd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1438.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1439,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "f4cb4dae23f0c178a07933f2eceadafc",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1439.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1441,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    132,
+    133
+   ],
+   "mesh_guid": "4ac6d18755fe36f4711258d6abfd6706",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1441.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1442,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    128,
+    129
+   ],
+   "mesh_guid": "057702c3d693683ed009fbc16dda3ca1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1442.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1444,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    130,
+    131
+   ],
+   "mesh_guid": "94395152abed1e4331b2bfada7747277",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1444.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1445,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    138,
+    139
+   ],
+   "mesh_guid": "ddea9cb71b3527195798285e60cb62dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1445.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1446,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "b816cdb81654f98f9105b315dcfbd4a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1446.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1448,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    146,
+    147
+   ],
+   "mesh_guid": "d5950253612b237a3871d510b93a5e81",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1448.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1450,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    148,
+    149
+   ],
+   "mesh_guid": "87bedd660a1275222bfe01ffed20fbb9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1450.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1452,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "f78601f178b4d709d3fb2c2c1d677683",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1452.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1453,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "fcade3198b57deb738aa4ddee0842bce",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1453.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1454,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "88a32131d9703bd9c135836a87d60e97",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Wall_1454.asset",
+   "vertexCount": 146,
+   "indexCount": 171
+  },
+  {
+   "renderer": 1455,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    144,
+    145
+   ],
+   "mesh_guid": "dbf1a78ef3703a8c5c84b01038e80627",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1455.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1456,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    140,
+    141
+   ],
+   "mesh_guid": "59e0c1ebfe4dee437bfe8a3330bc32a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1456.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1457,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    142,
+    143
+   ],
+   "mesh_guid": "21c20499c453cadb65fe270cd6e01db8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1457.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1458,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    112,
+    113
+   ],
+   "mesh_guid": "7abc0904ea1f12fc7eafb4de7139d7c6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1458.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1459,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    114,
+    115
+   ],
+   "mesh_guid": "6983501c24ed04a891cc6d51c57d7da6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1459.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1461,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "e50bdcdbcb5757ed0c72ac480183824b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1461.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1462,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    110,
+    111
+   ],
+   "mesh_guid": "b1f35614a43832d119c921ee47175489",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1462.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1463,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    106,
+    107
+   ],
+   "mesh_guid": "8355cdd5ab03cd2f407cc7043aa18b9a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1463.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1465,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "b53cbf0763a8010165c91670f4c2b2fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Glass_1465.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1466,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    108,
+    109
+   ],
+   "mesh_guid": "6d92ed19e35fd277dfbc26e56f566369",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1466.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1468,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    116,
+    117
+   ],
+   "mesh_guid": "67dcb982e373c80a5364692c97b07cca",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1468.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1469,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "c38a5ce4ed3b1d175d20547aced65ddd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1469.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1470,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    124,
+    125
+   ],
+   "mesh_guid": "0484b49a0e8c4155e4d12af4b20aff6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1470.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1471,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "38f7dc3336c5eb2adeb8a8c9968b3d7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1471.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1477,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    205,
+    206
+   ],
+   "mesh_guid": "69bd85691170230b2c51f65d9b567adf",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1477.asset",
+   "vertexCount": 88,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1478,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    122,
+    123
+   ],
+   "mesh_guid": "12142022d8b516df167a753b138e8094",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1478.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1479,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    120,
+    121
+   ],
+   "mesh_guid": "9d5b83c6af5f11be331dd1fe0626c450",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1479.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1480,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    180,
+    181
+   ],
+   "mesh_guid": "36dd55ed4f63f26b55aaebf0b5c65625",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1480.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1481,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "d5709bd2520bc99e78ba74d77246d69f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1481.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1482,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "81294f0a896127fa6ae17d24bc2f65ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1482.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1483,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    182,
+    183
+   ],
+   "mesh_guid": "8d4955a7229b0ae7c5f5e3582dccaf23",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1483.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1484,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    178,
+    179
+   ],
+   "mesh_guid": "d7ebffde291ac81bed93e94377f4b7ab",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1484.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1485,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    174,
+    175
+   ],
+   "mesh_guid": "6df0dc8c1fbcb6901b3a6fc8540d53de",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1485.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1487,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    176,
+    177
+   ],
+   "mesh_guid": "0679e702acb7fc2a1a46e6cc5f585ab8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1487.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1492,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "7c69774447d237fd5e189d409c9b1873",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1492.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1493,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    190,
+    191
+   ],
+   "mesh_guid": "03345e7fb6ce356041efb270f2375631",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1493.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1494,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    192,
+    193
+   ],
+   "mesh_guid": "2d83631d480db64cc52271f48193ac02",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1494.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1495,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    184,
+    185
+   ],
+   "mesh_guid": "ab286216a3e39433698beb289e59d354",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1495.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1497,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    186,
+    187
+   ],
+   "mesh_guid": "695a3e425d12cc2829dbaf76e652894d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1497.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1499,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "815de98f7416a66a34c3133b966239a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1499.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1503,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    172,
+    173
+   ],
+   "mesh_guid": "2caf066bdd70d0d5459b3f0d8b7d9fe2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1503.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1504,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    156,
+    157
+   ],
+   "mesh_guid": "cbe8773971f545dbc4b0942a820724f5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1504.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1506,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    158,
+    159
+   ],
+   "mesh_guid": "8b078121a602b1fe6c960e0fdb09be7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1506.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1508,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    154,
+    155
+   ],
+   "mesh_guid": "b31b5ee001b8ac3cf8950d31ea247c75",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1508.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1513,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    150,
+    151
+   ],
+   "mesh_guid": "34ecb847e8566a35450441f8a7c8b110",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1513.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1514,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "e43cd332362e3d17e2ab4d7639824b74",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1514.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1515,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    152,
+    153
+   ],
+   "mesh_guid": "4ec73fe0db6c4b58f7766cebb232373e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1515.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1519,
+   "gameObject": "Bulding",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    198
+   ],
+   "mesh_guid": "a39bbafa6deab113476934282723700c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Bulding_1519.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1520,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    199,
+    200
+   ],
+   "mesh_guid": "ca15e981e94d6e5b0b0428f4efad4677",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1520.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1521,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    170,
+    171
+   ],
+   "mesh_guid": "df8fa244066eaa0a501f2e642990b4ec",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1521.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1522,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    166,
+    167
+   ],
+   "mesh_guid": "cf64f2ce49eaedf6cdf3da64d9581725",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1522.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1526,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    162,
+    163
+   ],
+   "mesh_guid": "08b5c2493c00b1ddae86937fb5af4e6b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1526.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1527,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    164,
+    165
+   ],
+   "mesh_guid": "e91c230e441259fa607f7895993d4bb0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1527.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1528,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "dac099bf8e9b7b7e9b550c544c588ab3",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1528.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1529,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "82ec0765cb30e41ec26b8119436ea5df",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1529.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1530,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    49,
+    50
+   ],
+   "mesh_guid": "d34959055477edbeda936d89592415d4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1530.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1531,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    51,
+    52
+   ],
+   "mesh_guid": "cf7804fd8ffcf7d8f35ee92ba2b9703b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1531.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1533,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "2ddea82690d146b3c27dc35de1404c91",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/SkyDome_1533.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1534,
+   "gameObject": "Glass",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "5cf8ad4fb7158a1a329416fb7050fead",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Glass_1534.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1535,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    2,
+    3,
+    4
+   ],
+   "mesh_guid": "4113d8b04182a7a859ee33875e610d58",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1535.asset",
+   "vertexCount": 586,
+   "indexCount": 381
+  },
+  {
+   "renderer": 1538,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "2a531dad0ecc2f20e1111080bf9ddc7c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1538.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1541,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    47,
+    48
+   ],
+   "mesh_guid": "79e7b93a511bae8e4846e2c5a5adecc3",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1541.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1543,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    59,
+    60
+   ],
+   "mesh_guid": "d79e7832147d37ea629bd3d694ee17dc",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1543.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1544,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    61,
+    62
+   ],
+   "mesh_guid": "68dd8bbac22413c3737942aaf2888768",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1544.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1545,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    55,
+    56
+   ],
+   "mesh_guid": "e012260b4f777ad7277711230dd3e859",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1545.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1548,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    57,
+    58
+   ],
+   "mesh_guid": "4bef068a41cce903279397622f00e96a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1548.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1549,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "ef9ba17c5cdc98cf5b3819d24297ad60",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1549.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1550,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    196,
+    197
+   ],
+   "mesh_guid": "e65b53dbd2f8befaebab921dc9bde806",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1550.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1551,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    43,
+    44
+   ],
+   "mesh_guid": "a8e1383b5873cb4eceecb76e41279d9d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1551.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1557,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    41,
+    42
+   ],
+   "mesh_guid": "1955c13e67bf47e8ea80c264b763ba6d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1557.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1558,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    39,
+    40
+   ],
+   "mesh_guid": "d403ba0ffe3360c6be58a48e63ad92d2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1558.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1561,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    63,
+    64
+   ],
+   "mesh_guid": "9d2fc33d880a940e000c2da3298a1c2b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1561.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1565,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    92,
+    93
+   ],
+   "mesh_guid": "b984877d7d18ac9b3e6b1297415e5308",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1565.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1567,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "c0ebe0df6efda05e73498c00d07c4377",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1567.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1568,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    90,
+    91
+   ],
+   "mesh_guid": "93496b9368b720a33c80c718b3f09746",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1568.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1569,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "a4e73617b3305c0bebd4bb66e6865a6a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1569.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1570,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    86,
+    87
+   ],
+   "mesh_guid": "a98013a6d4b20a462b8183ef3370775d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1570.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1571,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    88,
+    89
+   ],
+   "mesh_guid": "38ad549c74a02ef45d8d5cf904d0db20",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1571.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1573,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    201,
+    202
+   ],
+   "mesh_guid": "5e74cdf13b1ebb097a319e532686c94e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1573.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1577,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    102,
+    103
+   ],
+   "mesh_guid": "a7abb8dbb2e04a591aab0cf4a972ea34",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1577.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1578,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    207,
+    208
+   ],
+   "mesh_guid": "4de4fa3313a00c7921866791877bde00",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1578.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1580,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    104,
+    105
+   ],
+   "mesh_guid": "cce91a9e0e848c76aa677b5525939a39",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1580.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1581,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    96,
+    97
+   ],
+   "mesh_guid": "b8b781f1b2a2a8ee290329e3d56aac52",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1581.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1582,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    98,
+    99
+   ],
+   "mesh_guid": "83126f046d2f8fd72bd88332ce3ee4c4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1582.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1583,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "075a06c22b9dd3b2bca6a4fd9732ae04",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Sun 1_1583.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1584,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "f87110c4e876f59da3fd94e37c34c0a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1584.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1585,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    74,
+    75
+   ],
+   "mesh_guid": "f33da3d32e341e34b4506a3550733a3c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1585.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1588,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    65,
+    66,
+    67
+   ],
+   "mesh_guid": "7382fb2e2e4843e944f62dd5a1ccfd0a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1588.asset",
+   "vertexCount": 166,
+   "indexCount": 162
+  },
+  {
+   "renderer": 1589,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    68,
+    69
+   ],
+   "mesh_guid": "8e25e70bed48d13c5c750ef5e724e7d6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1589.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1590,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    82,
+    83
+   ],
+   "mesh_guid": "de22527ef8acc5e72cd47f9199ec4cf5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1590.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1591,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    84,
+    85
+   ],
+   "mesh_guid": "956bae85b72cebec4b8da2cab83ef6ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1591.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1594,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    80,
+    81
+   ],
+   "mesh_guid": "3cb4d2ecb835fa71c2930257aef159f2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1594.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1595,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    78,
+    79
+   ],
+   "mesh_guid": "03deb083721ffac69c9a670274d567a8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1595.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1596,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    76,
+    77
+   ],
+   "mesh_guid": "a2cc58dddaa42d5fa790eedc6fd5f614",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1596.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1597,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    70,
+    71
+   ],
+   "mesh_guid": "7a951afcc563ad10aa4f9ee40cefe740",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1597.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1598,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    72,
+    73
+   ],
+   "mesh_guid": "dd3cd2c8d65a87057e0f28477828cf26",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1598.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1599,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "034ac806a46a669c064c4ceb5f8e4436",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1599.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1601,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    100,
+    101
+   ],
+   "mesh_guid": "6f75db47b23530cac164bf78945047cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1601.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1604,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "0eec621ed7bd190ab787c7852f32e43e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Plane_1604.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1607,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    94,
+    95
+   ],
+   "mesh_guid": "2deeee682b715a1df3303e86c3a8e8da",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1607.asset",
+   "vertexCount": 352,
+   "indexCount": 276
+  },
+  {
+   "renderer": 1608,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "d6f0196d062cd04b1fb2f60587345f35",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1608.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1609,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    37,
+    38
+   ],
+   "mesh_guid": "bdc8a5154c0322789542a7eb03612752",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1609.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1612,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    194,
+    195
+   ],
+   "mesh_guid": "f73706eeabbb77ba18ec724732702d2a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Platform_1612.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1613,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    53,
+    54
+   ],
+   "mesh_guid": "1ec2d9d15a2f9e9fe87eabba352f3ce9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1613.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1614,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "ee188bd5f16523f6143c262ac8167cfe",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1614.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1615,
+   "gameObject": "Block",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    45,
+    46
+   ],
+   "mesh_guid": "0743d2fcf291e976c0f07f16321b3fd6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Block_1615.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1616,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_29.asset",
+   "combined_guid": "3951cb107da92e04bb5170e69cc8debc",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "ca36db626cd27b1897863242a6a9ad83",
+   "mesh_asset": "Assets/Mesh/Debatched/Jumpout/Light_1616.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

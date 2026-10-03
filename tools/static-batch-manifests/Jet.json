@@ -1,0 +1,3062 @@
+{
+ "scene": "Assets/Levels/Maps/Surf/Jet/Jet.unity",
+ "map": "Jet",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1750,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    137
+   ],
+   "mesh_guid": "2dfbb5fae73c1573bc906bb4ecf3c2dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1750.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1751,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    136
+   ],
+   "mesh_guid": "0e0b641f3377938f1716c36291bc3f1c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1751.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1753,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    138
+   ],
+   "mesh_guid": "2c8fbd8358d7a4bd8763abc5857fc437",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1753.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1754,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    140
+   ],
+   "mesh_guid": "e70e5f0272db1bbb753a64914b5ca260",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1754.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1756,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    139
+   ],
+   "mesh_guid": "2cd5831067c41f13a086626bb9421250",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1756.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1757,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    135
+   ],
+   "mesh_guid": "a4e5a89f1ea2c06fbfe6f61350dcb253",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1757.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1758,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    184
+   ],
+   "mesh_guid": "aa2d9f00368f05052e32682f9d57d19e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1758.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1759,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    131
+   ],
+   "mesh_guid": "a4fa2768c84ab8c54e53f305417890b0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1759.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1760,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    218,
+    219
+   ],
+   "mesh_guid": "5bf8d631e17d5c0536380d908335f0a5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1760.asset",
+   "vertexCount": 139,
+   "indexCount": 207
+  },
+  {
+   "renderer": 1761,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    224,
+    225
+   ],
+   "mesh_guid": "6cc9a6bf00eb19e20ec923eec8e1b7c4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1761.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1764,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    182
+   ],
+   "mesh_guid": "806f56ceade76aec5c8842499d5f50a9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1764.asset",
+   "vertexCount": 114,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1765,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    130
+   ],
+   "mesh_guid": "d42da67d26d4032ece45b58f5a566bdd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1765.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1766,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    132
+   ],
+   "mesh_guid": "8999b486590acfc82548903ebb6755d3",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1766.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1767,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    206,
+    207
+   ],
+   "mesh_guid": "8aa18f1312d48cebe896accd52173d08",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Platform_1767.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1768,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    134
+   ],
+   "mesh_guid": "71efe27020723a3cacba6b7c149db4b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1768.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1769,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    18
+   ],
+   "mesh_guid": "c94325492b28bd5ba871d80fbb3084a0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1769.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1770,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    208,
+    209
+   ],
+   "mesh_guid": "25425a4005e919ffb3b0cac578168e39",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1770.asset",
+   "vertexCount": 155,
+   "indexCount": 159
+  },
+  {
+   "renderer": 1771,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    133
+   ],
+   "mesh_guid": "a62a5f32d1acc81192c0b934403090b8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1771.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1772,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    19
+   ],
+   "mesh_guid": "8d2e1593e13e32d6b884a077ea527029",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1772.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1773,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    183
+   ],
+   "mesh_guid": "3869c2e24c708b2f23a3dd8d349a739f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1773.asset",
+   "vertexCount": 102,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1774,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    141
+   ],
+   "mesh_guid": "9c0f63aa5bba6e7bf7685d7fb09925e3",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1774.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1775,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    149
+   ],
+   "mesh_guid": "831b0f6997a819b6c2687903425c1c1f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1775.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1776,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    148
+   ],
+   "mesh_guid": "1b9ebe664db73665eba04c8d987156dd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1776.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1777,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    150
+   ],
+   "mesh_guid": "a48e37bbf0f6de9d49594eb4fc3d2d55",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1777.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1779,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    152
+   ],
+   "mesh_guid": "ab7fdaf6ef66ea6919d3016da44aee5c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1779.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1780,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    151
+   ],
+   "mesh_guid": "2df918d4c06784d4cd3cfba10d318976",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1780.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1781,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    190
+   ],
+   "mesh_guid": "63f53beb9513c37dde7c3388aa19edcd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1781.asset",
+   "vertexCount": 164,
+   "indexCount": 240
+  },
+  {
+   "renderer": 1782,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    147
+   ],
+   "mesh_guid": "a7f2c1f637f7d77a226b041acb5cef2b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1782.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1784,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    143
+   ],
+   "mesh_guid": "58f1a42fe6edbe4c3cf5392fbfd69582",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1784.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1785,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "ef694584249a3492bd67a5cc5f911422",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1785.asset",
+   "vertexCount": 9,
+   "indexCount": 21
+  },
+  {
+   "renderer": 1786,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    187
+   ],
+   "mesh_guid": "2ac59342ab581f4aecedf062bf06c3c6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1786.asset",
+   "vertexCount": 168,
+   "indexCount": 246
+  },
+  {
+   "renderer": 1787,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    142
+   ],
+   "mesh_guid": "1c96dccb3f326d51893bd4aacdb5271c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1787.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1789,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "b60c104a59b4a2b3016171558811984d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1789.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1790,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    144
+   ],
+   "mesh_guid": "b1ed6f5c870c57688c8d4cd7331effa1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1790.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1791,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    188
+   ],
+   "mesh_guid": "5fa3f4ab85649e5849be8b929ca1ee7b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1791.asset",
+   "vertexCount": 174,
+   "indexCount": 258
+  },
+  {
+   "renderer": 1792,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    146
+   ],
+   "mesh_guid": "64cc6fc0197540e296f78971924676ef",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1792.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1793,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    145
+   ],
+   "mesh_guid": "5eec79423b83f82add27321121477b3f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1793.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1794,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    226,
+    227
+   ],
+   "mesh_guid": "4ea6d45567284d5042182482a09a2deb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1794.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1795,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    129
+   ],
+   "mesh_guid": "fd38bb7099bb491d397921250285d443",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1795.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1797,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    113
+   ],
+   "mesh_guid": "4b221e07dcc51871fc023bdb7001d2b1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1797.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1798,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    112
+   ],
+   "mesh_guid": "b5cb8266a887b03084a84c1f1520f7c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1798.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1800,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    114
+   ],
+   "mesh_guid": "1f6e189c92bd6b105067ae1c49df26a8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1800.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1801,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    116
+   ],
+   "mesh_guid": "cae8b53c386a585e945763d03f1bcf51",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1801.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1802,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    115
+   ],
+   "mesh_guid": "339a208cde7f38732b6773e0f14b4901",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1802.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1803,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    111
+   ],
+   "mesh_guid": "75b0178e4914d01da1b5265a4459058a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1803.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1804,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    200
+   ],
+   "mesh_guid": "f07fbb8a3c594f6535fe763f722df331",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1804.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1805,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    107
+   ],
+   "mesh_guid": "b28cf27ef28aaaa98bd0804685b57c9e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1805.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1806,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    106
+   ],
+   "mesh_guid": "905867954c638284392c40a40578c14c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1806.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1807,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    108
+   ],
+   "mesh_guid": "99538a7bd3003f1d612138da4f1018c2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1807.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1808,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    110
+   ],
+   "mesh_guid": "f0f4c5fee78bfae0c794d273a1011a07",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1808.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1810,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    109
+   ],
+   "mesh_guid": "1e168e24c5d1c0c29eccf15d30b4141f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1810.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1811,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    117
+   ],
+   "mesh_guid": "5924353caa08a77d20a183935b4fd489",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1811.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1813,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    2
+   ],
+   "mesh_guid": "4bf34658373ec1923436d9369151c944",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1813.asset",
+   "vertexCount": 30,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1814,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    125
+   ],
+   "mesh_guid": "c54d61d2b631acd9cc54a20b57e548c4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1814.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1815,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    257,
+    258
+   ],
+   "mesh_guid": "b56a9b3b4a30e49044e444e1037f055c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1815.asset",
+   "vertexCount": 126,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1816,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    124
+   ],
+   "mesh_guid": "45949d5fa1fd0656b7abbbada925c807",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1816.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1817,
+   "gameObject": "Slide-clone",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    197
+   ],
+   "mesh_guid": "b3fcaf64c2f6ca52caaf5ac61392dde9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide-clone_1817.asset",
+   "vertexCount": 66,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1818,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    126
+   ],
+   "mesh_guid": "9598cdf21ffbdf4c2f1e0a336ff4a74c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1818.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1819,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    128
+   ],
+   "mesh_guid": "6faaf1b93edb267bfd2dbff462b50484",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1819.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1820,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    127
+   ],
+   "mesh_guid": "65100baa2e65b21302954626791eba61",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1820.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1821,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    123
+   ],
+   "mesh_guid": "6a2e07a26ee6cf0c39c173e8689d578e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1821.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1822,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    15
+   ],
+   "mesh_guid": "a7213af7fba42229d90a5d3e0f9c8f1c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1822.asset",
+   "vertexCount": 35,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1824,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    119
+   ],
+   "mesh_guid": "e3768ff8814d9a974a082a585c52f73d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1824.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1825,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    118
+   ],
+   "mesh_guid": "5849d43d05717b010ac8d7779a619550",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1825.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1826,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    210,
+    211
+   ],
+   "mesh_guid": "a291edd965af96a51fa46eab5701b42b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1826.asset",
+   "vertexCount": 117,
+   "indexCount": 171
+  },
+  {
+   "renderer": 1827,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    120
+   ],
+   "mesh_guid": "94fc911d4d76eeb2126912ac4eda05c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1827.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1828,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    203
+   ],
+   "mesh_guid": "e7096b620c438040a2406077c7305398",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1828.asset",
+   "vertexCount": 54,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1830,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    16
+   ],
+   "mesh_guid": "3dc08f2e638ce98bc4f68dbe9f6382cd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1830.asset",
+   "vertexCount": 15,
+   "indexCount": 33
+  },
+  {
+   "renderer": 1831,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    122
+   ],
+   "mesh_guid": "247f1e4ffb445bd79d0c9d890382f51a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1831.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1833,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    121
+   ],
+   "mesh_guid": "940c8019742e30a3e430544d501587bc",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1833.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1834,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    153
+   ],
+   "mesh_guid": "c7550d4a277e7eeae391f8a1bdc455ba",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1834.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1835,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    170
+   ],
+   "mesh_guid": "e28793a55dddb3b6c1dca2d8b15bc98f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1835.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1836,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    222,
+    223
+   ],
+   "mesh_guid": "69c7ecdc04198c34578e6469eff2e690",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1836.asset",
+   "vertexCount": 42,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1837,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    198
+   ],
+   "mesh_guid": "a8cb4550cd9f8f1b7a6c63abd6d75c82",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1837.asset",
+   "vertexCount": 66,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1838,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    158
+   ],
+   "mesh_guid": "1a0dcee27fb574d64e913f2dcc45bdd0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1838.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1839,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    154
+   ],
+   "mesh_guid": "660742491f5679f9d8ebc6d456c2e2bb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1839.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1842,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    196
+   ],
+   "mesh_guid": "ee74f6bb52dd858398493d474d5f06b9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1842.asset",
+   "vertexCount": 102,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1843,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    164
+   ],
+   "mesh_guid": "d3cdf7caae94333e83c957792aef1a51",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1843.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1844,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    161
+   ],
+   "mesh_guid": "00bc1ee72bc6c40114cb7bcb8aef89d4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1844.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1845,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    162
+   ],
+   "mesh_guid": "0e9d850a0038f2879dd2e25053fab75e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1845.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1846,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    165
+   ],
+   "mesh_guid": "23973a8a5f1392f7304c34568f3bd767",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1846.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1847,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    179
+   ],
+   "mesh_guid": "b0ee3220e9322fe11bffe8ebcf205e33",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Plane_1847.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1849,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    173
+   ],
+   "mesh_guid": "0bd5dc0a83cde94fd102f7bb69caf426",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1849.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1850,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    169
+   ],
+   "mesh_guid": "27fa017df15353e860c0fbda2e8b7ef9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1850.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1851,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "01308e6429a8c172becead4783d1150a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1851.asset",
+   "vertexCount": 35,
+   "indexCount": 69
+  },
+  {
+   "renderer": 1852,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    172
+   ],
+   "mesh_guid": "5c81bc77f94ee0e0d22eae2c33ec942c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1852.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1853,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    171
+   ],
+   "mesh_guid": "897fbc1991badd9a7b2e8f93a6dc0105",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1853.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1854,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    166
+   ],
+   "mesh_guid": "f94a592309d16f36ae11b5ee72285f12",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1854.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1855,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    181
+   ],
+   "mesh_guid": "ed8ca895a7bda1204e04ca365ee32345",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1855.asset",
+   "vertexCount": 54,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1858,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    160
+   ],
+   "mesh_guid": "e136f784a206645b3df022386628d443",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1858.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1859,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    163
+   ],
+   "mesh_guid": "c1e323dceb7cffc54673839dffd26003",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1859.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1860,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    234,
+    235
+   ],
+   "mesh_guid": "53c0e202a46a0a68b2000b2f319dceb6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1860.asset",
+   "vertexCount": 72,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1861,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    156
+   ],
+   "mesh_guid": "eb86286d4877ea2854b13498571c240e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1861.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1863,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    155
+   ],
+   "mesh_guid": "c624f65aa43a95249c39bf549dcf950e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1863.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1864,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    159
+   ],
+   "mesh_guid": "48df20f1203170c6deaba1d803e7c440",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1864.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1865,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    157
+   ],
+   "mesh_guid": "9dbee23aa29080366dc01d24d2359096",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1865.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1866,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    175
+   ],
+   "mesh_guid": "679ca64599be47e8d779b9466cb9de53",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1866.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1868,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    176
+   ],
+   "mesh_guid": "1aadffed557f30c2bcf941584ae7fad6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1868.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1870,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    174
+   ],
+   "mesh_guid": "b338b2685bec4a1ed629024d6502b964",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1870.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1871,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    177
+   ],
+   "mesh_guid": "10e752cb9e4c6f71e8ba70277787ec7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1871.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1872,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    168
+   ],
+   "mesh_guid": "4caa1ee55be754493802501275926b95",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1872.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1873,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    167
+   ],
+   "mesh_guid": "99f75f116f870b53f7ef97eef9e2161b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1873.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1875,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    212,
+    213
+   ],
+   "mesh_guid": "99b67dbea3a7148b6153948e0b0df919",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1875.asset",
+   "vertexCount": 156,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1876,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    214,
+    215
+   ],
+   "mesh_guid": "17afa4ee3a36fa8ef1178cfb82404075",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1876.asset",
+   "vertexCount": 60,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1877,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    216,
+    217
+   ],
+   "mesh_guid": "dbb222ac084d55f0fe8c3cf4dd6c1f8e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1877.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1878,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "dffa54bf14f75cda35c58a7682cb1421",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1878.asset",
+   "vertexCount": 17,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1879,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    185
+   ],
+   "mesh_guid": "05434f7ff85ac52221d8622f07f776ce",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1879.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1880,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    105
+   ],
+   "mesh_guid": "7ba54738f2c79d873d4d932b14b83479",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1880.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1881,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    247,
+    248
+   ],
+   "mesh_guid": "f890d6908e9125b01f0d469c8984e9cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1881.asset",
+   "vertexCount": 110,
+   "indexCount": 162
+  },
+  {
+   "renderer": 1884,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "c04772c54951085409bcd8eae2cd625f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1884.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1885,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    55
+   ],
+   "mesh_guid": "6d9adbfd65b943ec16ee1fb9cf4c8b27",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1885.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1887,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    186
+   ],
+   "mesh_guid": "0ba55467a857024037c5715dfae8e597",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1887.asset",
+   "vertexCount": 138,
+   "indexCount": 204
+  },
+  {
+   "renderer": 1888,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    62
+   ],
+   "mesh_guid": "ed8602ef73769b025e8d8341e12f683a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1888.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1889,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    256
+   ],
+   "mesh_guid": "649b089a4eed7f71e534948370afb1d4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1889.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1890,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    50
+   ],
+   "mesh_guid": "31f44b16af1b4d7547496b96474a0bbf",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1890.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1891,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    49
+   ],
+   "mesh_guid": "1d331dc507063681757ab61f78a03e37",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1891.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1892,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    48
+   ],
+   "mesh_guid": "9b1907927df7ae5c98d753203078658c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1892.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1893,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    52
+   ],
+   "mesh_guid": "a2f1cab308fddeb0776da6a8601aeccf",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1893.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1894,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "8203011dbf955818ff89b5eb0a06be8a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1894.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1895,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    44
+   ],
+   "mesh_guid": "afd9c6b03234271aeb730db339cac5c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1895.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1896,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    43
+   ],
+   "mesh_guid": "deedfabdf2c7e4c501692e83c2b42fa8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1896.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1897,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "333fdf0fa8dfd04d7522a104be3158db",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1897.asset",
+   "vertexCount": 8,
+   "indexCount": 12
+  },
+  {
+   "renderer": 1898,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "22bb34ba17f9720a46f7fbdcf7260248",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1898.asset",
+   "vertexCount": 17,
+   "indexCount": 39
+  },
+  {
+   "renderer": 1899,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    46
+   ],
+   "mesh_guid": "b3d76d9c1c57db586d0c66f16178a184",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1899.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1900,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    241,
+    242
+   ],
+   "mesh_guid": "3ba78bc5ca814fbae674e79cf488b3e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1900.asset",
+   "vertexCount": 72,
+   "indexCount": 96
+  },
+  {
+   "renderer": 1901,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    236,
+    237
+   ],
+   "mesh_guid": "b4106edef64742b4784353191dd392e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1901.asset",
+   "vertexCount": 139,
+   "indexCount": 207
+  },
+  {
+   "renderer": 1902,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    59
+   ],
+   "mesh_guid": "f58685a3014faf2c25814c324a0e6272",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1902.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1903,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    58
+   ],
+   "mesh_guid": "ed8801d468bbd681310bd6233090c970",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1903.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1904,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    60
+   ],
+   "mesh_guid": "0e3c5bda6d41fb4b9ec9ff04a6916f68",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1904.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1905,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    230,
+    231
+   ],
+   "mesh_guid": "8fa38923be001f570c704676e43e9845",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1905.asset",
+   "vertexCount": 97,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1907,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    61
+   ],
+   "mesh_guid": "e2b0d9e73d1ec3c66371c47619c774e4",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1907.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1908,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    178
+   ],
+   "mesh_guid": "ecb42e46d006110a119757b388287b9d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/SkyDome_1908.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1909,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    54
+   ],
+   "mesh_guid": "24b3ea8d13f0273f75bf7a8318c92db8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1909.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1912,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    53
+   ],
+   "mesh_guid": "264043d8738d91d7fb188812b55ee4eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1912.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1914,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    57
+   ],
+   "mesh_guid": "b97c90ffc79abbc83140891a5675353d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1914.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1916,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    56
+   ],
+   "mesh_guid": "16472e326c0b942b3a4ef86e81b3beed",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1916.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1917,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "5036be84ced6d4af14ba08c57f4b84fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1917.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1918,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "b98e257b477d089d58037cf781f5df18",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1918.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1919,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "ba39488fd96cf7836059e98353da646e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1919.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1920,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    24
+   ],
+   "mesh_guid": "0142fc560865def97f5409d8c88ff9bc",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1920.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1921,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    23
+   ],
+   "mesh_guid": "511f341b8cbcf3cb5d24538dff00d39a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1921.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1922,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "1c000effc05f8b2f78851e9e9cee51df",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1922.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1923,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    194
+   ],
+   "mesh_guid": "66490182c482c0aea19638572de41c72",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1923.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1924,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "376fef77446ed3a0dd46e3b2bb4a2783",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1924.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1925,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    232,
+    233
+   ],
+   "mesh_guid": "4312a1fecdece96d3f1f96e85e1aaada",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1925.asset",
+   "vertexCount": 156,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1927,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "afcd5b947603b92bb19ace5d09781e41",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1927.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1928,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "778c5785d750886152fa7c90d83e565a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1928.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1929,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    192
+   ],
+   "mesh_guid": "320d750e48315881a2b82488b8773466",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1929.asset",
+   "vertexCount": 174,
+   "indexCount": 258
+  },
+  {
+   "renderer": 1930,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "261a1fac58120feb6cfedde7c426340a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1930.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1931,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "7abd4f7b8505c843e5a747f6fb092b16",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1931.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1932,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    253
+   ],
+   "mesh_guid": "2e346c9e5422a32a07ac03aeee21bb7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1932.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1935,
+   "gameObject": "Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    204,
+    205
+   ],
+   "mesh_guid": "28b3f841c6a75b6d40e2ee8200e0790a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Platform_1935.asset",
+   "vertexCount": 24,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1938,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    42
+   ],
+   "mesh_guid": "083fba1cb036e2247687464d503a94cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1938.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1939,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    201
+   ],
+   "mesh_guid": "32751bd9134345703cbbc65447b10ed2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1939.asset",
+   "vertexCount": 98,
+   "indexCount": 144
+  },
+  {
+   "renderer": 1940,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    41
+   ],
+   "mesh_guid": "a150c3b2f11f4e34240fae103152bd7d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1940.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1943,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "cf61a4d59ad0caf175bb5c86221c471b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1943.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1944,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "8daf5a0aa1406add8e62dcc4fa47ab58",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1944.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1945,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "79ef5209ddcf2a2bd6b7caf4a1cd8693",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1945.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1946,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "77f8e835555d92450955e04050bcf339",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1946.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1947,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    193
+   ],
+   "mesh_guid": "b5e8250d65c06cca0fc75a3f1b2c38b1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1947.asset",
+   "vertexCount": 156,
+   "indexCount": 228
+  },
+  {
+   "renderer": 1948,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    251,
+    252
+   ],
+   "mesh_guid": "157f9127bc5f13bcd17574f6fff6a4cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1948.asset",
+   "vertexCount": 126,
+   "indexCount": 141
+  },
+  {
+   "renderer": 1950,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    63
+   ],
+   "mesh_guid": "6c39ce67cfde2395873cd036c45b7c04",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1950.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1951,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    220,
+    221
+   ],
+   "mesh_guid": "4b755d6f3574407032e13d178ec36e96",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1951.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1952,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    91
+   ],
+   "mesh_guid": "f983554bc7b0334868d1f97fbfbcacf3",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1952.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1953,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    17
+   ],
+   "mesh_guid": "e4bc67c0c7903ba527a1ce3d8de4048e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1953.asset",
+   "vertexCount": 21,
+   "indexCount": 57
+  },
+  {
+   "renderer": 1955,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    92
+   ],
+   "mesh_guid": "ea132e2b17a50002f4c0f33cdb504052",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1955.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1956,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    239,
+    240
+   ],
+   "mesh_guid": "762bcce2f8d6119b9531a429e24c1ae0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1956.asset",
+   "vertexCount": 158,
+   "indexCount": 177
+  },
+  {
+   "renderer": 1957,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "1870d4c5e6911e8b84cd065b5c2977a1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1957.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1959,
+   "gameObject": "Start",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    238
+   ],
+   "mesh_guid": "eddfcc72ce8cd2836adf2d68790c2649",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Start_1959.asset",
+   "vertexCount": 44,
+   "indexCount": 66
+  },
+  {
+   "renderer": 1960,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    86
+   ],
+   "mesh_guid": "cc116819d7f66661f518e291428ccba6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1960.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1961,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    85
+   ],
+   "mesh_guid": "e841cab017546ec742780fdcb911acd7",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1961.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1962,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    87
+   ],
+   "mesh_guid": "e8b249fb068a5ac8c6cb79b4005beeff",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1962.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1963,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    89
+   ],
+   "mesh_guid": "cb46ec070342ed4ad3b33deb8267b1ed",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1963.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1964,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    243,
+    244
+   ],
+   "mesh_guid": "86e40ab2e97e230c73e8945df5dd11d7",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1964.asset",
+   "vertexCount": 158,
+   "indexCount": 177
+  },
+  {
+   "renderer": 1965,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    195
+   ],
+   "mesh_guid": "aec947ea7a2d859a0faa84b1e4088d33",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1965.asset",
+   "vertexCount": 306,
+   "indexCount": 456
+  },
+  {
+   "renderer": 1966,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    88
+   ],
+   "mesh_guid": "8b7f2735cb818469a0f69e9013dec4f9",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1966.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1967,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    254,
+    255
+   ],
+   "mesh_guid": "43adedc1b5fffa26d2fc9c03574f799b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1967.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1968,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "477cefc233007ae214ca46e7607ed512",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1968.asset",
+   "vertexCount": 17,
+   "indexCount": 45
+  },
+  {
+   "renderer": 1969,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    100
+   ],
+   "mesh_guid": "0b111d1c8846c33e2650f20b87ad751c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1969.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1970,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    104
+   ],
+   "mesh_guid": "92ef6b2d90a90bd8d85979b5301f0ffd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1970.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1971,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    103
+   ],
+   "mesh_guid": "0d32c4821e1fc57f2ab50cbddbe8ee7c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1971.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1972,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    202
+   ],
+   "mesh_guid": "c750258539dc015297adc9e7f7159223",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1972.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1973,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    96
+   ],
+   "mesh_guid": "5ebb442e5cb8413a04e560fcb8a64f11",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1973.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1974,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    95
+   ],
+   "mesh_guid": "9bd69ba5089c0445d36d9668ff21af81",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1974.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1975,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    97
+   ],
+   "mesh_guid": "86f718507d52daf0c6736bac24f806cf",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1975.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1977,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    180
+   ],
+   "mesh_guid": "719840703dbf33ac1be42a51f1418bdd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Sun 1_1977.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1979,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    199
+   ],
+   "mesh_guid": "f650d87f0390ab4ba9b5bd3fce13a14c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1979.asset",
+   "vertexCount": 114,
+   "indexCount": 168
+  },
+  {
+   "renderer": 1980,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    99
+   ],
+   "mesh_guid": "63d286f90961dd23fb115a84821b87c0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1980.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1981,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    3
+   ],
+   "mesh_guid": "d37544bdb8866b0f4f6b3f2e20e6553e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1981.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1982,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    98
+   ],
+   "mesh_guid": "8584b11b9178c8c1008f31486c3df98f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1982.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1983,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    249,
+    250
+   ],
+   "mesh_guid": "c7af2112ffd28274dbae4ff717b6daa2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1983.asset",
+   "vertexCount": 48,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1984,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    84
+   ],
+   "mesh_guid": "b1a806f716476a63c404af7f1656950d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1984.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1985,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "c360d09c9055acd341ae9981e569aac1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1985.asset",
+   "vertexCount": 30,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1986,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    70
+   ],
+   "mesh_guid": "7a6dd6ea6ab024479dc9baa6d32c000d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1986.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1987,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    69
+   ],
+   "mesh_guid": "12889e84b85d898be2b9690a2a8193a6",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1987.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1988,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "9aa96f6dd334999bb12a2559e8a85b92",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_1988.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1990,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    73
+   ],
+   "mesh_guid": "ea14a806307384e2af899a17eb8f4766",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1990.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1991,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    72
+   ],
+   "mesh_guid": "60ee1126cfcefb8a80375e2884d5a5d0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1991.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1992,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    65
+   ],
+   "mesh_guid": "e3b91ab602fc6a925bef11c2552aa75c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1992.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1993,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    245,
+    246
+   ],
+   "mesh_guid": "0bc9c097f9256a26e55e257c99318829",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_1993.asset",
+   "vertexCount": 110,
+   "indexCount": 162
+  },
+  {
+   "renderer": 1994,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    64
+   ],
+   "mesh_guid": "e4165979d44b79a36e3b87a0d7d8c229",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1994.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1995,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    66
+   ],
+   "mesh_guid": "fdf9ecda1226067e7c63b7b303c56aae",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1995.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1996,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    67
+   ],
+   "mesh_guid": "0f76cfccdcf3e42061f81c899badcf4c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1996.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1997,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    80
+   ],
+   "mesh_guid": "f57ffba327edcf51d3ab6d0e8be8f806",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_1997.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1998,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    189
+   ],
+   "mesh_guid": "a9ae494a50d55d1692d769b63e8225c1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_1998.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 2002,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    81
+   ],
+   "mesh_guid": "3aae6b208da5905422ffb47828299dda",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2002.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2003,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    228,
+    229
+   ],
+   "mesh_guid": "619c9991e0e4999329941f69411fc6c5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Wall_2003.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2004,
+   "gameObject": "Slide",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    191
+   ],
+   "mesh_guid": "87c7800857323ae48537b6ee4b176f53",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Slide_2004.asset",
+   "vertexCount": 333,
+   "indexCount": 495
+  },
+  {
+   "renderer": 2008,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    1
+   ],
+   "mesh_guid": "2ff4417acc23a0b648fafc0cae79da3b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_2008.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 2009,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    83
+   ],
+   "mesh_guid": "6e934cbc5a137dca2dfbeb59d05db490",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2009.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2011,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    82
+   ],
+   "mesh_guid": "c878ed3162f9fb3fa856aea8d7246e6e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2011.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2012,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    75
+   ],
+   "mesh_guid": "e14d6dbc395b16363d8bd6b2cc097636",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2012.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2014,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    74
+   ],
+   "mesh_guid": "916291a17a87f34eeafb08dba90844f8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2014.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2015,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    76
+   ],
+   "mesh_guid": "8db855b5425ccadac7c804ea38cd8e1a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2015.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2016,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "a8a433011a2bbf56f6f11fdf100a9bd0",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_2016.asset",
+   "vertexCount": 10,
+   "indexCount": 24
+  },
+  {
+   "renderer": 2017,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    77
+   ],
+   "mesh_guid": "4a38f6d78a4ba0370406b50e65eb20cb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2017.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2018,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    78
+   ],
+   "mesh_guid": "4bd5baf480cc5ab6494748a7d340c439",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2018.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2019,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    79
+   ],
+   "mesh_guid": "bee772e10f5238fbc8cba285fe20f23c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2019.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2020,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    68
+   ],
+   "mesh_guid": "0e9d6f370e9fcfd1cd862d637096ad86",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2020.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2022,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    71
+   ],
+   "mesh_guid": "36aba1f42de260f921c9a93b1508e715",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2022.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2023,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "1bec9d9521ec17b5029eb7f7192277dc",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_2023.asset",
+   "vertexCount": 21,
+   "indexCount": 57
+  },
+  {
+   "renderer": 2024,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "f028f3044c4aeb899c83bc09f84e0005",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_2024.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 2025,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    102
+   ],
+   "mesh_guid": "51e6eae8b6fdff681efa16d972e6b14f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2025.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2026,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    101
+   ],
+   "mesh_guid": "036ec58884fefee5da1e51554c8d0780",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2026.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2027,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    93
+   ],
+   "mesh_guid": "887c5b6900deca5fefae7052930cdd4c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2027.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2028,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    94
+   ],
+   "mesh_guid": "aae3979aa60d38d372d0f792f1320c3c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2028.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2030,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    90
+   ],
+   "mesh_guid": "18eec957fc27cceeada0c42892a14c1e",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2030.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2031,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "6f50147827e1413e645f4730af4877eb",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2031.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2032,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "d393f78a1a581cba884b31c46f137fc8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Floor_2032.asset",
+   "vertexCount": 25,
+   "indexCount": 45
+  },
+  {
+   "renderer": 2033,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    47
+   ],
+   "mesh_guid": "d8ccbedee8f216a2cb79ce3f83215d2b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2033.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2034,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    45
+   ],
+   "mesh_guid": "3fe873a2bf7ffd49c0b15d9914d28b4f",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2034.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2035,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    51
+   ],
+   "mesh_guid": "a06fb22bc8146c18f64e5c039f83a7b5",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2035.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 2036,
+   "gameObject": "Light",
+   "combined_mesh": "Combined Mesh (root_ scene)_8.asset",
+   "combined_guid": "57474e2ce5857bd4394680bb6085a317",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "e66c69e720d159cefc91ca7f31353dc8",
+   "mesh_asset": "Assets/Mesh/Debatched/Jet/Light_2036.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  }
+ ]
+}

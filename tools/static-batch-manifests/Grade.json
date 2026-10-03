@@ -1,0 +1,196 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Grade/Grade.unity",
+ "map": "Grade",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1056,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "c7a4b8e6b4889e0090688efdc827d5fa",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1056.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1059,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "d8af486af1b820a4cfd85b0bf61ee128",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/Sun 1_1059.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1068,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "95d3dd97e9cc205bfba7a0de99cc53ff",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1068.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1071,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "20a2c6f7fceffc461975225d68147795",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/Plane_1071.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1081,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "24ac086f594597be4e45b07ac1896d18",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1081.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1099,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "cfa56ba9b16d97b22e3142840229b677",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1099.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1101,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "47a2fb641ba9b54f7b20bfc3c17663e1",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1101.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1106,
+   "gameObject": "Black Box",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "a923ff83ff3e93d292d21b7a0f9c23b7",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/Black Box_1106.asset",
+   "vertexCount": 20,
+   "indexCount": 30
+  },
+  {
+   "renderer": 1117,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "8145535863bbe5a6c3f5a574c72bbd6d",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1117.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1119,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "c18c8445e8cbb467e89198c71e1ceb05",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/SkyDome_1119.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1120,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "mesh_guid": "c998593c1fe7974284eb987b6270ab2e",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/Wall_1120.asset",
+   "vertexCount": 292,
+   "indexCount": 246
+  },
+  {
+   "renderer": 1125,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "cafa180caeab8ae68ed67f1821a0d73d",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1125.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1129,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "f3eccf2a0af39889cb969b9a74dc472a",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/GrayBlock_1129.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1131,
+   "gameObject": "Floor",
+   "combined_mesh": "Combined Mesh (root_ scene)_51.asset",
+   "combined_guid": "da6de113223df4c46be28761c40dc15b",
+   "subset": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "mesh_guid": "22875c8830ac0a1ba1ae852d5bea5b0d",
+   "mesh_asset": "Assets/Mesh/Debatched/Grade/Floor_1131.asset",
+   "vertexCount": 195,
+   "indexCount": 159
+  }
+ ]
+}

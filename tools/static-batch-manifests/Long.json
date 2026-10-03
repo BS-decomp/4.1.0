@@ -1,0 +1,396 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Long/Long.unity",
+ "map": "Long",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1098,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    37
+   ],
+   "mesh_guid": "44e865ba07126d1507911c69203bfd85",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1098.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1100,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    17,
+    18
+   ],
+   "mesh_guid": "76ffe2cf89e5fb1e092f4a04c0cc46f4",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1100.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1103,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    28
+   ],
+   "mesh_guid": "91e6c8620886f017dac22731fa60774e",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1103.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1104,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    26
+   ],
+   "mesh_guid": "5decafb44598c02d8f3c858b2ba56059",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Sun 1_1104.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1106,
+   "gameObject": "Lava",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    39
+   ],
+   "mesh_guid": "83d7e850c6081f23477319ac214b5773",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Lava_1106.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1110,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    15,
+    16
+   ],
+   "mesh_guid": "a414200ec97fe749058318f0fc2ff6d1",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1110.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1111,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    25
+   ],
+   "mesh_guid": "3ee4fd75acb3085645a6fb4997b2f60c",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/SkyDome_1111.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1122,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    13,
+    14
+   ],
+   "mesh_guid": "7d682da06574123aa04d7acfa09d3b19",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1122.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1125,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    34
+   ],
+   "mesh_guid": "37ef243ccf57eff142fdedef72565ff5",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1125.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1130,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    35
+   ],
+   "mesh_guid": "b1e64f3e2cc3b50355132fc95f845d54",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1130.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1134,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    19,
+    20
+   ],
+   "mesh_guid": "aa69f6111552168d9d2e58b6b2aa0336",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1134.asset",
+   "vertexCount": 28,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1137,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    21,
+    22
+   ],
+   "mesh_guid": "2d41f223c794dd2cc16ec9803243acca",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1137.asset",
+   "vertexCount": 304,
+   "indexCount": 252
+  },
+  {
+   "renderer": 1141,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    23,
+    24
+   ],
+   "mesh_guid": "da9a2f14e1dfe7575beacf59d2a9d0bf",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1141.asset",
+   "vertexCount": 72,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1144,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    11,
+    12
+   ],
+   "mesh_guid": "2582a03c8245683d2af6b4d44286f7fb",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1144.asset",
+   "vertexCount": 67,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1146,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    32
+   ],
+   "mesh_guid": "62b7ed1b104f0a686184d285e93657da",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1146.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1147,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    0,
+    1
+   ],
+   "mesh_guid": "5ed3a4f250532b4672deed742e87faf5",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1147.asset",
+   "vertexCount": 252,
+   "indexCount": 204
+  },
+  {
+   "renderer": 1158,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    2,
+    3
+   ],
+   "mesh_guid": "49c289b6aeb6ec1d24e60d9ee05d09a2",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1158.asset",
+   "vertexCount": 60,
+   "indexCount": 72
+  },
+  {
+   "renderer": 1164,
+   "gameObject": "Wall",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    5,
+    6
+   ],
+   "mesh_guid": "2bcebe1fa39244fb011f5572e6ecca4c",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Wall_1164.asset",
+   "vertexCount": 128,
+   "indexCount": 180
+  },
+  {
+   "renderer": 1165,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    33
+   ],
+   "mesh_guid": "1072b85ae8a9fb836f352421ab77ba89",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1165.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1169,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    27
+   ],
+   "mesh_guid": "9dfceaffdefe290d089fc7991b59659b",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Plane_1169.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1179,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    4
+   ],
+   "mesh_guid": "d90bff34833d06e8de21603d704e44b5",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1179.asset",
+   "vertexCount": 12,
+   "indexCount": 18
+  },
+  {
+   "renderer": 1184,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    38
+   ],
+   "mesh_guid": "60e242170c93066b9171ae6f7584dca4",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1184.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1191,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    7,
+    8
+   ],
+   "mesh_guid": "f4322a6e99f09007d4da326f2fba1f7a",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1191.asset",
+   "vertexCount": 256,
+   "indexCount": 228
+  },
+  {
+   "renderer": 1197,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    36
+   ],
+   "mesh_guid": "046786313ef01206b7ea941b3411f9be",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1197.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1198,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    29
+   ],
+   "mesh_guid": "389ecf23fea2ebb665ad8aa61ae644c4",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1198.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1206,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    40
+   ],
+   "mesh_guid": "2bfe1ed2b9f018c657b8f099761b4b29",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1206.asset",
+   "vertexCount": 84,
+   "indexCount": 126
+  },
+  {
+   "renderer": 1208,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    9,
+    10
+   ],
+   "mesh_guid": "ae9422b8a586ddcbdce8e9d6fad5b568",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/Static_1208.asset",
+   "vertexCount": 76,
+   "indexCount": 84
+  },
+  {
+   "renderer": 1209,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    31
+   ],
+   "mesh_guid": "a5693efe7ae391fde9db20272496ff4e",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1209.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1214,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_42.asset",
+   "combined_guid": "64d2c8aae0e03d14e9a23c3210d69215",
+   "subset": [
+    30
+   ],
+   "mesh_guid": "0a152f0f6ec3cb7a1e808f0d92a1353f",
+   "mesh_asset": "Assets/Mesh/Debatched/Long/GrayBlock_1214.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  }
+ ]
+}

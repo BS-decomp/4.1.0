@@ -1,0 +1,234 @@
+{
+ "scene": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda.unity",
+ "map": "Jacuda",
+ "generated_by": "tools/debatch_static_meshes.py",
+ "renderers": [
+  {
+   "renderer": 1025,
+   "gameObject": "Red Platform",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    18,
+    19
+   ],
+   "mesh_guid": "f35385dca0ca12f081fc2d13e12c9e68",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Red Platform_1025.asset",
+   "vertexCount": 188,
+   "indexCount": 204
+  },
+  {
+   "renderer": 1029,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    22
+   ],
+   "mesh_guid": "8d9d15dc912bbd4979e4e0a2b0373cf1",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Static_1029.asset",
+   "vertexCount": 50,
+   "indexCount": 78
+  },
+  {
+   "renderer": 1038,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    15,
+    16,
+    17
+   ],
+   "mesh_guid": "c19d9a49823b5060652cb5fd07cd9114",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Static_1038.asset",
+   "vertexCount": 724,
+   "indexCount": 444
+  },
+  {
+   "renderer": 1039,
+   "gameObject": "Plane",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    5
+   ],
+   "mesh_guid": "44a70dda1f49ea6f1b2615b159be3ce2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Plane_1039.asset",
+   "vertexCount": 4,
+   "indexCount": 6
+  },
+  {
+   "renderer": 1048,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    13
+   ],
+   "mesh_guid": "52bf55bb5c89ea6158dce3f71cd517bd",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1048.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1050,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    12
+   ],
+   "mesh_guid": "78a71d3e58f7893ed83bca668d922f4a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1050.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1054,
+   "gameObject": "Sun 1",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    7
+   ],
+   "mesh_guid": "897f8c8baa50316e5eb644bb36cb1d8b",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Sun 1_1054.asset",
+   "vertexCount": 20,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1055,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    0
+   ],
+   "mesh_guid": "059109d4e75a6c1a716b42d9baab6f5c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Static_1055.asset",
+   "vertexCount": 78,
+   "indexCount": 114
+  },
+  {
+   "renderer": 1057,
+   "gameObject": "Lava",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    21
+   ],
+   "mesh_guid": "7a7921c560871fd6cc8440b1f0282cff",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Lava_1057.asset",
+   "vertexCount": 16,
+   "indexCount": 24
+  },
+  {
+   "renderer": 1061,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    14
+   ],
+   "mesh_guid": "e5dd61157e6ca88c61a594667bbdd6be",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1061.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1068,
+   "gameObject": "SkyDome",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    6
+   ],
+   "mesh_guid": "e30f70e02234ae1f4e2ae4b8323fbe74",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/SkyDome_1068.asset",
+   "vertexCount": 91,
+   "indexCount": 480
+  },
+  {
+   "renderer": 1069,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    11
+   ],
+   "mesh_guid": "1dd81cb74a6add79192659e3f4bb773d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1069.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1077,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    9
+   ],
+   "mesh_guid": "62a41c449a3bae65a971b8ff1fe2a6db",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1077.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1086,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    20
+   ],
+   "mesh_guid": "6a25cd2816d64d17d482ce27accf769d",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Static_1086.asset",
+   "vertexCount": 24,
+   "indexCount": 36
+  },
+  {
+   "renderer": 1088,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    10
+   ],
+   "mesh_guid": "b1978353eabc7ba0c3a6810d854f495c",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1088.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1095,
+   "gameObject": "GrayBlock",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    8
+   ],
+   "mesh_guid": "9ec1ebb3b351b21892b5c792502ee81a",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/GrayBlock_1095.asset",
+   "vertexCount": 28,
+   "indexCount": 54
+  },
+  {
+   "renderer": 1099,
+   "gameObject": "Static",
+   "combined_mesh": "Combined Mesh (root_ scene)_52.asset",
+   "combined_guid": "a75dc74a83a591e4bb89f57077d0bdb2",
+   "subset": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "mesh_guid": "7a36119569ff09dd7414ecc2796c85e2",
+   "mesh_asset": "Assets/Mesh/Debatched/Jacuda/Static_1099.asset",
+   "vertexCount": 155,
+   "indexCount": 147
+  }
+ ]
+}
