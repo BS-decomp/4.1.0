@@ -45,15 +45,22 @@ def legacy_list(text):
     return LEGACY_RE.findall(text[start:end if end > 0 else start + 4000])
 
 
+def binder_field(text, name):
+    m = re.search(r"  %s:\n((?:  - [^\n]*\n)*)" % name, text)
+    if not m or not m.group(1).strip():
+        return []
+    return [line.strip()[2:] for line in m.group(1).rstrip("\n").split("\n")]
+
+
 def binder_renderers(text):
-    """(count of renderer refs, count of indices, count of scale offsets)."""
-    m = re.search(r"  renderers:\n((?:  - \{fileID: \d+\}\n)*)", text)
-    refs = len(re.findall(r"- \{fileID: \d+\}", m.group(1))) if m else 0
-    m = re.search(r"  lightmapIndices:\n((?:  - \d+\n)*)", text)
-    idx = len(re.findall(r"- \d+", m.group(1))) if m else 0
-    m = re.search(r"  lightmapScaleOffsets:\n((?:  - \{x: [^\n]*\}\n)*)", text)
-    st = len(re.findall(r"- \{x: ", m.group(1))) if m else 0
-    return refs, idx, st
+    """(renderer keys, indices, scale offsets) recorded by the binder."""
+    names = binder_field(text, "renderNames")
+    positions = binder_field(text, "renderPositions")
+    meshes = binder_field(text, "renderMeshes")
+    indices = binder_field(text, "lightmapIndices")
+    scales = binder_field(text, "lightmapScaleOffsets")
+    keys = list(zip(names, positions, meshes))
+    return len(names), len(indices), len(scales), len(set(keys)), len(positions), len(meshes)
 
 
 def binder_list(text):
@@ -100,10 +107,14 @@ def main(argv=None):
 
         # the binder must restore every renderer Unity would otherwise reset
         baked = sum(1 for i in INDEX_RE.findall(text) if int(i) < 65534)
-        refs, idx, st = binder_renderers(text)
-        if bound is not None and not (refs == idx == st == baked):
-            failures.append("%s: binder covers %d/%d/%d renderers, scene has %d baked"
-                            % (scene.stem, refs, idx, st, baked))
+        refs, idx, st, unique, positions, meshes = binder_renderers(text)
+        if bound is not None and not (refs == idx == st == positions == meshes == baked):
+            failures.append("%s: binder covers names %d / positions %d / meshes %d / indices %d / "
+                            "offsets %d, scene has %d baked renderers"
+                            % (scene.stem, refs, positions, meshes, idx, st, baked))
+        elif unique != refs:
+            failures.append("%s: %d of %d binder keys are ambiguous (same name, position and mesh) — "
+                            "those renderers cannot be matched reliably" % (scene.stem, refs - unique, refs))
         else:
             stats["renderers"] = stats.get("renderers", 0) + refs
 

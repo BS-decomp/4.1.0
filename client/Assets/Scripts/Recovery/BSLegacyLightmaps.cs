@@ -20,6 +20,7 @@
 // `ExecuteAlways`, so the Scene view shows the same lighting as the game, and
 // builds keep working because the data is serialised in the scene.
 
+using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteAlways]
@@ -32,13 +33,22 @@ public class BSLegacyLightmaps : MonoBehaviour
     [Tooltip("Unity 4 near lightmaps (dual lightmapping). The 4.1.0 export only ships far maps.")]
     public Texture2D[] lightmapsNear;
 
-    [Tooltip("Renderers that were lightmapped in the original scene.")]
-    public Renderer[] renderers;
+    [Tooltip("Names of the renderers that were lightmapped. Scene-local component references " +
+             "({fileID}) are dropped when Unity imports these Unity 4 scenes, so the binder matches " +
+             "renderers by name + world position instead.")]
+    public string[] renderNames;
 
-    [Tooltip("m_LightmapIndex of each entry in `renderers`.")]
+    [Tooltip("World position of each entry in `renderNames` (used to tell same-named objects apart).")]
+    public Vector3[] renderPositions;
+
+    [Tooltip("Mesh name of each entry in `renderNames`; the final tie-breaker when name and position " +
+             "are identical (the de-batched meshes are unique per renderer).")]
+    public string[] renderMeshes;
+
+    [Tooltip("m_LightmapIndex of each entry in `renderNames`.")]
     public int[] lightmapIndices;
 
-    [Tooltip("m_LightmapTilingOffset of each entry in `renderers` (scale.xy, offset.zw).")]
+    [Tooltip("m_LightmapTilingOffset of each entry in `renderNames` (scale.xy, offset.zw).")]
     public Vector4[] lightmapScaleOffsets;
 
     private void OnEnable()
@@ -122,70 +132,138 @@ public class BSLegacyLightmaps : MonoBehaviour
     /// NOT bound, the indices are cleared instead: a renderer that claims a
     /// lightmap the engine does not have samples black, which is exactly how a
     /// map turns pitch black. Unlit-but-correct beats black.</summary>
+    /// <summary>Restores the baked lighting of every renderer listed in
+    /// `renderNames`/`renderPositions`. The map is delivered through a
+    /// MaterialPropertyBlock, because Unity overwrites Renderer.lightmapIndex
+    /// outside play mode for scenes it considers "not baked" — which, without a
+    /// LightingData asset, is every scene of this export.</summary>
     private void ApplyRenderers(bool bound)
     {
-        if (renderers == null || lightmapIndices == null || lightmapScaleOffsets == null)
+        if (renderNames == null || renderPositions == null || lightmapIndices == null ||
+            lightmapScaleOffsets == null)
         {
             return;
         }
-        int count = Mathf.Min(renderers.Length, Mathf.Min(lightmapIndices.Length, lightmapScaleOffsets.Length));
+        int count = Mathf.Min(renderNames.Length,
+            Mathf.Min(renderPositions.Length, Mathf.Min(lightmapIndices.Length, lightmapScaleOffsets.Length)));
+        if (count == 0)
+        {
+            return;
+        }
         int available = bound && lightmapsFar != null ? lightmapsFar.Length : 0;
 
-        if (!bound && !warnedUnbound)
+        if (!bound)
         {
-            warnedUnbound = true;
-            Debug.LogWarning("[BS Lightmaps] baked lightmaps are not bound (missing texture reference?) — " +
-                             "renderers keep rendering unlit instead of black. Scene: " + gameObject.scene.name);
+            if (!warnedUnbound)
+            {
+                warnedUnbound = true;
+                Debug.LogWarning("[BS Lightmaps] baked lightmaps are not bound (missing texture?) — " +
+                                 "renderers stay unlit instead of black. Scene: " + gameObject.scene.name);
+            }
+            return;
         }
-        if (bound)
-        {
-            warnedUnbound = false;
-        }
+        warnedUnbound = false;
 
         if (block == null)
         {
             block = new MaterialPropertyBlock();
         }
 
+        Dictionary<string, List<Renderer>> byName = new Dictionary<string, List<Renderer>>();
+        Renderer[] all = FindObjectsOfType<Renderer>();
+        for (int i = 0; i < all.Length; i++)
+        {
+            List<Renderer> list;
+            if (!byName.TryGetValue(all[i].name, out list))
+            {
+                list = new List<Renderer>();
+                byName[all[i].name] = list;
+            }
+            list.Add(all[i]);
+        }
+
+        HashSet<Renderer> taken = new HashSet<Renderer>();
+        int applied = 0;
         for (int i = 0; i < count; i++)
         {
-            Renderer renderer = renderers[i];
-            if (renderer == null)
+            List<Renderer> candidates;
+            if (!byName.TryGetValue(renderNames[i], out candidates))
             {
                 continue;
             }
-            int index = lightmapIndices[i];
+            string wantedMesh = renderMeshes != null && i < renderMeshes.Length ? renderMeshes[i] : null;
 
-            // Primary path: hand the baked map to the renderer ourselves.
-            // Unity overwrites Renderer.lightmapIndex in the editor whenever it
-            // rebuilds lighting for a scene it considers "not baked" (no
-            // LightingData asset) — which is every scene of this export — so the
-            // official binding alone silently does nothing outside play mode.
-            // A MaterialPropertyBlock is never touched by that logic and works
-            // identically in edit mode, play mode and builds.
-            if (bound && index >= 0 && index < available && lightmapsFar[index] != null)
+            Renderer best = null;
+            float bestDistance = 0.05f;      // 5 cm is far below the size of any map object
+            for (int c = 0; c < candidates.Count; c++)
             {
-                renderer.GetPropertyBlock(block);
-                block.SetTexture("_BSLightmap", lightmapsFar[index]);
-                block.SetVector("_BSLightmapST", lightmapScaleOffsets[i]);
-                renderer.SetPropertyBlock(block);
-            }
-            if (index >= available)
-            {
-                if (renderer.lightmapIndex != 65535)
+                Renderer candidate = candidates[c];
+                if (taken.Contains(candidate))
                 {
-                    renderer.lightmapIndex = 65535;
+                    continue;
                 }
+                if (!string.IsNullOrEmpty(wantedMesh) && MeshNameOf(candidate) != wantedMesh)
+                {
+                    continue;
+                }
+                float distance = Vector3.Distance(candidate.transform.position, renderPositions[i]);
+                if (distance <= bestDistance)
+                {
+                    bestDistance = distance;
+                    best = candidate;
+                }
+            }
+            if (best == null)
+            {
                 continue;
             }
-            if (renderer.lightmapIndex != index)
+            taken.Add(best);
+
+            int index = lightmapIndices[i];
+            if (index < 0 || index >= available || lightmapsFar[index] == null)
             {
-                renderer.lightmapIndex = index;
+                continue;
             }
-            if (renderer.lightmapScaleOffset != lightmapScaleOffsets[i])
+
+            best.GetPropertyBlock(block);
+            block.SetTexture("_BSLightmap", lightmapsFar[index]);
+            block.SetVector("_BSLightmapST", lightmapScaleOffsets[i]);
+            best.SetPropertyBlock(block);
+
+            // Also try the official path; harmless when Unity ignores it.
+            if (best.lightmapIndex != index)
             {
-                renderer.lightmapScaleOffset = lightmapScaleOffsets[i];
+                best.lightmapIndex = index;
             }
+            if (best.lightmapScaleOffset != lightmapScaleOffsets[i])
+            {
+                best.lightmapScaleOffset = lightmapScaleOffsets[i];
+            }
+            applied++;
         }
+
+        if (applied != lastApplied)
+        {
+            lastApplied = applied;
+            Debug.Log("[BS Lightmaps] " + gameObject.scene.name + ": baked lighting applied to " +
+                      applied + "/" + count + " renderer(s).");
+        }
+    }
+
+    private int lastApplied = -1;
+
+    private static string MeshNameOf(Renderer renderer)
+    {
+        MeshFilter filter = renderer.GetComponent<MeshFilter>();
+        if (filter != null && filter.sharedMesh != null)
+        {
+            return filter.sharedMesh.name;
+        }
+        SkinnedMeshRenderer skinned = renderer as SkinnedMeshRenderer;
+        if (skinned != null && skinned.sharedMesh != null)
+        {
+            return skinned.sharedMesh.name;
+        }
+        return string.Empty;
     }
 }

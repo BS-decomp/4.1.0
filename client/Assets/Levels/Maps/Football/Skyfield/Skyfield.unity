@@ -41526,18 +41526,28 @@ MonoBehaviour:
   lightmapsFar:
   - {fileID: 2800000, guid: 823e10865cc9a9545a4f3f4908ed6f2a, type: 3}
   lightmapsNear: []
-  renderers:
-  - {fileID: 936}
-  - {fileID: 964}
-  - {fileID: 969}
-  - {fileID: 996}
+  renderNames:
+  - Wall
+  - Red
+  - Blue
+  - Field
+  renderPositions:
+  - {x: 31, y: 0, z: 27}
+  - {x: -4, y: 0, z: -44.5}
+  - {x: -4, y: 0, z: 42.5}
+  - {x: 0, y: 0, z: 0}
+  renderMeshes:
+  - Wall_936
+  - Red_964
+  - Blue_969
+  - Field_996
   lightmapIndices:
   - 0
   - 0
   - 0
   - 0
   lightmapScaleOffsets:
-  - {x: 0.40429688, y: 0.40429688, z: 0.56222653, w: -0.008085938}
-  - {x: 0.07714844, y: 0.07714844, z: -0.0015429689, w: 0.8041211}
-  - {x: 0.07714844, y: 0.07714844, z: -0.0015429689, w: 0.7279492}
-  - {x: 0.7373047, y: 0.7373047, z: 0.0, w: 0.0}
+  - {x: 0.404297, y: 0.404297, z: 0.562227, w: -0.00808594}
+  - {x: 0.0771484, y: 0.0771484, z: -0.00154297, w: 0.804121}
+  - {x: 0.0771484, y: 0.0771484, z: -0.00154297, w: 0.727949}
+  - {x: 0.737305, y: 0.737305, z: 0, w: 0}

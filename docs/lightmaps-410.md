@@ -80,6 +80,22 @@ play mode** whenever it rebuilds lighting for a scene it considers "not baked"
 So the renderers keep saying "I have no lightmap" no matter what the binder
 does, and the shader renders unlit (or, before the guard was added, black).
 
+A second diagnostic run then showed the other half of the problem:
+
+```
+binder: 1 texture(s), 0 renderer(s) recorded
+```
+
+Unity read the **asset** references of the binder (the lightmap texture, by
+GUID) but dropped every **scene-local component** reference
+(`renderers: - {fileID: 1279}`) while importing these Unity 4 scenes. So the
+binder had nothing to work with. It now identifies renderers by
+**name + world position + mesh name** instead — all plain serialised data, no
+file IDs involved. The mesh name is the tie-breaker: two objects can share a
+name *and* a position (`BuildingRed-detach` in Villa), but the de-batched
+meshes are unique per renderer, so all 3 810 keys across the 57 scenes are
+unambiguous (the verifier fails if any pair is not).
+
 The binder therefore delivers the baked map a second way, which Unity's
 lighting logic never touches:
 

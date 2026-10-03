@@ -41580,18 +41580,28 @@ MonoBehaviour:
   lightmapsFar:
   - {fileID: 2800000, guid: 67dba2c14b7c4ca44bd6b1b9a3beb76c, type: 3}
   lightmapsNear: []
-  renderers:
-  - {fileID: 938}
-  - {fileID: 948}
-  - {fileID: 952}
-  - {fileID: 983}
+  renderNames:
+  - Walls
+  - Props
+  - Floor
+  - Black Box
+  renderPositions:
+  - {x: 0, y: 0, z: 0}
+  - {x: -32, y: 0, z: -24}
+  - {x: -32, y: 0, z: -24}
+  - {x: -16, y: -1, z: -12}
+  renderMeshes:
+  - Walls_938
+  - Props_948
+  - Floor_952
+  - Black Box_983
   lightmapIndices:
   - 0
   - 0
   - 0
   - 0
   lightmapScaleOffsets:
-  - {x: 0.6308594, y: 0.6308594, z: 0.0, w: 0.0}
-  - {x: 0.25878906, y: 0.25878906, z: 0.615918, w: -0.0051757814}
-  - {x: 0.4580078, y: 0.4580078, z: -0.009160157, w: 0.5855664}
-  - {x: 0.06738281, y: 0.06738281, z: 0.87072265, w: -0.0013476564}
+  - {x: 0.630859, y: 0.630859, z: 0, w: 0}
+  - {x: 0.258789, y: 0.258789, z: 0.615918, w: -0.00517578}
+  - {x: 0.458008, y: 0.458008, z: -0.00916016, w: 0.585566}
+  - {x: 0.0673828, y: 0.0673828, z: 0.870723, w: -0.00134766}

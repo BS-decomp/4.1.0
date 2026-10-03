@@ -80,21 +80,62 @@ def scene_lightmaps(text):
     return [(int(f), g, int(t)) for f, g, t in LIGHTMAP_RE.findall(text[start:end])]
 
 
-def lightmapped_renderers(text):
-    """(fileID, index, scaleOffset) of every renderer that has a baked lightmap."""
+def lightmapped_renderers(text, guid_map):
+    """(name, world position, index, scaleOffset) of every baked renderer.
+
+    Unity drops scene-local `{fileID: N}` references when it imports these
+    Unity 4 scenes, so the binder identifies renderers by name + world position
+    instead — stable, and independent of how Unity renumbers the file.
+    """
+    from static_batch_lib import parse_document, SceneGraph, field_text, parse_ptr
+
+    doc = parse_document(text)
+    graph = SceneGraph(doc)
     out = []
-    for m in RENDERER_RE.finditer(text):
-        body = m.group(2)
-        index = LM_INDEX_RE.search(body)
+    for obj in doc.objects:
+        if obj.class_id not in (23, 137):
+            continue
+        index = LM_INDEX_RE.search(obj.body)
         if index is None:
             continue
         value = int(index.group(1))
         if value >= 65534:        # 65535 = none, 65534 = unassigned
             continue
-        st = LM_ST_RE.search(body)
+        st = LM_ST_RE.search(obj.body)
         scale = tuple(float(x) for x in st.groups()) if st else (1.0, 1.0, 0.0, 0.0)
-        out.append((int(m.group(1)), value, scale))
+        go_id, _ = parse_ptr(field_text(obj.body, "m_GameObject"))
+        transform_id = graph.transform_of_go.get(go_id)
+        if transform_id is None:
+            continue
+        matrix = graph.world_matrix(transform_id)
+        position = (matrix[0][3], matrix[1][3], matrix[2][3])
+        out.append((graph.go_name(go_id), position, value, scale, mesh_name(graph, go_id, guid_map)))
     return out
+
+
+_MESH_NAMES = {}
+
+
+def mesh_name(graph, go_id, guid_map):
+    """m_Name of the mesh the renderer draws — the de-batched meshes are unique
+    per renderer, which disambiguates objects that share a name and a position."""
+    mf_id = graph.component(go_id, 33)
+    if mf_id is None:
+        return ""
+    ptr = re.search(r"m_Mesh: \{fileID: \d+, guid: ([0-9a-f]{32})", graph.objects[mf_id].body)
+    if ptr is None:
+        return ""
+    guid = ptr.group(1)
+    if guid not in _MESH_NAMES:
+        path = guid_map.get(guid)
+        name = ""
+        if path is not None and path.exists():
+            head = path.read_text(encoding="utf-8", errors="replace")[:4000]
+            m = re.search(r"^  m_Name: (.*)$", head, re.M)
+            if m:
+                name = m.group(1).strip().strip("'\"")
+        _MESH_NAMES[guid] = name
+    return _MESH_NAMES[guid]
 
 
 def free_ids(text, count):
@@ -109,19 +150,36 @@ def free_ids(text, count):
     return ids
 
 
+def number(value):
+    """Compact, culture-independent float for Unity YAML."""
+    text = "%.6g" % value
+    return text if text not in ("-0", "-0.0") else "0"
+
+
+def yaml_string(value):
+    if value == "" or any(c in value for c in ":#{}[],&*?|-<>=!%@`\"'") or value != value.strip():
+        return '"%s"' % value.replace("\\", "\\\\").replace('"', '\\"')
+    return value
+
+
 def build_blocks(go_id, tr_id, mb_id, guid, lightmaps, renderers):
     refs = "\n".join(
         "  - {fileID: %d, guid: %s, type: %d}" % (f, g, t) for f, g, t in lightmaps
     )
-    renderer_refs = "\n".join("  - {fileID: %d}" % r[0] for r in renderers) or "  []"
-    indices = "\n".join("  - %d" % r[1] for r in renderers) or "  []"
+    names = "\n".join("  - %s" % yaml_string(r[0]) for r in renderers)
+    positions = "\n".join(
+        "  - {x: %s, y: %s, z: %s}" % tuple(number(v) for v in r[1]) for r in renderers)
+    indices = "\n".join("  - %d" % r[2] for r in renderers)
     scales = "\n".join(
-        "  - {x: %s, y: %s, z: %s, w: %s}" % tuple(repr(v) for v in r[2]) for r in renderers) or "  []"
+        "  - {x: %s, y: %s, z: %s, w: %s}" % tuple(number(v) for v in r[3]) for r in renderers)
+    meshes = "\n".join("  - %s" % yaml_string(r[4]) for r in renderers)
     if renderers:
-        renderer_block = ("  renderers:\n%s\n  lightmapIndices:\n%s\n  lightmapScaleOffsets:\n%s\n"
-                          % (renderer_refs, indices, scales))
+        renderer_block = ("  renderNames:\n%s\n  renderPositions:\n%s\n  renderMeshes:\n%s\n"
+                          "  lightmapIndices:\n%s\n  lightmapScaleOffsets:\n%s\n"
+                          % (names, positions, meshes, indices, scales))
     else:
-        renderer_block = "  renderers: []\n  lightmapIndices: []\n  lightmapScaleOffsets: []\n"
+        renderer_block = ("  renderNames: []\n  renderPositions: []\n  renderMeshes: []\n"
+                          "  lightmapIndices: []\n  lightmapScaleOffsets: []\n")
     return (
         "--- !u!1 &%d\n"
         "GameObject:\n"
@@ -199,7 +257,7 @@ def main(argv=None):
             resolved.append({"fileID": fid, "guid": g, "type": kind,
                              "asset": path.relative_to(PROJECT).as_posix() if path else None})
 
-        renderers = lightmapped_renderers(text)
+        renderers = lightmapped_renderers(text, guid_map)
         has_binder = ("m_Script: {fileID: 11500000, guid: %s" % guid) in text
         manifest["scenes"].append({"scene": rel, "name": scene.stem, "lightmaps": resolved,
                                    "lightmapped_renderers": len(renderers), "binder": True})

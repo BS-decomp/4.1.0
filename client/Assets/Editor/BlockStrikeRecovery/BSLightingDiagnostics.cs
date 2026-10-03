@@ -49,7 +49,7 @@ public static class BSLightingDiagnostics
         else
         {
             log.AppendLine("binder: " + (binder.lightmapsFar == null ? 0 : binder.lightmapsFar.Length) +
-                           " texture(s), " + (binder.renderers == null ? 0 : binder.renderers.Length) +
+                           " texture(s), " + (binder.renderNames == null ? 0 : binder.renderNames.Length) +
                            " renderer(s) recorded");
             if (binder.lightmapsFar != null)
             {
