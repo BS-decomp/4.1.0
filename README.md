@@ -23,9 +23,9 @@ Nothing about the original 4.1.0 build is asserted until it is read from the APK
 | Package name | `com.rexetstudio.blockstrike` | Expected — confirm from `AndroidManifest.xml` |
 | versionName | `4.1.0` | Expected — confirm from `AndroidManifest.xml` |
 | versionCode | `780` (from the APK file name) | Expected — confirm from `AndroidManifest.xml` |
-| Unity engine version | — | Unknown — read from `assets/bin/Data/globalgamemanagers` |
-| Scripting backend | — | Unknown — Mono or IL2CPP, determined from `lib/` and `assets/bin/Data/Managed/` |
-| Scenes | — | Unknown — enumerate `assets/bin/Data/level*` and `sharedassets*` |
+| Unity engine version | `4.7.2f1` | Confirmed from serialized scene/data headers in the APK |
+| Scripting backend | Mono | Confirmed by `libmono.so` and Managed DLLs; no IL2CPP payload found |
+| Scenes | 58 (`level0`–`level57`) | Confirmed from APK inventory; 60 `sharedassets` files observed |
 
 For context, this version sits between the two already-reconstructed neighbors:
 
