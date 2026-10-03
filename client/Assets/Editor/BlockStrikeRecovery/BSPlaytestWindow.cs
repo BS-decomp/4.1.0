@@ -33,6 +33,7 @@ public class BSPlaytestWindow : EditorWindow
     private string nick = "byvlal";
     private int modeOverride = -1;
     private bool bootThroughMenu = true;
+    private bool editorInput = true;
     private const string BootScene = "Menu";
     private Vector2 scroll;
     private List<Check> checks = new List<Check>();
@@ -118,6 +119,16 @@ public class BSPlaytestWindow : EditorWindow
         bootThroughMenu = EditorGUILayout.ToggleLeft(
             "Поднимать игру через " + BootScene + " (как в оригинале: аккаунт, оружие, скин, джойстик)",
             bootThroughMenu);
+        editorInput = EditorGUILayout.ToggleLeft(
+            "Клавиатура + мышь в редакторе (WASD, мышь — обзор, ЛКМ — огонь, L — отпустить курсор)",
+            editorInput);
+        if (!editorInput)
+        {
+            EditorGUILayout.HelpBox(
+                "Игра управляется только тачем (InputJoystick/InputTouchLook читают Input.GetTouch). " +
+                "В редакторе тачей нет, поэтому без этой галки ходить и крутить камеру будет нечем.",
+                MessageType.Warning);
+        }
         if (!bootThroughMenu)
         {
             EditorGUILayout.HelpBox(
@@ -292,6 +303,7 @@ public class BSPlaytestWindow : EditorWindow
             gameMode = mode,
             spawnPlayer = true,
             bootThroughMenu = bootThroughMenu,
+            editorInput = editorInput,
             bootScene = BootScene,
             createdUtc = DateTime.UtcNow.ToString("o"),
             maxAgeMinutes = 180
@@ -307,6 +319,7 @@ public class BSPlaytestWindow : EditorWindow
                 ? "Жми Play из любой сцены: плейтест сам поднимет " + BootScene +
                   ", сделает аккаунт и зайдёт на карту через оффлайн-комнату игры.\n"
                 : "Открой карту «" + session.scene + "» и нажми Play.\n") +
+            "Управление: WASD + мышь, ЛКМ огонь, Space прыжок, L — отпустить курсор.\n" +
             "Ник: " + session.nick + "\nРежим: " + (mode >= 0 ? ((GameMode)mode).ToString() : "TeamDeathmatch (по умолчанию)") + "\n\n" +
             "Сессия одноразовая: после выхода из Play её нужно взвести заново.",
             "Поехали");

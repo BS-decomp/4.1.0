@@ -9,6 +9,7 @@ Files:
 | File | Role |
 | --- | --- |
 | `client/Assets/BSPlaytest/BSPlaytest.cs` | runtime bootstrap, account stub and spawn fallback (wrapped in `#if UNITY_EDITOR`, never ships in a build) |
+| `client/Assets/BSPlaytest/BSPlaytestEditorInput.cs` | keyboard + mouse for the editor, because the game is touch-only |
 | `client/Assets/Editor/BlockStrikeRecovery/BSPlaytestWindow.cs` | the window, the preflight and the session guards |
 | `client/Assets/Editor/BlockStrikeRecoveryMenu.cs` | `Tools > Block Strike > Audit all maps` — the same checks over all 59 scenes |
 
@@ -47,6 +48,55 @@ v2 therefore reproduces the path a player takes:
 The old behaviour is still available: untick "Поднимать игру через Menu" in the
 window. It is only useful for checking geometry — the player will be incomplete,
 and the window says so.
+
+## Input: why nothing moved before
+
+The game has no desktop controls at all. `InputJoystick` and `InputTouchLook`
+only read `Input.touchCount` / `Input.GetTouch`, and the Windows editor produces
+no touches, so movement and camera look were simply never fed. NGUI's
+`UICamera` has the same issue: the scenes are authored for Android with
+`useTouch = true`, and that branch ignores the mouse, so part of the on-screen
+buttons did nothing either.
+
+`BSPlaytestEditorInput` fixes this **without touching game logic**: it pushes
+values into the very same bus the on-screen controls use —
+
+```
+InputJoystick  -> InputManager.SetAxis("Horizontal" / "Vertical", v)
+InputTouchLook -> InputManager.SetAxis("Mouse X" / "Mouse Y", v)
+InputButton    -> InputManager.SetButtonDown/Up(name)
+```
+
+and flips `UICamera.useTouch/useMouse` at runtime (play mode only, nothing is
+saved) so NGUI buttons answer the mouse.
+
+| Key | Action | Key | Action |
+| --- | --- | --- | --- |
+| WASD / arrows | move | Space | Jump |
+| mouse | look | LMB | Fire |
+| RMB | Aim | R | Reload |
+| E | Use | Q | SelectWeapon |
+| Tab | Statistics | T | Chat |
+| P | Pause | V | Microphone |
+| C | Crouch | Left Shift | Run |
+| L | release/lock the cursor (to click the UI) | | |
+
+The axes are only written when the keyboard state changes, so the on-screen
+joystick keeps working next to it.
+
+## The "thrown back to the Menu" bug (fixed)
+
+`GameManager` has an anti-cheat: it calls `PhotonNetwork.LeaveRoom()` when the
+room's `password`/`onlyWeapon` property changes, or when the **local player's
+id or level** changes while a match is running — and `OnLeftRoom()` loads
+`Menu`. v2.0 wrote exactly those properties right after the map had loaded, so
+the game kicked the playtest out every single time.
+
+Now the player properties (`nick`, id, level) are written **before** the room is
+created — the same place `mPhotonSettings.OnCreateServer` writes them — and the
+room properties are written while still in the Menu, never after the map loads.
+If something else kicks us, the runner now says so explicitly instead of
+reporting a missing spawn point.
 
 ### Why mode logic still does not run
 

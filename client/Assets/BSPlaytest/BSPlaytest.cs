@@ -44,6 +44,7 @@ public class BSPlaytestSession
     public int gameMode = -1;           // -1 = resolve from Resources/others/SceneManager.json
     public bool spawnPlayer = true;
     public bool bootThroughMenu = true; // false = old behaviour (straight into the map)
+    public bool editorInput = true;     // keyboard + mouse instead of the touch-only controls
     public string bootScene = "Menu";
     public string createdUtc = string.Empty;
     public int maxAgeMinutes = 180;
@@ -121,6 +122,10 @@ public static class BSPlaytest
         UnityEngine.Object.DontDestroyOnLoad(host);
         host.hideFlags = HideFlags.DontSave;
         host.AddComponent<BSPlaytestRunner>().session = session;
+        if (session.editorInput)
+        {
+            host.AddComponent<BSPlaytestEditorInput>();
+        }
 
         Debug.Log(string.Format("[BS Playtest {0}] armed for \"{1}\" as \"{2}\" ({3}).",
             Version, session.scene, session.nick,
@@ -228,7 +233,7 @@ public class BSPlaytestRunner : MonoBehaviour
         }
 
         BSPlaytest.StubAccount(session.nick);
-        try { PhotonNetwork.playerName = session.nick; } catch { }
+        ApplyLocalPlayerProperties();
 
         if (photon == null)
         {
@@ -257,8 +262,11 @@ public class BSPlaytestRunner : MonoBehaviour
             yield break;
         }
 
-        // The offline room exists immediately; stamp the standard properties on
-        // it before the map's scripts read them.
+        // The offline room exists immediately. Stamp the room properties now,
+        // while we are still in the Menu: GameManager kicks the player out of
+        // the room when the password/weapon room property or the local player's
+        // id/level changes while a match is running (its anti-cheat), so this
+        // must never happen after the map has loaded.
         ApplyRoomProperties();
 
         float sceneDeadline = Time.realtimeSinceStartup + 60f;
@@ -272,7 +280,6 @@ public class BSPlaytestRunner : MonoBehaviour
                            "Check that it is enabled in Build Settings.");
             yield break;
         }
-        ApplyRoomProperties();
         yield return EnsurePlayer();
     }
 
@@ -283,12 +290,12 @@ public class BSPlaytestRunner : MonoBehaviour
     private IEnumerator BootDirect()
     {
         BSPlaytest.StubAccount(session.nick);
+        ApplyLocalPlayerProperties();
         try
         {
             PhotonNetwork.automaticallySyncScene = false;
             PhotonNetwork.isMessageQueueRunning = true;
             PhotonNetwork.offlineMode = true;
-            PhotonNetwork.playerName = session.nick;
             if (!PhotonNetwork.inRoom)
             {
                 PhotonNetwork.CreateRoom("Playtest");
@@ -317,14 +324,28 @@ public class BSPlaytestRunner : MonoBehaviour
             props[PhotonCustomValueAccess.GameModeKey] = (byte)Mathf.Max(0, session.gameMode);
             props[PhotonCustomValueAccess.RoundStateKey] = (byte)RoundState.PlayRound;
             PhotonNetwork.room.SetCustomProperties(props);
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning("[BS Playtest] room properties incomplete: " + e.Message);
+        }
+    }
 
+    /// <summary>Nick, id and level, set BEFORE joining a room — exactly where
+    /// mPhotonSettings.OnCreateServer sets them. GameManager force-leaves the
+    /// room if the local player's id or level changes during a match.</summary>
+    private void ApplyLocalPlayerProperties()
+    {
+        try
+        {
+            PhotonNetwork.playerName = session.nick;
             PhotonNetwork.player.ClearProperties();
             PhotonNetwork.player.SetPlayerID("PLAYTEST");
             PhotonNetwork.player.SetLevel(1);
         }
         catch (Exception e)
         {
-            Debug.LogWarning("[BS Playtest] room/player properties incomplete: " + e.Message);
+            Debug.LogWarning("[BS Playtest] player properties incomplete: " + e.Message);
         }
     }
 
@@ -349,6 +370,16 @@ public class BSPlaytestRunner : MonoBehaviour
                 break;
             }
             yield return null;
+        }
+
+        if (Application.loadedLevelName != session.scene)
+        {
+            Debug.LogError(
+                "[BS Playtest] the game kicked us back to \"" + Application.loadedLevelName + "\".\n" +
+                "  GameManager leaves the room when the room password/weapon property or the local " +
+                "player's id/level changes during a match, or when PhotonNetwork is neither in a room " +
+                "nor in offline mode. Check the lines above for OnLeftRoom.");
+            yield break;
         }
 
         if (controller == null || controller.PlayerInput == null)
@@ -467,7 +498,20 @@ public class BSPlaytestRunner : MonoBehaviour
         }
         catch { }
         if (spawn == null) { try { spawn = GameManager.GetRandomSpawn(); } catch { } }
+        if (spawn == null) { try { spawn = GameManager.GetTeamSpawn(Team.Red); } catch { } }
         if (spawn == null) { try { spawn = GameManager.GetTeamSpawn(); } catch { } }
+        if (spawn == null)
+        {
+            // Some maps leave GameManager's spawn fields empty and rely on
+            // their mode script; take any spawn marker the scene has.
+            DrawElements[] all = UnityEngine.Object.FindObjectsOfType<DrawElements>();
+            if (all != null && all.Length > 0)
+            {
+                spawn = all[0];
+                Debug.Log("[BS Playtest] GameManager has no spawn assigned, using the scene marker \"" +
+                          all[0].name + "\" (" + all.Length + " found).");
+            }
+        }
         return spawn;
     }
 
