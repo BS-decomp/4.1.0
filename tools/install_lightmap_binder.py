@@ -45,6 +45,11 @@ LIGHTMAP_RE = re.compile(
     r"- m_Lightmap: \{fileID: (\d+), guid: ([0-9a-f]{32}), type: (\d+)\}"
 )
 BLOCK_RE = re.compile(r"^--- !u!(\d+) &(\d+)", re.M)
+RENDERER_RE = re.compile(
+    r"^--- !u!(?:23|137) &(\d+).*?\n(.*?)(?=^--- !u!|\Z)", re.M | re.S)
+LM_INDEX_RE = re.compile(r"^\s*m_LightmapIndex: (\d+)$", re.M)
+LM_ST_RE = re.compile(
+    r"^\s*m_LightmapTilingOffset: \{x: ([-\d.eE+]+), y: ([-\d.eE+]+), z: ([-\d.eE+]+), w: ([-\d.eE+]+)\}$", re.M)
 
 
 def script_guid():
@@ -75,6 +80,23 @@ def scene_lightmaps(text):
     return [(int(f), g, int(t)) for f, g, t in LIGHTMAP_RE.findall(text[start:end])]
 
 
+def lightmapped_renderers(text):
+    """(fileID, index, scaleOffset) of every renderer that has a baked lightmap."""
+    out = []
+    for m in RENDERER_RE.finditer(text):
+        body = m.group(2)
+        index = LM_INDEX_RE.search(body)
+        if index is None:
+            continue
+        value = int(index.group(1))
+        if value >= 65534:        # 65535 = none, 65534 = unassigned
+            continue
+        st = LM_ST_RE.search(body)
+        scale = tuple(float(x) for x in st.groups()) if st else (1.0, 1.0, 0.0, 0.0)
+        out.append((int(m.group(1)), value, scale))
+    return out
+
+
 def free_ids(text, count):
     used = {int(m.group(2)) for m in BLOCK_RE.finditer(text)}
     ids = []
@@ -87,10 +109,19 @@ def free_ids(text, count):
     return ids
 
 
-def build_blocks(go_id, tr_id, mb_id, guid, lightmaps):
+def build_blocks(go_id, tr_id, mb_id, guid, lightmaps, renderers):
     refs = "\n".join(
         "  - {fileID: %d, guid: %s, type: %d}" % (f, g, t) for f, g, t in lightmaps
     )
+    renderer_refs = "\n".join("  - {fileID: %d}" % r[0] for r in renderers) or "  []"
+    indices = "\n".join("  - %d" % r[1] for r in renderers) or "  []"
+    scales = "\n".join(
+        "  - {x: %s, y: %s, z: %s, w: %s}" % tuple(repr(v) for v in r[2]) for r in renderers) or "  []"
+    if renderers:
+        renderer_block = ("  renderers:\n%s\n  lightmapIndices:\n%s\n  lightmapScaleOffsets:\n%s\n"
+                          % (renderer_refs, indices, scales))
+    else:
+        renderer_block = "  renderers: []\n  lightmapIndices: []\n  lightmapScaleOffsets: []\n"
     return (
         "--- !u!1 &%d\n"
         "GameObject:\n"
@@ -134,7 +165,8 @@ def build_blocks(go_id, tr_id, mb_id, guid, lightmaps):
         "  m_EditorClassIdentifier: \n"
         "  lightmapsFar:\n%s\n"
         "  lightmapsNear: []\n"
-        % (go_id, tr_id, mb_id, OBJECT_NAME, tr_id, go_id, mb_id, go_id, guid, refs)
+        "%s"
+        % (go_id, tr_id, mb_id, OBJECT_NAME, tr_id, go_id, mb_id, go_id, guid, refs, renderer_block)
     )
 
 
@@ -167,9 +199,10 @@ def main(argv=None):
             resolved.append({"fileID": fid, "guid": g, "type": kind,
                              "asset": path.relative_to(PROJECT).as_posix() if path else None})
 
+        renderers = lightmapped_renderers(text)
         has_binder = ("m_Script: {fileID: 11500000, guid: %s" % guid) in text
-        manifest["scenes"].append({"scene": rel, "name": scene.stem,
-                                   "lightmaps": resolved, "binder": True})
+        manifest["scenes"].append({"scene": rel, "name": scene.stem, "lightmaps": resolved,
+                                   "lightmapped_renderers": len(renderers), "binder": True})
 
         if has_binder:
             skipped += 1
@@ -178,10 +211,11 @@ def main(argv=None):
             continue
 
         if args.report:
-            print("%-56s %d lightmap(s) -> will bind" % (scene.stem, len(lightmaps)))
+            print("%-56s %d lightmap(s), %d renderer(s) -> will bind"
+                  % (scene.stem, len(lightmaps), len(renderers)))
         if args.apply:
             go_id, tr_id, mb_id = free_ids(text, 3)
-            block = build_blocks(go_id, tr_id, mb_id, guid, lightmaps)
+            block = build_blocks(go_id, tr_id, mb_id, guid, lightmaps, renderers)
             if not text.endswith("\n"):
                 text += "\n"
             scene.write_text(text + block, encoding="utf-8")

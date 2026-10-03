@@ -12,19 +12,18 @@ SubShader {
 	LOD 100
 	Tags { "RenderType"="Opaque" }
 
-	// The APK ships three fixed-function passes: "Vertex" (no lightmap),
-	// "VertexLM" (unity_Lightmap * texture, doubled) and "VertexLMRGBM"
-	// (the same with an RGBM-encoded lightmap, quadrupled).
-	// `unity_LightmapMatrix` and the fixed-function combiners are gone in modern
-	// Unity, so the three are folded into one pass with Unity's own LIGHTMAP_ON
-	// keyword and unity_LightmapST, decoded with DecodeLightmap() — that covers
-	// both the dLDR and the RGBM encodings on every platform/renderer.
+	// APK passes: LIGHTMODE=Vertex (plain texture), VertexLM (lightmap * texture,
+	// "double" = dLDR x2) and VertexLMRGBM (RGBM, "quad"). Unity 5 removed
+	// unity_LightmapMatrix and the fixed-function combiners, and a CG pass tagged
+	// "Vertex" never receives the LIGHTMAP_ON keyword, so the trio is folded into
+	// one ForwardBase pass with the LIGHTMAP_ON variant; x2 reproduces "double".
 	Pass {
-		Tags { "LightMode"="Vertex" "RenderType"="Opaque" }
+		Tags { "LightMode"="ForwardBase" "RenderType"="Opaque" }
 		CGPROGRAM
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile _ LIGHTMAP_ON
+		#pragma multi_compile_fog
 		#include "UnityCG.cginc"
 
 		sampler2D _MainTex;
@@ -41,6 +40,7 @@ SubShader {
 			#ifdef LIGHTMAP_ON
 			float2 lmuv : TEXCOORD1;
 			#endif
+			UNITY_FOG_COORDS(2)
 		};
 
 		v2f vert (appdata_t v) {
@@ -50,15 +50,16 @@ SubShader {
 			#ifdef LIGHTMAP_ON
 			o.lmuv = v.texcoord1.xy * unity_LightmapST.xy + unity_LightmapST.zw;
 			#endif
+			UNITY_TRANSFER_FOG(o, o.pos);
 			return o;
 		}
 
 		fixed4 frag (v2f i) : SV_Target {
 			fixed4 col = tex2D(_MainTex, i.uv);
 			#ifdef LIGHTMAP_ON
-			fixed3 lm = DecodeLightmap(UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv));
-			col.rgb *= lm;
+			col.rgb *= 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv).rgb;
 			#endif
+			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
 		}
 		ENDCG

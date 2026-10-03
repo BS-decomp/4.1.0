@@ -47,9 +47,9 @@ through the plain unlit `Vertex` pass. That is literally "flat".
 
 | Step | Tool | Result |
 | --- | --- | --- |
-| Re-bind the baked textures at load time | `tools/install_lightmap_binder.py --apply` + `client/Assets/Scripts/Recovery/BSLegacyLightmaps.cs` | 57 scenes got one small `BS Legacy Lightmaps` object that assigns `LightmapSettings.lightmaps` (NonDirectional) from the original texture list, in the original order. `[ExecuteAlways]`, so the Scene view matches the game and builds keep working. |
+| Re-bind the baked textures **and the per-renderer data** at load time | `tools/install_lightmap_binder.py --apply` + `client/Assets/Scripts/Recovery/BSLegacyLightmaps.cs` | 57 scenes got one small `BS Legacy Lightmaps` object. It assigns `LightmapSettings.lightmaps` (NonDirectional) from the original texture list **and restores `lightmapIndex` + `lightmapScaleOffset` on all 3 810 baked renderers** — Unity treats a scene without a LightingData asset as "never baked" and drops those per-renderer values on import, which is why binding the textures alone changed nothing. `[ExecuteAlways]`, so the Scene view matches the game and builds keep working. |
 | Port the sentinels | `tools/fix_lightmap_indices.py --apply` | `255 → 65535` (5 063), `254 → 65534` (480); real indices (`0`, 3 810 renderers) untouched. |
-| Make the shaders sample lightmaps again | `tools/rebuild_shaders.py` | `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` rewritten: one pass with `#pragma multi_compile _ LIGHTMAP_ON`, `unity_LightmapST` and `DecodeLightmap()`, which handles dLDR *and* RGBM on every renderer and platform — the three legacy passes folded into the modern equivalent. |
+| Make the shaders sample lightmaps again | `tools/rebuild_shaders.py` | `Mobile/Unlit (Supports Lightmap)` and `Mobile/VertexLit` rewritten as a single **`LightMode = ForwardBase`** pass with `#pragma multi_compile _ LIGHTMAP_ON` and `unity_LightmapST`, decoding the dLDR map with the `×2` of the original `VertexLM` pass. A CG pass tagged `"Vertex"` (the literal APK tag) never receives the `LIGHTMAP_ON` keyword in modern Unity — that is why the first attempt still rendered unlit. |
 
 The original Unity 4 `m_Lightmaps` block is **left in the scenes** as ground
 truth; the binder is additive and reversible.
@@ -63,6 +63,14 @@ truth; the binder is additive and reversible.
    address lightmaps by index, so order is not cosmetic);
 3. no renderer asks for an index outside the baked set (sentinels excluded);
 4. the shader behind lightmapped materials can actually sample a lightmap.
+
+## If a map still looks flat
+
+`Tools > Block Strike > Diagnose lighting` prints, for the open scene: the
+bound lightmap array, the binder contents, how many renderers currently report
+a lightmap index, the shaders those renderers use, whether each shader really
+has a `LIGHTMAP_ON` variant, the UV1 channel of a sample mesh and the project's
+colour space / lightmap encoding. That output pins the failure down in one step.
 
 ## Known limits
 

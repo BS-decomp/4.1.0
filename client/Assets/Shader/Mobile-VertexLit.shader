@@ -12,18 +12,18 @@ SubShader {
 	LOD 80
 	Tags { "RenderType"="Opaque" }
 
-	// The APK has the legacy trio Vertex / VertexLM / VertexLMRGBM plus
-	// SHADOWCASTER and SHADOWCOLLECTOR. SHADOWCOLLECTOR and the fixed-function
-	// lightmap combiners no longer exist, so the lightmap branch is expressed
-	// with Unity's LIGHTMAP_ON keyword and vertex lighting with ShadeVertexLights
-	// (the same maths the fixed-function Material/Lighting block compiled into),
-	// and shadow casting comes from the fallback.
+	// Same situation as Mobile/Unlit (Supports Lightmap): the legacy
+	// Vertex/VertexLM/VertexLMRGBM trio becomes one ForwardBase pass.
+	// Unlit case = ShadeVertexLights (what the fixed-function Material/Lighting
+	// block compiled into: ambient + per-vertex lights, no extra doubling),
+	// lightmapped case = x2 dLDR decode of the original VertexLM pass.
 	Pass {
-		Tags { "LightMode"="Vertex" "RenderType"="Opaque" }
+		Tags { "LightMode"="ForwardBase" "RenderType"="Opaque" }
 		CGPROGRAM
 		#pragma vertex vert
 		#pragma fragment frag
 		#pragma multi_compile _ LIGHTMAP_ON
+		#pragma multi_compile_fog
 		#include "UnityCG.cginc"
 
 		sampler2D _MainTex;
@@ -43,6 +43,7 @@ SubShader {
 			#else
 			fixed3 vlight : TEXCOORD1;
 			#endif
+			UNITY_FOG_COORDS(2)
 		};
 
 		v2f vert (appdata_t v) {
@@ -54,16 +55,18 @@ SubShader {
 			#else
 			o.vlight = ShadeVertexLights(v.vertex, v.normal);
 			#endif
+			UNITY_TRANSFER_FOG(o, o.pos);
 			return o;
 		}
 
 		fixed4 frag (v2f i) : SV_Target {
 			fixed4 col = tex2D(_MainTex, i.uv);
 			#ifdef LIGHTMAP_ON
-			col.rgb *= DecodeLightmap(UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv));
+			col.rgb *= 2.0 * UNITY_SAMPLE_TEX2D(unity_Lightmap, i.lmuv).rgb;
 			#else
-			col.rgb *= i.vlight * 2.0;
+			col.rgb *= i.vlight;
 			#endif
+			UNITY_APPLY_FOG(i.fogCoord, col);
 			return col;
 		}
 		ENDCG

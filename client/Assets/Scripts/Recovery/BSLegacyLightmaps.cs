@@ -1,29 +1,24 @@
 // BS-decomp / Block Strike 4.1.0 — legacy lightmap binder.
 //
-// Why this component exists
-// -------------------------
-// The exported scenes still carry Unity 4's `LightmapSettings`:
+// The exported scenes still carry Unity 4's lightmap data:
 //
-//     m_Lightmaps:
-//     - m_Lightmap: {fileID: 2800000, guid: ..., type: 3}
-//       m_IndirectLightmap: {fileID: 0}
-//     m_LightmapsMode: 0
-//     m_BakedColorSpace: 0
-//     m_UseDualLightmapsInForward: 0
+//   * LightmapSettings:  m_Lightmaps / m_IndirectLightmap / m_BakedColorSpace
+//   * every Renderer:    m_LightmapIndex + m_LightmapTilingOffset
 //
-// Unity 5 moved the baked lightmap array out of the scene and into the
-// LightingData asset, and renamed the remaining fields, so a modern editor
-// silently ignores that block: `LightmapSettings.lightmaps` ends up empty, the
-// LIGHTMAP_ON keyword is never enabled and every map renders flat — even though
-// each renderer still has a valid `m_LightmapIndex` and `m_LightmapTilingOffset`
-// and the baked textures are all present in the project.
+// Unity 5 moved the baked array out of the scene into the LightingData asset
+// and widened the index sentinels, so a modern editor
+//   1. reads no lightmap array from the scene (`LightmapSettings.lightmaps`
+//      stays empty), and
+//   2. treats the scene as "never baked", which also drops the per-renderer
+//      `lightmapIndex` / `lightmapScaleOffset` that the file still contains.
 //
-// This component re-binds them at load time, which is the only supported way to
-// use pre-baked lightmaps without a LightingData asset. It runs in the editor
-// too (`ExecuteAlways`), so the Scene view looks like the game.
+// Both halves are restored here at load time — the only supported way to use a
+// pre-baked lightmap set without a LightingData asset. Data is generated from
+// the scenes themselves by `tools/install_lightmap_binder.py` and checked by
+// `tools/verify_lightmaps.py`.
 //
-// The data is generated from the scenes themselves by
-// `tools/install_lightmap_binder.py`; `tools/verify_lightmaps.py` checks it.
+// `ExecuteAlways`, so the Scene view shows the same lighting as the game, and
+// builds keep working because the data is serialised in the scene.
 
 using UnityEngine;
 
@@ -37,6 +32,15 @@ public class BSLegacyLightmaps : MonoBehaviour
     [Tooltip("Unity 4 near lightmaps (dual lightmapping). The 4.1.0 export only ships far maps.")]
     public Texture2D[] lightmapsNear;
 
+    [Tooltip("Renderers that were lightmapped in the original scene.")]
+    public Renderer[] renderers;
+
+    [Tooltip("m_LightmapIndex of each entry in `renderers`.")]
+    public int[] lightmapIndices;
+
+    [Tooltip("m_LightmapTilingOffset of each entry in `renderers` (scale.xy, offset.zw).")]
+    public Vector4[] lightmapScaleOffsets;
+
     private void OnEnable()
     {
         Apply();
@@ -49,7 +53,31 @@ public class BSLegacyLightmaps : MonoBehaviour
 
     public void Apply()
     {
+        ApplyLightmapArray();
+        ApplyRenderers();
+    }
+
+    private void ApplyLightmapArray()
+    {
         if (lightmapsFar == null || lightmapsFar.Length == 0)
+        {
+            return;
+        }
+
+        LightmapData[] current = LightmapSettings.lightmaps;
+        bool needsUpdate = current == null || current.Length != lightmapsFar.Length;
+        if (!needsUpdate)
+        {
+            for (int i = 0; i < current.Length; i++)
+            {
+                if (current[i] == null || current[i].lightmapColor != lightmapsFar[i])
+                {
+                    needsUpdate = true;
+                    break;
+                }
+            }
+        }
+        if (!needsUpdate)
         {
             return;
         }
@@ -59,16 +87,34 @@ public class BSLegacyLightmaps : MonoBehaviour
         {
             LightmapData entry = new LightmapData();
             entry.lightmapColor = lightmapsFar[i];
-            if (lightmapsNear != null && i < lightmapsNear.Length && lightmapsNear[i] != null)
-            {
-                // Unity 4 "near" maps have no modern equivalent; keeping the
-                // reference here documents that the slot existed.
-                entry.lightmapDir = null;
-            }
             data[i] = entry;
         }
-
         LightmapSettings.lightmaps = data;
         LightmapSettings.lightmapsMode = LightmapsMode.NonDirectional;
+    }
+
+    private void ApplyRenderers()
+    {
+        if (renderers == null || lightmapIndices == null || lightmapScaleOffsets == null)
+        {
+            return;
+        }
+        int count = Mathf.Min(renderers.Length, Mathf.Min(lightmapIndices.Length, lightmapScaleOffsets.Length));
+        for (int i = 0; i < count; i++)
+        {
+            Renderer renderer = renderers[i];
+            if (renderer == null)
+            {
+                continue;
+            }
+            if (renderer.lightmapIndex != lightmapIndices[i])
+            {
+                renderer.lightmapIndex = lightmapIndices[i];
+            }
+            if (renderer.lightmapScaleOffset != lightmapScaleOffsets[i])
+            {
+                renderer.lightmapScaleOffset = lightmapScaleOffsets[i];
+            }
+        }
     }
 }

@@ -45,6 +45,17 @@ def legacy_list(text):
     return LEGACY_RE.findall(text[start:end if end > 0 else start + 4000])
 
 
+def binder_renderers(text):
+    """(count of renderer refs, count of indices, count of scale offsets)."""
+    m = re.search(r"  renderers:\n((?:  - \{fileID: \d+\}\n)*)", text)
+    refs = len(re.findall(r"- \{fileID: \d+\}", m.group(1))) if m else 0
+    m = re.search(r"  lightmapIndices:\n((?:  - \d+\n)*)", text)
+    idx = len(re.findall(r"- \d+", m.group(1))) if m else 0
+    m = re.search(r"  lightmapScaleOffsets:\n((?:  - \{x: [^\n]*\}\n)*)", text)
+    st = len(re.findall(r"- \{x: ", m.group(1))) if m else 0
+    return refs, idx, st
+
+
 def binder_list(text):
     m = BINDER_RE.search(text)
     return REF_RE.findall(m.group(1)) if m else None
@@ -87,6 +98,15 @@ def main(argv=None):
         else:
             stats["bound"] += 1
 
+        # the binder must restore every renderer Unity would otherwise reset
+        baked = sum(1 for i in INDEX_RE.findall(text) if int(i) < 65534)
+        refs, idx, st = binder_renderers(text)
+        if bound is not None and not (refs == idx == st == baked):
+            failures.append("%s: binder covers %d/%d/%d renderers, scene has %d baked"
+                            % (scene.stem, refs, idx, st, baked))
+        else:
+            stats["renderers"] = stats.get("renderers", 0) + refs
+
         indices = {int(i) for i in INDEX_RE.findall(text)}
         # 65535 = no lightmap, 65534 = lightmapped but unassigned (Unity 5+ sentinels)
         bad = sorted(i for i in indices if i < 65534 and i >= len(legacy))
@@ -120,8 +140,10 @@ def main(argv=None):
             print("%-26s lightmaps %d  binder %s" % (
                 scene.stem, len(legacy), "ok" if bound == legacy else "MISSING"))
 
-    print("\nscenes %d | with lightmaps %d | correctly bound %d | textures resolved %d"
-          % (stats["scenes"], stats["with_lightmaps"], stats["bound"], stats["textures"]))
+    print("\nscenes %d | with lightmaps %d | correctly bound %d | textures resolved %d | "
+          "renderers restored %d"
+          % (stats["scenes"], stats["with_lightmaps"], stats["bound"], stats["textures"],
+             stats.get("renderers", 0)))
     if failures:
         print("FAILURES (%d):" % len(failures))
         for f in failures[:40]:

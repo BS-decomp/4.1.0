@@ -12,6 +12,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Better/Better/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 178,
    "binder": true
   },
   {
@@ -25,6 +26,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Eazy/Eazy/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 107,
    "binder": true
   },
   {
@@ -38,6 +40,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Fall/Fall/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 77,
    "binder": true
   },
   {
@@ -51,6 +54,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Harder/Harder/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 210,
    "binder": true
   },
   {
@@ -64,6 +68,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Jumpout/Jumpout/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 88,
    "binder": true
   },
   {
@@ -77,6 +82,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Speed/Speed/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 79,
    "binder": true
   },
   {
@@ -90,6 +96,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Stronger/Stronger/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 98,
    "binder": true
   },
   {
@@ -103,6 +110,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Trainer/Trainer/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 77,
    "binder": true
   },
   {
@@ -116,6 +124,7 @@
      "asset": "Assets/Levels/Maps/BunnyHop/Various/Various/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 173,
    "binder": true
   },
   {
@@ -129,6 +138,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Ciald/Ciald/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 39,
    "binder": true
   },
   {
@@ -142,6 +152,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Firati/Firati/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 29,
    "binder": true
   },
   {
@@ -155,6 +166,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Fractal/Fractal/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 72,
    "binder": true
   },
   {
@@ -168,6 +180,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Grade/Grade/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 35,
    "binder": true
   },
   {
@@ -181,6 +194,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Jacuda/Jacuda/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 26,
    "binder": true
   },
   {
@@ -194,6 +208,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Journey/Journey/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 94,
    "binder": true
   },
   {
@@ -207,6 +222,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Long/Long/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 48,
    "binder": true
   },
   {
@@ -220,6 +236,7 @@
      "asset": "Assets/Levels/Maps/DeathRun/Stander/Stander/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 52,
    "binder": true
   },
   {
@@ -233,6 +250,7 @@
      "asset": "Assets/Levels/Maps/Football/Skyfield/Skyfield/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 4,
    "binder": true
   },
   {
@@ -246,6 +264,7 @@
      "asset": "Assets/Levels/Maps/Football/Sunshine/Sunshine/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 2,
    "binder": true
   },
   {
@@ -259,6 +278,7 @@
      "asset": "Assets/Levels/Maps/HungerGames/Coliseum/Coliseum/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 124,
    "binder": true
   },
   {
@@ -272,6 +292,7 @@
      "asset": "Assets/Levels/Maps/HungerGames/Labyrinth/Labyrinth/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 159,
    "binder": true
   },
   {
@@ -285,6 +306,7 @@
      "asset": "Assets/Levels/Maps/HungerGames/Pyramids/Pyramids/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 162,
    "binder": true
   },
   {
@@ -298,6 +320,7 @@
      "asset": "Assets/Levels/Maps/Hunter/Hill/Hill/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 39,
    "binder": true
   },
   {
@@ -311,6 +334,7 @@
      "asset": "Assets/Levels/Maps/Hunter/Military Range/Military Range/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 30,
    "binder": true
   },
   {
@@ -324,6 +348,7 @@
      "asset": "Assets/Levels/Maps/Hunter/Rise/Rise/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 51,
    "binder": true
   },
   {
@@ -337,6 +362,7 @@
      "asset": "Assets/Levels/Maps/MiniGames/38Traps/38Traps/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 269,
    "binder": true
   },
   {
@@ -350,6 +376,7 @@
      "asset": "Assets/Levels/Maps/Others/100HP/100HP/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 5,
    "binder": true
   },
   {
@@ -363,6 +390,7 @@
      "asset": "Assets/Levels/Maps/Others/3000/3000/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 4,
    "binder": true
   },
   {
@@ -376,6 +404,7 @@
      "asset": "Assets/Levels/Maps/Others/Aim/Aim/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 6,
    "binder": true
   },
   {
@@ -389,6 +418,7 @@
      "asset": "Assets/Levels/Maps/Others/Apache/Apache/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 23,
    "binder": true
   },
   {
@@ -402,6 +432,7 @@
      "asset": "Assets/Levels/Maps/Others/Bust/Bust/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 107,
    "binder": true
   },
   {
@@ -415,6 +446,7 @@
      "asset": "Assets/Levels/Maps/Others/Bust 2/Bust 2/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 80,
    "binder": true
   },
   {
@@ -428,6 +460,7 @@
      "asset": "Assets/Levels/Maps/Others/Bust 2x2/Bust 2x2/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 67,
    "binder": true
   },
   {
@@ -441,6 +474,7 @@
      "asset": "Assets/Levels/Maps/Others/Casta/Casta/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 31,
    "binder": true
   },
   {
@@ -454,6 +488,7 @@
      "asset": "Assets/Levels/Maps/Others/Compact/Compact/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 26,
    "binder": true
   },
   {
@@ -467,6 +502,7 @@
      "asset": "Assets/Levels/Maps/Others/District/District/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 150,
    "binder": true
   },
   {
@@ -480,6 +516,7 @@
      "asset": "Assets/Levels/Maps/Others/Harage/Harage/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 137,
    "binder": true
   },
   {
@@ -493,6 +530,7 @@
      "asset": "Assets/Levels/Maps/Others/India/India/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 19,
    "binder": true
   },
   {
@@ -506,6 +544,7 @@
      "asset": "Assets/Levels/Maps/Others/Lenstown/Lenstown/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 9,
    "binder": true
   },
   {
@@ -519,6 +558,7 @@
      "asset": "Assets/Levels/Maps/Others/Nauts/Nauts/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 84,
    "binder": true
   },
   {
@@ -532,6 +572,7 @@
      "asset": "Assets/Levels/Maps/Others/Office/Office/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 117,
    "binder": true
   },
   {
@@ -545,6 +586,7 @@
      "asset": "Assets/Levels/Maps/Others/Pool/Pool/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 24,
    "binder": true
   },
   {
@@ -558,6 +600,7 @@
      "asset": "Assets/Levels/Maps/Others/Rast/Rast/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 12,
    "binder": true
   },
   {
@@ -571,6 +614,7 @@
      "asset": "Assets/Levels/Maps/Others/Skyline/Skyline/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 52,
    "binder": true
   },
   {
@@ -584,6 +628,7 @@
      "asset": "Assets/Levels/Maps/Others/Snow/Snow/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 12,
    "binder": true
   },
   {
@@ -597,6 +642,7 @@
      "asset": "Assets/Levels/Maps/Others/Storage/Storage/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 27,
    "binder": true
   },
   {
@@ -610,6 +656,7 @@
      "asset": "Assets/Levels/Maps/Others/Tecaza/Tecaza/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 61,
    "binder": true
   },
   {
@@ -623,6 +670,7 @@
      "asset": "Assets/Levels/Maps/Others/Turbine/Turbine/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 35,
    "binder": true
   },
   {
@@ -636,6 +684,7 @@
      "asset": "Assets/Levels/Maps/Others/Upload/Upload/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 23,
    "binder": true
   },
   {
@@ -649,6 +698,7 @@
      "asset": "Assets/Levels/Maps/Others/Villa/Villa/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 52,
    "binder": true
   },
   {
@@ -662,6 +712,7 @@
      "asset": "Assets/Levels/Maps/Surf/Deep/Deep/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 35,
    "binder": true
   },
   {
@@ -675,6 +726,7 @@
      "asset": "Assets/Levels/Maps/Surf/Jet/Jet/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 75,
    "binder": true
   },
   {
@@ -688,6 +740,7 @@
      "asset": "Assets/Levels/Maps/Tutorials/MainTutorial/MainTutorial/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 10,
    "binder": true
   },
   {
@@ -701,6 +754,7 @@
      "asset": "Assets/Levels/Maps/Tutorials/ShootingRange/Shooting Range/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 42,
    "binder": true
   },
   {
@@ -714,6 +768,7 @@
      "asset": "Assets/Levels/Maps/Zombie/Battleforce/Battleforce/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 35,
    "binder": true
   },
   {
@@ -727,6 +782,7 @@
      "asset": "Assets/Levels/Maps/Zombie/Playground/Playground/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 119,
    "binder": true
   },
   {
@@ -740,6 +796,7 @@
      "asset": "Assets/Levels/Menu/LightmapFar-0.png"
     }
    ],
+   "lightmapped_renderers": 9,
    "binder": true
   }
  ]

@@ -37,10 +37,15 @@ SURFACE_GENERATED = {
 # Fixed-function state that has no modern equivalent and is reproduced
 # differently (documented in the shader files themselves).
 STATE_EXCEPTIONS = {
+    # The legacy Vertex / VertexLM / VertexLMRGBM pass family cannot be
+    # reproduced: `unity_LightmapMatrix` and the fixed-function combiners are
+    # gone, and a CG pass tagged "Vertex" never receives the LIGHTMAP_ON
+    # keyword. Both shaders are folded into one ForwardBase pass instead.
+    "Mobile/Unlit (Supports Lightmap)": {"LightMode"},
+    "Mobile/VertexLit": {"LightMode", "Offset"},
     "ProBuilder/Unlit Solid Color": {"AlphaTest"},   # -> clip()
     "ProBuilder/UnlitVertexColor": {"AlphaTest"},    # -> clip()
     "Particles/Additive": {"AlphaTest"},             # -> clip()
-    "Mobile/VertexLit": {"Offset"},                  # shadow passes -> Fallback
 }
 STATE_KEYS = ("Blend", "ZWrite", "Cull", "ColorMask", "Offset", "AlphaTest", "ZTest")
 

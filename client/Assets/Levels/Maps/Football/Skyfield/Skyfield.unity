@@ -41526,3 +41526,18 @@ MonoBehaviour:
   lightmapsFar:
   - {fileID: 2800000, guid: 823e10865cc9a9545a4f3f4908ed6f2a, type: 3}
   lightmapsNear: []
+  renderers:
+  - {fileID: 936}
+  - {fileID: 964}
+  - {fileID: 969}
+  - {fileID: 996}
+  lightmapIndices:
+  - 0
+  - 0
+  - 0
+  - 0
+  lightmapScaleOffsets:
+  - {x: 0.40429688, y: 0.40429688, z: 0.56222653, w: -0.008085938}
+  - {x: 0.07714844, y: 0.07714844, z: -0.0015429689, w: 0.8041211}
+  - {x: 0.07714844, y: 0.07714844, z: -0.0015429689, w: 0.7279492}
+  - {x: 0.7373047, y: 0.7373047, z: 0.0, w: 0.0}
