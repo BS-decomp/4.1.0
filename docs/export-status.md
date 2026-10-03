@@ -7,7 +7,7 @@
 | Repository scaffold | ✅ Done | Layout follows the BS-decomp convention. |
 | Ground-truth APK | ✅ Received | `original/apk/com.rexetstudio.blockstrike-780.apk`; SHA-256 `4275b1ab06565bf16b8d049b2ad91d2a16c6637a0f41bedacca308a93a608c18`; 56,650,916 bytes. |
 | APK fingerprint | ✅ Done | Mono Android build; armeabi-v7a and x86 libraries; 58 scenes (`level0`–`level57`) and 60 `sharedassets` files observed. |
-| Unity project export | ⏳ Not started | APK payload has been prepared for AssetRipper in `/tmp/bs41-export` during analysis; no recovered project committed. |
+| Unity project export | ✅ Initial export complete | AssetRipper 2.0.0 exported 3,321 assets to `client/` using Unity 4.7.2f1; export is present locally and requires validation before committing/migration. |
 
 ## Verified APK facts
 
@@ -15,7 +15,7 @@
 - Backend is **Mono**: `libmono.so` is present for `armeabi-v7a` and `x86`; `Assembly-CSharp.dll` and other Managed DLLs are present.
 - No `libil2cpp.so` or `global-metadata.dat` was found.
 - Managed payload includes `ProBuilderCore-Unity4.dll` and `ProBuilderMeshOps-Unity4.dll`.
-- `Assembly-CSharp.dll` was extracted as a normal PE/.NET DLL. The 3.7.0 TEA transform is not applied automatically; reuse of that wrapper remains unverified.
+- `Assembly-CSharp.dll` is TEA-wrapped with the same `<J3Tech>` wrapper pattern used by 3.7.0: AssetRipper rejected the unwrapped APK payload as an invalid PE, while `tools/prepare_export.py --decrypt-tea` produced a valid `MZ` PE and allowed export.
 - APK contents use split files such as `level1.split0`/`level1.split1`; `tools/prepare_export.py` reassembles them.
 
 ## Target editor decision
