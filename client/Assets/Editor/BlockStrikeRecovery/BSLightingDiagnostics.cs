@@ -166,8 +166,7 @@ public static class BSLightingDiagnostics
                          " renderer(s) switched to 'no lightmap' and the binder disabled. " +
                          "Nothing is saved — reopen the scene to undo.");
         EditorUtility.DisplayDialog("Block Strike lighting",
-            "Безопасный режим: лайтмапы отвязаны у " + touched + " рендереров.
-" +
+            "Безопасный режим: лайтмапы отвязаны у " + touched + " рендереров.\n" +
             "Ничего не сохранено — переоткрой сцену, чтобы вернуть.", "OK");
     }
 }
