@@ -1,0 +1,244 @@
+Key,English,Russia,French,Spanish,Portuguese,Korean,Japanese,Polish
+Play Game,Play Game,Играть,Jouer,Juego,Jogar,게임 시작,ゲーム,Zagraj W Grę
+More,More,Еще,Plus,Más,Mais,더 보기,以上,Więcej
+Exit,Exit,Выход,Sortie,Salida,Saída,나가기,口,Wyjście
+Back,Back,Назад,De retour,De vuelta,De volta,뒤로,裏,Temu
+Europe,Europe,Европа,Europe,Europa,Europa,유럽,欧州,Europa
+USA,USA,США,États-unis,Estados Unidos,EUA,미국,米国,USA
+Asia,Asia,Азия,Asie,Asia,Ásia,아시아,アジア,Azji
+Japan,Japan,Япония,Japon,Japón,Japão,일본,日本,Japonia
+Select Region,Select Region,Выбрать регион,Sélectionnez Région,Seleccione región,Selecione Região,나라 선택,選択地域,Wybierz Region
+Servers,Servers,Сервера,Serveur,Servidores,Servidores,서버,サーバー,Serwera
+Player,Player,Игрок,Joueur,Jugador,Player,플레이어,プレイヤー,Odtwarzacz
+Shop,Shop,Магазин,Boutique,Tienda,Loja,상점,店,Sklep
+Create Server,Create Server,Создать сервер,Créer Serveur,Crear Servidor,Criar Servidor,서버 만들기,作成サーバ,Utworzyć Serwer
+Refresh,Refresh,Обнов.,Actualiser,Actualización,Atualização,새로고침,リフレッシュ,Zaktualizować
+Mode,Mod,Режим,Mod,Modo de,Modo de,모드,モード,Mod
+Server Name,Server Name,Имя сервера,Nom Serveur,Nombre Servidor,Nome Servidor,서버이름,サーバー名,Nazwa Serwera
+Max Players,Max Players,Макс. игроков,Max. Joueurs,Máximo Jugadores,Máximo Jogadores,최대 인원,最大選手,Max Graczy
+Password,Password,Пароль,Mot de passe,Contraseña,Palavra-passe,비밀번호,パスワード,Hasło
+Players,Players,Игроки,Joueurs,Jugadores,Jogadores,플레이어들,選手,Gracze
+Ping,Ping,Пинг,Ping,Ping,Ping,핑,Ping,Ping
+New Level,New Level,Новый уровень,Nouveau Niveau,Nuevo Nivel,Novo Nível,레벨 업,新しいレベル,Nowy Poziom
+Blue Team,Blue Team,Синяя команда,Blue Team,Blue Team,Blue Team,블루팀,ブルーチーム,Drużyna
+Red Team,Red Team,Красная команда,Red Team,Red Team,Red Team,레드팀,赤いチーム,Czerwona Drużyna
+Connecting,Connecting,Подключение,Connexion,La conexión,Conexão,연결,接続,Połączenie
+TeamDeathmatch,Team Deathmatch,Командный бой,Team Deathmatch,Team Deathmatch,Team Deathmatch,팀 데스매치,チームデスマッチ,Team Deathmatch
+KnifeMode,Knife Mode,Резня,Couteau Mode,Cuchillo Modo,Faca Modo,칼 모드,ナイフモード,Tryb Nóż
+Selected,Selected,Выбран,Sélectionné,Seleccionado,Selecionado,선택됨,選択,Wybrany
+Select,Select,Выбрать,Sélectionnez,Seleccione,Selecione,선택,選択,Wybierz
+Damage,Damage,Урон,Dommage,Daños,Danos,데미지,被害,Uszkodzenia
+FireRate,Fire Rate,Скорост.,La Cadence De Tir,Tasa Fuego,Taxa De Incêndio,연사속도,火率,Szybkostrzelność
+Accuracy,Accuracy,Точность,Précision,Precisión,Rigor,정확도,精度,Dokładność
+Ammo,Ammo,Патроны,Munitions,Munición,Munição,총알,胸を張って投稿を続,Amunicja
+MaxAmmo,Max Ammo,Макс. патроны,Max. Munitions,Max. Munición,Max. Munição,최대 총알,最大胸を張って投稿を続,Max Amunicji
+Mobility,Mobility,Мобильность,Mobilité,La movilidad,Mobilidade,기동성,移動,Mobilność
+Password is incorrect,Password is incorrect,Пароль неверный,Mot de passe erroné,La contraseña incorrecta,Palavra-passe incorrecta,비밀번호가 틀립니다,パスワードが間違っ,Hasło nieprawidłowe
+ChangeName,Change Name,Изменить имя,Modifier nom,Cambio nom,Alteração nome,이름 변경,名称変更,Zmiana Nazwy
+Name,Name,Имя,Nom,Nom,Nome,이름,名称,Nazwa
+Level,Level,Уровень,Niveau,Nivel,Nível,레벨,レベル,Poziom
+Deaths,Deaths,Смертей,Décès,Muertes,Mortes,사망,死亡数,Śmierć
+Kills,Kills,Убийств,Tue,Mata,Mata,를 죽임,殺し,Zabija
+Stats,Stats,Статистика,Stats,Estadísticas,Estatísticas,통계,Stats,Statystyki
+Resume,Resume,Продолжить,Résumé,Continuar,Continuar,정지,履歴書,Cv
+Options,Options,Опции,Options,Opciones,Opções,설정,オプション,Opcje
+Others,Others,Другое,autres,Otros,Outros,기타,その他,Inne
+Creating Server,Creating Server,Создание сервера,Création serveur,Creación Servidor,Criando Servidor,서버 만드는중,作成サーバ,Tworzenie Serwera
+Loading,Loading,Загрузка,Chargement,Espere,Carregamento,접속중...,荷重,Pobieranie
+Blue Win,Blue Win,Синие победили,Blue Gagner,Blue Gana,Azul Vitória,블루팀 승리,青勝,Niebieski Pokonał.
+Red Win,Red Win,Красные победили,Red Gagner,Red Gana,Vermelho Vitória,레드팀 승리,赤勝,Czerwone Wygrały
+Sensitivity,Sensitivity,Чувствительность,Sensibilité,Sensibilidad,Sensibilidade,감도,感度,Czułość
+Console,Console,Консоль,Console,Consola,Console,콘솔,コンソール,Konsoli
+Sound,Sound,Звук,Son,Sonido,De som,소리,音,Dźwięk
+Please wait,Please wait,Пожалуйста подождите,Veuillez patienter,Por favor espere,Aguade,잠시만 기다려 주세요,お待ちください,Proszę czekać
+HeadshotKills,Headshots,Убийств в голову,Headshots,Disparos en la cabeza,Tiros na cabeça,헤드샷,Headshots,Strzał w głowę
+Main Weapon,Main weapon,Главное оружие,Arme principale,Arma principal,Arma principal,주 무기,メイン武器,Główna broń
+Secondary weapon,Secondary weapon,Вторичное оружие,Arme secondaire,Arma secundaria,Arma secundária,보조 무기,副武器,Broni
+Melee Weapon,Melee weapon,Оружие ближнего боя,Arme de mêlée,Arma melee,Arma Corpo A Corpo,근접 무기,近接武器,Broń do walki w zwarciu
+Player Skin,Player Skin,Скин игрока,Joueur apparence,Aspecto jugador,Aparência do jogador,플레이어 스킨,プレイヤーの皮膚,Gracz Skóry
+AWPMode,AWP Mode,AWP Режим,Mode AWP,AWP Modo,AWP Modo,AWP 모드,AWPモード,Tryb AWP
+More Apps,More Apps,Другие прил.,Apps,Más Apps,Mais Aplicações,많은 앱,よりアプリ,Więcej Aplikacji
+Case,Case,Кейс,Cas,Caso,Caso,케이스,ケース,Sprawa
+Offline,Offline,Оффлайн,Offline,Offline,Offline,오프라인,オフライン,W trybie offline
+Server,Server,Сервер,Serveur,Servidor,Servidor,서버,サーバー,Serwer
+Join,Join,Подкл.,Connecter,Conectar,Conectar,접속,接続,Dołącz
+Delete,Delete,Удалить,Supprimer,Eliminar,Excluir,삭제,削除,Usunąć
+Do you want to remove,Do you want to remove,Вы хотите удалить,Voulez-vous supprimer,¿Que desea eliminar,Você deseja excluir,삭제하시겠습니까?,削除しますか。,Czy na pewno chcesz usunąć
+Yes,Yes,Да,Oui,Sí,Sim,예,[はい],Tak
+No,No,Нет,Non,No,Não,아니요,いいえ,Nie
+Online,Online,Онлайн,Online,Online,Online,온라인,オンライン,Online
+Map,Map,Карта,Carte,Mapa,Mapa,맵,地図,Mapie
+Close,Close,Закрыть,Fermer,Cerrar,Fechar,닫기,閉じる,Obok
+Spectators,Spectators,Наблюдатели,Observateurs,Observadores,Observadores,관전,オブザーバー,Widzów
+Legendary quality,Legendary quality,Легендарное качество,Qualité légendaire,Legendaria calidad,Qualidade lendária,전설적인 스킨,전설적인 품질,Legendarna jakość
+Professional quality,Professional quality,Профессиональное качество,Qualité professionnelle,Calidad profesional,Qualidade profissional,전문적인 스킨,プロの品質,Profesjonalnej jakości
+Basic quality,Basic quality,Базовое качество,Qualité de base,Básica de calidad,Básicos de qualidade,기본 스킨,基本的な品質,Główne jakość
+Normal quality,Normal quality,Обычное качество,Qualité normale,Calidad normal,Qualidade normal,일반 스킨,標準品質,Normalna jakość
+Used сases,Used сases,Исполь. кейсов,Сases occasion,Сases usados,Сases usado,사용된 케이스,使用 сases,Przykłady
+Total skins,Total skins,Всего скинов,Peaux de total,Total pieles,Peles totais,스킨갯수,全スキン,Wspólna skóry
+Connected,Connected,Подключился,Relié,Conectado,Conectado,접속,接続されています。,Podłączony
+Disconnect,Disconnect,Отключился,Débranchez,Desconecte,Desconectar-se,나감,切断,Odłączyć
+Money,Money,Деньги,Argent,Dinero,Dinheiro,돈,お金,Pieniądze
+Gold,Gold,Золото,Or,Oro,Ouro,골드,ゴールド,Złoto
+Watch the video and open the case,Watch the video and open the case,Посмотреть видео и открыть кейс,ouvrir le boîtier,Mira el video y abrir la caja,Assista ao vídeo e abra a caixa,비디오를 보고 케이스를 여세요,ビデオを見るし、ケースを開けてください,Obejrzyj film i otworzyć obudowę
+Сase will be available through,Сase will be available through,Кейс будет доступен через,au,Сase estará disponible a través de,Сase estará disponível através de,케이스를 통해 사용할 수 있습니다,Сase から入手可能でしょう,Etui będzie dostępne przez
+Not enough money,Not enough money,Недостаточно денег,argent,No hay suficiente dinero,Dinheiro não é suficiente,돈이 충분하지 않습니다,お金が足りない,Brakuje pieniędzy
+The new case is available,The new case is available,Новый кейс уже доступен,Le nouveau cas est disponible,El nuevo está disponible,O novo caso está disponível,새로운 케이스를 열 수 있습니다,新しいケースが可能,Nowy korpus jest dostępny
+Already available,Already available,Уже имеется,Déjà disponible,Ya está disponible,Já está disponível,이미 가지고 있는 스킨,すでに利用可能です,Już dostępny
+New Weapon,New Weapon,Новое оружие,Nouvelle arme,Nueva arma,Nova arma,새로운 무기,新しい武器,Nowe Bronie
+Default,Default,По умолч.,Par défaut,Por defecto,Padrão,기본,デフォルト,Domyślnie
+Pause,Pause,Пауза,Pause,Pausa,Pausa,정지,一時停止,Pauza
+The server is full,The server is full,Сервер переполнен,Le serveur est plein,El servidor está lleno,O servidor está cheio,서버가 꽉 찼습니다,サーバーがいっぱい,Serwer jest pełny
+ServerAdminSpeedHack,The server administrator uses cheats,Администратор сервера использует читы,administrateur du serveur utilise des cheats,El administrador del servidor utiliza trucos,O administrador do servidor usa cheats,치트를 감지하였습니다,サーバー管理者は、チートを使用してください。,Administrator serwera cieszy читами
+Load data successfully,Load data successfully,Загрузка данных прошло успешно,Charger données avec succès,Cargar datos éxito,Carregar dados com êxito,데이터 불러오기 성공,正常にデータを読み込む,Pobieranie danych z powodzeniem
+Loading data failed,Loading data failed,Загрузка данных не удалось,Échec du chargement des données,Error al cargar datos,Falha ao carregar dados,데이터 불러오기 실패,データの読み込みに失敗しました,Pobieranie danych nie powiodło się
+Save data successfully,Save data successfully,Сохранение данных прошло успешно,Enregistrer des données avec succès,Guardar datos con éxito,Salvar os dados com êxito,성공적으로 데이터를 저장하였습니다,正常にデータを保存します。,Zapisz dane pomyślnie
+Save data failed,Save data failed,Сохранить данные не удалось,Enregistrer des données a échoué,Guardar los datos de error,Salvar dados falhados,데이터 저장을 실패했습니다,データ保存に失敗しました,Zapisz dane nie udało
+GunGame,Gun Game,Гонка вооружений,Gun Game,Gun Game,Gun Game,총 게임,銃のゲーム,Gry Pistolety
+Watch the video,Watch the video,Посмотреть видео,Voir la vidéo,Ver el video,Assista ao vídeo,비디오 시청하기,ビデオを見る,Oglądać filmy
+Video not available,Video not available,Видео недоступно,Vidéo non disponible,Vídeo no disponible,Vídeo não disponível,비디오를 볼 수 없습니다,ビデオを利用できません。,Film nie jest dostępny
+Developer connected,Developer has connected to server,Разраб подключился к серверу,est connecté au serveur,Desarrollador se ha conectado al servidor,Desenvolvedor tem conectado ao servidor,개발자가 서버에 접속했습니다,開発者がサーバーに接続されています。,Wywoływacz podłączone do serwera
+ShareText,m play in Block Strike. I advise all to play.,Играю в Block Strike. Cоветую всем сыграть.,Je suis jouer dans Block Strike. Je conseille à tous de jouer.,Estoy en el juego Block Strike. Aconsejo a todos a jugar.,Eu jogar no Block Strike. Aconselho todos a jogar.,나는 블록스트라이크를 한다. 다같이 이게임을 하는걸 추천한다,私はレBlock Strikeます。 アドバイスをしていて遊びます。,m grać w zablokować cios. Radzę wszystkim grać.
+Autobalance: You moved to another team,Autobalance: You moved to another team,Автобаланс: Вы перешли в другую команду,Balance automatique: vous avez déplacé à une autre équipe,Auto balance: movido a otro equipo,Auto-equilíbrio: você mudou-se para outra equipe,자동벨런스 : 당신은 다른팀으로 변경됬습니다,オート バランス: 別のチームに移動しました。,Autobalans: przesiedli się do innego zespołu
+ShowDamage,Show Damage,Показ. урон,Présentent des dommages,Muestran daños,Mostrar danos,보기 손상,ダメージを表示します。,Pokaż Uszkodzenia
+Double-click the button increases,Double-click the button increases,Двойной клик увеличивает кнопки,Double-cliquez sur la bouton augmentation,Haga doble clic en el botón aumenta,Clique duas vezes o botão aumenta,단추 증가 두 번 클릭,ボタンの増加をダブルクリックします,"Naciśnij dwukrotnie przycisk, aby powiększyć"
+Customize buttons,Customize buttons,Настройка кнопок,Personnaliser les boutons,Personalizar botones,Personalizar botões,단추 사용자 지정,ボタンをカスタマイズします。,Konfiguracja przycisków
+Skin,Skin,Скин,Peau,Piel,Pele,피부,肌,Skóra
+DeathRun,Death Run,Death Run,Death Run,Death Run,Death Run,Death Run,Death Run,Śmierci
+Waiting for other players,Waiting for other players,В ожидании других игроков,Attente pour les autres joueurs,A la espera de otros jugadores,À espera de outros jogadores,다른 플레이어를 기다리고,他の選手を待っています。,Czekamy na innych graczy
+died,died,умер,est mort,murió,morreu,죽 었 다,死亡しました。,zmarł
+All,All,Все,Tous,Todos,Todos os,모든,すべて,Wszystkie
+Hunter,Hunter,Охотник,Hunter,Cazador,Hunter,헌터,ハンター,Myśliwy
+ZombieSurvival,Zombie Survival,Зомби выживание,Zombie Survival,Supervivencia Zombie,Zombie Survival,좀비 서바이벌,ゾンビ サバイバル,Zombie Survival
+Infestation started,Infestation started,Заражение началось,Infestation a commencé,Iniciado la infestación,Infestação começada,감염 시작,侵入を開始,Zakażenie się zaczęło
+Survivors Win,Survivors Win,Выжившие победили,Victoire de survivants,Sobrevivientes ganan,Vitória de sobreviventes,생존자 승리,生存者の勝利,Ocaleni Wygrać
+Infestation will start in 20 seconds,Infestation will start in 20 seconds,Заражение начнется через 20 секунд,Infestation commencera en 20 secondes,Infestación se iniciará en 20 segundos,Infestação começará em 20 segundos,감염 20 초에 시작 됩니다.,インフェ ステーションは 20 秒で開始されます。,Inwazja rozpocznie się w 20 sekund
+Zombie Win,Zombie Win,Зомби победили,Victoire de Zombie,Victoria de Zombie,Vitória de zumbi,좀비 승리,ゾンビの勝利,Zombie Wygrać
+Australia,Australia,Австралия,Australie,Australia,Austrália,오스트레일리아,オーストラリア,Australia
+СolorСrosshair,Сolor Сrosshair,Цвет прицела,Couleur Srosshair,Color Srosshair,Cor Srosshair,색상 Srosshair,色 Srosshair,Kolor Celownika
+Zombie,Zombie,Зомби,Zombie,Zombie,Zombie,좀비,ゾンビ,Zombie
+Survivors,Survivors,Выжившие,Survivants,Sobrevivientes,Sobreviventes,생존자,生存者,Ocaleni
+Notification,Notification,Уведомление,Notification,Notificación,Notificação,알림,通知,Powiadomienie
+Select a Player,Select a Player,Выберите игрока,Sélectionnez un joueur,Seleccione un jugador,Selecione um jogador,선수 선택,選手を選択します。,Wybierz odtwarzacz
+Waiting for confirmation,Waiting for confirmation,Ждем подтверждения,En attente de confirmation,A la espera de confirmación,À espera de confirmação,확인을 기다리고,確認を待ってください。,Czekam na potwierdzenie
+rejected a request,rejected a request,отклонил заявку,rejeté une demande,rechazó una solicitud de,rejeitou um pedido,요청 거부,要求を拒否しました,odrzucił wniosek
+Request has been sent,Request has been sent,Заявка отправлена,Demande a été envoyée,Petición ha sido enviada,Solicitação foi enviada,요청 했습니다.,要求が送信されました,Wniosek został wysłany
+accepted a request,accepted a request,принял заявку,a accepté une demande,aceptó una solicitud de,aceite um pedido,요청을 허용,要求を受け入れ,przyjmowanie zapytanie
+Kick,Kick,Кикнуть,Chasser,Echar,Expulsar,강제퇴장,キック,Kick-ass
+You kicked from the server,You kicked from the server,Вы кикнуты с сервера,Vous avez expulsé du serveur,Pateado desde el servidor,Você chutado do servidor,서버에서 쫓겨,サーバーから追い出さ,Wyrzucony z serwera
+Cost of change name 100 gold,Cost of change name 100 gold,Стоимость изменения имени 100 золота,or,Costo de cambio de nombre de 100 de oro,Custo de mudança de nome de 100 ouro,원가의 이름 변경이 100 골드,コストの名前変更100金,Koszt zmiany nazwy na 100 złota
+Buy,Buy,Купить,Acheter,Comprar,Comprar,사,購入,Sprzedam
+Drop only in case,Drop only in case,Выпадает только в кейсе,Déposer uniquement dans le cas où,Sólo en caso de caída,Largar apenas em caso,강하에서만 사례,落ちる場合に限り,"Spadek tylko w tym przypadku,"
+Settings,Settings,Настройки,Paramètres,Configuración,Definições,설정,設定,Parametry
+Achievement,Achievement,Достижения,Réalisation,Logro,Realização,성공,成功,Osiągnięcie
+About Game,About Game,Об игре,Sur Le Jeu,Sobre El Juego,Acerca Do Jogo,에 대한 게임,ゲーム,O Grze
+Share,Share,Поделиться,Partager,Compartir,Compartilhar,보내기,シェア,Udział
+Sign in,Sign in,Войти,Signe dans,Signo en,Login,로그인,サインイン,Znak w
+Sign out,Sign out,Выйти,Signe,Sesión,Sair,나,施,Wyjście
+Requires Level,Requires Level,Требуется уровень,Requiert Le Niveau,Requiere Nivel,Requer Nível,필요한 수준,必要レベル,Wymagany Poziom
+Chat,Chat,Чат,Chat,Chat,Bate-papo,Chat,チャット,Czat
+Language,Language,Язык,Langue,Idioma,Idioma,언어,言語,Język
+Save/Load Data,Save/Load Data,Сохр./Загр. данные,Données Sauvegarde/Chargement Données,Guardar/Cargar Datos,Salvar/Carregar Dados,절/하중 데이터,保存/負荷データ,Ładowania/Zapisywania Danych
+Classic,Classic,Классика,Classique,Clásico,Clássico,클래식,クラシック,Klasyczny
+RandomMode,Random,Random,Random,Random,Random,Random,Random,Losowy
+Stop,Stop,Стоп,Arrêter,Parada,Parar,지,停止,Stop
+Finished map,finished map,прошел карту,fini la carte,terminado mapa,terminado mapa,완제도,完成図,ukończył mapie
+Next Map,Next Map,Следующая карта,La Prochaine Carte,Siguiente Mapa,Próximo Mapa,Next 지도,次に地図,Na Poniższej Mapie
+Win,win,победил,gagner,ganar,vitória,win,勝利,wygrać
+BunnyHop,Bunny Hop,Bunny Hop,Bunny Hop,Bunny Hop,Bunny Hop,Bunny Hop,Bunny Hop,Bunny Hop
+Deathmatch,Death match,Deathmatch,Deathmatch,Deathmatch,Death match,Deathmatch,Deathmatch,Deathmatch
+HungerGames,Hunger Games,Голодные игры,Les Jeux De La Faim,Los Juegos Del Hambre,Jogos Vorazes,헝거게임,飢餓ゲーム,Igrzyska Śmierci
+Weapons,Weapons,Оружия,Armes,Armas,Armas,무기를,武器,Broń
+Skip,Skip,Пропустить,Sauter,Skip,Pular,로 건너뛰기,スキップ,Pominąć
+Game Information,Game Information,Информация об игре,Informations Sur Le Jeu,Información Del Juego,Informações Do Jogo,게임 정보,ゲーム情報,Informacje O Grze
+Only Admin,Only Admin,Только админам,Administrateur,Solo El Administrador,Apenas Admin,만 Admin,みAdmin,Tylko Admin
+Previous voting is not finished,Previous voting is not finished,Предыдущее голосование не закончено,est pas terminé,Anterior votación no está terminado,"Anterior, o voto não é concluída",이전투표가 끝난 것이 아닙,前の投票が終了しておりません,Poprzednie głosowanie zakończone
+You want to kick a player,You want to kick a player,Вы хотите кикнуть игрока,Vous souhaitez vous détendre un joueur,Quieres patear a un jugador,Você quer chutar um jogador,려차기는 플레이어,したいキックプレイヤー,Chcesz kopnąć gracza
+Voting started,Voting started,Голосование началось,Le vote a commencé,La votación comenzó,A votação começou,투표 시작,投票を開始,Głosowanie rozpoczęło się
+Name already taken,Name already taken,Имя уже занято,Le nom est déjà pris,Nombre tomado ya,O nome já tomadas,이미 이름,名称については,Nazwa jest już zajęta
+Error,Error,Ошибка,Erreur,Error,Erro,류,エラー,Błąd
+Connect,Connect,Подключиться,Connecter,Conecte,Ligar,연결,接続,Połączenie
+Connect to the account,Connect to the account,Подключение к аккаунту,Connectez-vous au compte,Conectarse a la cuenta de,Ligue para a conta,에 연결하는 계정,接続口座への,Połączenie z kontem
+Player ID,Player ID,ID игрока,ID de joueur,ID de jugador,ID do jogador,ID 플레이어,プレイヤーのID,ID gracza
+Synchronize data,Synchronize data,Синхронизация данных,Synchroniser les données,Sincronizar los datos,Sincronizar dados,데이터 동기화,データ同期,Synchronizować dane
+Dead,Dead,Мертв,Morts,Muerto,Mortos,죽은,死者,Martwe
+KingHill,King of the Hill,Царь горы,Roi de la Colline,El rey de la Colina,King of the Hill,왕의 언덕,King of the Hill,Król góry
+BulletHole,Bullet Holes,Отвер. от пуль,Trous De Balle,Agujeros De Bala,Buracos De Bala,총알 구멍,弾痕,Dziury Po Kulach
+Blood,Blood,Кровь,Le sang,La sangre,Sangue,피,血,Krew
+Required level greater than 15,Required level greater than 15,Требуется уровень выше 15,Niveau de plus de 15,Nivel requerido mayor a 15,Necessário nível superior a 15,필요한 수준보다 더 큰 15,必要レベル以上15,Wymagany poziom przekracza 15
+ChanceOfDrop,Chance of drop,Шанс выпадения,Chance de drop,Probabilidad de caída de,Chance de drop,의 기회를 놓,チャド,Szansa wylosowania
+Skins,Skins,Скины,Peaux,Pieles,Peles,스킨,皮,Skórki
+Cases,Cases,Кейсы,Cas,Casos,Casos,례,の場合,Przypadkach
+Available new version of the game,Available new version of the game,Доступна новая версия игры,Disponible la nouvelle version du jeu,Disponible nueva versión del juego,Disponível nova versão do jogo,사용 가능한 새로운 버전의 게임,り新しいバージョンのゲーム,Dostępna jest nowa wersja gry
+New Version,New Version,Новая версия,Nouvelle Version,Nueva Versión,Nova Versão,새로운 버전,新しいバージョン,Nowa Wersja
+Download,Download,Скачать,Télécharger,Descargar,Download,다운로드,ダウンロード,Pobierz
+Free,Free,Бесплатно,Gratuit,Gratis,Livre,무료,無料,Za darmo
+Normal,Normal,Обычный,Normal,Normal,Normal,일반,通常の,Normalny
+Base,Base,Базовый,Base,Base,Base,Base,ベース,Baza
+Professional,Professional,Профессиональный,Professionnel,Profesional,Profissional,직업,プロ,Profesjonalny
+Legendary,Legendary,Легендарный,Légendaire,Legendario,Lendário,설,伝説,Legendarny
+Draw,Draw,Ничья,Tirage,Empate,Sorteio,그,描画,Remis
+SyncTime,Sync after,Синхронизация через,Après la synchronisation,Después de la sincronización,Após a sincronização,후 Sync,同期の後,Po synchronizacji
+HotKnife,Hot Knife,Горячий нож,Couteau Chaud,Cuchillo Caliente,Faca Quente,뜨거운 칼,温泉はナイフ,Gorący Nóż
+min,min,мин,min,min,min,최소,最小,min
+Headshot,Headshot,В голову,Headshot,Headshot,Headshot,Headshot,Headshot,Strzał w głowę
+General,General,Основное,Général,General,Geral,일반,一般,Ogólne
+Controls,Controls,Управление,Les contrôles,Controles,Controles,컨트롤,制御,Kontrola
+Audio,Audio,Аудио,Audio,Audio,Áudio,오디오,オーディオ,Audio
+Lefty,Lefty,Левша,Lefty,El zurdo,Lefty,왼손잡이,Lefty,Leworęczny
+Quick Play,Quick Play,Быстрая игра,Le Jeu Rapide,El Juego Rápido,Jogo Rápido,빠른 재생,クイック再生,Szybka Gra
+Any,Any,Любой,Tout,Cualquier,Qualquer,모,他の,Każdy
+The server with the selected data was not found. You want to create your own server?,The server with the selected data was not found. You want to create your own server?,Сервер с выбранными данными не найден. Хотите создать свой сервер?,a pas été trouvé. Vous souhaitez créer votre propre serveur?,El servidor con los datos seleccionados no se encontró. Quieres crear tu propio servidor?,O servidor com os dados selecionados não foi encontrado. Você quer criar seu próprio servidor?,서버로 선택한 데이터를 찾을 수 없습니다. 만들려는 당신의 자신의 서버가?,サーバーに選択されたデータは見つかりませんでした。 を作りたい自分のサーバですか？,Serwer z wybranymi danymi nie znaleziono. Chcesz stworzyć swój własny serwer?
+Search Server,Search Server,Поиск сервера,Recherche Serveur,Servidor De Búsqueda,O Servidor De Pesquisa,검색 서버,検索サーバ,Serwer Wyszukiwania
+Weapon,Weapon,Оружие,Arme,Arma,Arma,기,武器,Broń
+Make any purchase to disable ads,Make any purchase to disable ads,"Сделайте любую покупку, чтобы отключить рекламу",Tout achat de désactiver les annonces,Realizar cualquier compra para deshabilitar los anuncios,Fazer qualquer compra para desativar anúncios,어떤 구입 광고를 사용하지 않고,商品をご購入を無効にする広告,"Dokonać zakupu, aby wyłączyć reklamy"
+Only,Only,Only,Seulement,Sólo,Apenas,만,のみ,Tylko
+Secret Weapon,Secret Weapon,Секретное оружие,Arme Secrète,Arma Secreta,Arma Secreta,비밀 병기,秘密兵器,Tajna Broń
+Secret,Secret,Секретный,Secret,Secreto,Segredo,비밀,秘密,Sekret
+On,On,Вкл,Sur,En,On,에,月,Na
+Off,Off,Выкл,Off,Off,Fora,륙,Off,Od
+Connection account,Connection account,Подключение к аккаунту,Compte de connexion,Conexión de la cuenta,Conta de conexão,연결이 계정,接続口,Konto połączenia
+Kill players,Kill players,Убить игроков,Tuer les joueurs,Matar a los jugadores,Matar jogadores,죽 플레이어,キヤ,Zabijać graczy
+LensFlare,Lens Flare,Блики,Lens Flare,Llamarada De La Lente,Lens Flare,렌즈는 플레어,レンズフレア,Blask
+Brazil,Brazil,Бразилия,Brésil,Brasil,Brasil,브라질,ブラジル,Brazylia
+Cancel,Cancel,Отмена,Annuler,Cancelar,Cancelar,취소,消,Anuluj
+Football,Football,Футбол,Football,Fútbol,Futebol,축구,サッカー,Piłka nożna
+scored a goal,scored a goal,забил гол,a marqué un but,marcó un gol,marcou um gol,골을 득점,岡崎選手がストライカー,strzelił gola
+Autogoal,Autogoal,Автогол,Autogoal,Autogoal,Autogoal,Autogoal,Autogoal,Bramka samobójcza
+Enter text,Enter text,Написать сообщение,Saisir du texte,Introduzca el texto,Introduzir texto,텍스트 입력,入力テキスト,Wpisz tekst
+Players in chat,Players in chat,Игроков в чате,Les joueurs dans le chat,Los jugadores en el chat,Jogadores em bate-papo,플레이어에서 채팅,選手はチャット,Gracze na czacie
+Juggernaut,Juggernaut,Джаггернаут,Juggernaut,Juggernaut,Juggernaut,트,ユ,Juggernaut
+LanguageType,English,Русский,Français,Español,Português,한국의,日本の,Polski
+Volume,Volume,Громкость,Volume,Volumen,Volume,량,数量,Ilość
+Hit Maker,Hit Maker,Хит Маркер,Hit Maker,Hit Maker,Hit Maker,Hit Maker,ヒットメーカー,Hit Maker
+Ambient Sound,Ambient Sound,Звук окружения,Ambient Sound,Ambient Sound,Ambient Sound,주변 소리,周囲の音,Ambient Sound
+Button Alpha,Buttons Transparency,Прозрачность кнопок,Les Boutons De La Transparence,Los Botones De La Transparencia,Botões De Transparência,버튼 투명성,ボタンの透明性,Przejrzystość Przycisku
+Training,Training,Обучение,De formation,Formación,Formação,교육,研修,Szkolenia
+Shooting Range,Shooting Range,Стрельбище,Plage De Prise De Vue,Campo De Tiro,Campo De Tiro,촬영 범위,撮影範囲,Strzelnicy
+Use the joystick to move,Use the joystick to move,Используйте джойстик для перемещения,Utilisez le joystick pour déplacer,Utilice el joystick para mover,Use o joystick para mover-se,조이스틱을 사용하여 이동,軒のジョイスティックへ移動,"Użyj joysticka, aby przenieść"
+Use the right part of the screen to look around,Use the right part of the screen to look around,"Используйте правую часть экрана, чтобы осмотреться",écran pour regarder autour,El uso de la parte derecha de la pantalla para mirar a su alrededor,Utilize a parte direita da tela para olhar ao redor,사용 화면의 오른쪽 부분의 주위에 보,権利の一部を画面の見,"Użyj prawą część ekranu, aby się rozejrzeć"
+Use the jump to pass the obstacles,Use the jump to pass the obstacles,"Используйте прыжок, чтобы пройти препятствия",Utilisez le saut de passer les obstacles,Utilizar el salto para pasar los obstáculos,Utilize o salto para passar os obstáculos,를 사용하여 이동 전달 장애물,をご利用にジャンプの障害,"Użyj skoku, aby przejść przeszkód"
+Climb the ladder,Climb the ladder,Поднимитесь по лестнице,échelle,Subir la escalera,Subir a escada,리,ハシゴののぼりおり,Wspinać się po schodach
+Go to the weapon to pick up,Go to the weapon to pick up,"Чтобы забрать оружие, подойдите к нему",arme à ramasser,Ir a las armas para recoger,Ir para a arma para pegar,로 이동하기하는 선택,を武器に持ち直,"Odwiedź broń, aby odebrać"
+Press the button to fire,Press the button to fire,Нажмите кнопку для стрельбы,Appuyez sur le bouton pour tirer,Pulse el botón para disparar,Pressione o botão para disparar,버튼을 눌러 불,ボタンを押すと火災,"Naciśnij przycisk, aby ogień"
+Shoot at targets,Shoot at targets,Стреляйте по мишеням,Tirer sur les cibles,Disparar a los objetivos,Atirar em alvos,에서 촬영상,撮影時の目標,Strzelać do celów
+Press the button to reload,Press the button to reload,Нажмите кнопку для перезарядки,Appuyez sur le bouton pour recharger,Pulse el botón para volver a cargar,Pressione o botão para recarregar,버튼을 누르면 다시 로드,ボタンを押すと再読み込み,"Naciśnij przycisk, aby ponownie uruchomić"
+Switch weapons,Switch weapons,Смените оружие,armes,Cambiar de arma,Trocar de armas,무기를 전환,スイッチ兵器,Przełączyć broni
+Training completed,Training completed,Обучение завершено,La formation terminée,Entrenamiento completado,Formação concluída,교육이 완료,研修修了程,Szkolenie zakończone
+Videos,Videos,Видео,Vidéos,Videos,Vídeos,동영상,ビデオ,Wideo
+Region,Region,Регион,Région,Región,Região,지역,地域,Dziedzinie
+Coming soon,Coming soon,Скоро,Bientôt,Próximamente,Em breve,곧,始,W najbliższym czasie
+Clans,Clans,Кланы,Clans,Clans,Clans,종족,藩,Klany
+Your device is not found a Google Account,your device is not found a Google Account,на вашем устройстве не найден Google аккаунт,est pas détecté un Compte Google,el dispositivo no se encuentra una Cuenta de Google,o seu dispositivo não for encontrada uma Conta do Google,장치를 발견되지 않는 Google 계정,デバイスが見つからなかったGoogleアカウント,urządzenie nie zakładają konto Google
+Reward,Reward,Награда,Récompense,Recompensa,Recompensa,보,報酬,Nagroda
+Rewards,Rewards,Награды,Récompenses,Recompensas,Recompensas,보,報酬,Nagrody
+PvP,PvP,PvP,PvP,PvP,PvP,PvP,PvP,PvP
+Surf,Surf,Surf,Surf,Surf,Surf,Surf,Surf,Surf
+To receive the award watch the video before the end of,To receive the award watch the video until the end,Чтобы получить награду посмотрите видео до конца,à la fin,Para recibir el premio de ver el video hasta el final,Para receber o prêmio assista o vídeo até o final,을 받을 수상 비디오를 시청하이 끝날 때까지,受賞の映像を終了まで,Aby otrzymać nagrodę obejrzeć film do końca
+ExitText,Do you really want exit the game?,Вы действительно хотите выйти из игры?,Voulez-vous vraiment quitter le jeu?,¿De verdad quieres salir del juego?,Você realmente deseja sair do jogo?,당신이 정말로 원하는 게임을 종료합니까?,だいたい出口のゲームです。,Czy na pewno chcesz wyjść z gry?
+Privacy policy,Privacy Policy,Политика конфиденциальности,Politique De Confidentialité,Política De Privacidad,Política De Privacidade,개인 정보 보호 정책,プライバシー方針,Polityka Prywatności
+South Korea,South Korea,Южная корея,La Corée Du Sud,Corea Del Sur,Coreia Do Sul,대한민국,韓国,Korea Południowa
+Show Weapon,Show Weapon,Показ. оружие,Montrer Arme,Mostrar Arma,Mostrar A Arma,쇼기,ショーの武器,Pokaż Broń
+Session is already outdated,Session is already outdated,Сессия уже устарела,La Session est déjà dépassé,Sesión ya está obsoleta,A sessão já está desatualizado,세션은 이미 오래된,セッションが既に時代遅れ,Sesja już nieaktualne
+Restart the game,Restart the game,Перезапустите игру,Redémarrez le jeu,Reinicie el juego,Reinicie o jogo,다시 시작 게임,を再起動しゲーム,Ponownie uruchom grę
+Search,Search,Поиск,,,,,,

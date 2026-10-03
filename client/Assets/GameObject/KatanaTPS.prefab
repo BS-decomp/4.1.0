@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &147589
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 405782}
+  - 114: {fileID: 11461526}
+  m_Layer: 0
+  m_Name: KatanaTPS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &179954
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 454010}
+  - 33: {fileID: 3319550}
+  - 23: {fileID: 2384216}
+  - 114: {fileID: 11443158}
+  m_Layer: 0
+  m_Name: Katana
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &109266
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 431434}
+  - 33: {fileID: 3370521}
+  - 23: {fileID: 2396012}
+  m_Layer: 0
+  m_Name: MuzzleFlashKnife
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &405782
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_LocalRotation: {x: 0.037231825, y: 0.33712325, z: 0.0371807, w: 0.93998903}
+  m_LocalPosition: {x: 0.255, y: 0.39, z: -0.139}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 454010}
+  - {fileID: 431434}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11461526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e205dbbcf695941f0f284ec81fef245, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  WeaponID: 0
+  WeaponSkin: 0
+  WeaponAtlas:
+  - {fileID: 11443158}
+  isMuzzle: 1
+  Muzzle: {fileID: 431434}
+  FireStat: 0
+  FireStatModel: {fileID: 0}
+  FireStatCounters: []
+  Stickers: []
+  CanSound: 1
+  TwoHandedWeapon: 0
+  TwoWeapon: {fileID: 0}
+  TwoMuzzle: {fileID: 0}
+  TwoWeaponPosition: {x: 0, y: 0, z: 0}
+  TwoWeaponRotation: {x: 0, y: 0, z: 0}
+--- !u!4 &454010
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_LocalRotation: {x: -0.0022800874, y: 0.0015796723, z: -0.70614165, w: -0.7080652}
+  m_LocalPosition: {x: -0.254, y: 0.021000003, z: 0.012999997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 405782}
+  m_RootOrder: 0
+--- !u!33 &3319550
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2384216
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: c4a0dae140dcfae4b8bb03e9c425c150, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!114 &11443158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77acf2f35990d41a7230a8b5f22a2b04, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  originalMesh: {fileID: 4300000, guid: cbf29427bb729dd4c986934d4e871d97, type: 2}
+  mScale: {x: 1, y: 1, z: 1}
+  mPivot: {x: 0, y: 0, z: 0}
+  mMirrorX: 0
+  mMirrorY: 0
+  mMirrorZ: 0
+  mFlip: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  originalMaterial: {fileID: 2100000, guid: c4a0dae140dcfae4b8bb03e9c425c150, type: 2}
+  atlasMaterial: {fileID: 0}
+  mAtlas: {fileID: 11409266, guid: 6320c7fbec32d3842bf53cfef8601515, type: 2}
+  mSpriteName: 22-0
+--- !u!4 &431434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109266}
+  m_LocalRotation: {x: 0.99999523, y: -0.001360249, z: -0.0004952556, w: -0.0027293095}
+  m_LocalPosition: {x: 0.24999791, y: 0.019630278, z: 0.012497017}
+  m_LocalScale: {x: 1, y: 0.99999994, z: 0}
+  m_Children: []
+  m_Father: {fileID: 405782}
+  m_RootOrder: 1
+--- !u!33 &3370521
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109266}
+  m_Mesh: {fileID: 4300000, guid: 2deed19d360b72041a674a6caeafd5b1, type: 2}
+--- !u!23 &2396012
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109266}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 9d14f9cf57169284683fe9949c219071, type: 2}
+  m_SubsetIndices:
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 147589}
+  m_IsPrefabParent: 1
+  m_IsExploded: 0
