@@ -228,7 +228,7 @@ public class ZombieMode : PunBehaviour
 		CameraManager.DeactiveAll();
 		GameManager.GetController().ActivePlayer(GameManager.GetTeamSpawn().GetSpawnPosition(), GameManager.GetTeamSpawn().GetSpawnRotation());
 		playerInput.UpdatePlayerSpeed(0.18f);
-		playerInput.FPCamera.camera.fieldOfView = 60f;
+		playerInput.FPCamera.GetComponent<Camera>().fieldOfView = 60f;
 		WeaponManager.SetSelectWeapon(WeaponType.Knife, AccountManager.GetWeaponSelected(WeaponType.Knife));
 		WeaponManager.SetSelectWeapon(WeaponType.Pistol, AccountManager.GetWeaponSelected(WeaponType.Pistol));
 		WeaponManager.SetSelectWeapon(WeaponType.Rifle, AccountManager.GetWeaponSelected(WeaponType.Rifle));
@@ -254,7 +254,7 @@ public class ZombieMode : PunBehaviour
 		CameraManager.DeactiveAll();
 		GameManager.GetController().ActivePlayer(GameManager.GetTeamSpawn().GetSpawnPosition(), GameManager.GetTeamSpawn().GetSpawnRotation());
 		playerInput.UpdatePlayerSpeed(0.19f);
-		playerInput.FPCamera.camera.fieldOfView = 100f;
+		playerInput.FPCamera.GetComponent<Camera>().fieldOfView = 100f;
 		WeaponManager.SetSelectWeapon(WeaponType.Knife, 17);
 		WeaponManager.SetSelectWeapon(WeaponType.Pistol, 0);
 		WeaponManager.SetSelectWeapon(WeaponType.Rifle, 0);

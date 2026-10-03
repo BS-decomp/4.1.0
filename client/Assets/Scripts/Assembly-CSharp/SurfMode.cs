@@ -41,7 +41,7 @@ public class SurfMode : PunBehaviour
 			StartSpawnRotation = GameManager.GetTeamSpawn(Team.Blue).GetTransform().rotation;
 			PlayerInput playerInput = GameManager.GetController().PlayerInput;
 			playerInput.SurfEnabled = true;
-			playerInput.FPCamera.camera.farClipPlane = 300f;
+			playerInput.FPCamera.GetComponent<Camera>().farClipPlane = 300f;
 			playerInput.FPController.MotorAirSpeed = 0.13f;
 			playerInput.FPController.PhysicsGravityModifier = 0.15f;
 			playerInput.FPController.PhysicsForceDamping = 0.045f;

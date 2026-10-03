@@ -115,7 +115,7 @@ public class vp_Component : MonoBehaviour
 		{
 			if (m_Audio == null)
 			{
-				m_Audio = base.audio;
+				m_Audio = base.GetComponent<AudioSource>();
 			}
 			return m_Audio;
 		}
@@ -127,7 +127,7 @@ public class vp_Component : MonoBehaviour
 		{
 			if (m_Collider == null)
 			{
-				m_Collider = base.collider;
+				m_Collider = base.GetComponent<Collider>();
 			}
 			return m_Collider;
 		}

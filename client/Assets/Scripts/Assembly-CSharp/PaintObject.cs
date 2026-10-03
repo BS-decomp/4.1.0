@@ -37,18 +37,18 @@ public class PaintObject : MonoBehaviour
 				{
 					if (hitInfo.transform.name != "Plane")
 					{
-						hitInfo.transform.renderer.enabled = false;
+						hitInfo.transform.GetComponent<Renderer>().enabled = false;
 					}
-					faces[i].renderer.enabled = false;
+					faces[i].GetComponent<Renderer>().enabled = false;
 				}
 				else
 				{
-					faces[i].renderer.enabled = true;
+					faces[i].GetComponent<Renderer>().enabled = true;
 				}
 			}
 			else
 			{
-				faces[i].renderer.enabled = true;
+				faces[i].GetComponent<Renderer>().enabled = true;
 			}
 			Color32 color = PaintManager.GetColor(colorID);
 			Color32[] colors = new Color32[4] { color, color, color, color };
@@ -70,7 +70,7 @@ public class PaintObject : MonoBehaviour
 				RaycastHit hitInfo;
 				if (Physics.Raycast(CachedTransform.position, -faces[i].forward, out hitInfo, 1.1f) && hitInfo.transform.CompareTag("PaintObject") && hitInfo.transform.name != "Plane")
 				{
-					hitInfo.transform.renderer.enabled = true;
+					hitInfo.transform.GetComponent<Renderer>().enabled = true;
 				}
 			}
 		}

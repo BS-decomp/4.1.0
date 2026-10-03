@@ -18,8 +18,8 @@ public class FootballManager : MonoBehaviour
 		instance.Ball.SetActive(true);
 		if (PhotonNetwork.isMasterClient)
 		{
-			instance.Ball.rigidbody.velocity = Vector3.zero;
-			instance.Ball.rigidbody.angularVelocity = Vector3.zero;
+			instance.Ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			instance.Ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
 		instance.Ball.transform.position = instance.StartBallPosition;
 	}
@@ -29,8 +29,8 @@ public class FootballManager : MonoBehaviour
 		instance.Ball.SetActive(false);
 		if (PhotonNetwork.isMasterClient)
 		{
-			instance.Ball.rigidbody.velocity = Vector3.zero;
-			instance.Ball.rigidbody.angularVelocity = Vector3.zero;
+			instance.Ball.GetComponent<Rigidbody>().velocity = Vector3.zero;
+			instance.Ball.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 		}
 		instance.Ball.transform.position = instance.StartBallPosition;
 	}

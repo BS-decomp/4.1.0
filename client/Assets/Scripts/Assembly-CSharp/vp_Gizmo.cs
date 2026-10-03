@@ -8,8 +8,8 @@ public class vp_Gizmo : MonoBehaviour
 
 	public void OnDrawGizmos()
 	{
-		Vector3 center = base.collider.bounds.center;
-		Vector3 size = base.collider.bounds.size;
+		Vector3 center = base.GetComponent<Collider>().bounds.center;
+		Vector3 size = base.GetComponent<Collider>().bounds.size;
 		Gizmos.color = gizmoColor;
 		Gizmos.DrawCube(center, size);
 		Gizmos.color = new Color(0f, 0f, 0f, 1f);
@@ -18,8 +18,8 @@ public class vp_Gizmo : MonoBehaviour
 
 	public void OnDrawGizmosSelected()
 	{
-		Vector3 center = base.collider.bounds.center;
-		Vector3 size = base.collider.bounds.size;
+		Vector3 center = base.GetComponent<Collider>().bounds.center;
+		Vector3 size = base.GetComponent<Collider>().bounds.size;
 		Gizmos.color = selectedGizmoColor;
 		Gizmos.DrawCube(center, size);
 		Gizmos.color = new Color(0f, 0f, 0f, 1f);

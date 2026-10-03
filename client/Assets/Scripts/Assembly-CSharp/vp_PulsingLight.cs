@@ -12,7 +12,7 @@ public class vp_PulsingLight : MonoBehaviour
 
 	private void Start()
 	{
-		m_Light = base.light;
+		m_Light = base.GetComponent<Light>();
 	}
 
 	private void Update()

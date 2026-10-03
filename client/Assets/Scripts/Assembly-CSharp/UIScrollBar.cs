@@ -85,7 +85,7 @@ public class UIScrollBar : UISlider
 	protected override void OnStart()
 	{
 		base.OnStart();
-		if (mFG != null && mFG.gameObject != base.gameObject && (mFG.collider != null || mFG.GetComponent<Collider2D>() != null))
+		if (mFG != null && mFG.gameObject != base.gameObject && (mFG.GetComponent<Collider>() != null || mFG.GetComponent<Collider2D>() != null))
 		{
 			UIEventListener uIEventListener = UIEventListener.Get(mFG.gameObject);
 			uIEventListener.onPress = (UIEventListener.BoolDelegate)Delegate.Combine(uIEventListener.onPress, new UIEventListener.BoolDelegate(base.OnPressForeground));

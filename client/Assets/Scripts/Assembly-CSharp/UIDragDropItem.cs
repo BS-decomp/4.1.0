@@ -67,8 +67,8 @@ public class UIDragDropItem : MonoBehaviour
 	protected virtual void Awake()
 	{
 		mTrans = base.transform;
-		mCollider = base.collider;
-		mCollider2D = base.collider2D;
+		mCollider = base.GetComponent<Collider>();
+		mCollider2D = base.GetComponent<Collider2D>();
 	}
 
 	protected virtual void OnEnable()

@@ -53,7 +53,7 @@ public class UICursor : MonoBehaviour
 			mousePosition.x = Mathf.Clamp01(mousePosition.x / (float)Screen.width);
 			mousePosition.y = Mathf.Clamp01(mousePosition.y / (float)Screen.height);
 			mTrans.position = uiCamera.ViewportToWorldPoint(mousePosition);
-			if (uiCamera.isOrthoGraphic)
+			if (uiCamera.orthographic)
 			{
 				Vector3 localPosition = mTrans.localPosition;
 				localPosition.x = Mathf.Round(localPosition.x);

@@ -104,7 +104,7 @@ public class InputToEvent : MonoBehaviour
 		if (Physics.Raycast(m_Camera.ScreenPointToRay(screenPos), out hitInfo, 200f))
 		{
 			inputHitPos = hitInfo.point;
-			return hitInfo.collider.gameObject;
+			return hitInfo.GetComponent<Collider>().gameObject;
 		}
 		return null;
 	}

@@ -541,7 +541,7 @@ public class UIWidget : UIRect
 	{
 		get
 		{
-			BoxCollider boxCollider = base.collider as BoxCollider;
+			BoxCollider boxCollider = base.GetComponent<Collider>() as BoxCollider;
 			if (boxCollider != null)
 			{
 				return true;

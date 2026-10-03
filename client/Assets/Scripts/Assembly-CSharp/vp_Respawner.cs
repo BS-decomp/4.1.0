@@ -51,7 +51,7 @@ public class vp_Respawner : MonoBehaviour
 	protected virtual void Awake()
 	{
 		m_Transform = base.transform;
-		m_Audio = base.audio;
+		m_Audio = base.GetComponent<AudioSource>();
 		Placement.Position = (m_InitialPosition = m_Transform.position);
 		Placement.Rotation = (m_InitialRotation = m_Transform.rotation);
 		if (m_SpawnMode == SpawnMode.SamePosition)
@@ -182,10 +182,10 @@ public class vp_Respawner : MonoBehaviour
 		if (Application.isPlaying)
 		{
 			m_Transform.position = Placement.Position;
-			if (base.rigidbody != null && !base.rigidbody.isKinematic)
+			if (base.GetComponent<Rigidbody>() != null && !base.GetComponent<Rigidbody>().isKinematic)
 			{
-				base.rigidbody.angularVelocity = Vector3.zero;
-				base.rigidbody.velocity = Vector3.zero;
+				base.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+				base.GetComponent<Rigidbody>().velocity = Vector3.zero;
 			}
 		}
 	}

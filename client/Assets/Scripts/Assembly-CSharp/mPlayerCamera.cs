@@ -18,7 +18,7 @@ public class mPlayerCamera : MonoBehaviour
 	private void Awake()
 	{
 		instance = this;
-		mCamera = base.camera;
+		mCamera = base.GetComponent<Camera>();
 		RotateSpeed = Mathf.Sqrt(RotateSpeed) / Mathf.Sqrt(Screen.dpi);
 	}
 

@@ -205,8 +205,8 @@ public class vp_FPCamera : vp_Component
 		{
 			item.gameObject.layer = 30;
 		}
-		base.camera.cullingMask &= 1073741823;
-		base.camera.depth = 0f;
+		base.GetComponent<Camera>().cullingMask &= 1073741823;
+		base.GetComponent<Camera>().depth = 0f;
 		Camera camera = null;
 		foreach (Transform item2 in base.Transform)
 		{
@@ -288,7 +288,7 @@ public class vp_FPCamera : vp_Component
 	{
 		m_CameraCollisionStartPos = FPController.Transform.TransformPoint(0f, PositionOffset.y, 0f);
 		m_CameraCollisionEndPos = base.Transform.position + (base.Transform.position - m_CameraCollisionStartPos).normalized * FPController.mCharacterController.radius;
-		if (Physics.Linecast(m_CameraCollisionStartPos, m_CameraCollisionEndPos, out m_CameraHit, -1749041173) && !m_CameraHit.collider.isTrigger)
+		if (Physics.Linecast(m_CameraCollisionStartPos, m_CameraCollisionEndPos, out m_CameraHit, -1749041173) && !m_CameraHit.GetComponent<Collider>().isTrigger)
 		{
 			base.Transform.position = m_CameraHit.point - (m_CameraHit.point - m_CameraCollisionStartPos).normalized * FPController.mCharacterController.radius;
 		}
@@ -384,7 +384,7 @@ public class vp_FPCamera : vp_Component
 		{
 			RenderingZoomDamping = Mathf.Max(RenderingZoomDamping, 0.01f);
 			float t = 1f - (m_FinalZoomTime - Time.time) / RenderingZoomDamping;
-			base.gameObject.camera.fieldOfView = Mathf.SmoothStep(base.gameObject.camera.fieldOfView, RenderingFieldOfView, t);
+			base.gameObject.GetComponent<Camera>().fieldOfView = Mathf.SmoothStep(base.gameObject.GetComponent<Camera>().fieldOfView, RenderingFieldOfView, t);
 		}
 	}
 
@@ -395,7 +395,7 @@ public class vp_FPCamera : vp_Component
 
 	public virtual void SnapZoom()
 	{
-		base.gameObject.camera.fieldOfView = RenderingFieldOfView;
+		base.gameObject.GetComponent<Camera>().fieldOfView = RenderingFieldOfView;
 	}
 
 	protected virtual void UpdateShakes()

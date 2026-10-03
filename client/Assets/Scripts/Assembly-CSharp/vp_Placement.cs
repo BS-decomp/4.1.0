@@ -39,7 +39,7 @@ public class vp_Placement
 		{
 			RaycastHit hitInfo;
 			Physics.SphereCast(new Ray(p.Position + Vector3.up * snapDistance, Vector3.down), radius, out hitInfo, snapDistance * 2f, -1749041173);
-			if (hitInfo.collider != null)
+			if (hitInfo.GetComponent<Collider>() != null)
 			{
 				p.Position.y = hitInfo.point.y + 0.05f;
 			}

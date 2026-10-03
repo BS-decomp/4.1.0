@@ -197,7 +197,7 @@ public class MeshEditor : MonoBehaviour
 		UpdateVertices();
 		UpdateFlip();
 		editMesh.uv = originalMesh.uv;
-		editMesh.uv1 = originalMesh.uv1;
+		editMesh.uv2 = originalMesh.uv2;
 		editMesh.normals = originalMesh.normals;
 		editMesh.tangents = originalMesh.tangents;
 		meshFilter.mesh = editMesh;

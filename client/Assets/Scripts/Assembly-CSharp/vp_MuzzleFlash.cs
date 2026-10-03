@@ -45,19 +45,19 @@ public class vp_MuzzleFlash : MonoBehaviour
 	private void Awake()
 	{
 		m_Transform = base.transform;
-		m_Color = base.renderer.material.GetColor("_TintColor");
+		m_Color = base.GetComponent<Renderer>().material.GetColor("_TintColor");
 		m_Color.a = 0f;
 		m_ForceShow = false;
-		m_Light = base.light;
+		m_Light = base.GetComponent<Light>();
 		if (m_Light != null)
 		{
 			m_LightIntensity = m_Light.intensity;
 			m_Light.intensity = 0f;
 		}
-		m_Renderer = base.renderer;
+		m_Renderer = base.GetComponent<Renderer>();
 		if (m_Renderer != null)
 		{
-			m_Material = base.renderer.material;
+			m_Material = base.GetComponent<Renderer>().material;
 		}
 	}
 

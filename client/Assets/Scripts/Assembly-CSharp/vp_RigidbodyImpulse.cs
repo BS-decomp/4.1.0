@@ -11,7 +11,7 @@ public class vp_RigidbodyImpulse : MonoBehaviour
 
 	protected virtual void Awake()
 	{
-		m_Rigidbody = base.rigidbody;
+		m_Rigidbody = base.GetComponent<Rigidbody>();
 	}
 
 	protected virtual void OnEnable()

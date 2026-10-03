@@ -44,7 +44,7 @@ public class vp_DamageHandler : MonoBehaviour
 
 	protected virtual void Awake()
 	{
-		m_Audio = base.audio;
+		m_Audio = base.GetComponent<AudioSource>();
 		m_CurrentHealth = MaxHealth;
 		CheckForObsoleteParams();
 	}

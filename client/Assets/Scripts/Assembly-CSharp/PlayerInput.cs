@@ -271,7 +271,7 @@ public class PlayerInput : MonoBehaviour
 			isCursor = !isCursor;
 		}
 		Screen.lockCursor = isCursor;
-		Screen.showCursor = !isCursor;
+		Cursor.visible = !isCursor;
 	}
 
 	private void UpdateMove()

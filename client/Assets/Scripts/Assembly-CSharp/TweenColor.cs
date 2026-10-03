@@ -96,13 +96,13 @@ public class TweenColor : UITweener
 		{
 			return;
 		}
-		Renderer renderer = base.renderer;
+		Renderer renderer = base.GetComponent<Renderer>();
 		if (renderer != null)
 		{
 			mMat = renderer.material;
 			return;
 		}
-		mLight = base.light;
+		mLight = base.GetComponent<Light>();
 		if (mLight == null)
 		{
 			mWidget = GetComponentInChildren<UIWidget>();

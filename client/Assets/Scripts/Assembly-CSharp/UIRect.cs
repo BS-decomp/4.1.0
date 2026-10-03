@@ -106,9 +106,9 @@ public abstract class UIRect : MonoBehaviour
 				{
 					return rect.GetSides(relativeTo);
 				}
-				if (target.camera != null)
+				if (target.GetComponent<Camera>() != null)
 				{
-					return target.camera.GetSides(relativeTo);
+					return target.GetComponent<Camera>().GetSides(relativeTo);
 				}
 			}
 			return null;
@@ -295,7 +295,7 @@ public abstract class UIRect : MonoBehaviour
 			{
 				return 0f;
 			}
-			if (!mCam.isOrthoGraphic)
+			if (!mCam.orthographic)
 			{
 				Transform transform = cachedTransform;
 				Transform transform2 = mCam.transform;

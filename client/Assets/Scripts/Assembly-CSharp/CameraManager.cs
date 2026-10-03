@@ -44,7 +44,7 @@ public class CameraManager : MonoBehaviour
 	private void Awake()
 	{
 		instance = this;
-		m_Rigidbody = m_Camera.rigidbody;
+		m_Rigidbody = m_Camera.GetComponent<Rigidbody>();
 		m_Transform = m_Camera.transform;
 	}
 
@@ -89,7 +89,7 @@ public class CameraManager : MonoBehaviour
 		}
 		instance.SelectCameraType = CameraType.Dead;
 		instance.m_Transform.gameObject.SetActive(true);
-		instance.m_Camera.collider.isTrigger = false;
+		instance.m_Camera.GetComponent<Collider>().isTrigger = false;
 		instance.m_Rigidbody.isKinematic = false;
 		instance.m_Transform.position = position;
 		instance.m_Transform.eulerAngles = rotation;
@@ -103,7 +103,7 @@ public class CameraManager : MonoBehaviour
 	{
 		instance.SelectCameraType = CameraType.None;
 		instance.m_Rigidbody.isKinematic = true;
-		instance.m_Camera.collider.isTrigger = true;
+		instance.m_Camera.GetComponent<Collider>().isTrigger = true;
 		instance.m_Transform.gameObject.SetActive(false);
 	}
 

@@ -17,7 +17,7 @@ public class WFX_AutoDestructShuriken : MonoBehaviour
 		{
 			yield return new WaitForSeconds(0.5f);
 		}
-		while (base.particleSystem.IsAlive(true));
+		while (base.GetComponent<ParticleSystem>().IsAlive(true));
 		if (OnlyDeactivate)
 		{
 			base.gameObject.SetActive(false);

@@ -207,7 +207,7 @@ public class MeshAtlas : MonoBehaviour
 			{
 				lastAtlas = value;
 				atlasMaterial = mAtlas.spriteMaterial;
-				meshFilter.renderer.sharedMaterial = atlasMaterial;
+				meshFilter.GetComponent<Renderer>().sharedMaterial = atlasMaterial;
 				if (string.IsNullOrEmpty(mSpriteName))
 				{
 					spriteName = lastSpriteName;
@@ -256,7 +256,7 @@ public class MeshAtlas : MonoBehaviour
 		if (originalMesh == null)
 		{
 			originalMesh = meshFilter.mesh;
-			originalMaterial = meshFilter.renderer.sharedMaterial;
+			originalMaterial = meshFilter.GetComponent<Renderer>().sharedMaterial;
 			if (atlas == null && lastAtlas != null)
 			{
 				atlas = lastAtlas;
@@ -280,7 +280,7 @@ public class MeshAtlas : MonoBehaviour
 			atlasMesh.name = originalMesh.name + "_Atlas";
 			UpdateVertices();
 			UpdateFlip();
-			atlasMesh.uv1 = originalMesh.uv1;
+			atlasMesh.uv2 = originalMesh.uv2;
 			atlasMesh.normals = originalMesh.normals;
 			UpdateColor();
 			atlasMesh.tangents = originalMesh.tangents;
@@ -289,7 +289,7 @@ public class MeshAtlas : MonoBehaviour
 			{
 				atlasMaterial = atlas.spriteMaterial;
 			}
-			meshFilter.renderer.sharedMaterial = atlasMaterial;
+			meshFilter.GetComponent<Renderer>().sharedMaterial = atlasMaterial;
 			meshFilter.mesh = atlasMesh;
 		}
 	}
@@ -298,7 +298,7 @@ public class MeshAtlas : MonoBehaviour
 	{
 		if (atlasMesh != null)
 		{
-			atlasMaterial = meshFilter.renderer.sharedMaterial;
+			atlasMaterial = meshFilter.GetComponent<Renderer>().sharedMaterial;
 			Object.DestroyImmediate(atlasMesh);
 			atlasMesh = null;
 		}
@@ -308,7 +308,7 @@ public class MeshAtlas : MonoBehaviour
 		}
 		if (originalMaterial != null)
 		{
-			meshFilter.renderer.sharedMaterial = originalMaterial;
+			meshFilter.GetComponent<Renderer>().sharedMaterial = originalMaterial;
 		}
 	}
 
@@ -316,7 +316,7 @@ public class MeshAtlas : MonoBehaviour
 	{
 		UpdateVertices();
 		UpdateFlip();
-		atlasMesh.uv1 = originalMesh.uv1;
+		atlasMesh.uv2 = originalMesh.uv2;
 		atlasMesh.normals = originalMesh.normals;
 		UpdateColor();
 		atlasMesh.tangents = originalMesh.tangents;

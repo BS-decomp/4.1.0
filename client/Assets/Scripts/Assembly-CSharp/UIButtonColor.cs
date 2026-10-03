@@ -132,14 +132,14 @@ public class UIButtonColor : UIWidgetContainer
 			{
 				return;
 			}
-			Renderer renderer = tweenTarget.renderer;
+			Renderer renderer = tweenTarget.GetComponent<Renderer>();
 			if (renderer != null)
 			{
 				mDefaultColor = ((!Application.isPlaying) ? renderer.sharedMaterial.color : renderer.material.color);
 				mStartingColor = mDefaultColor;
 				return;
 			}
-			Light light = tweenTarget.light;
+			Light light = tweenTarget.GetComponent<Light>();
 			if (light != null)
 			{
 				mDefaultColor = light.color;

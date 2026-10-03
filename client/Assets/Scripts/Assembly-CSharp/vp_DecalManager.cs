@@ -67,9 +67,9 @@ public sealed class vp_DecalManager
 		{
 			m_Decals.Remove(decal);
 		}
-		Color color = decal.renderer.material.color;
+		Color color = decal.GetComponent<Renderer>().material.color;
 		color.a = 1f;
-		decal.renderer.material.color = color;
+		decal.GetComponent<Renderer>().material.color = color;
 		m_Decals.Add(decal);
 		FadeAndRemove();
 	}
@@ -82,15 +82,15 @@ public sealed class vp_DecalManager
 			{
 				if (m_Decals[i] != null)
 				{
-					Color color = m_Decals[i].renderer.material.color;
+					Color color = m_Decals[i].GetComponent<Renderer>().material.color;
 					color.a -= m_FadeAmount;
-					m_Decals[i].renderer.material.color = color;
+					m_Decals[i].GetComponent<Renderer>().material.color = color;
 				}
 			}
 		}
 		if (m_Decals[0] != null)
 		{
-			if (m_Decals[0].renderer.material.color.a <= 0f)
+			if (m_Decals[0].GetComponent<Renderer>().material.color.a <= 0f)
 			{
 				vp_Utility.Destroy(m_Decals[0]);
 				m_Decals.Remove(m_Decals[0]);
@@ -118,7 +118,7 @@ public sealed class vp_DecalManager
 		int num2 = 0;
 		foreach (GameObject decal in m_Decals)
 		{
-			if (decal.renderer.material.color.a == 1f)
+			if (decal.GetComponent<Renderer>().material.color.a == 1f)
 			{
 				num++;
 			}

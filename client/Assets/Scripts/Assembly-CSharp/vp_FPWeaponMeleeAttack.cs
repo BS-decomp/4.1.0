@@ -133,7 +133,7 @@ public class vp_FPWeaponMeleeAttack : vp_Component
 				Ray ray = new Ray(new Vector3(m_Controller.Transform.position.x, m_Camera.Transform.position.y, m_Controller.Transform.position.z), m_Camera.Transform.forward);
 				RaycastHit hitInfo;
 				Physics.SphereCast(ray, DamageRadius, out hitInfo, DamageRange, -1828716565);
-				if (hitInfo.collider != null)
+				if (hitInfo.GetComponent<Collider>() != null)
 				{
 					SpawnImpactFX(hitInfo);
 					ApplyDamage(hitInfo);
@@ -191,8 +191,8 @@ public class vp_FPWeaponMeleeAttack : vp_Component
 
 	private void ApplyDamage(RaycastHit hit)
 	{
-		hit.collider.SendMessage(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
-		Rigidbody attachedRigidbody = hit.collider.attachedRigidbody;
+		hit.GetComponent<Collider>().SendMessage(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
+		Rigidbody attachedRigidbody = hit.GetComponent<Collider>().attachedRigidbody;
 		if (attachedRigidbody != null && !attachedRigidbody.isKinematic)
 		{
 			attachedRigidbody.AddForceAtPosition(m_Camera.Transform.forward * DamageForce / Time.timeScale / vp_TimeUtility.AdjustedTimeScale, hit.point);

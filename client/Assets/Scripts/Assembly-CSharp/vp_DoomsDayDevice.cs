@@ -29,12 +29,12 @@ public class vp_DoomsDayDevice : MonoBehaviour
 		{
 			m_PlayerAudioSource = m_Player.GetComponent<AudioSource>();
 		}
-		m_DeviceAudioSource = base.audio;
+		m_DeviceAudioSource = base.GetComponent<AudioSource>();
 		m_Button = GameObject.Find("ForbiddenButton");
 		if (m_Button != null)
 		{
 			m_OriginalButtonPos = m_Button.transform.localPosition;
-			m_OriginalButtonColor = m_Button.renderer.material.color;
+			m_OriginalButtonColor = m_Button.GetComponent<Renderer>().material.color;
 		}
 		m_PulsingLight = m_Button.GetComponentInChildren<vp_PulsingLight>();
 		if (m_PulsingLight != null)
@@ -52,7 +52,7 @@ public class vp_DoomsDayDevice : MonoBehaviour
 		if (m_Button != null)
 		{
 			m_Button.transform.localPosition = m_OriginalButtonPos;
-			m_Button.renderer.material.color = m_OriginalButtonColor;
+			m_Button.GetComponent<Renderer>().material.color = m_OriginalButtonColor;
 		}
 		if (m_DeviceAudioSource != null)
 		{
@@ -79,7 +79,7 @@ public class vp_DoomsDayDevice : MonoBehaviour
 		{
 			if (m_Button != null)
 			{
-				m_Button.renderer.material.color = Color.Lerp(m_Button.renderer.material.color, m_OriginalButtonColor * 0.2f, Time.deltaTime * 1.5f);
+				m_Button.GetComponent<Renderer>().material.color = Color.Lerp(m_Button.GetComponent<Renderer>().material.color, m_OriginalButtonColor * 0.2f, Time.deltaTime * 1.5f);
 			}
 			if (m_DeviceAudioSource != null)
 			{

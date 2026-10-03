@@ -46,7 +46,7 @@ public class UINameManager : MonoBehaviour
 		_Ray = m_Camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 		if (Physics.Raycast(_Ray, out _RaycastHit, 100f))
 		{
-			if (_RaycastHit.collider.CompareTag("PlayerSkin"))
+			if (_RaycastHit.GetComponent<Collider>().CompareTag("PlayerSkin"))
 			{
 				HitName = _RaycastHit.transform.root.name;
 				if (HitName != LastName)

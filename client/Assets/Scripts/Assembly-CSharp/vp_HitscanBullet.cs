@@ -41,8 +41,8 @@ public class vp_HitscanBullet : MonoBehaviour
 	private void Awake()
 	{
 		m_Transform = base.transform;
-		m_Renderer = base.renderer;
-		m_Audio = base.audio;
+		m_Renderer = base.GetComponent<Renderer>();
+		m_Audio = base.GetComponent<AudioSource>();
 	}
 
 	private void Start()
@@ -79,7 +79,7 @@ public class vp_HitscanBullet : MonoBehaviour
 				m_Transform.localScale = localScale;
 				m_Transform.parent = hitInfo.transform;
 			}
-			Rigidbody attachedRigidbody = hitInfo.collider.attachedRigidbody;
+			Rigidbody attachedRigidbody = hitInfo.GetComponent<Collider>().attachedRigidbody;
 			if (attachedRigidbody != null && !attachedRigidbody.isKinematic)
 			{
 				attachedRigidbody.AddForceAtPosition(ray.direction * Force / Time.timeScale / vp_TimeUtility.AdjustedTimeScale, hitInfo.point);
@@ -107,7 +107,7 @@ public class vp_HitscanBullet : MonoBehaviour
 				m_Audio.Stop();
 				m_Audio.Play();
 			}
-			hitInfo.collider.SendMessageUpwards(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
+			hitInfo.GetComponent<Collider>().SendMessageUpwards(DamageMethodName, Damage, SendMessageOptions.DontRequireReceiver);
 			if (NoDecalOnTheseLayers.Length > 0)
 			{
 				int[] noDecalOnTheseLayers = NoDecalOnTheseLayers;

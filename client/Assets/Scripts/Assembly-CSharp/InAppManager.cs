@@ -242,7 +242,7 @@ public class InAppManager : MonoBehaviour
 	private void SendFirebase(GooglePurchase purchase)
 	{
 		Firebase firebase = new Firebase();
-		JsonObject jsonObject = new JsonObject();
+		FreeJSON.JsonObject jsonObject = new FreeJSON.JsonObject();
 		jsonObject.Add("token", purchase.purchaseToken);
 		firebase.Child("Players").Child("InAppPurchase").Child(AccountManager.AccountID)
 			.Child(purchase.purchaseTime.ToString())

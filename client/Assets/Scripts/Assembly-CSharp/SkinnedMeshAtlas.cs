@@ -140,7 +140,7 @@ public class SkinnedMeshAtlas : MonoBehaviour
 		if (originalMesh == null)
 		{
 			originalMesh = base.gameObject.GetComponent<SkinnedMeshRenderer>().sharedMesh;
-			originalMaterial = mf.renderer.sharedMaterial;
+			originalMaterial = mf.GetComponent<Renderer>().sharedMaterial;
 			if (atlas == null && lastUsedAtlas != null)
 			{
 				atlas = lastUsedAtlas;
@@ -165,7 +165,7 @@ public class SkinnedMeshAtlas : MonoBehaviour
 			UpdateUVs();
 			if (customMaterial != null)
 			{
-				mf.renderer.sharedMaterial = customMaterial;
+				mf.GetComponent<Renderer>().sharedMaterial = customMaterial;
 			}
 			mf.sharedMesh = mesh;
 		}
@@ -175,7 +175,7 @@ public class SkinnedMeshAtlas : MonoBehaviour
 	{
 		if (mesh != null)
 		{
-			customMaterial = mf.renderer.sharedMaterial;
+			customMaterial = mf.GetComponent<Renderer>().sharedMaterial;
 			Object.DestroyImmediate(mesh);
 			mesh = null;
 		}
@@ -185,7 +185,7 @@ public class SkinnedMeshAtlas : MonoBehaviour
 		}
 		if (originalMaterial != null)
 		{
-			mf.renderer.sharedMaterial = originalMaterial;
+			mf.GetComponent<Renderer>().sharedMaterial = originalMaterial;
 		}
 	}
 

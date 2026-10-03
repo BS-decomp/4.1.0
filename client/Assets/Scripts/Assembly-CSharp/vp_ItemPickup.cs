@@ -94,11 +94,11 @@ public class vp_ItemPickup : MonoBehaviour
 		{
 			if (m_Audio == null)
 			{
-				if (base.audio == null)
+				if (base.GetComponent<AudioSource>() == null)
 				{
 					base.gameObject.AddComponent<AudioSource>();
 				}
-				m_Audio = base.audio;
+				m_Audio = base.GetComponent<AudioSource>();
 			}
 			return m_Audio;
 		}
@@ -110,8 +110,8 @@ public class vp_ItemPickup : MonoBehaviour
 		{
 			Amount = Mathf.Max(1, Amount);
 		}
-		base.collider.isTrigger = true;
-		m_Rigidbody = base.rigidbody;
+		base.GetComponent<Collider>().isTrigger = true;
+		m_Rigidbody = base.GetComponent<Rigidbody>();
 		m_Transform = base.transform;
 		if (m_Sound.PickupSound != null || m_Sound.PickupFailSound != null)
 		{
@@ -155,7 +155,7 @@ public class vp_ItemPickup : MonoBehaviour
 				}
 			}
 		}
-		base.renderer.enabled = true;
+		base.GetComponent<Renderer>().enabled = true;
 		m_Depleted = false;
 		m_AlreadyFailed = false;
 	}
@@ -212,7 +212,7 @@ public class vp_ItemPickup : MonoBehaviour
 		{
 			Audio.pitch = ((!m_Sound.PickupSoundSlomo) ? 1f : Time.timeScale);
 			Audio.Play();
-			base.renderer.enabled = false;
+			base.GetComponent<Renderer>().enabled = false;
 		}
 		string empty = string.Empty;
 		empty = ((m_PickedUpAmount >= 2 && ItemType != typeof(vp_UnitBankType)) ? string.Format(m_Messages.SuccessMultiple, m_Item.Type.IndefiniteArticle, m_Item.Type.DisplayName, m_Item.Type.DisplayNameFull, m_Item.Type.Description, m_PickedUpAmount.ToString()) : string.Format(m_Messages.SuccessSingle, m_Item.Type.IndefiniteArticle, m_Item.Type.DisplayName, m_Item.Type.DisplayNameFull, m_Item.Type.Description, m_PickedUpAmount.ToString()));

@@ -217,7 +217,7 @@ public class UIPanel : UIRect
 	{
 		get
 		{
-			return base.anchorCamera != null && mCam.isOrthoGraphic;
+			return base.anchorCamera != null && mCam.orthographic;
 		}
 	}
 
@@ -225,7 +225,7 @@ public class UIPanel : UIRect
 	{
 		get
 		{
-			if (base.anchorCamera != null && mCam.isOrthoGraphic)
+			if (base.anchorCamera != null && mCam.orthographic)
 			{
 				Vector2 windowSize = GetWindowSize();
 				float num = ((!(base.root != null)) ? 1f : base.root.pixelSizeAdjustment);
@@ -462,7 +462,7 @@ public class UIPanel : UIRect
 			{
 				if (base.anchorCamera != null)
 				{
-					return mCam.GetWorldCorners(base.cameraRayDistance);
+					return mCam.GetWorldCorners(base.GetComponent<Camera>()RayDistance);
 				}
 				Vector2 viewSize = GetViewSize();
 				float num3 = -0.5f * viewSize.x;
@@ -544,7 +544,7 @@ public class UIPanel : UIRect
 		}
 		if (base.anchorCamera != null && anchorOffset)
 		{
-			Vector3[] sides = mCam.GetSides(base.cameraRayDistance);
+			Vector3[] sides = mCam.GetSides(base.GetComponent<Camera>()RayDistance);
 			Vector3 position = base.cachedTransform.position;
 			for (int j = 0; j < 4; j++)
 			{
@@ -759,7 +759,7 @@ public class UIPanel : UIRect
 	protected override void Awake()
 	{
 		base.Awake();
-		mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.XBOX360 || Application.platform == RuntimePlatform.WindowsWebPlayer || Application.platform == RuntimePlatform.WindowsEditor;
+		mHalfPixelOffset = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.XBOX360 || Application.platform == Application.platform == RuntimePlatform.WindowsEditor;
 		if (mHalfPixelOffset && SystemInfo.graphicsDeviceVersion.Contains("Direct3D"))
 		{
 			mHalfPixelOffset = SystemInfo.graphicsShaderLevel < 40;
@@ -801,7 +801,7 @@ public class UIPanel : UIRect
 		}
 		base.OnInit();
 		FindParent();
-		if (base.rigidbody == null && mParentPanel == null)
+		if (base.GetComponent<Rigidbody>() == null && mParentPanel == null)
 		{
 			UICamera uICamera = ((!(base.anchorCamera != null)) ? null : mCam.GetComponent<UICamera>());
 			if (uICamera != null && (uICamera.eventType == UICamera.EventType.UI_3D || uICamera.eventType == UICamera.EventType.World_3D))

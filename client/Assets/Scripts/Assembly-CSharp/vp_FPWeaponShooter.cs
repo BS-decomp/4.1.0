@@ -103,9 +103,9 @@ public class vp_FPWeaponShooter : vp_Shooter
 		m_LastFireTime = Time.time;
 		if (AnimationFire != null)
 		{
-			m_FPSWeapon.WeaponModel.animation[AnimationFire.name].time = 0f;
-			m_FPSWeapon.WeaponModel.animation.Sample();
-			m_FPSWeapon.WeaponModel.animation.Play(AnimationFire.name);
+			m_FPSWeapon.WeaponModel.GetComponent<Animation>()[AnimationFire.name].time = 0f;
+			m_FPSWeapon.WeaponModel.GetComponent<Animation>().Sample();
+			m_FPSWeapon.WeaponModel.GetComponent<Animation>().Play(AnimationFire.name);
 		}
 		if (MotionRecoilDelay == 0f)
 		{

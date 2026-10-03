@@ -31,7 +31,7 @@ public class vp_Explosion : MonoBehaviour
 	protected virtual void Awake()
 	{
 		m_Transform = base.transform;
-		m_Audio = base.audio;
+		m_Audio = base.GetComponent<AudioSource>();
 	}
 
 	private void OnEnable()
@@ -55,12 +55,12 @@ public class vp_Explosion : MonoBehaviour
 		Collider[] array2 = array;
 		foreach (Collider collider in array2)
 		{
-			if (!(collider != base.collider))
+			if (!(collider != base.GetComponent<Collider>()))
 			{
 				continue;
 			}
 			float num = 1f - Vector3.Distance(m_Transform.position, collider.transform.position) / Radius;
-			if ((bool)collider.rigidbody)
+			if ((bool)collider.GetComponent<Rigidbody>())
 			{
 				Ray ray = new Ray(collider.transform.position, -Vector3.up);
 				RaycastHit hitInfo;
@@ -68,7 +68,7 @@ public class vp_Explosion : MonoBehaviour
 				{
 					UpForce = 0f;
 				}
-				collider.rigidbody.AddExplosionForce(Force / Time.timeScale / vp_TimeUtility.AdjustedTimeScale, m_Transform.position, Radius, UpForce);
+				collider.GetComponent<Rigidbody>().AddExplosionForce(Force / Time.timeScale / vp_TimeUtility.AdjustedTimeScale, m_Transform.position, Radius, UpForce);
 			}
 			else
 			{

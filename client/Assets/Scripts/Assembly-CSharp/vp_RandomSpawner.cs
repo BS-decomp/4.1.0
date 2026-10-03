@@ -27,7 +27,7 @@ public class vp_RandomSpawner : MonoBehaviour
 		{
 			GameObject gameObject = (GameObject)vp_Utility.Instantiate(SpawnObjects[index], base.transform.position, base.transform.rotation);
 			gameObject.transform.Rotate(Random.rotation.eulerAngles);
-			m_Audio = base.audio;
+			m_Audio = base.GetComponent<AudioSource>();
 			m_Audio.playOnAwake = true;
 			if (Sound != null)
 			{

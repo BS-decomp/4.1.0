@@ -45,7 +45,7 @@ public class UIButton : UIButtonColor
 			{
 				return false;
 			}
-			Collider collider = base.collider;
+			Collider collider = base.GetComponent<Collider>();
 			if ((bool)collider && collider.enabled)
 			{
 				return true;
@@ -59,7 +59,7 @@ public class UIButton : UIButtonColor
 			{
 				return;
 			}
-			Collider collider = base.collider;
+			Collider collider = base.GetComponent<Collider>();
 			if (collider != null)
 			{
 				collider.enabled = value;

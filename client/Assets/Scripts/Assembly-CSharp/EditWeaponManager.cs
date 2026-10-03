@@ -40,7 +40,7 @@ public class EditWeaponManager : MonoBehaviour
 			{
 				for (int i = 0; i < Targets.Length; i++)
 				{
-					Targets[i].renderer.material = DefaultMaterial;
+					Targets[i].GetComponent<Renderer>().material = DefaultMaterial;
 				}
 			}
 			Targets = go;
@@ -62,7 +62,7 @@ public class EditWeaponManager : MonoBehaviour
 			CustomMaterial.name += "_Custom";
 			for (int l = 0; l < Targets.Length; l++)
 			{
-				Targets[l].renderer.material = CustomMaterial;
+				Targets[l].GetComponent<Renderer>().material = CustomMaterial;
 			}
 			RedoTexture();
 		}

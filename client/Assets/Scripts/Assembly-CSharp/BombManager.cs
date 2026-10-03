@@ -122,7 +122,7 @@ public class BombManager : PunBehaviour
 		ZoneBomb = 10;
 		BombAudio.Stop();
 		Effect.Stop();
-		Effect.audio.Stop();
+		Effect.GetComponent<AudioSource>().Stop();
 		if (GameManager.GetRoundState() == RoundState.WaitPlayer)
 		{
 			return;
@@ -386,7 +386,7 @@ public class BombManager : PunBehaviour
 	{
 		BombAudio.Boom();
 		Effect.Play();
-		Effect.audio.Play();
+		Effect.GetComponent<AudioSource>().Play();
 		Effect.transform.position = Bomb.transform.position;
 		BombAudio.Stop();
 		Bomb.SetActive(false);

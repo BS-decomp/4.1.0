@@ -29,10 +29,10 @@ public class vp_Shell : MonoBehaviour
 	private void Awake()
 	{
 		m_Transform = base.transform;
-		m_Rigidbody = base.rigidbody;
-		m_Audio = base.audio;
-		base.audio.playOnAwake = false;
-		base.audio.dopplerLevel = 0f;
+		m_Rigidbody = base.GetComponent<Rigidbody>();
+		m_Audio = base.GetComponent<AudioSource>();
+		base.GetComponent<AudioSource>().playOnAwake = false;
+		base.GetComponent<AudioSource>().dopplerLevel = 0f;
 	}
 
 	private void OnEnable()
@@ -44,7 +44,7 @@ public class vp_Shell : MonoBehaviour
 		m_Rigidbody.velocity = Vector3.zero;
 		m_Rigidbody.angularVelocity = Vector3.zero;
 		m_Rigidbody.constraints = RigidbodyConstraints.None;
-		base.collider.enabled = true;
+		base.GetComponent<Collider>().enabled = true;
 	}
 
 	private void Update()
@@ -90,7 +90,7 @@ public class vp_Shell : MonoBehaviour
 		}
 		else if (Random.value > m_Persistence)
 		{
-			base.collider.enabled = false;
+			base.GetComponent<Collider>().enabled = false;
 			m_RemoveTime = Time.time + 0.5f;
 		}
 	}

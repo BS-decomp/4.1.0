@@ -27,7 +27,7 @@ public static class vp_3DUtility
 	{
 		RaycastHit hitInfo;
 		Physics.Linecast(from, target.position + targetOffset, out hitInfo, layerMask);
-		if (hitInfo.collider == null || hitInfo.collider.transform.root == target)
+		if (hitInfo.GetComponent<Collider>() == null || hitInfo.GetComponent<Collider>().transform.root == target)
 		{
 			return true;
 		}

@@ -18,7 +18,7 @@ public class vp_Switch : vp_Interactable
 		base.Start();
 		if (AudioSource == null)
 		{
-			AudioSource = ((!(base.audio == null)) ? base.audio : base.gameObject.AddComponent<AudioSource>());
+			AudioSource = ((!(base.GetComponent<AudioSource>() == null)) ? base.GetComponent<AudioSource>() : base.gameObject.AddComponent<AudioSource>());
 		}
 	}
 

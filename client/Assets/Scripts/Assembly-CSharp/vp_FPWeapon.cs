@@ -286,9 +286,9 @@ public class vp_FPWeapon : vp_Component
 				break;
 			}
 		}
-		if (base.collider != null)
+		if (base.GetComponent<Collider>() != null)
 		{
-			base.collider.enabled = false;
+			base.GetComponent<Collider>().enabled = false;
 		}
 	}
 
@@ -479,7 +479,7 @@ public class vp_FPWeapon : vp_Component
 			float t = 1f - (m_FinalZoomTime - Time.time) / RenderingZoomDamping;
 			if (m_WeaponCamera != null && vp_Utility.IsActive(m_WeaponCamera.gameObject))
 			{
-				m_WeaponCamera.camera.fieldOfView = Mathf.SmoothStep(m_WeaponCamera.gameObject.camera.fieldOfView, RenderingFieldOfView, t);
+				m_WeaponCamera.GetComponent<Camera>().fieldOfView = Mathf.SmoothStep(m_WeaponCamera.gameObject.GetComponent<Camera>().fieldOfView, RenderingFieldOfView, t);
 			}
 		}
 	}
@@ -493,7 +493,7 @@ public class vp_FPWeapon : vp_Component
 	{
 		if (m_WeaponCamera != null && vp_Utility.IsActive(m_WeaponCamera.gameObject))
 		{
-			m_WeaponCamera.camera.fieldOfView = RenderingFieldOfView;
+			m_WeaponCamera.GetComponent<Camera>().fieldOfView = RenderingFieldOfView;
 		}
 	}
 
@@ -513,7 +513,7 @@ public class vp_FPWeapon : vp_Component
 			Vector3 vector = WeaponModel.transform.TransformPoint(RetractionOffset);
 			Vector3 end = vector + WeaponModel.transform.forward * RetractionDistance;
 			RaycastHit hitInfo;
-			if (Physics.Linecast(vector, end, out hitInfo, -1749041173) && !hitInfo.collider.isTrigger)
+			if (Physics.Linecast(vector, end, out hitInfo, -1749041173) && !hitInfo.GetComponent<Collider>().isTrigger)
 			{
 				WeaponModel.transform.position = hitInfo.point - (hitInfo.point - vector).normalized * (RetractionDistance * 0.99f);
 				WeaponModel.transform.localPosition = Vector3.forward * Mathf.Min(WeaponModel.transform.localPosition.z, 0f);
@@ -680,8 +680,8 @@ public class vp_FPWeapon : vp_Component
 		{
 			if (m_WeaponCamera != null && vp_Utility.IsActive(m_WeaponCamera.gameObject))
 			{
-				m_WeaponCamera.camera.nearClipPlane = RenderingClippingPlanes.x;
-				m_WeaponCamera.camera.farClipPlane = RenderingClippingPlanes.y;
+				m_WeaponCamera.GetComponent<Camera>().nearClipPlane = RenderingClippingPlanes.x;
+				m_WeaponCamera.GetComponent<Camera>().farClipPlane = RenderingClippingPlanes.y;
 			}
 			Zoom();
 		}
@@ -840,7 +840,7 @@ public class vp_FPWeapon : vp_Component
 		}
 		if (((!showWeapon) ? AnimationUnWield : AnimationWield) != null && vp_Utility.IsActive(base.gameObject))
 		{
-			m_WeaponModel.animation.CrossFade(((!showWeapon) ? AnimationUnWield : AnimationWield).name);
+			m_WeaponModel.GetComponent<Animation>().CrossFade(((!showWeapon) ? AnimationUnWield : AnimationWield).name);
 		}
 	}
 
@@ -857,7 +857,7 @@ public class vp_FPWeapon : vp_Component
 				m_CurrentAmbientAnimation = UnityEngine.Random.Range(0, AnimationAmbient.Count);
 				if (AnimationAmbient[m_CurrentAmbientAnimation] != null)
 				{
-					m_WeaponModel.animation.CrossFadeQueued(AnimationAmbient[m_CurrentAmbientAnimation].name);
+					m_WeaponModel.GetComponent<Animation>().CrossFadeQueued(AnimationAmbient[m_CurrentAmbientAnimation].name);
 					ScheduleAmbientAnimation();
 				}
 			}

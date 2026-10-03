@@ -40,9 +40,9 @@ public abstract class vp_Interactable : MonoBehaviour
 		{
 			RecipientTags.Add("Player");
 		}
-		if (InteractType == vp_InteractType.Trigger && base.collider != null)
+		if (InteractType == vp_InteractType.Trigger && base.GetComponent<Collider>() != null)
 		{
-			base.collider.isTrigger = true;
+			base.GetComponent<Collider>().isTrigger = true;
 		}
 	}
 

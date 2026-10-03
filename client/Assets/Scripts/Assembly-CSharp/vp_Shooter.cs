@@ -173,25 +173,25 @@ public class vp_Shooter : vp_Component
 		gameObject = (GameObject)vp_Utility.Instantiate(ShellPrefab, m_OperatorTransform.position + m_OperatorTransform.TransformDirection(ShellEjectPosition), m_OperatorTransform.rotation);
 		gameObject.transform.localScale = new Vector3(ShellScale, ShellScale, ShellScale);
 		vp_Layer.Set(gameObject.gameObject, 29);
-		if ((bool)gameObject.rigidbody)
+		if ((bool)gameObject.GetComponent<Rigidbody>())
 		{
 			Vector3 force = base.transform.TransformDirection(ShellEjectDirection) * ShellEjectVelocity;
-			gameObject.rigidbody.AddForce(force, ForceMode.Impulse);
+			gameObject.GetComponent<Rigidbody>().AddForce(force, ForceMode.Impulse);
 		}
 		if ((bool)m_CharacterController)
 		{
 			Vector3 velocity = m_CharacterController.velocity;
-			gameObject.rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+			gameObject.GetComponent<Rigidbody>().AddForce(velocity, ForceMode.VelocityChange);
 		}
 		if (ShellEjectSpin > 0f)
 		{
 			if (Random.value > 0.5f)
 			{
-				gameObject.rigidbody.AddRelativeTorque(-Random.rotation.eulerAngles * ShellEjectSpin);
+				gameObject.GetComponent<Rigidbody>().AddRelativeTorque(-Random.rotation.eulerAngles * ShellEjectSpin);
 			}
 			else
 			{
-				gameObject.rigidbody.AddRelativeTorque(Random.rotation.eulerAngles * ShellEjectSpin);
+				gameObject.GetComponent<Rigidbody>().AddRelativeTorque(Random.rotation.eulerAngles * ShellEjectSpin);
 			}
 		}
 	}

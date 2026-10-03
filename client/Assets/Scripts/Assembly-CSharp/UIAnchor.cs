@@ -47,7 +47,7 @@ public class UIAnchor : MonoBehaviour
 	private void Awake()
 	{
 		mTrans = base.transform;
-		mAnim = base.animation;
+		mAnim = base.GetComponent<Animation>();
 		UICamera.onScreenResize = (UICamera.OnScreenResize)Delegate.Combine(UICamera.onScreenResize, new UICamera.OnScreenResize(ScreenSizeChanged));
 	}
 
@@ -196,7 +196,7 @@ public class UIAnchor : MonoBehaviour
 			}
 			vector.z = mTrans.position.z;
 		}
-		if (flag && uiCamera.isOrthoGraphic && mTrans.parent != null)
+		if (flag && uiCamera.orthographic && mTrans.parent != null)
 		{
 			vector = mTrans.parent.InverseTransformPoint(vector);
 			vector.x = Mathf.RoundToInt(vector.x);

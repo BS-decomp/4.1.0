@@ -509,7 +509,7 @@ public class UIPopupList : UIWidgetContainer
 			UIPlaySound uIPlaySound = components[i];
 			if (uIPlaySound.trigger == UIPlaySound.Trigger.OnClick)
 			{
-				NGUITools.PlaySound(uIPlaySound.audioClip, uIPlaySound.volume, 1f);
+				NGUITools.PlaySound(uIPlaySound.GetComponent<AudioSource>()Clip, uIPlaySound.volume, 1f);
 			}
 		}
 		CloseSelf();
@@ -527,7 +527,7 @@ public class UIPopupList : UIWidgetContainer
 			UIPlaySound uIPlaySound = components[i];
 			if (uIPlaySound.trigger == UIPlaySound.Trigger.OnClick)
 			{
-				NGUITools.PlaySound(uIPlaySound.audioClip, uIPlaySound.volume, 1f);
+				NGUITools.PlaySound(uIPlaySound.GetComponent<AudioSource>()Clip, uIPlaySound.volume, 1f);
 			}
 		}
 		CloseSelf();

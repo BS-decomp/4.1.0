@@ -47,7 +47,7 @@ public class mWeaponCamera : MonoBehaviour
 
 	private void Start()
 	{
-		mCamera = base.camera;
+		mCamera = base.GetComponent<Camera>();
 		RotateSpeed = Mathf.Sqrt(RotateSpeed) / Mathf.Sqrt(Screen.dpi);
 	}
 

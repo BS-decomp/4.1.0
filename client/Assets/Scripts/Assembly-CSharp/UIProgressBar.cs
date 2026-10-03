@@ -172,9 +172,9 @@ public class UIProgressBar : UIWidgetContainer
 			if (mFG != null)
 			{
 				mFG.alpha = value;
-				if (mFG.collider != null)
+				if (mFG.GetComponent<Collider>() != null)
 				{
-					mFG.collider.enabled = mFG.alpha > 0.001f;
+					mFG.GetComponent<Collider>().enabled = mFG.alpha > 0.001f;
 				}
 				else if (mFG.GetComponent<Collider2D>() != null)
 				{
@@ -184,9 +184,9 @@ public class UIProgressBar : UIWidgetContainer
 			if (mBG != null)
 			{
 				mBG.alpha = value;
-				if (mBG.collider != null)
+				if (mBG.GetComponent<Collider>() != null)
 				{
-					mBG.collider.enabled = mBG.alpha > 0.001f;
+					mBG.GetComponent<Collider>().enabled = mBG.alpha > 0.001f;
 				}
 				else if (mBG.GetComponent<Collider2D>() != null)
 				{
@@ -201,9 +201,9 @@ public class UIProgressBar : UIWidgetContainer
 			if (component != null)
 			{
 				component.alpha = value;
-				if (component.collider != null)
+				if (component.GetComponent<Collider>() != null)
 				{
-					component.collider.enabled = component.alpha > 0.001f;
+					component.GetComponent<Collider>().enabled = component.alpha > 0.001f;
 				}
 				else if (component.GetComponent<Collider2D>() != null)
 				{
