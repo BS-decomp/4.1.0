@@ -32,8 +32,10 @@ public class BSPlaytestWindow : EditorWindow
     private int sceneIndex;
     private string nick = "byvlal";
     private int modeOverride = -1;
-    private bool bootThroughMenu = true;
     private bool editorInput = true;
+    private bool autoStartMap;
+    private int gold = 9999999;
+    private int money = 9999999;
     private const string BootScene = "Menu";
     private Vector2 scroll;
     private List<Check> checks = new List<Check>();
@@ -101,9 +103,10 @@ public class BSPlaytestWindow : EditorWindow
     {
         EditorGUILayout.LabelField("Block Strike 4.1.0 — playtest", EditorStyles.boldLabel);
         EditorGUILayout.HelpBox(
-            "Оффлайн-прогон карты без сервера: ник byvlal, оффлайн-комната Photon, " +
-            "режим берётся из Resources/others/SceneManager.json.\n" +
-            "Сессия одноразовая: один Play. Выход из Play — всё снимается.",
+            "Песочница: Play поднимает игру в Menu, эмулирует аккаунт (ник, регион, валюта) и держит " +
+            "Photon в оффлайне — создавай сервер прямо из меню с любой картой и режимом, сколько " +
+            "угодно раз.\n" +
+            "Это инструмент, игра не правится: всё живёт только в памяти плеймода и исчезает на выходе.",
             MessageType.None);
 
         if (scenePaths.Length == 0)
@@ -113,14 +116,11 @@ public class BSPlaytestWindow : EditorWindow
             return;
         }
 
-        sceneIndex = Mathf.Clamp(sceneIndex, 0, scenePaths.Length - 1);
-        sceneIndex = EditorGUILayout.Popup("Карта", sceneIndex, sceneLabels);
         nick = EditorGUILayout.TextField("Ник", nick);
-        bootThroughMenu = EditorGUILayout.ToggleLeft(
-            "Поднимать игру через " + BootScene + " (как в оригинале: аккаунт, оружие, скин, джойстик)",
-            bootThroughMenu);
+        gold = EditorGUILayout.IntField("Голда", gold);
+        money = EditorGUILayout.IntField("Серебро", money);
         editorInput = EditorGUILayout.ToggleLeft(
-            "Клавиатура + мышь в редакторе (WASD, мышь — обзор, ЛКМ — огонь, L — отпустить курсор)",
+            "Клавиатура + мышь (Left ALT — захват курсора, WASD, 1/2/3 оружие, ЛКМ огонь)",
             editorInput);
         if (!editorInput)
         {
@@ -129,30 +129,33 @@ public class BSPlaytestWindow : EditorWindow
                 "В редакторе тачей нет, поэтому без этой галки ходить и крутить камеру будет нечем.",
                 MessageType.Warning);
         }
-        if (!bootThroughMenu)
-        {
-            EditorGUILayout.HelpBox(
-                "Прямой запуск карты пропускает инициализацию Logo/Menu: не будет настроек, " +
-                "локализации и данных аккаунта — игрок будет неполноценным. Включай только для " +
-                "проверки геометрии.", MessageType.Warning);
-        }
 
-        string sceneName = Path.GetFileNameWithoutExtension(scenePaths[sceneIndex]);
-        int resolved = BSPlaytestModes.ResolveMode(sceneName);
-        string[] modeNames = new[] { "Авто (" + (resolved >= 0 ? ((GameMode)resolved).ToString() : "не найден") + ")" }
-            .Concat(Enum.GetNames(typeof(GameMode))).ToArray();
-        int popup = EditorGUILayout.Popup("Режим", modeOverride + 1, modeNames);
-        modeOverride = popup - 1;
+        EditorGUILayout.Space();
+        autoStartMap = EditorGUILayout.ToggleLeft(
+            "Сразу запустить карту (иначе остаёмся в меню и создаём сервер сами)", autoStartMap);
+        sceneIndex = Mathf.Clamp(sceneIndex, 0, scenePaths.Length - 1);
+        int resolved = -1;
+        using (new EditorGUI.DisabledScope(!autoStartMap))
+        {
+            sceneIndex = EditorGUILayout.Popup("Карта", sceneIndex, sceneLabels);
+            string pickedScene = Path.GetFileNameWithoutExtension(scenePaths[sceneIndex]);
+            resolved = BSPlaytestModes.ResolveMode(pickedScene);
+            string[] modeNames = new[] { "Авто (" + (resolved >= 0 ? ((GameMode)resolved).ToString() : "не найден") + ")" }
+                .Concat(Enum.GetNames(typeof(GameMode))).ToArray();
+            int popup = EditorGUILayout.Popup("Режим", modeOverride + 1, modeNames);
+            modeOverride = popup - 1;
+        }
 
         EditorGUILayout.Space();
         using (new EditorGUILayout.HorizontalScope())
         {
-            if (GUILayout.Button("Проверить карту", GUILayout.Height(26)))
+            if (GUILayout.Button("Проверить", GUILayout.Height(26)))
             {
                 RunPreflight(scenePaths[sceneIndex]);
             }
             GUI.enabled = preflightDone && !checks.Any(c => c.error);
-            if (GUILayout.Button("Подготовить плейтест", GUILayout.Height(26)))
+            if (GUILayout.Button(autoStartMap ? "Запустить песочницу на карте" : "Запустить песочницу",
+                    GUILayout.Height(26)))
             {
                 Arm(scenePaths[sceneIndex], resolved);
             }
@@ -166,7 +169,7 @@ public class BSPlaytestWindow : EditorWindow
         EditorGUILayout.Space();
         if (File.Exists(BSPlaytestSession.FilePath))
         {
-            EditorGUILayout.HelpBox("Сессия ВЗВЕДЕНА. Открой карту и нажми Play.", MessageType.Info);
+            EditorGUILayout.HelpBox("Сессия ВЗВЕДЕНА. Жми Play из любой сцены.", MessageType.Info);
         }
 
         scroll = EditorGUILayout.BeginScrollView(scroll);
@@ -190,10 +193,10 @@ public class BSPlaytestWindow : EditorWindow
         Add(!EditorApplication.isCompiling && !EditorUtility.scriptCompilationFailed,
             "Скрипты компилируются", "Сначала почини ошибки компиляции — плейтест не запустится.", true);
 
-        Add(File.Exists(scenePath), "Файл сцены на месте", scenePath, true);
+        Add(!autoStartMap || File.Exists(scenePath), "Файл сцены на месте", scenePath, true);
 
         bool inBuild = EditorBuildSettings.scenes.Any(s => s.path == scenePath && s.enabled);
-        Add(inBuild, "Сцена в Build Settings",
+        Add(!autoStartMap || inBuild, "Сцена в Build Settings",
             "Сцена не включена в Build Settings. Для Play из открытой сцены это не критично, " +
             "но LevelManager.LoadLevel на неё не перейдёт.", false);
 
@@ -210,10 +213,9 @@ public class BSPlaytestWindow : EditorWindow
         string bootPath = AssetDatabase.FindAssets("t:SceneAsset " + BootScene, new[] { "Assets/Levels" })
             .Select(AssetDatabase.GUIDToAssetPath)
             .FirstOrDefault(p => System.IO.Path.GetFileNameWithoutExtension(p) == BootScene);
-        if (bootThroughMenu)
         {
             Add(bootPath != null, "Сцена " + BootScene + " найдена",
-                "Без неё игру нечем инициализировать: сними галку или восстанови сцену.", true);
+                "Без неё игру нечем инициализировать — восстанови сцену Menu.", true);
             Add(bootPath != null && EditorBuildSettings.scenes.Any(s => s.path == bootPath && s.enabled),
                 BootScene + " включена в Build Settings",
                 "Application.LoadLevel(\"" + BootScene + "\") не сработает, пока сцены нет в Build Settings.", true);
@@ -225,7 +227,7 @@ public class BSPlaytestWindow : EditorWindow
             "Карты нет ни в одном режиме в SceneManager.json — выбери режим вручную в выпадающем списке.", false);
 
         SceneScan scan = SceneScan.Run(scenePath);
-        Add(scan.hasGameManager, "В сцене есть GameManager",
+        Add(!autoStartMap || scan.hasGameManager, "В сцене есть GameManager",
             "Без GameManager игрок не появится: это не игровая карта или компонент потерян.", true);
 
         Add(scan.missingScripts.Count == 0,
@@ -302,8 +304,12 @@ public class BSPlaytestWindow : EditorWindow
             scene = Path.GetFileNameWithoutExtension(scenePath),
             gameMode = mode,
             spawnPlayer = true,
-            bootThroughMenu = bootThroughMenu,
+            bootThroughMenu = true,
             editorInput = editorInput,
+            sandbox = true,
+            autoStartMap = autoStartMap,
+            gold = gold,
+            money = money,
             bootScene = BootScene,
             createdUtc = DateTime.UtcNow.ToString("o"),
             maxAgeMinutes = 180
@@ -315,10 +321,11 @@ public class BSPlaytestWindow : EditorWindow
         EditorPrefs.SetString(ArmedSceneKey, scenePath);
 
         EditorUtility.DisplayDialog("Block Strike Playtest",
-            "Готово.\n\n" + (bootThroughMenu
-                ? "Жми Play из любой сцены: плейтест сам поднимет " + BootScene +
-                  ", сделает аккаунт и зайдёт на карту через оффлайн-комнату игры.\n"
-                : "Открой карту «" + session.scene + "» и нажми Play.\n") +
+            "Готово.\n\n" + (autoStartMap
+                ? "Жми Play: песочница поднимет " + BootScene + " и сразу зайдёт на «" + session.scene + "».\n"
+                : "Жми Play: песочница поднимет " + BootScene + ", дальше создавай сервер сам — " +
+                  "любая карта, любой режим, сколько угодно раз.\n") +
+            "Голда/серебро: " + gold + " / " + money + " (только в памяти плеймода).\n" +
             "Управление: WASD + мышь, ЛКМ огонь, Space прыжок, L — отпустить курсор.\n" +
             "Ник: " + session.nick + "\nРежим: " + (mode >= 0 ? ((GameMode)mode).ToString() : "TeamDeathmatch (по умолчанию)") + "\n\n" +
             "Сессия одноразовая: после выхода из Play её нужно взвести заново.",

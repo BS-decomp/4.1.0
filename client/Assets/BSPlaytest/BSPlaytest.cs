@@ -30,7 +30,9 @@
 #if UNITY_EDITOR
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 
@@ -45,6 +47,10 @@ public class BSPlaytestSession
     public bool spawnPlayer = true;
     public bool bootThroughMenu = true; // false = old behaviour (straight into the map)
     public bool editorInput = true;     // keyboard + mouse instead of the touch-only controls
+    public bool sandbox = true;         // stay in the Menu and let the player create servers
+    public bool autoStartMap;           // sandbox + jump straight into `scene`
+    public int gold = 9999999;
+    public int money = 9999999;
     public string bootScene = "Menu";
     public string createdUtc = string.Empty;
     public int maxAgeMinutes = 180;
@@ -121,6 +127,13 @@ public static class BSPlaytest
         GameObject host = new GameObject("[BS Playtest]");
         UnityEngine.Object.DontDestroyOnLoad(host);
         host.hideFlags = HideFlags.DontSave;
+        if (session.sandbox)
+        {
+            BSPlaytestSandbox sandbox = host.AddComponent<BSPlaytestSandbox>();
+            sandbox.nick = session.nick;
+            sandbox.gold = session.gold;
+            sandbox.money = session.money;
+        }
         host.AddComponent<BSPlaytestRunner>().session = session;
         if (session.editorInput)
         {
@@ -189,7 +202,101 @@ public class BSPlaytestRunner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(session != null && session.bootThroughMenu ? BootThroughMenu() : BootDirect());
+        if (session == null)
+        {
+            return;
+        }
+        if (session.sandbox)
+        {
+            StartCoroutine(BootSandbox());
+            StartCoroutine(WatchMaps());
+            return;
+        }
+        StartCoroutine(session.bootThroughMenu ? BootThroughMenu() : BootDirect());
+    }
+
+    // ------------------------------------------------------------------ //
+    // sandbox: land in the Menu and let the player drive the real UI
+    // ------------------------------------------------------------------ //
+
+    private IEnumerator BootSandbox()
+    {
+        string boot = string.IsNullOrEmpty(session.bootScene) ? "Menu" : session.bootScene;
+        if (Application.loadedLevelName != boot)
+        {
+            Debug.Log("[BS Playtest] sandbox: loading \"" + boot + "\".");
+            Application.LoadLevel(boot);
+            float deadline = Time.realtimeSinceStartup + 30f;
+            while (Application.loadedLevelName != boot && Time.realtimeSinceStartup < deadline)
+            {
+                yield return null;
+            }
+            if (Application.loadedLevelName != boot)
+            {
+                Debug.LogError("[BS Playtest] \"" + boot + "\" did not load in 30 s. Is it in Build Settings?");
+                yield break;
+            }
+        }
+
+        yield return new WaitForSeconds(0.5f);
+        BSPlaytest.StubAccount(session.nick);
+
+        if (session.autoStartMap && !string.IsNullOrEmpty(session.scene))
+        {
+            yield return StartMapThroughMenu(session.scene);
+            yield break;
+        }
+
+        Debug.Log("[BS Playtest] sandbox ready. Create a server from the Menu with any map and mode — " +
+                  "it will be offline, the wallet is topped up, and the player spawns automatically.");
+    }
+
+    private IEnumerator StartMapThroughMenu(string map)
+    {
+        mPhotonSettings photon = UnityEngine.Object.FindObjectOfType<mPhotonSettings>();
+        if (photon == null)
+        {
+            Debug.LogError("[BS Playtest] no mPhotonSettings in the Menu — cannot auto-start \"" + map + "\".");
+            yield break;
+        }
+        ApplyLocalPlayerProperties();
+        try
+        {
+            photon.OnCreateServerOffline(map);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("[BS Playtest] OnCreateServerOffline threw: " + e);
+            yield break;
+        }
+        ApplyRoomProperties();
+    }
+
+    /// <summary>Every time a map comes up — no matter whether the player started
+    /// it from the Menu or the tool did — make sure there is a live player.</summary>
+    private IEnumerator WatchMaps()
+    {
+        string previous = Application.loadedLevelName;
+        string boot = string.IsNullOrEmpty(session.bootScene) ? "Menu" : session.bootScene;
+        while (true)
+        {
+            yield return null;
+            string current = Application.loadedLevelName;
+            if (current == previous)
+            {
+                continue;
+            }
+            previous = current;
+            if (current == boot || current == "Logo" || current == "AwakeScene")
+            {
+                continue;
+            }
+            session.scene = current;
+            session.gameMode = BSPlaytestRuntimeModes.Resolve(current);
+            Debug.Log("[BS Playtest] map \"" + current + "\" loaded (mode " +
+                      (session.gameMode >= 0 ? ((GameMode)session.gameMode).ToString() : "unknown") + ").");
+            yield return EnsurePlayer();
+        }
     }
 
     // ------------------------------------------------------------------ //
@@ -556,6 +663,50 @@ public class BSPlaytestRunner : MonoBehaviour
         {
             Debug.LogWarning("[BS Playtest] mode flags failed: " + e.Message);
         }
+    }
+}
+
+/// <summary>Scene -> game mode at runtime, read from the game's own
+/// Resources/others/SceneManager.json (same data the Menu uses).</summary>
+public static class BSPlaytestRuntimeModes
+{
+    private static Dictionary<string, int> map;
+
+    public static int Resolve(string sceneName)
+    {
+        if (map == null)
+        {
+            map = new Dictionary<string, int>();
+            try
+            {
+                TextAsset asset = Resources.Load<TextAsset>("others/SceneManager");
+                if (asset != null)
+                {
+                    foreach (Match block in Regex.Matches(asset.text,
+                        "\\{\\s*\"GameMode\"\\s*:\\s*\"([A-Za-z]+)\"\\s*,\\s*\"Scenes\"\\s*:\\s*\\[(.*?)\\]\\s*\\}",
+                        RegexOptions.Singleline))
+                    {
+                        int mode;
+                        try { mode = (int)(GameMode)Enum.Parse(typeof(GameMode), block.Groups[1].Value); }
+                        catch { continue; }
+                        foreach (Match scene in Regex.Matches(block.Groups[2].Value, "\"([^\"]+)\""))
+                        {
+                            string name = scene.Groups[1].Value;
+                            if (!map.ContainsKey(name))
+                            {
+                                map[name] = mode;
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.LogWarning("[BS Playtest] could not read SceneManager.json: " + e.Message);
+            }
+        }
+        int result;
+        return map.TryGetValue(sceneName, out result) ? result : -1;
     }
 }
 #endif

@@ -13,90 +13,60 @@ Files:
 | `client/Assets/Editor/BlockStrikeRecovery/BSPlaytestWindow.cs` | the window, the preflight and the session guards |
 | `client/Assets/Editor/BlockStrikeRecoveryMenu.cs` | `Tools > Block Strike > Audit all maps` — the same checks over all 59 scenes |
 
-## What it actually does at Play (v2)
+## v3 — a sandbox, not a scripted launch
 
-v1 faked a minimal account inside the map scene and that produced a crippled
-player: no joystick, no weapon, no physics, NGUI labels stuck on "new label".
-The reason is that a map scene initialises almost nothing — the real game boots
-`AwakeScene -> Logo -> Menu`, and it is `Logo`/`Menu` that call
-`Settings.Load()`, create the `AccountManager` (DontDestroyOnLoad, with its
-serialized `Data`/`DefaultData`), warm up Localization, the weapon/skin store
-managers and `mPhotonSettings`.
+The tool is an **emulator of everything the game expects from the outside
+world**, so you can play the real build offline. It is a tool, not a patch: it
+lives entirely in `client/Assets/BSPlaytest` + the editor window, it never
+modifies game scripts, scenes or prefabs, and everything it fakes exists only
+in memory for the duration of play mode.
 
-v2 therefore reproduces the path a player takes:
+Press Play (from any scene) and you land in the real **Menu** with:
 
-1. `[RuntimeInitializeOnLoadMethod(BeforeSceneLoad)]` arms the session and calls
-   `Settings.Load()` (what `Logo.Start()` does);
-2. it loads **`Menu`** and waits for the scene to come up, so every manager the
-   game needs exists and survives via DontDestroyOnLoad;
-3. it stubs the account the backend would normally deliver —
-   `AccountManager.Init()`, `isConnect = true`, `AccountID/Token`,
-   `AccountName = "byvlal"`. The loadout comes from `AccountData`'s own
-   defaults, i.e. the game's: Money 100, Gold 10, Level 1, rifle 12, pistol 3,
-   knife 4, player skin 0;
-4. it calls the game's **own** offline entry point,
-   `mPhotonSettings.OnCreateServerOffline(map)` — the same call the in-game
-   offline/training flow uses. That sets `offlineMode`, creates the room and
-   loads the map through `LevelManager`;
-5. it stamps the standard room properties (`s` scene, `p` password, `g` game
-   mode, `r` round state) and the local player properties;
-6. after the map loads it waits 2 s; if the map spawned the player itself
-   (tutorial-style maps do) it stays out of the way, otherwise it runs the
-   matching mode's local spawn sequence (spawn point, weapon, HUD panel,
-   Surf/BunnyHop flags).
+| Emulated | How |
+| --- | --- |
+| account | `AccountManager` created/stubbed, `isConnect = true`, your nick |
+| region | `SelectRegion` pref set, so the Menu behaves as "connected" |
+| offline Photon | `PhotonNetwork.offlineMode` is held ON outside matches, so the Menu's own **Create server** builds a local room with any map and any mode, as many times as you want |
+| wallet | gold and silver topped back up to 9 999 999 (configurable), so shop purchases go through and apply for the session |
+| player | every time a map loads, the runner makes sure a live player exists (mode scripts kill themselves in offline mode) |
 
-The old behaviour is still available: untick "Поднимать игру через Menu" in the
-window. It is only useful for checking geometry — the player will be incomplete,
-and the window says so.
+Nothing is written to disk: the account lives in memory, and the `PlayerPrefs`
+keys the sandbox touches (`SelectRegion`, `Tutorial`) are snapshotted and
+restored when play mode ends, so purchases and balances disappear with it.
 
-## Input: why nothing moved before
+Optional: tick "Сразу запустить карту" to skip the menu clicking and drop
+straight into one map through the same offline path.
 
-The game has no desktop controls at all. `InputJoystick` and `InputTouchLook`
-only read `Input.touchCount` / `Input.GetTouch`, and the Windows editor produces
-no touches, so movement and camera look were simply never fed. NGUI's
-`UICamera` has the same issue: the scenes are authored for Android with
-`useTouch = true`, and that branch ignores the mouse, so part of the on-screen
-buttons did nothing either.
+## PC controls
 
-`BSPlaytestEditorInput` fixes this **without touching game logic**: it pushes
-values into the very same bus the on-screen controls use —
-
-```
-InputJoystick  -> InputManager.SetAxis("Horizontal" / "Vertical", v)
-InputTouchLook -> InputManager.SetAxis("Mouse X" / "Mouse Y", v)
-InputButton    -> InputManager.SetButtonDown/Up(name)
-```
-
-and flips `UICamera.useTouch/useMouse` at runtime (play mode only, nothing is
-saved) so NGUI buttons answer the mouse.
+The game is touch-only: `InputJoystick` and `InputTouchLook` read nothing but
+`Input.GetTouch`, and NGUI's `UICamera` only processes touches with the Android
+settings baked into the scenes. `BSPlaytestEditorInput` feeds the *same* bus the
+on-screen controls feed (`InputManager.SetAxis` / `SetButtonDown/Up`) and flips
+`UICamera` to the mouse while play mode runs.
 
 | Key | Action | Key | Action |
 | --- | --- | --- | --- |
-| WASD / arrows | move | Space | Jump |
-| mouse | look | LMB | Fire |
-| RMB | Aim | R | Reload |
-| E | Use | Q | SelectWeapon |
-| Tab | Statistics | T | Chat |
-| P | Pause | V | Microphone |
-| C | Crouch | Left Shift | Run |
-| L | release/lock the cursor (to click the UI) | | |
+| **Left Alt** | capture / release the mouse | Space | Jump |
+| WASD / arrows | move | LMB / RMB | Fire / Aim |
+| mouse | look | R / E / Q | Reload / Use / next weapon |
+| **1 / 2 / 3** | rifle / pistol / knife | **5** | bomb (4.1.0 plants it with "Use") |
+| Tab / T / P / V | stats / chat / pause / mic | C / Shift | crouch / run |
 
-The axes are only written when the keyboard state changes, so the on-screen
-joystick keeps working next to it.
+The badge in the bottom-left corner (above the health label) shows a cursor
+icon and `Left ALT`: **solid white = captured**, dimmed = released.
 
-## The "thrown back to the Menu" bug (fixed)
+Input is forwarded **only** while the mouse is captured. It is released
+automatically — and nothing at all reaches the game — while:
 
-`GameManager` has an anti-cheat: it calls `PhotonNetwork.LeaveRoom()` when the
-room's `password`/`onlyWeapon` property changes, or when the **local player's
-id or level** changes while a match is running — and `OnLeftRoom()` loads
-`Menu`. v2.0 wrote exactly those properties right after the map had loaded, so
-the game kicked the playtest out every single time.
+* you are typing in a chat field (`UIInput.selection != null`),
+* the game is paused (`Time.timeScale == 0`),
+* the Game view is not focused.
 
-Now the player properties (`nick`, id, level) are written **before** the room is
-created — the same place `mPhotonSettings.OnCreateServer` writes them — and the
-room properties are written while still in the Menu, never after the map loads.
-If something else kicks us, the runner now says so explicitly instead of
-reporting a missing spawn point.
+Capture returns by itself afterwards, and it is re-applied after every scene
+load (Unity drops the cursor lock there, which is why the mouse used to die
+when the level changed).
 
 ### Why mode logic still does not run
 
